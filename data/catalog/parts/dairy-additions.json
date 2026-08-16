@@ -1,0 +1,65 @@
+[
+  {
+    "sku_id": "DAIR-MILK-CONDENSEDSWEET",
+    "display_name": "Sweetened condensed milk",
+    "aliases": [
+      "condensed milk",
+      "sweetened condensed milk",
+      "milk, condensed",
+      "sua dac",
+      "leche condensada",
+      "la lechera"
+    ],
+    "category": "dairy",
+    "pack_unit": "case",
+    "pack_qty": 24.0,
+    "pack_uom": "each",
+    "price_per_pack": 56.4,
+    "price_per_uom": 2.35,
+    "uom": "each",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DAIR-MILK-EVAPORATED",
+    "display_name": "Evaporated milk",
+    "aliases": [
+      "evaporated milk",
+      "milk, evaporated",
+      "carnation milk",
+      "unsweetened evaporated milk",
+      "leche evaporada",
+      "sua tuoi dac"
+    ],
+    "category": "dairy",
+    "pack_unit": "case",
+    "pack_qty": 24.0,
+    "pack_uom": "each",
+    "price_per_pack": 44.4,
+    "price_per_uom": 1.85,
+    "uom": "each",
+    "vendor": "Restaurant Depot",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DAIR-HALLOUMI-BLOCK",
+    "display_name": "Halloumi cheese",
+    "aliases": [
+      "halloumi",
+      "haloumi",
+      "hellim",
+      "grilling cheese",
+      "cheese, halloumi",
+      "cypriot halloumi"
+    ],
+    "category": "dairy",
+    "pack_unit": "case",
+    "pack_qty": 12.0,
+    "pack_uom": "lb",
+    "price_per_pack": 102.0,
+    "price_per_uom": 8.5,
+    "uom": "lb",
+    "vendor": "Chef's Warehouse",
+    "source": "hand-curated 2026-08"
+  }
+]

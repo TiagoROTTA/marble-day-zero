@@ -1,0 +1,3843 @@
+{
+  "slug": "adda-indian-canteen",
+  "tier": "A",
+  "cuisine": "indian",
+  "menu_format": "pdf",
+  "elapsed_s": 158.5,
+  "usage": {
+    "calls": 5,
+    "input_tokens": 31340,
+    "output_tokens": 18076,
+    "cache_read": 25309,
+    "cache_write": 0
+  },
+  "error": "",
+  "state": {
+    "input": "adda-indian-canteen",
+    "extracted_data": {},
+    "retry_count": 0,
+    "last_error": "",
+    "human_decision": "",
+    "needs_human": false,
+    "restaurant": {
+      "slug": "adda-indian-canteen",
+      "name": "Adda Indian Canteen",
+      "url": "https://www.addanyc.com/menus",
+      "cuisine": "indian",
+      "price_tier": "$$$",
+      "seats": 48,
+      "service_style": "full-service",
+      "neighborhood": "Long Island City",
+      "snapshot_date": "2026-08-08",
+      "menu_format": "pdf",
+      "popular_times_index": [
+        0.45,
+        0.55,
+        0.66,
+        0.8,
+        0.97,
+        1.0,
+        0.72
+      ],
+      "review_count": 1075,
+      "tier": "A",
+      "estimated_fields": [
+        "popular_times_index",
+        "seats"
+      ],
+      "observed_fields": [
+        "review_count"
+      ],
+      "observed_source": "Google Maps listing, read 2026-08-08",
+      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\adda-indian-canteen\\source.pdf"
+    },
+    "menu_items": [
+      {
+        "name": "MAKAI MATTAR TIKKI",
+        "section": "",
+        "price": 18.0,
+        "description": "fresh corn, green peas, papad, tomato chokha (v)",
+        "confidence": 0.93
+      },
+      {
+        "name": "JACKFRUIT LUKHMI",
+        "section": "",
+        "price": 16.0,
+        "description": "puff pastry, cumin, mint chutney (v)",
+        "confidence": 0.93
+      },
+      {
+        "name": "PRAWN RECHEADO",
+        "section": "",
+        "price": 31.0,
+        "description": "fire grilled prawn, byadgi chili, crustacean broth, pao",
+        "confidence": 0.9
+      },
+      {
+        "name": "BHATTI DA MURGH",
+        "section": "",
+        "price": 25.0,
+        "description": "Green Circle chicken, black pepper, coriander, cumin, hung yogurt",
+        "confidence": 0.92
+      },
+      {
+        "name": "ROTI AUR BOTI",
+        "section": "",
+        "price": 25.0,
+        "description": "goat mince, walnut chutney, flatbread",
+        "confidence": 0.92
+      },
+      {
+        "name": "LAMB PARCHA",
+        "section": "",
+        "price": 28.0,
+        "description": "thin sliced lamb, saffron-cashew , housemade lamb butter, pao (n)",
+        "confidence": 0.9
+      },
+      {
+        "name": "PANEER KHURCHAN",
+        "section": "",
+        "price": 39.0,
+        "description": "coarse coriander, cherry tomatoes, peppers, smoked chili (v)",
+        "confidence": 0.92
+      },
+      {
+        "name": "MALVANI MACCHI",
+        "section": "",
+        "price": 42.0,
+        "description": "choice of fish, coconut cream, kokum, Indrayani bhaat",
+        "confidence": 0.92
+      },
+      {
+        "name": "CHICKEN MAPPAS",
+        "section": "",
+        "price": 42.0,
+        "description": "boneless poussin, curry leaf, fennel, coconut rice",
+        "confidence": 0.92
+      },
+      {
+        "name": "MIRCHI KA MAAS",
+        "section": "",
+        "price": 46.0,
+        "description": "braised Niman Ranch short rib, green chili, garam masala (n)",
+        "confidence": 0.92
+      },
+      {
+        "name": "AWADHI LAMB SHANK KORMA",
+        "section": "",
+        "price": 48.0,
+        "description": "Colorado lamb shank, mace, nutmeg, saffron",
+        "confidence": 0.92
+      },
+      {
+        "name": "NAGALAND PORK FRY",
+        "section": "",
+        "price": 46.0,
+        "description": "Niman Ranch heritage pork belly, pork rice, chili oil, sesame sauce",
+        "confidence": 0.85
+      },
+      {
+        "name": "AGED BASMATI RICE",
+        "section": "",
+        "price": 5.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "DAL ADDA",
+        "section": "",
+        "price": 9.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "PARATHA",
+        "section": "",
+        "price": 5.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "BHATTI KUMBH",
+        "section": "",
+        "price": 25.0,
+        "description": "Queen's mushroom, hung yogurt, coriander, Kashmiri chili (v)",
+        "confidence": 0.9
+      },
+      {
+        "name": "ANANAS PANEER TIKKA",
+        "section": "",
+        "price": 23.0,
+        "description": "housemade paneer, pineapple, white chili, heirloom red pepper (v)",
+        "confidence": 0.92
+      },
+      {
+        "name": "DHANIWAL MALAI GOBHI",
+        "section": "",
+        "price": 23.0,
+        "description": "Dubois Farm cauliflower, cheese and cilantro cream, cilantro oil (v)",
+        "confidence": 0.92
+      },
+      {
+        "name": "CURRY LEAF CRAB",
+        "section": "",
+        "price": 41.0,
+        "description": "Jonah crab, curry leaf-green chili emulsion, garlic cream",
+        "confidence": 0.92
+      },
+      {
+        "name": "BHEJA MASALA",
+        "section": "",
+        "price": 27.0,
+        "description": "goat brain, steamed egg, housemade lamb butter, pao",
+        "confidence": 0.85
+      },
+      {
+        "name": "WAGYU BIHARI KEBAB",
+        "section": "",
+        "price": 42.0,
+        "description": "Imperial W agyu ribeye, cilantro, red chili, coriander",
+        "confidence": 0.85
+      },
+      {
+        "name": "SABZ DHUNGAR BIRYANI",
+        "section": "",
+        "price": 39.0,
+        "description": "smoked basmati rice, housemade paneer, cauliflower, rainbow carrots, peewee potatoes, saffron (v)",
+        "confidence": 0.92
+      },
+      {
+        "name": "GOAT BIRYANI",
+        "section": "",
+        "price": 46.0,
+        "description": "kid goat leg, aged basmati rice, black cardamom, saffron",
+        "confidence": 0.92
+      }
+    ],
+    "recipes": [
+      {
+        "item_name": "MAKAI MATTAR TIKKI",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Sweet corn on the cob",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Green peas",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Russet potato",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Chickpea flour",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Cornstarch",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Papad lentil wafers",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Roma tomato",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Serrano pepper",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground turmeric",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.15,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.62
+      },
+      {
+        "item_name": "JACKFRUIT LUKHMI",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Puff pastry sheets",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Green jackfruit in brine",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground turmeric",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Garam masala",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.07,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.7,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 0.15,
+            "uom": "each",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.2,
+            "uom": "bunch",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Serrano pepper",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "PRAWN RECHEADO",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Shrimp 16/20 peeled and deveined",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Dried guajillo chiles",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Red wine vinegar",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Tamarind concentrate",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Light brown sugar",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground cinnamon",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Whole cloves",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Shrimp shells for stock",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canned crushed tomatoes",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Pao bread roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.66
+      },
+      {
+        "item_name": "BHATTI DA MURGH",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Bone-in chicken thigh",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Plain Greek yogurt",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Chickpea flour",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Garam masala",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 0.6,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.2,
+            "uom": "each",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "item_name": "ROTI AUR BOTI",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ground goat meat",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Garam masala",
+            "qty": 0.07,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.07,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Chili powder blend",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Walnut halves",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Plain whole-milk yogurt",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Serrano pepper",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.2,
+            "uom": "bunch",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.66
+      },
+      {
+        "item_name": "LAMB PARCHA",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Boneless leg of lamb",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Raw cashews",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Saffron threads",
+            "qty": 0.01,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Heavy whipping cream 36%",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Plain whole-milk yogurt",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Garam masala",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Green cardamom pods",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Pao bread roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "PANEER KHURCHAN",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Paneer block",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Cherry tomato",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Red bell pepper",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Green bell pepper",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Canned chipotle chiles in adobo",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Chili powder blend",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground turmeric",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Garam masala",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canned tomato paste",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.2,
+            "uom": "bunch",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.2,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "item_name": "MALVANI MACCHI",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Atlantic cod fillet",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Canned coconut milk",
+            "qty": 5.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Kokum dried rind",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Dried guajillo chiles",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground turmeric",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Shallot",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh curry leaves",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.7,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Long grain white rice",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "CHICKEN MAPPAS",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Whole chicken",
+            "qty": 0.75,
+            "uom": "lb",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Canned coconut milk",
+            "qty": 6.0,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh curry leaves",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fennel seed",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Serrano pepper",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ground turmeric",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Green cardamom pods",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Refined coconut oil",
+            "qty": 0.8,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Basmati rice",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.66
+      },
+      {
+        "item_name": "MIRCHI KA MAAS",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef short rib",
+            "qty": 12.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Serrano pepper",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Garam masala",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.35,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Plain whole-milk yogurt",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Raw cashews",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground turmeric",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Chili powder blend",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Whole bay leaves",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canned crushed tomatoes",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Basmati rice",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "item_name": "AWADHI LAMB SHANK KORMA",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Lamb shoulder",
+            "qty": 16.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Plain whole-milk yogurt",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Raw shelled peanuts",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Heavy whipping cream 36%",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Saffron threads",
+            "qty": 0.01,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Green cardamom pods",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Whole cloves",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground cinnamon",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground nutmeg and mace",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "item_name": "NAGALAND PORK FRY",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Pork belly",
+            "qty": 10.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Long grain white rice",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Crushed red pepper flakes",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Toasted sesame oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "White sesame seeds",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Thai bird chile",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.8
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "AGED BASMATI RICE",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Basmati rice",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Whole bay leaves",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Green cardamom pods",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "item_name": "DAL ADDA",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Red lentils",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 0.75,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Roma tomato",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground turmeric",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground cayenne pepper",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Heavy whipping cream 36%",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "PARATHA",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 0.75,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.8
+          }
+        ],
+        "confidence": 0.78
+      },
+      {
+        "item_name": "BHATTI KUMBH",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Cremini mushroom",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Shiitake mushroom",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Plain Greek yogurt",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kashmiri chili powder",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Chickpea flour",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.15,
+            "uom": "each",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Garam masala",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.8
+          }
+        ],
+        "confidence": 0.66
+      },
+      {
+        "item_name": "ANANAS PANEER TIKKA",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Paneer block",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Golden pineapple",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Red bell pepper",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Plain Greek yogurt",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Chickpea flour",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.15,
+            "uom": "each",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "item_name": "DHANIWAL MALAI GOBHI",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Cauliflower",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Heavy whipping cream 36%",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Grana Padano",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.4,
+            "uom": "bunch",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Plain Greek yogurt",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Serrano pepper",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.8
+          }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "item_name": "CURRY LEAF CRAB",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Pasteurized lump crab meat",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh curry leaves",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Serrano pepper",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Heavy whipping cream 36%",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Shallot",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canned coconut milk",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Black mustard seed",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.8
+          }
+        ],
+        "confidence": 0.63
+      },
+      {
+        "item_name": "BHEJA MASALA",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Goat brain",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Lamb shoulder",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Burger buns 4 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Roma tomato",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Garam masala",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ground turmeric",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground cayenne pepper",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.8
+          }
+        ],
+        "confidence": 0.48
+      },
+      {
+        "item_name": "WAGYU BIHARI KEBAB",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef ribeye",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Serrano pepper",
+            "qty": 0.4,
+            "uom": "each",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Crushed red pepper flakes",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Plain whole-milk yogurt",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 0.6,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Chickpea flour",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "SABZ DHUNGAR BIRYANI",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Basmati rice",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Paneer block",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Cauliflower",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Jumbo carrot",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Yukon gold potato",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Saffron threads",
+            "qty": 0.01,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Plain whole-milk yogurt",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Garam masala",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground turmeric",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Green cardamom pods",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Whole bay leaves",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "item_name": "GOAT BIRYANI",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Bone-in goat leg",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Basmati rice",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Saffron threads",
+            "qty": 0.012,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Green cardamom pods",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Plain whole-milk yogurt",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ghee clarified butter",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.35,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.35,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Garam masala",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground turmeric",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Whole cloves",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground cinnamon",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Whole bay leaves",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      }
+    ],
+    "sku_matches": [
+      {
+        "raw_name": "Sweet corn on the cob",
+        "sku_id": "PROD-CORN-SWEET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Russet potato",
+        "sku_id": "PROD-POTATO-RUSSET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Chickpea flour",
+        "sku_id": "DRY-FLOUR-CHICKPEA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cornstarch",
+        "sku_id": "DRY-CORNSTARCH-BULK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Roma tomato",
+        "sku_id": "PROD-TOMATO-ROMA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red onion",
+        "sku_id": "PROD-ONION-RED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Peeled garlic cloves",
+        "sku_id": "PROD-GARLIC-PEELED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh ginger root",
+        "sku_id": "PROD-GINGER-ROOT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Serrano pepper",
+        "sku_id": "PROD-PEPPER-SERRANO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh cilantro",
+        "sku_id": "PROD-HERB-CILANTRO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground cumin",
+        "sku_id": "SPICE-CUMIN-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground turmeric",
+        "sku_id": "SPICE-TURMERIC-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Kosher salt",
+        "sku_id": "SPICE-SALT-KOSHER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Clear fry oil",
+        "sku_id": "COND-OIL-FRYER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ghee clarified butter",
+        "sku_id": "DAIR-GHEE-CLARIFIED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh lemon",
+        "sku_id": "PROD-LEMON-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Yellow onion",
+        "sku_id": "PROD-ONION-YELLOW",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground coriander",
+        "sku_id": "SPICE-CORIANDER-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Garam masala",
+        "sku_id": "SPICE-GARAMMASALA-BLEND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canola oil",
+        "sku_id": "COND-OIL-CANOLA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Large shell eggs",
+        "sku_id": "DAIR-EGG-LARGE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh mint",
+        "sku_id": "PROD-HERB-MINT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh lime juice",
+        "sku_id": "BEV-JUICE-LIME",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Shrimp 16/20 peeled and deveined",
+        "sku_id": "PROT-SHRIMP-1620",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried guajillo chiles",
+        "sku_id": "SPICE-CHILE-GUAJILLO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red wine vinegar",
+        "sku_id": "COND-VINEGAR-REDWINE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Tamarind concentrate",
+        "sku_id": "COND-TAMARIND-CONCENTRATE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Light brown sugar",
+        "sku_id": "DRY-SUGAR-BROWN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground cinnamon",
+        "sku_id": "SPICE-CINNAMON-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Whole cloves",
+        "sku_id": "SPICE-CLOVE-WHOLE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canned crushed tomatoes",
+        "sku_id": "DRY-TOMATO-CRUSHEDCAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Unsalted butter",
+        "sku_id": "DAIR-BUTTER-UNSALTED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Persian lime",
+        "sku_id": "PROD-LIME-PERSIAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Bone-in chicken thigh",
+        "sku_id": "PROT-CHICKEN-THIGHBONEIN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Plain Greek yogurt",
+        "sku_id": "DAIR-YOGURT-GREEK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground black pepper",
+        "sku_id": "SPICE-PEPPER-BLACKGROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh lemon juice",
+        "sku_id": "BEV-JUICE-LEMON",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Chili powder blend",
+        "sku_id": "SPICE-CHILIPOWDER-BLEND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Plain whole-milk yogurt",
+        "sku_id": "DAIR-YOGURT-PLAINWHOLE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "All-purpose flour",
+        "sku_id": "DRY-FLOUR-ALLPURPOSE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Whole milk",
+        "sku_id": "DAIR-MILK-WHOLE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Boneless leg of lamb",
+        "sku_id": "PROT-LAMB-LEG",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Saffron threads",
+        "sku_id": "SPICE-SAFFRON-THREADS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Heavy whipping cream 36%",
+        "sku_id": "DAIR-CREAM-HEAVY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Green cardamom pods",
+        "sku_id": "SPICE-CARDAMOM-GREEN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Paneer block",
+        "sku_id": "DAIR-PANEER-BLOCK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cherry tomato",
+        "sku_id": "PROD-TOMATO-CHERRY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red bell pepper",
+        "sku_id": "PROD-PEPPER-REDBELL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Green bell pepper",
+        "sku_id": "PROD-PEPPER-GREENBELL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canned chipotle chiles in adobo",
+        "sku_id": "DRY-CHILE-CHIPOTLEADOBO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canned tomato paste",
+        "sku_id": "DRY-TOMATO-PASTECAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Atlantic cod fillet",
+        "sku_id": "PROT-COD-FILLET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canned coconut milk",
+        "sku_id": "DRY-COCONUTMILK-CAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Shallot",
+        "sku_id": "PROD-SHALLOT-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Long grain white rice",
+        "sku_id": "DRY-RICE-LONGGRAIN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Whole chicken",
+        "sku_id": "PROT-CHICKEN-WHOLE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Refined coconut oil",
+        "sku_id": "COND-OIL-COCONUT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Basmati rice",
+        "sku_id": "DRY-RICE-BASMATI",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Beef short rib",
+        "sku_id": "PROT-BEEF-SHORTRIB",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Whole bay leaves",
+        "sku_id": "SPICE-BAYLEAF-WHOLE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Lamb shoulder",
+        "sku_id": "PROT-LAMB-SHOULDER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Raw shelled peanuts",
+        "sku_id": "DRY-PEANUT-RAWSHELLED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pork belly",
+        "sku_id": "PROT-PORK-BELLY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Crushed red pepper flakes",
+        "sku_id": "SPICE-CHILIFLAKE-CRUSHED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Toasted sesame oil",
+        "sku_id": "COND-OIL-SESAMETOASTED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "White sesame seeds",
+        "sku_id": "SPICE-SESAMESEED-WHITE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sesame tahini",
+        "sku_id": "COND-TAHINI-BULK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Soy sauce",
+        "sku_id": "COND-SOYSAUCE-DARK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Scallion",
+        "sku_id": "PROD-ONION-SCALLION",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Thai bird chile",
+        "sku_id": "PROD-CHILE-THAIBIRD",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red lentils",
+        "sku_id": "DRY-LENTIL-REDMASOOR",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground cayenne pepper",
+        "sku_id": "SPICE-CAYENNE-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cremini mushroom",
+        "sku_id": "PROD-MUSHROOM-CREMINI",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Shiitake mushroom",
+        "sku_id": "PROD-MUSHROOM-SHIITAKE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Golden pineapple",
+        "sku_id": "PROD-PINEAPPLE-GOLDEN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cauliflower",
+        "sku_id": "PROD-CAULIFLOWER-HEAD",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sharp cheddar",
+        "sku_id": "DAIR-CHEDDAR-SHARP",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Grana Padano",
+        "sku_id": "DAIR-GRANA-PADANO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pasteurized lump crab meat",
+        "sku_id": "PROT-CRAB-LUMPMEAT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Black mustard seed",
+        "sku_id": "SPICE-MUSTARDSEED-BLACK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Burger buns 4 inch",
+        "sku_id": "DRY-BUN-BURGER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Beef ribeye",
+        "sku_id": "PROT-BEEF-RIBEYE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Jumbo carrot",
+        "sku_id": "PROD-CARROT-JUMBO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Yukon gold potato",
+        "sku_id": "PROD-POTATO-YUKON",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Green peas",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Papad lentil wafers",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Puff pastry sheets",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Green jackfruit in brine",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Shrimp shells for stock",
+        "sku_id": "PROT-SHRIMP-1620",
+        "method": "llm",
+        "confidence": 0.45
+      },
+      {
+        "raw_name": "Pao bread roll",
+        "sku_id": "DRY-BUN-BURGER",
+        "method": "llm",
+        "confidence": 0.6
+      },
+      {
+        "raw_name": "Ground goat meat",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Walnut halves",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Raw cashews",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Kokum dried rind",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Fresh curry leaves",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Fennel seed",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Ground nutmeg and mace",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Kashmiri chili powder",
+        "sku_id": "SPICE-PAPRIKA-SWEET",
+        "method": "llm",
+        "confidence": 0.55
+      },
+      {
+        "raw_name": "Goat brain",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Bone-in goat leg",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      }
+    ],
+    "plate_costs": [
+      {
+        "item_name": "MAKAI MATTAR TIKKI",
+        "plate_cost": 1.2587,
+        "menu_price": 18.0,
+        "food_cost_pct": 0.0699,
+        "costed_components": 16,
+        "total_components": 18,
+        "coverage": 0.8889,
+        "uncosted": [
+          "Green peas (no catalog SKU matched)",
+          "Papad lentil wafers (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Cornstarch (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Fresh lemon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3324,
+        "costable": true
+      },
+      {
+        "item_name": "JACKFRUIT LUKHMI",
+        "plate_cost": 0.8072,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.0505,
+        "costed_components": 14,
+        "total_components": 16,
+        "coverage": 0.875,
+        "uncosted": [
+          "Puff pastry sheets (no catalog SKU matched)",
+          "Green jackfruit in brine (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Large shell eggs (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.33,
+        "costable": true
+      },
+      {
+        "item_name": "PRAWN RECHEADO",
+        "plate_cost": 6.3101,
+        "menu_price": 31.0,
+        "food_cost_pct": 0.2036,
+        "costed_components": 19,
+        "total_components": 19,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Dried guajillo chiles (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Tamarind concentrate (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Light brown sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Whole cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Shrimp shells for stock (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Canned crushed tomatoes (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.374,
+        "costable": true
+      },
+      {
+        "item_name": "BHATTI DA MURGH",
+        "plate_cost": 2.3302,
+        "menu_price": 25.0,
+        "food_cost_pct": 0.0932,
+        "costed_components": 15,
+        "total_components": 15,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4944,
+        "costable": true
+      },
+      {
+        "item_name": "ROTI AUR BOTI",
+        "plate_cost": 1.114,
+        "menu_price": 25.0,
+        "food_cost_pct": 0.0446,
+        "costed_components": 15,
+        "total_components": 17,
+        "coverage": 0.8824,
+        "uncosted": [
+          "Ground goat meat (no catalog SKU matched)",
+          "Walnut halves (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Plain whole-milk yogurt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Whole milk (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Fresh lime juice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3766,
+        "costable": true
+      },
+      {
+        "item_name": "LAMB PARCHA",
+        "plate_cost": 5.8017,
+        "menu_price": 28.0,
+        "food_cost_pct": 0.2072,
+        "costed_components": 15,
+        "total_components": 16,
+        "coverage": 0.9375,
+        "uncosted": [
+          "Raw cashews (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Red onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3204,
+        "costable": true
+      },
+      {
+        "item_name": "PANEER KHURCHAN",
+        "plate_cost": 4.4206,
+        "menu_price": 39.0,
+        "food_cost_pct": 0.1133,
+        "costed_components": 17,
+        "total_components": 18,
+        "coverage": 0.9444,
+        "uncosted": [
+          "Canned chipotle chiles in adobo (no conversion from oz to each)"
+        ],
+        "low_confidence": [
+          "All-purpose flour (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4307,
+        "costable": true
+      },
+      {
+        "item_name": "MALVANI MACCHI",
+        "plate_cost": 6.847,
+        "menu_price": 42.0,
+        "food_cost_pct": 0.163,
+        "costed_components": 14,
+        "total_components": 16,
+        "coverage": 0.875,
+        "uncosted": [
+          "Kokum dried rind (no catalog SKU matched)",
+          "Fresh curry leaves (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Atlantic cod fillet (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Dried guajillo chiles (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3059,
+        "costable": true
+      },
+      {
+        "item_name": "CHICKEN MAPPAS",
+        "plate_cost": 3.0155,
+        "menu_price": 42.0,
+        "food_cost_pct": 0.0718,
+        "costed_components": 14,
+        "total_components": 16,
+        "coverage": 0.875,
+        "uncosted": [
+          "Fresh curry leaves (no catalog SKU matched)",
+          "Fennel seed (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Whole chicken (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3939,
+        "costable": true
+      },
+      {
+        "item_name": "MIRCHI KA MAAS",
+        "plate_cost": 7.3033,
+        "menu_price": 46.0,
+        "food_cost_pct": 0.1588,
+        "costed_components": 17,
+        "total_components": 18,
+        "coverage": 0.9444,
+        "uncosted": [
+          "Raw cashews (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Basmati rice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4344,
+        "costable": true
+      },
+      {
+        "item_name": "AWADHI LAMB SHANK KORMA",
+        "plate_cost": 10.4391,
+        "menu_price": 48.0,
+        "food_cost_pct": 0.2175,
+        "costed_components": 15,
+        "total_components": 16,
+        "coverage": 0.9375,
+        "uncosted": [
+          "Ground nutmeg and mace (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Lamb shoulder (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Raw shelled peanuts (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4635,
+        "costable": true
+      },
+      {
+        "item_name": "NAGALAND PORK FRY",
+        "plate_cost": 3.543,
+        "menu_price": 46.0,
+        "food_cost_pct": 0.077,
+        "costed_components": 13,
+        "total_components": 13,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Long grain white rice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Sesame tahini (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.39,
+        "costable": true
+      },
+      {
+        "item_name": "AGED BASMATI RICE",
+        "plate_cost": 0.6562,
+        "menu_price": 5.0,
+        "food_cost_pct": 0.1312,
+        "costed_components": 5,
+        "total_components": 5,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Whole bay leaves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Green cardamom pods (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.5658,
+        "costable": true
+      },
+      {
+        "item_name": "DAL ADDA",
+        "plate_cost": 1.0753,
+        "menu_price": 9.0,
+        "food_cost_pct": 0.1195,
+        "costed_components": 12,
+        "total_components": 12,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Heavy whipping cream 36% (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3735,
+        "costable": true
+      },
+      {
+        "item_name": "PARATHA",
+        "plate_cost": 0.5494,
+        "menu_price": 5.0,
+        "food_cost_pct": 0.1099,
+        "costed_components": 4,
+        "total_components": 4,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.585,
+        "costable": true
+      },
+      {
+        "item_name": "BHATTI KUMBH",
+        "plate_cost": 2.9461,
+        "menu_price": 25.0,
+        "food_cost_pct": 0.1178,
+        "costed_components": 12,
+        "total_components": 12,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Shiitake mushroom (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4254,
+        "costable": true
+      },
+      {
+        "item_name": "ANANAS PANEER TIKKA",
+        "plate_cost": 3.2394,
+        "menu_price": 23.0,
+        "food_cost_pct": 0.1408,
+        "costed_components": 14,
+        "total_components": 14,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4911,
+        "costable": true
+      },
+      {
+        "item_name": "DHANIWAL MALAI GOBHI",
+        "plate_cost": 2.7166,
+        "menu_price": 23.0,
+        "food_cost_pct": 0.1181,
+        "costed_components": 12,
+        "total_components": 12,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Sharp cheddar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Grana Padano (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4477,
+        "costable": true
+      },
+      {
+        "item_name": "CURRY LEAF CRAB",
+        "plate_cost": 8.2758,
+        "menu_price": 41.0,
+        "food_cost_pct": 0.2018,
+        "costed_components": 11,
+        "total_components": 12,
+        "coverage": 0.9167,
+        "uncosted": [
+          "Fresh curry leaves (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Canned coconut milk (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3806,
+        "costable": true
+      },
+      {
+        "item_name": "BHEJA MASALA",
+        "plate_cost": 2.2223,
+        "menu_price": 27.0,
+        "food_cost_pct": 0.0823,
+        "costed_components": 14,
+        "total_components": 15,
+        "coverage": 0.9333,
+        "uncosted": [
+          "Goat brain (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Lamb shoulder (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Burger buns 4 inch (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2832,
+        "costable": true
+      },
+      {
+        "item_name": "WAGYU BIHARI KEBAB",
+        "plate_cost": 6.6918,
+        "menu_price": 42.0,
+        "food_cost_pct": 0.1593,
+        "costed_components": 13,
+        "total_components": 14,
+        "coverage": 0.9286,
+        "uncosted": [
+          "Serrano pepper (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "Red onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Chickpea flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.405,
+        "costable": true
+      },
+      {
+        "item_name": "SABZ DHUNGAR BIRYANI",
+        "plate_cost": 4.5919,
+        "menu_price": 39.0,
+        "food_cost_pct": 0.1177,
+        "costed_components": 20,
+        "total_components": 20,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.4556,
+        "costable": true
+      },
+      {
+        "item_name": "GOAT BIRYANI",
+        "plate_cost": 3.6033,
+        "menu_price": 46.0,
+        "food_cost_pct": 0.0783,
+        "costed_components": 19,
+        "total_components": 20,
+        "coverage": 0.95,
+        "uncosted": [
+          "Bone-in goat leg (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Whole milk (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4014,
+        "costable": true
+      }
+    ],
+    "demand_forecast": {},
+    "par_levels": [],
+    "purchase_order": {},
+    "review_queue": [
+      {
+        "kind": "plate_quantity",
+        "ref": "MAKAI MATTAR TIKKI",
+        "confidence": 0.3324,
+        "question": "MAKAI MATTAR TIKKI is costed at $1.26 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.2587,
+          "menu_price": 18.0,
+          "low_confidence": [
+            "Cornstarch (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Fresh lemon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "MAKAI MATTAR TIKKI",
+        "confidence": 0.3324,
+        "question": "MAKAI MATTAR TIKKI computes to 7% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.2587,
+          "menu_price": 18.0,
+          "food_cost_pct": 0.0699,
+          "coverage": 0.8889,
+          "uncosted": [
+            "Green peas (no catalog SKU matched)",
+            "Papad lentil wafers (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "JACKFRUIT LUKHMI",
+        "confidence": 0.33,
+        "question": "JACKFRUIT LUKHMI is costed at $0.81 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.8072,
+          "menu_price": 16.0,
+          "low_confidence": [
+            "Large shell eggs (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "JACKFRUIT LUKHMI",
+        "confidence": 0.33,
+        "question": "JACKFRUIT LUKHMI computes to 5% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.8072,
+          "menu_price": 16.0,
+          "food_cost_pct": 0.0505,
+          "coverage": 0.875,
+          "uncosted": [
+            "Puff pastry sheets (no catalog SKU matched)",
+            "Green jackfruit in brine (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "PRAWN RECHEADO",
+        "confidence": 0.374,
+        "question": "PRAWN RECHEADO is costed at $6.31 using 7 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 6.3101,
+          "menu_price": 31.0,
+          "low_confidence": [
+            "Dried guajillo chiles (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Tamarind concentrate (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Light brown sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Whole cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Shrimp shells for stock (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Canned crushed tomatoes (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "BHATTI DA MURGH",
+        "confidence": 0.4944,
+        "question": "BHATTI DA MURGH is costed at $2.33 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.3302,
+          "menu_price": 25.0,
+          "low_confidence": [
+            "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "BHATTI DA MURGH",
+        "confidence": 0.4944,
+        "question": "BHATTI DA MURGH computes to 9% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 2.3302,
+          "menu_price": 25.0,
+          "food_cost_pct": 0.0932,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "ROTI AUR BOTI",
+        "confidence": 0.3766,
+        "question": "ROTI AUR BOTI is costed at $1.11 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.114,
+          "menu_price": 25.0,
+          "low_confidence": [
+            "Plain whole-milk yogurt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Whole milk (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Fresh lime juice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "ROTI AUR BOTI",
+        "confidence": 0.3766,
+        "question": "ROTI AUR BOTI computes to 4% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.114,
+          "menu_price": 25.0,
+          "food_cost_pct": 0.0446,
+          "coverage": 0.8824,
+          "uncosted": [
+            "Ground goat meat (no catalog SKU matched)",
+            "Walnut halves (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "LAMB PARCHA",
+        "confidence": 0.3204,
+        "question": "LAMB PARCHA is costed at $5.80 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 5.8017,
+          "menu_price": 28.0,
+          "low_confidence": [
+            "Red onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "PANEER KHURCHAN",
+        "confidence": 0.4307,
+        "question": "PANEER KHURCHAN is costed at $4.42 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 4.4206,
+          "menu_price": 39.0,
+          "low_confidence": [
+            "All-purpose flour (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "MALVANI MACCHI",
+        "confidence": 0.3059,
+        "question": "MALVANI MACCHI is costed at $6.85 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 6.847,
+          "menu_price": 42.0,
+          "low_confidence": [
+            "Atlantic cod fillet (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Dried guajillo chiles (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "CHICKEN MAPPAS",
+        "confidence": 0.3939,
+        "question": "CHICKEN MAPPAS is costed at $3.02 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 3.0155,
+          "menu_price": 42.0,
+          "low_confidence": [
+            "Whole chicken (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "CHICKEN MAPPAS",
+        "confidence": 0.3939,
+        "question": "CHICKEN MAPPAS computes to 7% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 3.0155,
+          "menu_price": 42.0,
+          "food_cost_pct": 0.0718,
+          "coverage": 0.875,
+          "uncosted": [
+            "Fresh curry leaves (no catalog SKU matched)",
+            "Fennel seed (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "MIRCHI KA MAAS",
+        "confidence": 0.4344,
+        "question": "MIRCHI KA MAAS is costed at $7.30 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 7.3033,
+          "menu_price": 46.0,
+          "low_confidence": [
+            "Basmati rice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "AWADHI LAMB SHANK KORMA",
+        "confidence": 0.4635,
+        "question": "AWADHI LAMB SHANK KORMA is costed at $10.44 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 10.4391,
+          "menu_price": 48.0,
+          "low_confidence": [
+            "Lamb shoulder (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Raw shelled peanuts (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "NAGALAND PORK FRY",
+        "confidence": 0.39,
+        "question": "NAGALAND PORK FRY is costed at $3.54 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 3.543,
+          "menu_price": 46.0,
+          "low_confidence": [
+            "Long grain white rice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Sesame tahini (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "NAGALAND PORK FRY",
+        "confidence": 0.39,
+        "question": "NAGALAND PORK FRY computes to 8% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 3.543,
+          "menu_price": 46.0,
+          "food_cost_pct": 0.077,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "AGED BASMATI RICE",
+        "confidence": 0.5658,
+        "question": "AGED BASMATI RICE is costed at $0.66 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.6562,
+          "menu_price": 5.0,
+          "low_confidence": [
+            "Whole bay leaves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Green cardamom pods (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "DAL ADDA",
+        "confidence": 0.3735,
+        "question": "DAL ADDA is costed at $1.08 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.0753,
+          "menu_price": 9.0,
+          "low_confidence": [
+            "Heavy whipping cream 36% (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "BHATTI KUMBH",
+        "confidence": 0.4254,
+        "question": "BHATTI KUMBH is costed at $2.95 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.9461,
+          "menu_price": 25.0,
+          "low_confidence": [
+            "Shiitake mushroom (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "ANANAS PANEER TIKKA",
+        "confidence": 0.4911,
+        "question": "ANANAS PANEER TIKKA is costed at $3.24 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 3.2394,
+          "menu_price": 23.0,
+          "low_confidence": [
+            "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "DHANIWAL MALAI GOBHI",
+        "confidence": 0.4477,
+        "question": "DHANIWAL MALAI GOBHI is costed at $2.72 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.7166,
+          "menu_price": 23.0,
+          "low_confidence": [
+            "Sharp cheddar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Grana Padano (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "CURRY LEAF CRAB",
+        "confidence": 0.3806,
+        "question": "CURRY LEAF CRAB is costed at $8.28 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 8.2758,
+          "menu_price": 41.0,
+          "low_confidence": [
+            "Canned coconut milk (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "BHEJA MASALA",
+        "confidence": 0.2832,
+        "question": "BHEJA MASALA is costed at $2.22 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.2223,
+          "menu_price": 27.0,
+          "low_confidence": [
+            "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Lamb shoulder (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Burger buns 4 inch (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "BHEJA MASALA",
+        "confidence": 0.2832,
+        "question": "BHEJA MASALA computes to 8% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 2.2223,
+          "menu_price": 27.0,
+          "food_cost_pct": 0.0823,
+          "coverage": 0.9333,
+          "uncosted": [
+            "Goat brain (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "WAGYU BIHARI KEBAB",
+        "confidence": 0.405,
+        "question": "WAGYU BIHARI KEBAB is costed at $6.69 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 6.6918,
+          "menu_price": 42.0,
+          "low_confidence": [
+            "Red onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Chickpea flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "GOAT BIRYANI",
+        "confidence": 0.4014,
+        "question": "GOAT BIRYANI is costed at $3.60 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 3.6033,
+          "menu_price": 46.0,
+          "low_confidence": [
+            "Whole milk (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "GOAT BIRYANI",
+        "confidence": 0.4014,
+        "question": "GOAT BIRYANI computes to 8% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 3.6033,
+          "menu_price": 46.0,
+          "food_cost_pct": 0.0783,
+          "coverage": 0.95,
+          "uncosted": [
+            "Bone-in goat leg (no catalog SKU matched)"
+          ]
+        }
+      }
+    ],
+    "stage": "costed"
+  }
+}

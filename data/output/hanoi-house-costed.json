@@ -1,0 +1,3192 @@
+{
+  "slug": "hanoi-house",
+  "tier": "B",
+  "cuisine": "vietnamese",
+  "menu_format": "html",
+  "elapsed_s": 181.6,
+  "usage": {
+    "calls": 8,
+    "input_tokens": 51341,
+    "output_tokens": 26586,
+    "cache_read": 23935,
+    "cache_write": 16007
+  },
+  "error": "",
+  "state": {
+    "input": "hanoi-house",
+    "extracted_data": {},
+    "retry_count": 1,
+    "last_error": "",
+    "human_decision": "",
+    "needs_human": false,
+    "restaurant": {
+      "slug": "hanoi-house",
+      "name": "Hanoi House",
+      "url": "https://www.hanoihousenyc.com/menu",
+      "cuisine": "vietnamese",
+      "price_tier": "$$",
+      "seats": 38,
+      "service_style": "full-service",
+      "neighborhood": "East Village",
+      "snapshot_date": "2026-08-08",
+      "menu_format": "html",
+      "popular_times_index": [
+        0.32,
+        0.42,
+        0.39,
+        0.58,
+        0.7,
+        1.0,
+        0.76
+      ],
+      "review_count": 1372,
+      "tier": "B",
+      "estimated_fields": [
+        "seats"
+      ],
+      "observed_fields": [
+        "popular_times_index",
+        "review_count"
+      ],
+      "observed_source": "Google Maps listing, read 2026-08-08",
+      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\hanoi-house\\source.html"
+    },
+    "menu_items": [
+      {
+        "name": "Papaya & Pig Ear Salad - Goi Du Du",
+        "section": "Appetizers",
+        "price": 19.0,
+        "description": "Green papaya, watercress, crispy pig ear, herbs, peanuts, sweet soy dressing",
+        "confidence": 0.9
+      },
+      {
+        "name": "Poached Shrimp Salad - Goi Tom",
+        "section": "Appetizers",
+        "price": 19.0,
+        "description": "With cabbage, grapefruit, herbs, candied cashews & coconut-lime dressing",
+        "confidence": 0.9
+      },
+      {
+        "name": "Sautéed Clams - Ngao Xao",
+        "section": "Appetizers",
+        "price": 21.0,
+        "description": "Manila clams, stewed tomatoes, garlic, rau ram & a crispy breadstick",
+        "confidence": 0.9
+      },
+      {
+        "name": "Summer Rolls - Goi Cuon",
+        "section": "Appetizers",
+        "price": 13.0,
+        "description": "Fresh rice paper wrapped around cucumber, lettuce, mint and thai basil with peanut-hoisin sauce. Pork Sausage, Tofu or One of Each",
+        "confidence": 0.85
+      },
+      {
+        "name": "Crispy Spring Rolls - Nem Ran",
+        "section": "Appetizers",
+        "price": 12.0,
+        "description": "Crab & pork spring rolls with classic nuoc cham and herbs",
+        "confidence": 0.9
+      },
+      {
+        "name": "Lemongrass Chicken Wings - Canh Ga Chien",
+        "section": "Appetizers",
+        "price": 19.0,
+        "description": "Crispy jumbo wings coated in fish sauce, palm sugar, chili & lemongrass topped with pickled jalapenos.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Grilled Lamb Meatballs - Cuu La Lot",
+        "section": "Appetizers",
+        "price": 19.0,
+        "description": "Charred lamb meatballs served with banh hoi noodle bundles, lettuce and herbs (contains peanuts)",
+        "confidence": 0.9
+      },
+      {
+        "name": "Grilled Shishito Peppers",
+        "section": "Appetizers",
+        "price": 13.0,
+        "description": "With shrimp salt & lime",
+        "confidence": 0.9
+      },
+      {
+        "name": "Morning Glory - Rau Muong",
+        "section": "Appetizers",
+        "price": 14.0,
+        "description": "Sautéed with garlic & fish sauce",
+        "confidence": 0.9
+      },
+      {
+        "name": "Spicy Garlic Cauliflower - Sup Lo Cay",
+        "section": "Appetizers",
+        "price": 14.0,
+        "description": "Chili butter, fish sauce, lime",
+        "confidence": 0.9
+      },
+      {
+        "name": "Classic Hanoi Style Beef - Pho Bac (Two Meats)",
+        "section": "Pho",
+        "price": 20.0,
+        "description": "24-hour heritage Black Angus beef broth. Rich & aromatic. Choose your meats: Rare Filet Mignon*, Brisket, Oxtail, Tendon. Two meats option.",
+        "confidence": 0.8
+      },
+      {
+        "name": "Classic Hanoi Style Beef - Pho Bac (Three Meats)",
+        "section": "Pho",
+        "price": 23.0,
+        "description": "24-hour heritage Black Angus beef broth. Rich & aromatic. Choose your meats: Rare Filet Mignon*, Brisket, Oxtail, Tendon. Three meats option.",
+        "confidence": 0.8
+      },
+      {
+        "name": "House Special - Dac Biet",
+        "section": "Pho",
+        "price": 29.0,
+        "description": "The works! Our classic 24-hour broth with filet mignon*, brisket, oxtail, bone marrow and a crispy breadstick.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Chicken - Pho Ga",
+        "section": "Pho",
+        "price": 18.0,
+        "description": "Pure chicken bliss",
+        "confidence": 0.9
+      },
+      {
+        "name": "Vegetarian - Pho Chay",
+        "section": "Pho",
+        "price": 19.0,
+        "description": "Mushroom & ginger broth with leafy greens, cauliflower, mixed mushrooms and tofu",
+        "confidence": 0.9
+      },
+      {
+        "name": "Grilled Pork Noodles - Bun Cha Ha Noi",
+        "section": "Entrees",
+        "price": 26.0,
+        "description": "Pork shoulder, betel-wrapped pork meatballs, crab spring rolls, pickled green papaya, rice vermicelli, smoky sweet broth",
+        "confidence": 0.9
+      },
+      {
+        "name": "Shaking Beef - Bo Luc Lac",
+        "section": "Entrees",
+        "price": 36.0,
+        "description": "Filet mignon, garlic-butter soy, bone marrow, watercress salad & steamed rice",
+        "confidence": 0.9
+      },
+      {
+        "name": "Braised Beef Banh Mi",
+        "section": "Entrees",
+        "price": 19.0,
+        "description": "Tender beef braised in pho broth, hoisin caramelized onions, charred chili sauce, cilantro & red onion on a toasted baguette with a side of pho broth for dipping.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Pho Broth (Small)",
+        "section": "Extras",
+        "price": 6.0,
+        "description": "Beef, Chicken, or Vegetarian - Small",
+        "confidence": 0.85
+      },
+      {
+        "name": "Pho Broth (Large)",
+        "section": "Extras",
+        "price": 12.0,
+        "description": "Beef, Chicken, or Vegetarian - Large",
+        "confidence": 0.85
+      },
+      {
+        "name": "Shrimp Chips - Banh Phong Tom",
+        "section": "Extras",
+        "price": 2.25,
+        "description": "With chili salt",
+        "confidence": 0.9
+      },
+      {
+        "name": "Steamed Rice - Com (Small)",
+        "section": "Extras",
+        "price": 2.5,
+        "description": "Small",
+        "confidence": 0.85
+      },
+      {
+        "name": "Steamed Rice - Com (Large)",
+        "section": "Extras",
+        "price": 4.0,
+        "description": "Large",
+        "confidence": 0.85
+      },
+      {
+        "name": "Roasted Bone Marrow",
+        "section": "Extras",
+        "price": 9.0,
+        "description": "",
+        "confidence": 0.9
+      }
+    ],
+    "recipes": [
+      {
+        "item_name": "Papaya & Pig Ear Salad - Goi Du Du",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Green papaya",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "pig ear",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "watercress",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Raw shelled peanuts",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Vietnamese fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Clover honey",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Thai bird chile",
+            "qty": 0.2,
+            "uom": "each",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Poached Shrimp Salad - Goi Tom",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Shrimp 16/20 peeled and deveined",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Green cabbage",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Pomelo",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Raw shelled peanuts",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Canned coconut milk",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Sautéed Clams - Ngao Xao",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Littleneck clams",
+            "qty": 10.0,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Roma tomato",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "perilla leaf",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "breadstick",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Summer Rolls - Goi Cuon",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Rice paper wrappers",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Vietnamese pork roll (cha lua)",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Firm tofu",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Slicing cucumber",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Thai basil",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Rice vermicelli",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Creamy peanut butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Hoisin sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Crispy Spring Rolls - Nem Ran",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Rice paper wrappers",
+            "qty": 3.0,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Pasteurized lump crab meat",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Ground pork",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Jumbo carrot",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Dried wood ear mushrooms",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Vietnamese fish sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.3,
+            "uom": "each",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Thai bird chile",
+            "qty": 0.1,
+            "uom": "each",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Lemongrass Chicken Wings - Canh Ga Chien",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Chicken wings",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh lemongrass",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Vietnamese fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Light brown sugar",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Jalapeno pepper",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Cornstarch",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Grilled Lamb Meatballs - Cuu La Lot",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ground lamb",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Vietnamese fish sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Shallot",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Rice vermicelli",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Raw shelled peanuts",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Grilled Shishito Peppers",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "shishito peppers",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Shrimp 16/20 peeled and deveined",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.35
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Morning Glory - Rau Muong",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "morning glory (water spinach)",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Vietnamese fish sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Spicy Garlic Cauliflower - Sup Lo Cay",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Cauliflower",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Sriracha chili sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Vietnamese fish sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.3,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Classic Hanoi Style Beef - Pho Bac (Two Meats)",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef marrow and knuckle bones",
+            "qty": 0.5,
+            "uom": "lb",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Beef brisket",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Beef oxtail",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Beef eye of round",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Banh pho flat rice noodles",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Whole star anise",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground cinnamon",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Thai basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Classic Hanoi Style Beef - Pho Bac (Three Meats)",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef marrow and knuckle bones",
+            "qty": 0.5,
+            "uom": "lb",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Beef brisket",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Beef oxtail",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Beef eye of round",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Beef stew meat",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Banh pho flat rice noodles",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Whole star anise",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground cinnamon",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Thai basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "House Special - Dac Biet",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef marrow and knuckle bones",
+            "qty": 0.6,
+            "uom": "lb",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Beef eye of round",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Beef brisket",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Beef oxtail",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Beef marrow and knuckle bones",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Banh pho flat rice noodles",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Whole star anise",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Thai basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Chicken - Pho Ga",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Bone-in chicken thigh",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Whole chicken",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Banh pho flat rice noodles",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Thai basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Vegetarian - Pho Chay",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Dried kombu kelp",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Shiitake mushroom",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Cremini mushroom",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "White button mushroom",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Cauliflower",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Baby bok choy",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Firm tofu",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Banh pho flat rice noodles",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Thai basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Grilled Pork Noodles - Bun Cha Ha Noi",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Pork shoulder butt",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground pork",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Perilla leaf",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Pasteurized lump crab meat",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Rice paper wrappers",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Rice vermicelli",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Green papaya",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Jumbo carrot",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Seasoned rice vinegar",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fish sauce",
+            "qty": 0.7,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Shaking Beef - Bo Luc Lac",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef eye of round",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.75,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Beef marrow and knuckle bones",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Jasmine rice",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Watercress",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Cherry tomato",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Braised Beef Banh Mi",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef chuck roll",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Hoisin sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sriracha chili sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Baguette",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Pho Broth (Small)",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef marrow and knuckle bones",
+            "qty": 0.4,
+            "uom": "lb",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Whole star anise",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fish sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.07,
+            "uom": "oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Pho Broth (Large)",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef marrow and knuckle bones",
+            "qty": 0.8,
+            "uom": "lb",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.4,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Whole star anise",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fish sauce",
+            "qty": 0.6,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.14,
+            "uom": "oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Shrimp Chips - Banh Phong Tom",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "shrimp chips",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "clear fry oil",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "crushed red pepper flakes",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Steamed Rice - Com (Small)",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "jasmine rice",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Steamed Rice - Com (Large)",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "jasmine rice",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Roasted Bone Marrow",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "beef marrow and knuckle bones",
+            "qty": 10.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "ground black pepper",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "flat-leaf parsley",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "fresh lemon",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      }
+    ],
+    "sku_matches": [
+      {
+        "raw_name": "Green papaya",
+        "sku_id": "PROD-PAPAYA-GREEN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh mint",
+        "sku_id": "PROD-HERB-MINT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh cilantro",
+        "sku_id": "PROD-HERB-CILANTRO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Raw shelled peanuts",
+        "sku_id": "DRY-PEANUT-RAWSHELLED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Vietnamese fish sauce",
+        "sku_id": "COND-FISHSAUCE-VIET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Clover honey",
+        "sku_id": "COND-HONEY-CLOVER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Persian lime",
+        "sku_id": "PROD-LIME-PERSIAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Thai bird chile",
+        "sku_id": "PROD-CHILE-THAIBIRD",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Clear fry oil",
+        "sku_id": "COND-OIL-FRYER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "clear fry oil",
+        "sku_id": "COND-OIL-FRYER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Shrimp 16/20 peeled and deveined",
+        "sku_id": "PROT-SHRIMP-1620",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Green cabbage",
+        "sku_id": "PROD-CABBAGE-GREEN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pomelo",
+        "sku_id": "PROD-POMELO-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Granulated white sugar",
+        "sku_id": "DRY-SUGAR-GRANULATED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canned coconut milk",
+        "sku_id": "DRY-COCONUTMILK-CAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Littleneck clams",
+        "sku_id": "PROT-CLAM-LITTLENECK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Roma tomato",
+        "sku_id": "PROD-TOMATO-ROMA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Peeled garlic cloves",
+        "sku_id": "PROD-GARLIC-PEELED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "perilla leaf",
+        "sku_id": "PROD-HERB-PERILLA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Perilla leaf",
+        "sku_id": "PROD-HERB-PERILLA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Extra virgin olive oil",
+        "sku_id": "COND-OIL-EVOO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Unsalted butter",
+        "sku_id": "DAIR-BUTTER-UNSALTED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Rice paper wrappers",
+        "sku_id": "DRY-RICEPAPER-BANHTRANG",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Vietnamese pork roll (cha lua)",
+        "sku_id": "PROT-PORK-CHALUA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Firm tofu",
+        "sku_id": "PROT-TOFU-FIRM",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Slicing cucumber",
+        "sku_id": "PROD-CUCUMBER-SLICING",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Romaine lettuce",
+        "sku_id": "PROD-LETTUCE-ROMAINE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Thai basil",
+        "sku_id": "PROD-HERB-THAIBASIL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Rice vermicelli",
+        "sku_id": "DRY-NOODLE-RICEVERMICELLI",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Creamy peanut butter",
+        "sku_id": "COND-PEANUTBUTTER-CREAMY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Hoisin sauce",
+        "sku_id": "COND-HOISIN-BULK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pasteurized lump crab meat",
+        "sku_id": "PROT-CRAB-LUMPMEAT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground pork",
+        "sku_id": "PROT-PORK-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Jumbo carrot",
+        "sku_id": "PROD-CARROT-JUMBO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried wood ear mushrooms",
+        "sku_id": "DRY-MUSHROOM-WOODEAR",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Chicken wings",
+        "sku_id": "PROT-CHICKEN-WINGS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh lemongrass",
+        "sku_id": "PROD-LEMONGRASS-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Light brown sugar",
+        "sku_id": "DRY-SUGAR-BROWN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Jalapeno pepper",
+        "sku_id": "PROD-PEPPER-JALAPENO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cornstarch",
+        "sku_id": "DRY-CORNSTARCH-BULK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground lamb",
+        "sku_id": "PROT-LAMB-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Shallot",
+        "sku_id": "PROD-SHALLOT-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canola oil",
+        "sku_id": "COND-OIL-CANOLA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Kosher salt",
+        "sku_id": "SPICE-SALT-KOSHER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "kosher salt",
+        "sku_id": "SPICE-SALT-KOSHER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cauliflower",
+        "sku_id": "PROD-CAULIFLOWER-HEAD",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sriracha chili sauce",
+        "sku_id": "COND-SRIRACHA-BULK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Beef marrow and knuckle bones",
+        "sku_id": "PROT-BEEF-BONESBROTH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "beef marrow and knuckle bones",
+        "sku_id": "PROT-BEEF-BONESBROTH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Beef brisket",
+        "sku_id": "PROT-BEEF-BRISKET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Beef oxtail",
+        "sku_id": "PROT-BEEF-OXTAIL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Beef eye of round",
+        "sku_id": "PROT-BEEF-EYEROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Banh pho flat rice noodles",
+        "sku_id": "DRY-NOODLE-RICEBANHPHO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Yellow onion",
+        "sku_id": "PROD-ONION-YELLOW",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh ginger root",
+        "sku_id": "PROD-GINGER-ROOT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Scallion",
+        "sku_id": "PROD-ONION-SCALLION",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Whole star anise",
+        "sku_id": "SPICE-STARANISE-WHOLE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground cinnamon",
+        "sku_id": "SPICE-CINNAMON-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fish sauce",
+        "sku_id": "COND-FISHSAUCE-VIET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Beef stew meat",
+        "sku_id": "PROT-BEEF-STEWMEAT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "All-purpose flour",
+        "sku_id": "DRY-FLOUR-ALLPURPOSE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Bone-in chicken thigh",
+        "sku_id": "PROT-CHICKEN-THIGHBONEIN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Whole chicken",
+        "sku_id": "PROT-CHICKEN-WHOLE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried kombu kelp",
+        "sku_id": "DRY-KOMBU-DRIED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Shiitake mushroom",
+        "sku_id": "PROD-MUSHROOM-SHIITAKE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cremini mushroom",
+        "sku_id": "PROD-MUSHROOM-CREMINI",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "White button mushroom",
+        "sku_id": "PROD-MUSHROOM-BUTTON",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Baby bok choy",
+        "sku_id": "PROD-BOKCHOY-BABY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Soy sauce",
+        "sku_id": "COND-SOYSAUCE-DARK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pork shoulder butt",
+        "sku_id": "PROT-PORK-SHOULDER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Seasoned rice vinegar",
+        "sku_id": "COND-VINEGAR-RICE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh garlic cloves",
+        "sku_id": "PROD-GARLIC-PEELED",
+        "method": "normalized",
+        "confidence": 0.9
+      },
+      {
+        "raw_name": "Fresh lime juice",
+        "sku_id": "BEV-JUICE-LIME",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Jasmine rice",
+        "sku_id": "DRY-RICE-JASMINE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "jasmine rice",
+        "sku_id": "DRY-RICE-JASMINE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red onion",
+        "sku_id": "PROD-ONION-RED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cherry tomato",
+        "sku_id": "PROD-TOMATO-CHERRY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground black pepper",
+        "sku_id": "SPICE-PEPPER-BLACKGROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "ground black pepper",
+        "sku_id": "SPICE-PEPPER-BLACKGROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Beef chuck roll",
+        "sku_id": "PROT-BEEF-CHUCKROLL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Heavy-duty mayonnaise",
+        "sku_id": "COND-MAYO-HEAVY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "crushed red pepper flakes",
+        "sku_id": "SPICE-CHILIFLAKE-CRUSHED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "flat-leaf parsley",
+        "sku_id": "PROD-HERB-PARSLEY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "fresh lemon",
+        "sku_id": "PROD-LEMON-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "pita bread 7 inch",
+        "sku_id": "DRY-PITA-BREAD",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "pig ear",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "watercress",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Watercress",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "breadstick",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "shishito peppers",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "morning glory (water spinach)",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Baguette",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "shrimp chips",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      }
+    ],
+    "plate_costs": [
+      {
+        "item_name": "Papaya & Pig Ear Salad - Goi Du Du",
+        "plate_cost": 0.728,
+        "menu_price": 19.0,
+        "food_cost_pct": 0.0383,
+        "costed_components": 5,
+        "total_components": 11,
+        "coverage": 0.4545,
+        "uncosted": [
+          "pig ear (no catalog SKU matched)",
+          "watercress (no catalog SKU matched)",
+          "Fresh mint (no conversion from oz to bunch)",
+          "Fresh cilantro (no conversion from oz to bunch)",
+          "Clover honey (no conversion from fl_oz to lb)",
+          "Thai bird chile (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1745,
+        "costable": true
+      },
+      {
+        "item_name": "Poached Shrimp Salad - Goi Tom",
+        "plate_cost": 2.1801,
+        "menu_price": 19.0,
+        "food_cost_pct": 0.1147,
+        "costed_components": 6,
+        "total_components": 9,
+        "coverage": 0.6667,
+        "uncosted": [
+          "Pomelo (no conversion from oz to each)",
+          "Fresh mint (no conversion from oz to bunch)",
+          "Fresh cilantro (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [
+          "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Canned coconut milk (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.24,
+        "costable": true
+      },
+      {
+        "item_name": "Sautéed Clams - Ngao Xao",
+        "plate_cost": 4.8211,
+        "menu_price": 21.0,
+        "food_cost_pct": 0.2296,
+        "costed_components": 5,
+        "total_components": 7,
+        "coverage": 0.7143,
+        "uncosted": [
+          "perilla leaf (no conversion from oz to bunch)",
+          "breadstick (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2357,
+        "costable": true
+      },
+      {
+        "item_name": "Summer Rolls - Goi Cuon",
+        "plate_cost": 0.9492,
+        "menu_price": 13.0,
+        "food_cost_pct": 0.073,
+        "costed_components": 7,
+        "total_components": 10,
+        "coverage": 0.7,
+        "uncosted": [
+          "Rice paper wrappers (no conversion from each to lb)",
+          "Fresh mint (no conversion from oz to bunch)",
+          "Thai basil (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [
+          "Vietnamese pork roll (cha lua) (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Firm tofu (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.209,
+        "costable": true
+      },
+      {
+        "item_name": "Crispy Spring Rolls - Nem Ran",
+        "plate_cost": 2.0496,
+        "menu_price": 12.0,
+        "food_cost_pct": 0.1708,
+        "costed_components": 8,
+        "total_components": 11,
+        "coverage": 0.7273,
+        "uncosted": [
+          "Rice paper wrappers (no conversion from each to lb)",
+          "Thai bird chile (no conversion from each to lb)",
+          "Fresh mint (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [
+          "Pasteurized lump crab meat (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Jumbo carrot (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Dried wood ear mushrooms (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Persian lime (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Romaine lettuce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.215,
+        "costable": true
+      },
+      {
+        "item_name": "Lemongrass Chicken Wings - Canh Ga Chien",
+        "plate_cost": 2.1251,
+        "menu_price": 19.0,
+        "food_cost_pct": 0.1118,
+        "costed_components": 8,
+        "total_components": 8,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Jalapeno pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.36,
+        "costable": true
+      },
+      {
+        "item_name": "Grilled Lamb Meatballs - Cuu La Lot",
+        "plate_cost": 2.6636,
+        "menu_price": 19.0,
+        "food_cost_pct": 0.1402,
+        "costed_components": 8,
+        "total_components": 9,
+        "coverage": 0.8889,
+        "uncosted": [
+          "Fresh mint (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [
+          "Vietnamese fish sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Shallot (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Rice vermicelli (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Romaine lettuce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Raw shelled peanuts (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Canola oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2567,
+        "costable": true
+      },
+      {
+        "item_name": "Grilled Shishito Peppers",
+        "plate_cost": 0.4961,
+        "menu_price": 13.0,
+        "food_cost_pct": 0.0382,
+        "costed_components": 4,
+        "total_components": 5,
+        "coverage": 0.8,
+        "uncosted": [
+          "shishito peppers (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Shrimp 16/20 peeled and deveined (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.246,
+        "costable": true
+      },
+      {
+        "item_name": "Morning Glory - Rau Muong",
+        "plate_cost": 0.1598,
+        "menu_price": 14.0,
+        "food_cost_pct": 0.0114,
+        "costed_components": 3,
+        "total_components": 4,
+        "coverage": 0.75,
+        "uncosted": [
+          "morning glory (water spinach) (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.2925,
+        "costable": true
+      },
+      {
+        "item_name": "Spicy Garlic Cauliflower - Sup Lo Cay",
+        "plate_cost": 1.0046,
+        "menu_price": 14.0,
+        "food_cost_pct": 0.0718,
+        "costed_components": 7,
+        "total_components": 7,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Sriracha chili sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3557,
+        "costable": true
+      },
+      {
+        "item_name": "Classic Hanoi Style Beef - Pho Bac (Two Meats)",
+        "plate_cost": 4.8664,
+        "menu_price": 20.0,
+        "food_cost_pct": 0.2433,
+        "costed_components": 14,
+        "total_components": 15,
+        "coverage": 0.9333,
+        "uncosted": [
+          "Fresh cilantro (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [
+          "Beef oxtail (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Beef eye of round (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3922,
+        "costable": true
+      },
+      {
+        "item_name": "Classic Hanoi Style Beef - Pho Bac (Three Meats)",
+        "plate_cost": 4.9351,
+        "menu_price": 23.0,
+        "food_cost_pct": 0.2146,
+        "costed_components": 15,
+        "total_components": 16,
+        "coverage": 0.9375,
+        "uncosted": [
+          "Fresh cilantro (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [
+          "Beef oxtail (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Beef eye of round (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Beef stew meat (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3839,
+        "costable": true
+      },
+      {
+        "item_name": "House Special - Dac Biet",
+        "plate_cost": 4.5784,
+        "menu_price": 29.0,
+        "food_cost_pct": 0.1579,
+        "costed_components": 15,
+        "total_components": 16,
+        "coverage": 0.9375,
+        "uncosted": [
+          "Fresh cilantro (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [
+          "Beef eye of round (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Beef brisket (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Beef oxtail (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Beef marrow and knuckle bones (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "All-purpose flour (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3544,
+        "costable": true
+      },
+      {
+        "item_name": "Chicken - Pho Ga",
+        "plate_cost": 1.7316,
+        "menu_price": 18.0,
+        "food_cost_pct": 0.0962,
+        "costed_components": 10,
+        "total_components": 11,
+        "coverage": 0.9091,
+        "uncosted": [
+          "Fresh cilantro (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [
+          "Whole chicken (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4391,
+        "costable": true
+      },
+      {
+        "item_name": "Vegetarian - Pho Chay",
+        "plate_cost": 2.2684,
+        "menu_price": 19.0,
+        "food_cost_pct": 0.1194,
+        "costed_components": 15,
+        "total_components": 16,
+        "coverage": 0.9375,
+        "uncosted": [
+          "Fresh cilantro (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.4144,
+        "costable": true
+      },
+      {
+        "item_name": "Grilled Pork Noodles - Bun Cha Ha Noi",
+        "plate_cost": 3.6564,
+        "menu_price": 26.0,
+        "food_cost_pct": 0.1406,
+        "costed_components": 14,
+        "total_components": 15,
+        "coverage": 0.9333,
+        "uncosted": [
+          "Rice paper wrappers (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "Ground pork (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Perilla leaf (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Pasteurized lump crab meat (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "Seasoned rice vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Granulated white sugar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Fresh garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2915,
+        "costable": true
+      },
+      {
+        "item_name": "Shaking Beef - Bo Luc Lac",
+        "plate_cost": 3.6673,
+        "menu_price": 36.0,
+        "food_cost_pct": 0.1019,
+        "costed_components": 10,
+        "total_components": 11,
+        "coverage": 0.9091,
+        "uncosted": [
+          "Watercress (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Beef marrow and knuckle bones (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4168,
+        "costable": true
+      },
+      {
+        "item_name": "Braised Beef Banh Mi",
+        "plate_cost": 1.6046,
+        "menu_price": 19.0,
+        "food_cost_pct": 0.0845,
+        "costed_components": 7,
+        "total_components": 9,
+        "coverage": 0.7778,
+        "uncosted": [
+          "Fresh cilantro (no conversion from oz to bunch)",
+          "Baguette (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Unsalted butter (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2967,
+        "costable": true
+      },
+      {
+        "item_name": "Pho Broth (Small)",
+        "plate_cost": 0.7398,
+        "menu_price": 6.0,
+        "food_cost_pct": 0.1233,
+        "costed_components": 6,
+        "total_components": 6,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Beef marrow and knuckle bones (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Whole star anise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3163,
+        "costable": true
+      },
+      {
+        "item_name": "Pho Broth (Large)",
+        "plate_cost": 1.4795,
+        "menu_price": 12.0,
+        "food_cost_pct": 0.1233,
+        "costed_components": 6,
+        "total_components": 6,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Beef marrow and knuckle bones (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Whole star anise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3163,
+        "costable": true
+      },
+      {
+        "item_name": "Shrimp Chips - Banh Phong Tom",
+        "plate_cost": 0.2496,
+        "menu_price": 2.25,
+        "food_cost_pct": 0.1109,
+        "costed_components": 3,
+        "total_components": 4,
+        "coverage": 0.75,
+        "uncosted": [
+          "shrimp chips (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "crushed red pepper flakes (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2406,
+        "costable": true
+      },
+      {
+        "item_name": "Steamed Rice - Com (Small)",
+        "plate_cost": 0.2375,
+        "menu_price": 2.5,
+        "food_cost_pct": 0.095,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.7225,
+        "costable": true
+      },
+      {
+        "item_name": "Steamed Rice - Com (Large)",
+        "plate_cost": 0.475,
+        "menu_price": 4.0,
+        "food_cost_pct": 0.1187,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.7225,
+        "costable": true
+      },
+      {
+        "item_name": "Roasted Bone Marrow",
+        "plate_cost": 1.291,
+        "menu_price": 9.0,
+        "food_cost_pct": 0.1434,
+        "costed_components": 6,
+        "total_components": 6,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "pita bread 7 inch (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.38,
+        "costable": true
+      }
+    ],
+    "demand_forecast": {},
+    "par_levels": [],
+    "purchase_order": {},
+    "review_queue": [
+      {
+        "kind": "sku_match",
+        "ref": "pig ear",
+        "confidence": 0.0,
+        "question": "Which SKU is 'pig ear'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no pig ear or offal cut in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "watercress",
+        "confidence": 0.0,
+        "question": "Which SKU is 'watercress'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no watercress or close leafy green substitute in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "breadstick",
+        "confidence": 0.0,
+        "question": "Which SKU is 'breadstick'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no breadstick product in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "shishito peppers",
+        "confidence": 0.0,
+        "question": "Which SKU is 'shishito peppers'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no shishito pepper or genuine substitute pepper listed"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "morning glory (water spinach)",
+        "confidence": 0.0,
+        "question": "Which SKU is 'morning glory (water spinach)'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no water spinach/morning glory or close analog in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "Baguette",
+        "confidence": 0.0,
+        "question": "Which SKU is 'Baguette'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no baguette or plain bread item in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "shrimp chips",
+        "confidence": 0.0,
+        "question": "Which SKU is 'shrimp chips'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no shrimp chips or similar snack product in catalog"
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Papaya & Pig Ear Salad - Goi Du Du",
+        "confidence": 0.1745,
+        "question": "Papaya & Pig Ear Salad - Goi Du Du is costed at $0.73 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.728,
+          "menu_price": 19.0,
+          "low_confidence": [
+            "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Papaya & Pig Ear Salad - Goi Du Du",
+        "confidence": 0.1745,
+        "question": "Papaya & Pig Ear Salad - Goi Du Du computes to 4% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.728,
+          "menu_price": 19.0,
+          "food_cost_pct": 0.0383,
+          "coverage": 0.4545,
+          "uncosted": [
+            "pig ear (no catalog SKU matched)",
+            "watercress (no catalog SKU matched)",
+            "Fresh mint (no conversion from oz to bunch)",
+            "Fresh cilantro (no conversion from oz to bunch)",
+            "Clover honey (no conversion from fl_oz to lb)",
+            "Thai bird chile (no conversion from each to lb)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Poached Shrimp Salad - Goi Tom",
+        "confidence": 0.24,
+        "question": "Poached Shrimp Salad - Goi Tom is costed at $2.18 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.1801,
+          "menu_price": 19.0,
+          "low_confidence": [
+            "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Canned coconut milk (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Sautéed Clams - Ngao Xao",
+        "confidence": 0.2357,
+        "question": "Sautéed Clams - Ngao Xao is costed at $4.82 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 4.8211,
+          "menu_price": 21.0,
+          "low_confidence": [
+            "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Summer Rolls - Goi Cuon",
+        "confidence": 0.209,
+        "question": "Summer Rolls - Goi Cuon is costed at $0.95 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.9492,
+          "menu_price": 13.0,
+          "low_confidence": [
+            "Vietnamese pork roll (cha lua) (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Firm tofu (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Summer Rolls - Goi Cuon",
+        "confidence": 0.209,
+        "question": "Summer Rolls - Goi Cuon computes to 7% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.9492,
+          "menu_price": 13.0,
+          "food_cost_pct": 0.073,
+          "coverage": 0.7,
+          "uncosted": [
+            "Rice paper wrappers (no conversion from each to lb)",
+            "Fresh mint (no conversion from oz to bunch)",
+            "Thai basil (no conversion from oz to bunch)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Crispy Spring Rolls - Nem Ran",
+        "confidence": 0.215,
+        "question": "Crispy Spring Rolls - Nem Ran is costed at $2.05 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.0496,
+          "menu_price": 12.0,
+          "low_confidence": [
+            "Pasteurized lump crab meat (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Jumbo carrot (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Dried wood ear mushrooms (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Persian lime (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Romaine lettuce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Lemongrass Chicken Wings - Canh Ga Chien",
+        "confidence": 0.36,
+        "question": "Lemongrass Chicken Wings - Canh Ga Chien is costed at $2.13 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.1251,
+          "menu_price": 19.0,
+          "low_confidence": [
+            "Jalapeno pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Grilled Lamb Meatballs - Cuu La Lot",
+        "confidence": 0.2567,
+        "question": "Grilled Lamb Meatballs - Cuu La Lot is costed at $2.66 using 7 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.6636,
+          "menu_price": 19.0,
+          "low_confidence": [
+            "Vietnamese fish sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Shallot (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Rice vermicelli (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Romaine lettuce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Raw shelled peanuts (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Canola oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Grilled Shishito Peppers",
+        "confidence": 0.246,
+        "question": "Grilled Shishito Peppers is costed at $0.50 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.4961,
+          "menu_price": 13.0,
+          "low_confidence": [
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Shrimp 16/20 peeled and deveined (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Grilled Shishito Peppers",
+        "confidence": 0.246,
+        "question": "Grilled Shishito Peppers computes to 4% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.4961,
+          "menu_price": 13.0,
+          "food_cost_pct": 0.0382,
+          "coverage": 0.8,
+          "uncosted": [
+            "shishito peppers (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Morning Glory - Rau Muong",
+        "confidence": 0.2925,
+        "question": "Morning Glory - Rau Muong computes to 1% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.1598,
+          "menu_price": 14.0,
+          "food_cost_pct": 0.0114,
+          "coverage": 0.75,
+          "uncosted": [
+            "morning glory (water spinach) (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Spicy Garlic Cauliflower - Sup Lo Cay",
+        "confidence": 0.3557,
+        "question": "Spicy Garlic Cauliflower - Sup Lo Cay is costed at $1.00 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.0046,
+          "menu_price": 14.0,
+          "low_confidence": [
+            "Sriracha chili sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Spicy Garlic Cauliflower - Sup Lo Cay",
+        "confidence": 0.3557,
+        "question": "Spicy Garlic Cauliflower - Sup Lo Cay computes to 7% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.0046,
+          "menu_price": 14.0,
+          "food_cost_pct": 0.0718,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Classic Hanoi Style Beef - Pho Bac (Two Meats)",
+        "confidence": 0.3922,
+        "question": "Classic Hanoi Style Beef - Pho Bac (Two Meats) is costed at $4.87 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 4.8664,
+          "menu_price": 20.0,
+          "low_confidence": [
+            "Beef oxtail (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Beef eye of round (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Classic Hanoi Style Beef - Pho Bac (Three Meats)",
+        "confidence": 0.3839,
+        "question": "Classic Hanoi Style Beef - Pho Bac (Three Meats) is costed at $4.94 using 4 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 4.9351,
+          "menu_price": 23.0,
+          "low_confidence": [
+            "Beef oxtail (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Beef eye of round (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Beef stew meat (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "House Special - Dac Biet",
+        "confidence": 0.3544,
+        "question": "House Special - Dac Biet is costed at $4.58 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 4.5784,
+          "menu_price": 29.0,
+          "low_confidence": [
+            "Beef eye of round (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Beef brisket (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Beef oxtail (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Beef marrow and knuckle bones (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "All-purpose flour (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Chicken - Pho Ga",
+        "confidence": 0.4391,
+        "question": "Chicken - Pho Ga is costed at $1.73 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.7316,
+          "menu_price": 18.0,
+          "low_confidence": [
+            "Whole chicken (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Chicken - Pho Ga",
+        "confidence": 0.4391,
+        "question": "Chicken - Pho Ga computes to 10% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.7316,
+          "menu_price": 18.0,
+          "food_cost_pct": 0.0962,
+          "coverage": 0.9091,
+          "uncosted": [
+            "Fresh cilantro (no conversion from oz to bunch)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Grilled Pork Noodles - Bun Cha Ha Noi",
+        "confidence": 0.2915,
+        "question": "Grilled Pork Noodles - Bun Cha Ha Noi is costed at $3.66 using 7 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 3.6564,
+          "menu_price": 26.0,
+          "low_confidence": [
+            "Ground pork (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Perilla leaf (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Pasteurized lump crab meat (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "Seasoned rice vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Granulated white sugar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Fresh garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Shaking Beef - Bo Luc Lac",
+        "confidence": 0.4168,
+        "question": "Shaking Beef - Bo Luc Lac is costed at $3.67 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 3.6673,
+          "menu_price": 36.0,
+          "low_confidence": [
+            "Beef marrow and knuckle bones (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Braised Beef Banh Mi",
+        "confidence": 0.2967,
+        "question": "Braised Beef Banh Mi is costed at $1.60 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.6046,
+          "menu_price": 19.0,
+          "low_confidence": [
+            "Unsalted butter (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Braised Beef Banh Mi",
+        "confidence": 0.2967,
+        "question": "Braised Beef Banh Mi computes to 8% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.6046,
+          "menu_price": 19.0,
+          "food_cost_pct": 0.0845,
+          "coverage": 0.7778,
+          "uncosted": [
+            "Fresh cilantro (no conversion from oz to bunch)",
+            "Baguette (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Pho Broth (Small)",
+        "confidence": 0.3163,
+        "question": "Pho Broth (Small) is costed at $0.74 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.7398,
+          "menu_price": 6.0,
+          "low_confidence": [
+            "Beef marrow and knuckle bones (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Whole star anise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Pho Broth (Large)",
+        "confidence": 0.3163,
+        "question": "Pho Broth (Large) is costed at $1.48 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.4795,
+          "menu_price": 12.0,
+          "low_confidence": [
+            "Beef marrow and knuckle bones (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Whole star anise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Shrimp Chips - Banh Phong Tom",
+        "confidence": 0.2406,
+        "question": "Shrimp Chips - Banh Phong Tom is costed at $0.25 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.2496,
+          "menu_price": 2.25,
+          "low_confidence": [
+            "crushed red pepper flakes (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Steamed Rice - Com (Small)",
+        "confidence": 0.7225,
+        "question": "Steamed Rice - Com (Small) computes to 10% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.2375,
+          "menu_price": 2.5,
+          "food_cost_pct": 0.095,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Roasted Bone Marrow",
+        "confidence": 0.38,
+        "question": "Roasted Bone Marrow is costed at $1.29 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.291,
+          "menu_price": 9.0,
+          "low_confidence": [
+            "pita bread 7 inch (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      }
+    ],
+    "stage": "costed"
+  }
+}

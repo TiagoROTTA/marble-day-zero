@@ -1,0 +1,31 @@
+{
+  "slug": "bubbys-tribeca",
+  "name": "Bubby's Tribeca",
+  "url": "https://www.bubbys.com/menus/",
+  "cuisine": "diner-american",
+  "price_tier": "$$",
+  "seats": 96,
+  "service_style": "full-service",
+  "neighborhood": "Tribeca",
+  "snapshot_date": "2026-08-08",
+  "menu_format": "html",
+  "popular_times_index": [
+    0.81,
+    0.76,
+    0.87,
+    0.93,
+    1.0,
+    0.78,
+    0.61
+  ],
+  "review_count": 8836,
+  "tier": "B",
+  "estimated_fields": [
+    "seats"
+  ],
+  "observed_fields": [
+    "popular_times_index",
+    "review_count"
+  ],
+  "observed_source": "Google Maps listing, read 2026-08-08"
+}

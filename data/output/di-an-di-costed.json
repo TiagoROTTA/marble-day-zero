@@ -1,0 +1,64 @@
+{
+  "slug": "di-an-di",
+  "tier": "B",
+  "cuisine": "vietnamese",
+  "menu_format": "pdf",
+  "elapsed_s": 1.6,
+  "usage": {
+    "calls": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "error": "ended at stage ingested instead of costed",
+  "state": {
+    "input": "di-an-di",
+    "extracted_data": {},
+    "retry_count": 3,
+    "last_error": "ValueError: C:\\Programmation\\YC\\Marble\\data\\restaurants\\di-an-di\\source.pdf yielded 0 chars of text: it is a scanned image with no text layer. Re-snapshot di-an-di as .jpg and set menu_format=\"image\".",
+    "human_decision": "",
+    "needs_human": false,
+    "restaurant": {
+      "slug": "di-an-di",
+      "name": "Di An Di",
+      "url": "https://www.diandi.nyc/menus/",
+      "cuisine": "vietnamese",
+      "price_tier": "$$",
+      "seats": 56,
+      "service_style": "full-service",
+      "neighborhood": "Greenpoint",
+      "snapshot_date": "2026-08-08",
+      "menu_format": "pdf",
+      "popular_times_index": [
+        0.22,
+        0.22,
+        0.28,
+        0.27,
+        0.53,
+        1.0,
+        0.67
+      ],
+      "review_count": 1100,
+      "tier": "B",
+      "estimated_fields": [
+        "seats"
+      ],
+      "observed_fields": [
+        "popular_times_index",
+        "review_count"
+      ],
+      "observed_source": "Google Maps listing, read 2026-08-08",
+      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\di-an-di\\source.pdf"
+    },
+    "menu_items": [],
+    "recipes": [],
+    "sku_matches": [],
+    "plate_costs": [],
+    "demand_forecast": {},
+    "par_levels": [],
+    "purchase_order": {},
+    "review_queue": [],
+    "stage": "ingested"
+  }
+}

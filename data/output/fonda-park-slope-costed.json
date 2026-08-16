@@ -1,0 +1,64 @@
+{
+  "slug": "fonda-park-slope",
+  "tier": "B",
+  "cuisine": "mexican",
+  "menu_format": "html",
+  "elapsed_s": 329.6,
+  "usage": {
+    "calls": 3,
+    "input_tokens": 44530,
+    "output_tokens": 48000,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "error": "ended at stage ingested instead of costed",
+  "state": {
+    "input": "fonda-park-slope",
+    "extracted_data": {},
+    "retry_count": 3,
+    "last_error": "ValidationError: 2 validation errors for MenuExtraction\nitems\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing\nmenu_notes\n  Field required [type=missing, input_value={}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.13/v/missing",
+    "human_decision": "",
+    "needs_human": false,
+    "restaurant": {
+      "slug": "fonda-park-slope",
+      "name": "Fonda (Park Slope)",
+      "url": "https://www.fondarestaurant.com/menus",
+      "cuisine": "mexican",
+      "price_tier": "$$",
+      "seats": 58,
+      "service_style": "full-service",
+      "neighborhood": "Park Slope",
+      "snapshot_date": "2026-08-08",
+      "menu_format": "html",
+      "popular_times_index": [
+        0.36,
+        0.49,
+        0.33,
+        0.45,
+        0.76,
+        1.0,
+        0.89
+      ],
+      "review_count": 1000,
+      "tier": "B",
+      "estimated_fields": [
+        "seats"
+      ],
+      "observed_fields": [
+        "popular_times_index",
+        "review_count"
+      ],
+      "observed_source": "Google Maps listing, read 2026-08-08",
+      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\fonda-park-slope\\source.html"
+    },
+    "menu_items": [],
+    "recipes": [],
+    "sku_matches": [],
+    "plate_costs": [],
+    "demand_forecast": {},
+    "par_levels": [],
+    "purchase_order": {},
+    "review_queue": [],
+    "stage": "ingested"
+  }
+}

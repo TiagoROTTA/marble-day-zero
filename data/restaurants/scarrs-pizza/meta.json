@@ -1,0 +1,16 @@
+{
+  "slug": "scarrs-pizza",
+  "name": "Scarr's Pizza",
+  "url": "https://www.scarrspizza.com/menu",
+  "cuisine": "italian-pizza",
+  "price_tier": "$",
+  "seats": 34,
+  "service_style": "counter",
+  "neighborhood": "Lower East Side",
+  "snapshot_date": "2026-08-08",
+  "menu_format": "html",
+  "popular_times_index": [0.55, 0.6, 0.66, 0.78, 0.96, 1.0, 0.85],
+  "review_count": 2900,
+  "tier": "B",
+  "estimated_fields": ["popular_times_index", "seats", "review_count"]
+}

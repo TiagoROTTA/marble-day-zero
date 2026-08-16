@@ -1,0 +1,4251 @@
+{
+  "slug": "mamouns-falafel",
+  "tier": "B",
+  "cuisine": "middle-eastern",
+  "menu_format": "html",
+  "elapsed_s": 180.3,
+  "usage": {
+    "calls": 6,
+    "input_tokens": 38302,
+    "output_tokens": 21130,
+    "cache_read": 14157,
+    "cache_write": 15871
+  },
+  "error": "",
+  "state": {
+    "input": "mamouns-falafel",
+    "extracted_data": {},
+    "retry_count": 0,
+    "last_error": "",
+    "human_decision": "",
+    "needs_human": false,
+    "restaurant": {
+      "slug": "mamouns-falafel",
+      "name": "Mamoun's Falafel (MacDougal St)",
+      "url": "https://mamouns.com/menu",
+      "cuisine": "middle-eastern",
+      "price_tier": "$",
+      "seats": 14,
+      "service_style": "counter",
+      "neighborhood": "Greenwich Village",
+      "snapshot_date": "2026-08-08",
+      "menu_format": "html",
+      "popular_times_index": [
+        0.6,
+        0.63,
+        0.68,
+        0.78,
+        0.95,
+        1.0,
+        0.82
+      ],
+      "review_count": 7600,
+      "tier": "B",
+      "estimated_fields": [
+        "popular_times_index",
+        "seats",
+        "review_count"
+      ],
+      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\mamouns-falafel\\source.html"
+    },
+    "menu_items": [
+      {
+        "name": "Falafel",
+        "section": "Traditional Sandwiches",
+        "price": null,
+        "description": "finely ground chickpeas, onions, parsley, garlic, and spices; deep fried into semi circles",
+        "confidence": 0.9
+      },
+      {
+        "name": "Shawarma",
+        "section": "Traditional Sandwiches",
+        "price": null,
+        "description": "thinly sliced lamb made with signature spices and cooked slowly on a stand up rotisserie",
+        "confidence": 0.9
+      },
+      {
+        "name": "Chicken Kebob",
+        "section": "Traditional Sandwiches",
+        "price": null,
+        "description": "marinated cubes of chicken breast; skewered and grilled",
+        "confidence": 0.9
+      },
+      {
+        "name": "Classic",
+        "section": "Signature Sandwiches",
+        "price": null,
+        "description": "falafel and hummus",
+        "confidence": 0.9
+      },
+      {
+        "name": "West 4th",
+        "section": "Signature Sandwiches",
+        "price": null,
+        "description": "shawarma and hummus",
+        "confidence": 0.9
+      },
+      {
+        "name": "Manhattan",
+        "section": "Signature Sandwiches",
+        "price": null,
+        "description": "falafel, hummus, baba ganouj, tabbouleh, pickles, pickled turnips, and olives",
+        "confidence": 0.9
+      },
+      {
+        "name": "West Village",
+        "section": "Signature Sandwiches",
+        "price": null,
+        "description": "falafel, baba ganouj, and pickles",
+        "confidence": 0.9
+      },
+      {
+        "name": "Macdougal",
+        "section": "Signature Sandwiches",
+        "price": null,
+        "description": "shawarma and falafel",
+        "confidence": 0.9
+      },
+      {
+        "name": "Sullivan",
+        "section": "Signature Sandwiches",
+        "price": null,
+        "description": "chicken kebob, hummus, and tabbouleh",
+        "confidence": 0.9
+      },
+      {
+        "name": "East Village",
+        "section": "Signature Sandwiches",
+        "price": null,
+        "description": "falafel, hummus, tabbouleh, and olives",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bleecker",
+        "section": "Signature Sandwiches",
+        "price": null,
+        "description": "chicken kebob and falafel",
+        "confidence": 0.9
+      },
+      {
+        "name": "Falafel",
+        "section": "Plates",
+        "price": null,
+        "description": "finely ground chickpeas, onions, parsley, garlic, and spices; deep fried into semi circles",
+        "confidence": 0.9
+      },
+      {
+        "name": "Combo",
+        "section": "Plates",
+        "price": null,
+        "description": "a la carte plate with falafel, hummus, and baba ganouj; substitute any vegetarian item at no additional cost; add meat for an additional charge (lamb, chicken, beef)",
+        "confidence": 0.9
+      },
+      {
+        "name": "Shawarma",
+        "section": "Plates",
+        "price": null,
+        "description": "thinly sliced lamb made with signature spices and cooked slowly on a stand up rotisserie",
+        "confidence": 0.9
+      },
+      {
+        "name": "Hummus Bowl*",
+        "section": "Plates",
+        "price": null,
+        "description": "home-made hummus topped with tangy pickles, vibrant turnips, briny olives, fresh onions, and juicy tomatoes; drizzled with rich olive oil and served with two crispy falafel balls, warm pita, and crunchy croutons (add seasoned rice for an additional charge; no salad option)",
+        "confidence": 0.9
+      },
+      {
+        "name": "Chicken Kebob",
+        "section": "Plates",
+        "price": null,
+        "description": "marinated cubes of chicken breast; skewered and grilled",
+        "confidence": 0.9
+      },
+      {
+        "name": "Falafel",
+        "section": "Sides",
+        "price": null,
+        "description": "finely ground chickpeas, onions, parsley, garlic, and spices; deep fried (4 pieces)",
+        "confidence": 0.9
+      },
+      {
+        "name": "Seasoned Fries*",
+        "section": "Sides",
+        "price": null,
+        "description": "served with choice of garlic dipping sauce or ketchup (note: garlic dipping sauce is not vegan)",
+        "confidence": 0.9
+      },
+      {
+        "name": "Lentil Soup",
+        "section": "Sides",
+        "price": null,
+        "description": "served with pita chips",
+        "confidence": 0.9
+      },
+      {
+        "name": "Mamoun's Salad*",
+        "section": "Sides",
+        "price": null,
+        "description": "lettuce, tomatoes, onions, pickles, pickled turnips, olives, feta cheese, and tahineh sauce",
+        "confidence": 0.9
+      },
+      {
+        "name": "Hummus",
+        "section": "Sides",
+        "price": null,
+        "description": "chickpea spread made with lemon, garlic, and tahineh; topped with olive oil and paprika",
+        "confidence": 0.9
+      },
+      {
+        "name": "Tabbouleh",
+        "section": "Sides",
+        "price": null,
+        "description": "bulgur wheat salad mixed with finely chopped mint, parsley, garlic, onions, and peppers",
+        "confidence": 0.9
+      },
+      {
+        "name": "Pita Chips*",
+        "section": "Sides",
+        "price": null,
+        "description": "seasoned with salt and pepper",
+        "confidence": 0.9
+      },
+      {
+        "name": "Pickled Veggies*",
+        "section": "Sides",
+        "price": null,
+        "description": "pickles, pickled turnips, and olives",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bag of Pita Bread*",
+        "section": "Sides",
+        "price": null,
+        "description": "6 pieces; baked fresh in-house daily",
+        "confidence": 0.9
+      },
+      {
+        "name": "Baba Ganouj",
+        "section": "Sides",
+        "price": null,
+        "description": "roasted eggplant spread made with parsley, garlic, and tahineh; topped with olive oil and paprika",
+        "confidence": 0.9
+      },
+      {
+        "name": "Seasoned Rice*",
+        "section": "Sides",
+        "price": null,
+        "description": "made with our own blend of spices",
+        "confidence": 0.9
+      },
+      {
+        "name": "Grape Leaves",
+        "section": "Sides",
+        "price": null,
+        "description": "stuffed with white rice and spices (4 pieces)",
+        "confidence": 0.9
+      },
+      {
+        "name": "Pita Bread*",
+        "section": "Sides",
+        "price": null,
+        "description": "baked fresh in-house daily",
+        "confidence": 0.9
+      },
+      {
+        "name": "Baklava*",
+        "section": "Pastries",
+        "price": null,
+        "description": "fillo dough stuffed with walnuts",
+        "confidence": 0.9
+      },
+      {
+        "name": "Hot",
+        "section": "Sauces",
+        "price": null,
+        "description": "spicy sauce made from the finest, imported hot pepper spices",
+        "confidence": 0.7
+      },
+      {
+        "name": "Tahineh",
+        "section": "Sauces",
+        "price": null,
+        "description": "smooth sesame seed-based sauce",
+        "confidence": 0.7
+      },
+      {
+        "name": "Garlic",
+        "section": "Sauces",
+        "price": null,
+        "description": "savory, garlic infused sauce",
+        "confidence": 0.7
+      },
+      {
+        "name": "Mint Lemonade",
+        "section": "Specialty Drinks",
+        "price": null,
+        "description": "sweet lemonade infused with fresh flakes of mint",
+        "confidence": 0.9
+      },
+      {
+        "name": "Mamoun's Iced Tea",
+        "section": "Specialty Drinks",
+        "price": null,
+        "description": "freshly brewed, unsweetened black tea infused with cardamom",
+        "confidence": 0.9
+      },
+      {
+        "name": "Mango",
+        "section": "Specialty Drinks",
+        "price": null,
+        "description": "sweet mango puree",
+        "confidence": 0.9
+      },
+      {
+        "name": "Tamarind*",
+        "section": "Specialty Drinks",
+        "price": null,
+        "description": "tart and refreshing juice from the tamarind fruit",
+        "confidence": 0.9
+      },
+      {
+        "name": "Soda*",
+        "section": "Regular Drinks",
+        "price": null,
+        "description": "choice of Coke, Diet Coke, Coke Zero, Cherry Coke, Sprite, Sprite Zero, Orange Fanta, Ginger Ale, Selzer, Powerade Mountain Berry Blast, Vitamin Water Acai Pomegranate",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bottled Water",
+        "section": "Regular Drinks",
+        "price": null,
+        "description": "",
+        "confidence": 0.9
+      }
+    ],
+    "recipes": [
+      {
+        "item_name": "Falafel",
+        "yield_qty": 1.0,
+        "yield_uom": "sandwich",
+        "components": [
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Dried chickpeas",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          }
+        ],
+        "confidence": 0.76
+      },
+      {
+        "item_name": "Shawarma",
+        "yield_qty": 1.0,
+        "yield_uom": "sandwich",
+        "components": [
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Boneless leg of lamb",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.78
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Plain whole-milk yogurt",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.07,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground cinnamon",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Sweet paprika",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Pomace olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.73
+      },
+      {
+        "item_name": "Chicken Kebob",
+        "yield_qty": 1.0,
+        "yield_uom": "sandwich",
+        "components": [
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Boneless skinless chicken breast",
+            "qty": 5.5,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Plain whole-milk yogurt",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Sweet paprika",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.76
+      },
+      {
+        "item_name": "Classic",
+        "yield_qty": 1.0,
+        "yield_uom": "sandwich",
+        "components": [
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Dried chickpeas",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canned chickpeas",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "West 4th",
+        "yield_qty": 1.0,
+        "yield_uom": "sandwich",
+        "components": [
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Boneless leg of lamb",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.78
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.07,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sweet paprika",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Pomace olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canned chickpeas",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.73
+      },
+      {
+        "item_name": "Manhattan",
+        "yield_qty": 1.0,
+        "yield_uom": "sandwich",
+        "components": [
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Dried chickpeas",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.2,
+            "uom": "bunch",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canned chickpeas",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.6,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Globe eggplant",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Coarse bulgur wheat",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Roma tomato",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Pitted kalamata olives",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Pickled turnips",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Slicing cucumber",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "item_name": "West Village",
+        "yield_qty": 1.0,
+        "yield_uom": "sandwich",
+        "components": [
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Dried chickpeas",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Globe eggplant",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Slicing cucumber",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "item_name": "Macdougal",
+        "yield_qty": 1.0,
+        "yield_uom": "sandwich",
+        "components": [
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Boneless leg of lamb",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Dried chickpeas",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.12,
+            "uom": "bunch",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sweet paprika",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 0.8,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Pomace olive oil",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.71
+      },
+      {
+        "item_name": "Sullivan",
+        "yield_qty": 1.0,
+        "yield_uom": "sandwich",
+        "components": [
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Boneless skinless chicken breast",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Plain whole-milk yogurt",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Sweet paprika",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canned chickpeas",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.6,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Coarse bulgur wheat",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.2,
+            "uom": "bunch",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Roma tomato",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.73
+      },
+      {
+        "item_name": "East Village",
+        "yield_qty": 1.0,
+        "yield_uom": "sandwich",
+        "components": [
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Dried chickpeas",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.25,
+            "uom": "bunch",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canned chickpeas",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.6,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Coarse bulgur wheat",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Roma tomato",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Pitted kalamata olives",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.73
+      },
+      {
+        "item_name": "Bleecker",
+        "yield_qty": 1.0,
+        "yield_uom": "sandwich",
+        "components": [
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Boneless skinless chicken breast",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Falafel mix",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 0.7,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Iceberg lettuce",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Sweet paprika",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "item_name": "Falafel",
+        "yield_qty": 1.0,
+        "yield_uom": "plate",
+        "components": [
+          {
+            "raw_name": "Dried chickpeas",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.25,
+            "uom": "bunch",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Chickpea flour",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Combo",
+        "yield_qty": 1.0,
+        "yield_uom": "plate",
+        "components": [
+          {
+            "raw_name": "Dried chickpeas",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.35,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Globe eggplant",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.2,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.12,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.2,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Pitted kalamata olives",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Shawarma",
+        "yield_qty": 1.0,
+        "yield_uom": "plate",
+        "components": [
+          {
+            "raw_name": "Lamb shoulder",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "White distilled vinegar",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ground cinnamon",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Sweet paprika",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Iceberg lettuce",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "item_name": "Hummus Bowl*",
+        "yield_qty": 1.0,
+        "yield_uom": "bowl",
+        "components": [
+          {
+            "raw_name": "Dried chickpeas",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Slicing cucumber",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Daikon radish",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Pitted kalamata olives",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Falafel mix",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 0.6,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.5,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sweet paprika",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Chicken Kebob",
+        "yield_qty": 1.0,
+        "yield_uom": "plate",
+        "components": [
+          {
+            "raw_name": "Boneless skinless chicken breast",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Plain whole-milk yogurt",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Sweet paprika",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.78
+      },
+      {
+        "item_name": "Falafel",
+        "yield_qty": 1.0,
+        "yield_uom": "side (4 pieces)",
+        "components": [
+          {
+            "raw_name": "Dried chickpeas",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.07,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ground coriander",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Chickpea flour",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "item_name": "Seasoned Fries*",
+        "yield_qty": 1.0,
+        "yield_uom": "side",
+        "components": [
+          {
+            "raw_name": "Russet potato",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Sweet paprika",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Granulated garlic powder",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Granulated onion powder",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Lentil Soup",
+        "yield_qty": 1.0,
+        "yield_uom": "bowl",
+        "components": [
+          {
+            "raw_name": "Red lentils",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Jumbo carrot",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Celery",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.07,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground turmeric",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Mamoun's Salad*",
+        "yield_qty": 1.0,
+        "yield_uom": "side salad",
+        "components": [
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Slicing cucumber",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Daikon radish",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Pitted kalamata olives",
+            "qty": 0.6,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Feta cheese block in brine",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "Hummus",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Canned chickpeas",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.75,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Sweet paprika",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.86
+      },
+      {
+        "item_name": "Tabbouleh",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Coarse bulgur wheat",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.4,
+            "uom": "bunch",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Roma tomato",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Green bell pepper",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.75,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.75,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "Pita Chips*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Pita bread 7 inch",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.75
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Pickled Veggies*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Slicing cucumber",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Daikon radish",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Pitted kalamata olives",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "White distilled vinegar",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Bag of Pita Bread*",
+        "yield_qty": 1.0,
+        "yield_uom": "bag of 6",
+        "components": [
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 12.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.75,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Baba Ganouj",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Globe eggplant",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.75,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Sweet paprika",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Seasoned Rice*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Long grain white rice",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground turmeric",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Ground cinnamon",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.62
+      },
+      {
+        "item_name": "Grape Leaves",
+        "yield_qty": 1.0,
+        "yield_uom": "order of 4",
+        "components": [
+          {
+            "raw_name": "Jarred grape leaves in brine",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Long grain white rice",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Roma tomato",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.08,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "item_name": "Pita Bread*",
+        "yield_qty": 1.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.04,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.15,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Baklava*",
+        "yield_qty": 1.0,
+        "yield_uom": "piece",
+        "components": [
+          {
+            "raw_name": "Fillo dough sheets",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Chopped walnuts",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.1,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Clover honey",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground cinnamon",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.78
+      },
+      {
+        "item_name": "Hot",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Dried guajillo chiles",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Ground cayenne pepper",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Crushed red pepper flakes",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "White distilled vinegar",
+            "qty": 0.25,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Tahineh",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Sesame tahini",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.02,
+            "uom": "bunch",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "item_name": "Garlic",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.25,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Liquid egg whites",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Mint Lemonade",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 2.5,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Simple syrup",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.15,
+            "uom": "each",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.83
+      },
+      {
+        "item_name": "Mamoun's Iced Tea",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Black tea bags",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Green cardamom pods",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.1,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.78
+      },
+      {
+        "item_name": "Mango",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ataulfo mango",
+            "qty": 0.55,
+            "uom": "lb",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.25,
+            "uom": "fl_oz",
+            "confidence": 0.45
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Tamarind*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tamarind concentrate",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.25,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.66
+      },
+      {
+        "item_name": "Soda*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Cola cans 12 oz",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Bottled Water",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Sparkling water bottles",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.45
+          }
+        ],
+        "confidence": 0.7
+      }
+    ],
+    "sku_matches": [
+      {
+        "raw_name": "Pita bread 7 inch",
+        "sku_id": "DRY-PITA-BREAD",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried chickpeas",
+        "sku_id": "DRY-BEAN-CHICKPEADRY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Yellow onion",
+        "sku_id": "PROD-ONION-YELLOW",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Flat-leaf parsley",
+        "sku_id": "PROD-HERB-PARSLEY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Peeled garlic cloves",
+        "sku_id": "PROD-GARLIC-PEELED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground cumin",
+        "sku_id": "SPICE-CUMIN-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground coriander",
+        "sku_id": "SPICE-CORIANDER-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Kosher salt",
+        "sku_id": "SPICE-SALT-KOSHER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "All-purpose flour",
+        "sku_id": "DRY-FLOUR-ALLPURPOSE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Clear fry oil",
+        "sku_id": "COND-OIL-FRYER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sesame tahini",
+        "sku_id": "COND-TAHINI-BULK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh lemon juice",
+        "sku_id": "BEV-JUICE-LEMON",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Romaine lettuce",
+        "sku_id": "PROD-LETTUCE-ROMAINE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Beefsteak tomato",
+        "sku_id": "PROD-TOMATO-BEEFSTEAK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Boneless leg of lamb",
+        "sku_id": "PROT-LAMB-LEG",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Plain whole-milk yogurt",
+        "sku_id": "DAIR-YOGURT-PLAINWHOLE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground cinnamon",
+        "sku_id": "SPICE-CINNAMON-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sweet paprika",
+        "sku_id": "SPICE-PAPRIKA-SWEET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground black pepper",
+        "sku_id": "SPICE-PEPPER-BLACKGROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pomace olive oil",
+        "sku_id": "COND-OIL-OLIVEPOMACE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Boneless skinless chicken breast",
+        "sku_id": "PROT-CHICKEN-BREASTBNLS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Extra virgin olive oil",
+        "sku_id": "COND-OIL-EVOO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canned chickpeas",
+        "sku_id": "DRY-CHICKPEA-CANNED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Globe eggplant",
+        "sku_id": "PROD-EGGPLANT-GLOBE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Coarse bulgur wheat",
+        "sku_id": "DRY-BULGUR-COARSE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Roma tomato",
+        "sku_id": "PROD-TOMATO-ROMA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Scallion",
+        "sku_id": "PROD-ONION-SCALLION",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pitted kalamata olives",
+        "sku_id": "COND-OLIVE-KALAMATA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Slicing cucumber",
+        "sku_id": "PROD-CUCUMBER-SLICING",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Falafel mix",
+        "sku_id": "DRY-FALAFEL-MIX",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Iceberg lettuce",
+        "sku_id": "PROD-LETTUCE-ICEBERG",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh cilantro",
+        "sku_id": "PROD-HERB-CILANTRO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Baking powder",
+        "sku_id": "DRY-BAKINGPOWDER-BULK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Chickpea flour",
+        "sku_id": "DRY-FLOUR-CHICKPEA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Lamb shoulder",
+        "sku_id": "PROT-LAMB-SHOULDER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canola oil",
+        "sku_id": "COND-OIL-CANOLA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "White distilled vinegar",
+        "sku_id": "COND-VINEGAR-WHITEDISTILLED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Daikon radish",
+        "sku_id": "PROD-DAIKON-RADISH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red onion",
+        "sku_id": "PROD-ONION-RED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Russet potato",
+        "sku_id": "PROD-POTATO-RUSSET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Granulated garlic powder",
+        "sku_id": "SPICE-GARLICPOWDER-GRANULATED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Granulated onion powder",
+        "sku_id": "SPICE-ONIONPOWDER-GRANULATED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Heavy-duty mayonnaise",
+        "sku_id": "COND-MAYO-HEAVY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red lentils",
+        "sku_id": "DRY-LENTIL-REDMASOOR",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Jumbo carrot",
+        "sku_id": "PROD-CARROT-JUMBO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Celery",
+        "sku_id": "PROD-CELERY-STALK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground turmeric",
+        "sku_id": "SPICE-TURMERIC-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Feta cheese block in brine",
+        "sku_id": "DAIR-FETA-BLOCK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh mint",
+        "sku_id": "PROD-HERB-MINT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Green bell pepper",
+        "sku_id": "PROD-PEPPER-GREENBELL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Instant dry yeast",
+        "sku_id": "DRY-YEAST-INSTANT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Granulated white sugar",
+        "sku_id": "DRY-SUGAR-GRANULATED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Long grain white rice",
+        "sku_id": "DRY-RICE-LONGGRAIN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Unsalted butter",
+        "sku_id": "DAIR-BUTTER-UNSALTED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Clover honey",
+        "sku_id": "COND-HONEY-CLOVER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried guajillo chiles",
+        "sku_id": "SPICE-CHILE-GUAJILLO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground cayenne pepper",
+        "sku_id": "SPICE-CAYENNE-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Crushed red pepper flakes",
+        "sku_id": "SPICE-CHILIFLAKE-CRUSHED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Liquid egg whites",
+        "sku_id": "DAIR-EGG-LIQUIDWHITE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Simple syrup",
+        "sku_id": "BEV-SYRUP-SIMPLE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh lemon",
+        "sku_id": "PROD-LEMON-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Black tea bags",
+        "sku_id": "BEV-TEA-BLACKBAG",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Green cardamom pods",
+        "sku_id": "SPICE-CARDAMOM-GREEN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ataulfo mango",
+        "sku_id": "PROD-MANGO-ATAULFO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Tamarind concentrate",
+        "sku_id": "COND-TAMARIND-CONCENTRATE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cola cans 12 oz",
+        "sku_id": "BEV-SODA-COLACAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sparkling water bottles",
+        "sku_id": "BEV-WATER-SPARKLING",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pickled turnips",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Jarred grape leaves in brine",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Fillo dough sheets",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Chopped walnuts",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      }
+    ],
+    "plate_costs": [
+      {
+        "item_name": "Falafel",
+        "plate_cost": 1.5161,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 14,
+        "total_components": 14,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.5673,
+        "costable": true
+      },
+      {
+        "item_name": "Shawarma",
+        "plate_cost": 3.9496,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 15,
+        "total_components": 15,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.5149,
+        "costable": true
+      },
+      {
+        "item_name": "Chicken Kebob",
+        "plate_cost": 2.1127,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 13,
+        "total_components": 13,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.5495,
+        "costable": true
+      },
+      {
+        "item_name": "Classic",
+        "plate_cost": 1.6636,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 15,
+        "total_components": 15,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.5575,
+        "costable": true
+      },
+      {
+        "item_name": "West 4th",
+        "plate_cost": 4.0641,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 16,
+        "total_components": 16,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.5352,
+        "costable": true
+      },
+      {
+        "item_name": "Manhattan",
+        "plate_cost": 2.2931,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 19,
+        "total_components": 20,
+        "coverage": 0.95,
+        "uncosted": [
+          "Pickled turnips (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Slicing cucumber (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4726,
+        "costable": true
+      },
+      {
+        "item_name": "West Village",
+        "plate_cost": 1.9568,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 16,
+        "total_components": 16,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.522,
+        "costable": true
+      },
+      {
+        "item_name": "Macdougal",
+        "plate_cost": 3.3365,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 17,
+        "total_components": 17,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.5095,
+        "costable": true
+      },
+      {
+        "item_name": "Sullivan",
+        "plate_cost": 2.5402,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 17,
+        "total_components": 17,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.5346,
+        "costable": true
+      },
+      {
+        "item_name": "East Village",
+        "plate_cost": 2.0907,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 18,
+        "total_components": 18,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.5374,
+        "costable": true
+      },
+      {
+        "item_name": "Bleecker",
+        "plate_cost": 1.9002,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 15,
+        "total_components": 15,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.4992,
+        "costable": true
+      },
+      {
+        "item_name": "Falafel",
+        "plate_cost": 1.6575,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 14,
+        "total_components": 14,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.46,
+        "costable": true
+      },
+      {
+        "item_name": "Combo",
+        "plate_cost": 2.7847,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 14,
+        "total_components": 14,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Pitted kalamata olives (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Beefsteak tomato (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3438,
+        "costable": true
+      },
+      {
+        "item_name": "Shawarma",
+        "plate_cost": 4.2485,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 15,
+        "total_components": 15,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "White distilled vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Iceberg lettuce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4656,
+        "costable": true
+      },
+      {
+        "item_name": "Hummus Bowl*",
+        "plate_cost": 2.5925,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 15,
+        "total_components": 15,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Daikon radish (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.52,
+        "costable": true
+      },
+      {
+        "item_name": "Chicken Kebob",
+        "plate_cost": 2.4195,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 13,
+        "total_components": 13,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Plain whole-milk yogurt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.519,
+        "costable": true
+      },
+      {
+        "item_name": "Falafel",
+        "plate_cost": 0.8853,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 10,
+        "total_components": 10,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4644,
+        "costable": true
+      },
+      {
+        "item_name": "Seasoned Fries*",
+        "plate_cost": 0.6261,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 10,
+        "total_components": 10,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Fresh lemon juice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Canola oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4445,
+        "costable": true
+      },
+      {
+        "item_name": "Lentil Soup",
+        "plate_cost": 0.8042,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 11,
+        "total_components": 12,
+        "coverage": 0.9167,
+        "uncosted": [
+          "Celery (no conversion from oz to each)"
+        ],
+        "low_confidence": [
+          "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4719,
+        "costable": true
+      },
+      {
+        "item_name": "Mamoun's Salad*",
+        "plate_cost": 1.5983,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 12,
+        "total_components": 12,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.58,
+        "costable": true
+      },
+      {
+        "item_name": "Hummus",
+        "plate_cost": 0.9713,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 7,
+        "total_components": 7,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.688,
+        "costable": true
+      },
+      {
+        "item_name": "Tabbouleh",
+        "plate_cost": 1.2819,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 10,
+        "total_components": 10,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.58,
+        "costable": true
+      },
+      {
+        "item_name": "Pita Chips*",
+        "plate_cost": 0.513,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 4,
+        "total_components": 4,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.4987,
+        "costable": true
+      },
+      {
+        "item_name": "Pickled Veggies*",
+        "plate_cost": 0.8198,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 5,
+        "total_components": 5,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Daikon radish (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3465,
+        "costable": true
+      },
+      {
+        "item_name": "Bag of Pita Bread*",
+        "plate_cost": 0.7034,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 5,
+        "total_components": 5,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.54,
+        "costable": true
+      },
+      {
+        "item_name": "Baba Ganouj",
+        "plate_cost": 1.3917,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 8,
+        "total_components": 8,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.6747,
+        "costable": true
+      },
+      {
+        "item_name": "Seasoned Rice*",
+        "plate_cost": 0.2988,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 7,
+        "total_components": 7,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Ground turmeric (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3853,
+        "costable": true
+      },
+      {
+        "item_name": "Grape Leaves",
+        "plate_cost": 0.4359,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 7,
+        "total_components": 8,
+        "coverage": 0.875,
+        "uncosted": [
+          "Jarred grape leaves in brine (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.423,
+        "costable": true
+      },
+      {
+        "item_name": "Pita Bread*",
+        "plate_cost": 0.1274,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 5,
+        "total_components": 5,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.525,
+        "costable": true
+      },
+      {
+        "item_name": "Baklava*",
+        "plate_cost": 0.3649,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 5,
+        "total_components": 7,
+        "coverage": 0.7143,
+        "uncosted": [
+          "Fillo dough sheets (no catalog SKU matched)",
+          "Chopped walnuts (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3566,
+        "costable": true
+      },
+      {
+        "item_name": "Hot",
+        "plate_cost": 0.2908,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 7,
+        "total_components": 7,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Dried guajillo chiles (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Ground cayenne pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Crushed red pepper flakes (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "Canola oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Peeled garlic cloves (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "White distilled vinegar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2475,
+        "costable": true
+      },
+      {
+        "item_name": "Tahineh",
+        "plate_cost": 0.4291,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 5,
+        "total_components": 5,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Flat-leaf parsley (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.6068,
+        "costable": true
+      },
+      {
+        "item_name": "Garlic",
+        "plate_cost": 0.2567,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 5,
+        "total_components": 5,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Liquid egg whites (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.469,
+        "costable": true
+      },
+      {
+        "item_name": "Mint Lemonade",
+        "plate_cost": 1.0619,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 4,
+        "total_components": 4,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.5914,
+        "costable": true
+      },
+      {
+        "item_name": "Mamoun's Iced Tea",
+        "plate_cost": 0.2237,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 3,
+        "total_components": 3,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Fresh lemon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.52,
+        "costable": true
+      },
+      {
+        "item_name": "Mango",
+        "plate_cost": 0.8706,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 3,
+        "total_components": 3,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Granulated white sugar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Fresh lemon juice (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3467,
+        "costable": true
+      },
+      {
+        "item_name": "Tamarind*",
+        "plate_cost": 0.5478,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 3,
+        "total_components": 3,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Fresh lemon juice (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.363,
+        "costable": true
+      },
+      {
+        "item_name": "Soda*",
+        "plate_cost": 0.8,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Cola cans 12 oz (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.33,
+        "costable": true
+      },
+      {
+        "item_name": "Bottled Water",
+        "plate_cost": 1.1,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Sparkling water bottles (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.315,
+        "costable": true
+      }
+    ],
+    "demand_forecast": {},
+    "par_levels": [],
+    "purchase_order": {},
+    "review_queue": [
+      {
+        "kind": "plate_quantity",
+        "ref": "Manhattan",
+        "confidence": 0.4726,
+        "question": "Manhattan is costed at $2.29 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.2931,
+          "menu_price": null,
+          "low_confidence": [
+            "Slicing cucumber (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Falafel",
+        "confidence": 0.46,
+        "question": "Falafel is costed at $1.66 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.6575,
+          "menu_price": null,
+          "low_confidence": [
+            "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Combo",
+        "confidence": 0.3438,
+        "question": "Combo is costed at $2.78 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.7847,
+          "menu_price": null,
+          "low_confidence": [
+            "Pitted kalamata olives (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Beefsteak tomato (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Shawarma",
+        "confidence": 0.4656,
+        "question": "Shawarma is costed at $4.25 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 4.2485,
+          "menu_price": null,
+          "low_confidence": [
+            "White distilled vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Iceberg lettuce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Hummus Bowl*",
+        "confidence": 0.52,
+        "question": "Hummus Bowl* is costed at $2.59 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.5925,
+          "menu_price": null,
+          "low_confidence": [
+            "Daikon radish (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Chicken Kebob",
+        "confidence": 0.519,
+        "question": "Chicken Kebob is costed at $2.42 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.4195,
+          "menu_price": null,
+          "low_confidence": [
+            "Plain whole-milk yogurt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Falafel",
+        "confidence": 0.4644,
+        "question": "Falafel is costed at $0.89 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.8853,
+          "menu_price": null,
+          "low_confidence": [
+            "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Seasoned Fries*",
+        "confidence": 0.4445,
+        "question": "Seasoned Fries* is costed at $0.63 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.6261,
+          "menu_price": null,
+          "low_confidence": [
+            "Fresh lemon juice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Canola oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Lentil Soup",
+        "confidence": 0.4719,
+        "question": "Lentil Soup is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.8042,
+          "menu_price": null,
+          "low_confidence": [
+            "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Pickled Veggies*",
+        "confidence": 0.3465,
+        "question": "Pickled Veggies* is costed at $0.82 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.8198,
+          "menu_price": null,
+          "low_confidence": [
+            "Daikon radish (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Seasoned Rice*",
+        "confidence": 0.3853,
+        "question": "Seasoned Rice* is costed at $0.30 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.2988,
+          "menu_price": null,
+          "low_confidence": [
+            "Ground turmeric (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Baklava*",
+        "confidence": 0.3566,
+        "question": "Baklava* is costed at $0.36 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.3649,
+          "menu_price": null,
+          "low_confidence": [
+            "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Hot",
+        "confidence": 0.2475,
+        "question": "Hot is costed at $0.29 using 7 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.2908,
+          "menu_price": null,
+          "low_confidence": [
+            "Dried guajillo chiles (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Ground cayenne pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Crushed red pepper flakes (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "Canola oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Peeled garlic cloves (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "White distilled vinegar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Tahineh",
+        "confidence": 0.6068,
+        "question": "Tahineh is costed at $0.43 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.4291,
+          "menu_price": null,
+          "low_confidence": [
+            "Flat-leaf parsley (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Garlic",
+        "confidence": 0.469,
+        "question": "Garlic is costed at $0.26 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.2567,
+          "menu_price": null,
+          "low_confidence": [
+            "Liquid egg whites (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Mamoun's Iced Tea",
+        "confidence": 0.52,
+        "question": "Mamoun's Iced Tea is costed at $0.22 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.2237,
+          "menu_price": null,
+          "low_confidence": [
+            "Fresh lemon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Mango",
+        "confidence": 0.3467,
+        "question": "Mango is costed at $0.87 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.8706,
+          "menu_price": null,
+          "low_confidence": [
+            "Granulated white sugar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Fresh lemon juice (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Tamarind*",
+        "confidence": 0.363,
+        "question": "Tamarind* is costed at $0.55 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.5478,
+          "menu_price": null,
+          "low_confidence": [
+            "Fresh lemon juice (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Soda*",
+        "confidence": 0.33,
+        "question": "Soda* is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.8,
+          "menu_price": null,
+          "low_confidence": [
+            "Cola cans 12 oz (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Bottled Water",
+        "confidence": 0.315,
+        "question": "Bottled Water is costed at $1.10 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.1,
+          "menu_price": null,
+          "low_confidence": [
+            "Sparkling water bottles (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      }
+    ],
+    "stage": "costed"
+  }
+}

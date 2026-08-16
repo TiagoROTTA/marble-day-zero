@@ -1,0 +1,31 @@
+{
+  "slug": "joes-pizza-carmine",
+  "name": "Joe's Pizza",
+  "url": "https://www.joespizzanyc.com/menus",
+  "cuisine": "italian-pizza",
+  "price_tier": "$",
+  "seats": 18,
+  "service_style": "counter",
+  "neighborhood": "West Village",
+  "snapshot_date": "2026-08-08",
+  "menu_format": "image",
+  "popular_times_index": [
+    0.67,
+    0.75,
+    0.78,
+    0.74,
+    0.91,
+    1.0,
+    0.72
+  ],
+  "review_count": 10501,
+  "tier": "A",
+  "estimated_fields": [
+    "seats"
+  ],
+  "observed_fields": [
+    "popular_times_index",
+    "review_count"
+  ],
+  "observed_source": "Google Maps listing, read 2026-08-08"
+}

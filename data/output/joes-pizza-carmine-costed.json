@@ -1,0 +1,506 @@
+{
+  "slug": "joes-pizza-carmine",
+  "tier": "A",
+  "cuisine": "italian-pizza",
+  "menu_format": "image",
+  "elapsed_s": 23.8,
+  "usage": {
+    "calls": 2,
+    "input_tokens": 8239,
+    "output_tokens": 2146,
+    "cache_read": 4787,
+    "cache_write": 0
+  },
+  "error": "",
+  "state": {
+    "input": "joes-pizza-carmine",
+    "extracted_data": {},
+    "retry_count": 0,
+    "last_error": "",
+    "human_decision": "",
+    "needs_human": false,
+    "restaurant": {
+      "slug": "joes-pizza-carmine",
+      "name": "Joe's Pizza",
+      "url": "https://www.joespizzanyc.com/menus",
+      "cuisine": "italian-pizza",
+      "price_tier": "$",
+      "seats": 18,
+      "service_style": "counter",
+      "neighborhood": "West Village",
+      "snapshot_date": "2026-08-08",
+      "menu_format": "image",
+      "popular_times_index": [
+        0.67,
+        0.75,
+        0.78,
+        0.74,
+        0.91,
+        1.0,
+        0.72
+      ],
+      "review_count": 10501,
+      "tier": "A",
+      "estimated_fields": [
+        "seats"
+      ],
+      "observed_fields": [
+        "popular_times_index",
+        "review_count"
+      ],
+      "observed_source": "Google Maps listing, read 2026-08-08",
+      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\joes-pizza-carmine\\source.jpg"
+    },
+    "menu_items": [
+      {
+        "name": "Classic Cheese Pie 8 slices",
+        "section": "Pies",
+        "price": 24.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "Fresh Mozzarella Pie 8 Slices",
+        "section": "Pies",
+        "price": 28.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "Sicilian Square Pie 8 Slices",
+        "section": "Pies",
+        "price": 28.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "Sodas, Snapple, Stewarts",
+        "section": "Drinks",
+        "price": 2.5,
+        "description": "",
+        "confidence": 0.85
+      },
+      {
+        "name": "Imported Coke, Sprite, or Fanta",
+        "section": "Drinks",
+        "price": 3.5,
+        "description": "",
+        "confidence": 0.85
+      }
+    ],
+    "recipes": [
+      {
+        "item_name": "Classic Cheese Pie 8 slices",
+        "yield_qty": 8.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 14.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.7,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Canned crushed tomatoes",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 12.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Grana Padano",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Dried oregano",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "Fresh Mozzarella Pie 8 Slices",
+        "yield_qty": 8.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 14.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.9,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Canned crushed tomatoes",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh mozzarella ball",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Grana Padano",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.78
+      },
+      {
+        "item_name": "Sicilian Square Pie 8 Slices",
+        "yield_qty": 8.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 18.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canned crushed tomatoes",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 14.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Grana Padano",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Dried oregano",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "item_name": "Sodas, Snapple, Stewarts",
+        "yield_qty": 1.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "Cola cans 12 oz",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "Imported Coke, Sprite, or Fanta",
+        "yield_qty": 1.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "Cola cans 12 oz",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.45
+          }
+        ],
+        "confidence": 0.45
+      }
+    ],
+    "sku_matches": [
+      {
+        "raw_name": "Tipo 00 pizza flour",
+        "sku_id": "DRY-FLOUR-TIPO00",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Instant dry yeast",
+        "sku_id": "DRY-YEAST-INSTANT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Kosher salt",
+        "sku_id": "SPICE-SALT-KOSHER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Extra virgin olive oil",
+        "sku_id": "COND-OIL-EVOO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canned crushed tomatoes",
+        "sku_id": "DRY-TOMATO-CRUSHEDCAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Low-moisture whole milk mozzarella loaf",
+        "sku_id": "DAIR-MOZZ-LMWHOLELOAF",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Grana Padano",
+        "sku_id": "DAIR-GRANA-PADANO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried oregano",
+        "sku_id": "SPICE-OREGANO-DRIED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh mozzarella ball",
+        "sku_id": "DAIR-MOZZ-FRESHBALL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh basil",
+        "sku_id": "PROD-HERB-BASIL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "All-purpose flour",
+        "sku_id": "DRY-FLOUR-ALLPURPOSE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cola cans 12 oz",
+        "sku_id": "BEV-SODA-COLACAN",
+        "method": "alias",
+        "confidence": 1.0
+      }
+    ],
+    "plate_costs": [
+      {
+        "item_name": "Classic Cheese Pie 8 slices",
+        "plate_cost": 0.5773,
+        "menu_price": 24.0,
+        "food_cost_pct": 0.0241,
+        "costed_components": 8,
+        "total_components": 8,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.57,
+        "costable": true
+      },
+      {
+        "item_name": "Fresh Mozzarella Pie 8 Slices",
+        "plate_cost": 0.5985,
+        "menu_price": 28.0,
+        "food_cost_pct": 0.0214,
+        "costed_components": 8,
+        "total_components": 8,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.5509,
+        "costable": true
+      },
+      {
+        "item_name": "Sicilian Square Pie 8 Slices",
+        "plate_cost": 0.6639,
+        "menu_price": 28.0,
+        "food_cost_pct": 0.0237,
+        "costed_components": 8,
+        "total_components": 8,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.486,
+        "costable": true
+      },
+      {
+        "item_name": "Sodas, Snapple, Stewarts",
+        "plate_cost": 0.8,
+        "menu_price": 2.5,
+        "food_cost_pct": 0.32,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Cola cans 12 oz (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.25,
+        "costable": true
+      },
+      {
+        "item_name": "Imported Coke, Sprite, or Fanta",
+        "plate_cost": 0.8,
+        "menu_price": 3.5,
+        "food_cost_pct": 0.2286,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Cola cans 12 oz (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2025,
+        "costable": true
+      }
+    ],
+    "demand_forecast": {},
+    "par_levels": [],
+    "purchase_order": {},
+    "review_queue": [
+      {
+        "kind": "plate_cost",
+        "ref": "Classic Cheese Pie 8 slices",
+        "confidence": 0.57,
+        "question": "Classic Cheese Pie 8 slices computes to 2% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.5773,
+          "menu_price": 24.0,
+          "food_cost_pct": 0.0241,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Fresh Mozzarella Pie 8 Slices",
+        "confidence": 0.5509,
+        "question": "Fresh Mozzarella Pie 8 Slices computes to 2% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.5985,
+          "menu_price": 28.0,
+          "food_cost_pct": 0.0214,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Sicilian Square Pie 8 Slices",
+        "confidence": 0.486,
+        "question": "Sicilian Square Pie 8 Slices computes to 2% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.6639,
+          "menu_price": 28.0,
+          "food_cost_pct": 0.0237,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Sodas, Snapple, Stewarts",
+        "confidence": 0.25,
+        "question": "Sodas, Snapple, Stewarts is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.8,
+          "menu_price": 2.5,
+          "low_confidence": [
+            "Cola cans 12 oz (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Imported Coke, Sprite, or Fanta",
+        "confidence": 0.2025,
+        "question": "Imported Coke, Sprite, or Fanta is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.8,
+          "menu_price": 3.5,
+          "low_confidence": [
+            "Cola cans 12 oz (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      }
+    ],
+    "stage": "costed"
+  }
+}

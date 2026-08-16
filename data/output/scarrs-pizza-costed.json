@@ -1,0 +1,3750 @@
+{
+  "slug": "scarrs-pizza",
+  "tier": "B",
+  "cuisine": "italian-pizza",
+  "menu_format": "html",
+  "elapsed_s": 126.3,
+  "usage": {
+    "calls": 6,
+    "input_tokens": 39508,
+    "output_tokens": 17135,
+    "cache_read": 30368,
+    "cache_write": 0
+  },
+  "error": "",
+  "state": {
+    "input": "scarrs-pizza",
+    "extracted_data": {},
+    "retry_count": 0,
+    "last_error": "",
+    "human_decision": "",
+    "needs_human": false,
+    "restaurant": {
+      "slug": "scarrs-pizza",
+      "name": "Scarr's Pizza",
+      "url": "https://www.scarrspizza.com/menu",
+      "cuisine": "italian-pizza",
+      "price_tier": "$",
+      "seats": 34,
+      "service_style": "counter",
+      "neighborhood": "Lower East Side",
+      "snapshot_date": "2026-08-08",
+      "menu_format": "html",
+      "popular_times_index": [
+        0.55,
+        0.6,
+        0.66,
+        0.78,
+        0.96,
+        1.0,
+        0.85
+      ],
+      "review_count": 2900,
+      "tier": "B",
+      "estimated_fields": [
+        "popular_times_index",
+        "seats",
+        "review_count"
+      ],
+      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\scarrs-pizza\\source.html"
+    },
+    "menu_items": [
+      {
+        "name": "Focaccia",
+        "section": "Appetizers",
+        "price": 6.0,
+        "description": "Made Fresh Daily",
+        "confidence": 0.9
+      },
+      {
+        "name": "Vegan Garlic Knots",
+        "section": "Appetizers",
+        "price": 7.0,
+        "description": "Fresh Garlic, Salt, Black Pepper, 3 Pieces",
+        "confidence": 0.9
+      },
+      {
+        "name": "Vegan Caesar Salad (SM)",
+        "section": "Appetizers",
+        "price": 15.0,
+        "description": "Gluten Free Bread Crumbs, Nutritional Yeast, Nori, Cashew-Based Dressing",
+        "confidence": 0.9
+      },
+      {
+        "name": "Vegan Caesar Salad (LG)",
+        "section": "Appetizers",
+        "price": 22.0,
+        "description": "Gluten Free Bread Crumbs, Nutritional Yeast, Nori, Cashew-Based Dressing",
+        "confidence": 0.9
+      },
+      {
+        "name": "Garden Salad (SM)",
+        "section": "Appetizers",
+        "price": 14.0,
+        "description": "Cherry Tomatoes, Red Onions, Red Peppers, Olives, Red Wine Vinaigrette",
+        "confidence": 0.9
+      },
+      {
+        "name": "Garden Salad (LG)",
+        "section": "Appetizers",
+        "price": 21.0,
+        "description": "Cherry Tomatoes, Red Onions, Red Peppers, Olives, Red Wine Vinaigrette",
+        "confidence": 0.9
+      },
+      {
+        "name": "All Beef Meatballs",
+        "section": "Appetizers",
+        "price": 16.0,
+        "description": "Gluten Free Breadcrumbs, Halal Beef, Organic DiNapoli Tomato Sauce, Caputo Brothers Ricotta, Basil, Pecorino (also available as a sandwich on our homemade focaccia)",
+        "confidence": 0.9
+      },
+      {
+        "name": "Eggplant Parm App",
+        "section": "Appetizers",
+        "price": 15.0,
+        "description": "Gluten Free Breaded Eggplant (Contains Eggs), Fresh Mozz, Sauce, Basil, Pecorino (also available as a sandwich on our homemade focaccia)",
+        "confidence": 0.9
+      },
+      {
+        "name": "Chicken Parm App",
+        "section": "Appetizers",
+        "price": 19.0,
+        "description": "Gluten Free Breaded Halal Chicken (Contains Eggs), Fresh Mozz, Sauce, Basil, Pecorino (also available as a sandwich on our homemade focaccia)",
+        "confidence": 0.9
+      },
+      {
+        "name": "Original (12\")",
+        "section": "Pizzas - Round",
+        "price": 25.0,
+        "description": "Organic DiNapoli Tomato Sauce, Caputo Brothers Fior di Pizza Cheese",
+        "confidence": 0.9
+      },
+      {
+        "name": "Original (20\")",
+        "section": "Pizzas - Round",
+        "price": 33.0,
+        "description": "Organic DiNapoli Tomato Sauce, Caputo Brothers Fior di Pizza Cheese",
+        "confidence": 0.9
+      },
+      {
+        "name": "Margherita (12\")",
+        "section": "Pizzas - Round",
+        "price": 27.0,
+        "description": "Organic DiNapoli Tomato Sauce, Caputo Brothers Fresh Mozz, Basil, EVOO",
+        "confidence": 0.9
+      },
+      {
+        "name": "Margherita (20\")",
+        "section": "Pizzas - Round",
+        "price": 35.0,
+        "description": "Organic DiNapoli Tomato Sauce, Caputo Brothers Fresh Mozz, Basil, EVOO",
+        "confidence": 0.9
+      },
+      {
+        "name": "Hotboi (12\")",
+        "section": "Pizzas - Round",
+        "price": 29.0,
+        "description": "Organic DiNapoli Tomato Sauce, Cheese, Ezzo's Beef Pepperoni, Jalapeños, Mike's Extra Hot Honey",
+        "confidence": 0.9
+      },
+      {
+        "name": "Hotboi (20\")",
+        "section": "Pizzas - Round",
+        "price": 41.0,
+        "description": "Organic DiNapoli Tomato Sauce, Cheese, Ezzo's Beef Pepperoni, Jalapeños, Mike's Extra Hot Honey",
+        "confidence": 0.9
+      },
+      {
+        "name": "Vegan (12\")",
+        "section": "Pizzas - Round",
+        "price": 28.0,
+        "description": "Organic DiNapoli Tomato Sauce, NUMU Vegan Cheese, Fresh Basil, EVOO",
+        "confidence": 0.9
+      },
+      {
+        "name": "Vegan (20\")",
+        "section": "Pizzas - Round",
+        "price": 36.0,
+        "description": "Organic DiNapoli Tomato Sauce, NUMU Vegan Cheese, Fresh Basil, EVOO",
+        "confidence": 0.9
+      },
+      {
+        "name": "Vodka Pesto (12\")",
+        "section": "Pizzas - Round",
+        "price": 28.0,
+        "description": "Vegan Vodka Sauce (Contains Coconut Milk), Caputo Brothers Fior di Pizza Cheese, Vegan Pesto",
+        "confidence": 0.9
+      },
+      {
+        "name": "Vodka Pesto (20\")",
+        "section": "Pizzas - Round",
+        "price": 36.0,
+        "description": "Vegan Vodka Sauce (Contains Coconut Milk), Caputo Brothers Fior di Pizza Cheese, Vegan Pesto",
+        "confidence": 0.9
+      },
+      {
+        "name": "White (12\")",
+        "section": "Pizzas - Round",
+        "price": 29.0,
+        "description": "Caputo Brothers Fior di Pizza Cheese, Fresh Mozz, Ricotta, Fresh Garlic, Black Pepper, EVOO",
+        "confidence": 0.9
+      },
+      {
+        "name": "White (20\")",
+        "section": "Pizzas - Round",
+        "price": 37.0,
+        "description": "Caputo Brothers Fior di Pizza Cheese, Fresh Mozz, Ricotta, Fresh Garlic, Black Pepper, EVOO",
+        "confidence": 0.9
+      },
+      {
+        "name": "Cheese",
+        "section": "Pizzas - Sicilian",
+        "price": 35.0,
+        "description": "Organic DiNapoli Tomato Sauce, Caputo Brothers Fior di Pizza Cheese, 10\" x 12\" (gluten-free)",
+        "confidence": 0.85
+      },
+      {
+        "name": "DJ Clark Kent",
+        "section": "Pizzas - Sicilian",
+        "price": 38.0,
+        "description": "Organic DiNapoli Tomato Sauce, Caputo Brothers Fior di Pizza Cheese, Halal Chicken Sausage, Fresh Garlic, 10\" x 12\" (gluten-free)",
+        "confidence": 0.85
+      },
+      {
+        "name": "Hotboi",
+        "section": "Pizzas - Sicilian",
+        "price": 37.0,
+        "description": "Organic DiNapoli Tomato Sauce, Cheese, Beef Pepperoni, Jalapeños, Mike's Extra Hot Honey, 10\" x 12\" (gluten-free)",
+        "confidence": 0.85
+      },
+      {
+        "name": "Lemon Pepper Chicken",
+        "section": "Pizzas - Sicilian",
+        "price": 38.0,
+        "description": "Caputo Brothers Fior Di Pizza Cheese & Fresh Mozzarella, Halal Chicken Sausage, Lemon, EVOO, 10\" x 12\" (gluten-free)",
+        "confidence": 0.85
+      },
+      {
+        "name": "Cheese",
+        "section": "Calzones",
+        "price": 20.0,
+        "description": "Caputo Brothers Fresh Mozz, Served with Side of Organic DiNapoli Tomato Sauce",
+        "confidence": 0.9
+      },
+      {
+        "name": "Vegan Cheese",
+        "section": "Calzones",
+        "price": 23.0,
+        "description": "Organic DiNapoli Tomato Sauce, NUMU Vegan Cheese, Fresh Garlic, Roasted Red Peppers, Basil",
+        "confidence": 0.9
+      },
+      {
+        "name": "Beef Meatball",
+        "section": "Calzones",
+        "price": 24.0,
+        "description": "Caputo Brothers Fresh Mozz, Beef Meatballs, Served with Side of Organic DiNapoli Tomato Sauce",
+        "confidence": 0.9
+      },
+      {
+        "name": "Mike's Hot Honey Dip Cup 1oz",
+        "section": "Dips",
+        "price": 2.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Organic Dinapoli Tomato Sauce 2oz",
+        "section": "Dips",
+        "price": 2.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Vegan Caesar Dressing 2oz",
+        "section": "Dips",
+        "price": 3.0,
+        "description": "contains cashew",
+        "confidence": 0.9
+      },
+      {
+        "name": "Guava Calzone",
+        "section": "Desserts",
+        "price": 14.0,
+        "description": "Caputo Brothers Ricotta, Guava, Powdered Sugar",
+        "confidence": 0.9
+      },
+      {
+        "name": "Scarr's Seasonal Soft-Serve",
+        "section": "Desserts",
+        "price": 9.0,
+        "description": "Vegan",
+        "confidence": 0.85
+      }
+    ],
+    "recipes": [
+      {
+        "item_name": "Focaccia",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.8,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Dried rosemary",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Vegan Garlic Knots",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.6,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Flat-leaf parsley",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "Vegan Caesar Salad (SM)",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Gluten free breadcrumbs",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Roasted nori sheets",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Cashew-based dressing",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.45
+      },
+      {
+        "item_name": "Vegan Caesar Salad (LG)",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Gluten free breadcrumbs",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Roasted nori sheets",
+            "qty": 0.08,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Cashew-based dressing",
+            "qty": 3.5,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.45
+      },
+      {
+        "item_name": "Garden Salad (SM)",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Spring mix greens",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Cherry tomato",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Red bell pepper",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Pitted kalamata olives",
+            "qty": 0.6,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Red wine vinegar",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Garden Salad (LG)",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Spring mix greens",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Cherry tomato",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 1.4,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Red bell pepper",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Pitted kalamata olives",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Red wine vinegar",
+            "qty": 0.8,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 1.6,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "All Beef Meatballs",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ground beef 80/20",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Italian seasoned breadcrumbs",
+            "qty": 0.6,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canned crushed tomatoes",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Whole milk ricotta",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Pecorino Romano",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Eggplant Parm App",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Globe eggplant",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Gluten free breadcrumbs",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh mozzarella ball",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Canned crushed tomatoes",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Pecorino Romano",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Chicken Parm App",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Boneless skinless chicken breast",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Gluten free breadcrumbs",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh mozzarella ball",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Canned crushed tomatoes",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Pecorino Romano",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Original (12\")",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canned crushed tomatoes",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh mozzarella ball",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Original (20\")",
+        "yield_qty": 8.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canned San Marzano whole tomatoes",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Margherita (12\")",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Canned San Marzano whole tomatoes",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh mozzarella ball",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Margherita (20\")",
+        "yield_qty": 8.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Canned San Marzano whole tomatoes",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh mozzarella ball",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.06,
+            "uom": "bunch",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Hotboi (12\")",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canned San Marzano whole tomatoes",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Sliced pepperoni",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Jalapeno pepper",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Clover honey",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Crushed red pepper flakes",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Hotboi (20\")",
+        "yield_qty": 8.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canned San Marzano whole tomatoes",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Sliced pepperoni",
+            "qty": 1.75,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Jalapeno pepper",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Clover honey",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Crushed red pepper flakes",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Vegan (12\")",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canned San Marzano whole tomatoes",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "vegan mozzarella-style cheese",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Vegan (20\")",
+        "yield_qty": 8.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canned San Marzano whole tomatoes",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "vegan mozzarella-style cheese",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.06,
+            "uom": "bunch",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Vodka Pesto (12\")",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Canned coconut milk",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Canned tomato paste",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "vegan basil pesto",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.45
+      },
+      {
+        "item_name": "Vodka Pesto (20\")",
+        "yield_qty": 8.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Canned coconut milk",
+            "qty": 1.2,
+            "uom": "fl_oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Canned tomato paste",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "vegan basil pesto",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.4
+      },
+      {
+        "item_name": "White (12\")",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh mozzarella ball",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Whole milk ricotta",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "White (20\")",
+        "yield_qty": 8.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 14.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh mozzarella ball",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Whole milk ricotta",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.7,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Cheese",
+        "yield_qty": 6.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Rice flour",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Canned San Marzano whole tomatoes",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Dried oregano",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "DJ Clark Kent",
+        "yield_qty": 6.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Rice flour",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Canned San Marzano whole tomatoes",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Italian pork sausage",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Hotboi",
+        "yield_qty": 6.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Rice flour",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Canned San Marzano whole tomatoes",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Sliced pepperoni",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Jalapeno pepper",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Clover honey",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Lemon Pepper Chicken",
+        "yield_qty": 6.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Rice flour",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh mozzarella ball",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Italian pork sausage",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Cheese",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh mozzarella ball",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canned San Marzano whole tomatoes",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Vegan Cheese",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canned San Marzano whole tomatoes",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Red bell pepper",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Beef Meatball",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Tipo 00 pizza flour",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh mozzarella ball",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground beef 80/20",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Canned San Marzano whole tomatoes",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Italian seasoned breadcrumbs",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 0.2,
+            "uom": "each",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Mike's Hot Honey Dip Cup 1oz",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Clover honey",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Crushed red pepper flakes",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Organic Dinapoli Tomato Sauce 2oz",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Canned San Marzano whole tomatoes",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Vegan Caesar Dressing 2oz",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "raw shelled peanuts",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.2
+          },
+          {
+            "raw_name": "extra virgin olive oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "fresh lemon juice",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "dijon mustard",
+            "qty": 0.1,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "peeled garlic cloves",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "ground black pepper",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Guava Calzone",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "tipo 00 pizza flour",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "whole milk ricotta",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "guava paste",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "granulated white sugar",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "granulated white sugar",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Scarr's Seasonal Soft-Serve",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "canned coconut milk",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.35
+          },
+          {
+            "raw_name": "granulated white sugar",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.3
+      }
+    ],
+    "sku_matches": [
+      {
+        "raw_name": "Tipo 00 pizza flour",
+        "sku_id": "DRY-FLOUR-TIPO00",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "tipo 00 pizza flour",
+        "sku_id": "DRY-FLOUR-TIPO00",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Extra virgin olive oil",
+        "sku_id": "COND-OIL-EVOO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "extra virgin olive oil",
+        "sku_id": "COND-OIL-EVOO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Kosher salt",
+        "sku_id": "SPICE-SALT-KOSHER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "kosher salt",
+        "sku_id": "SPICE-SALT-KOSHER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Instant dry yeast",
+        "sku_id": "DRY-YEAST-INSTANT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "instant dry yeast",
+        "sku_id": "DRY-YEAST-INSTANT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried rosemary",
+        "sku_id": "SPICE-ROSEMARY-DRIED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Peeled garlic cloves",
+        "sku_id": "PROD-GARLIC-PEELED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "peeled garlic cloves",
+        "sku_id": "PROD-GARLIC-PEELED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground black pepper",
+        "sku_id": "SPICE-PEPPER-BLACKGROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "ground black pepper",
+        "sku_id": "SPICE-PEPPER-BLACKGROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Flat-leaf parsley",
+        "sku_id": "PROD-HERB-PARSLEY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Romaine lettuce",
+        "sku_id": "PROD-LETTUCE-ROMAINE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Roasted nori sheets",
+        "sku_id": "DRY-NORI-SHEETS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Spring mix greens",
+        "sku_id": "PROD-GREENS-SPRINGMIX",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cherry tomato",
+        "sku_id": "PROD-TOMATO-CHERRY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red onion",
+        "sku_id": "PROD-ONION-RED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red bell pepper",
+        "sku_id": "PROD-PEPPER-REDBELL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pitted kalamata olives",
+        "sku_id": "COND-OLIVE-KALAMATA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red wine vinegar",
+        "sku_id": "COND-VINEGAR-REDWINE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground beef 80/20",
+        "sku_id": "PROT-BEEF-GROUND8020",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Italian seasoned breadcrumbs",
+        "sku_id": "DRY-BREADCRUMB-ITALIAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Large shell eggs",
+        "sku_id": "DAIR-EGG-LARGE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canned crushed tomatoes",
+        "sku_id": "DRY-TOMATO-CRUSHEDCAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Whole milk ricotta",
+        "sku_id": "DAIR-RICOTTA-WHOLEMILK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "whole milk ricotta",
+        "sku_id": "DAIR-RICOTTA-WHOLEMILK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh basil",
+        "sku_id": "PROD-HERB-BASIL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pecorino Romano",
+        "sku_id": "DAIR-PECORINO-ROMANO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Globe eggplant",
+        "sku_id": "PROD-EGGPLANT-GLOBE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh mozzarella ball",
+        "sku_id": "DAIR-MOZZ-FRESHBALL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Clear fry oil",
+        "sku_id": "COND-OIL-FRYER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Boneless skinless chicken breast",
+        "sku_id": "PROT-CHICKEN-BREASTBNLS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canned San Marzano whole tomatoes",
+        "sku_id": "DRY-TOMATO-SANMARZANO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Low-moisture whole milk mozzarella loaf",
+        "sku_id": "DAIR-MOZZ-LMWHOLELOAF",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sliced pepperoni",
+        "sku_id": "PROT-PORK-PEPPERONI",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Jalapeno pepper",
+        "sku_id": "PROD-PEPPER-JALAPENO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Clover honey",
+        "sku_id": "COND-HONEY-CLOVER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Crushed red pepper flakes",
+        "sku_id": "SPICE-CHILIFLAKE-CRUSHED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canned coconut milk",
+        "sku_id": "DRY-COCONUTMILK-CAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "canned coconut milk",
+        "sku_id": "DRY-COCONUTMILK-CAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canned tomato paste",
+        "sku_id": "DRY-TOMATO-PASTECAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Rice flour",
+        "sku_id": "DRY-FLOUR-RICE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried oregano",
+        "sku_id": "SPICE-OREGANO-DRIED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Italian pork sausage",
+        "sku_id": "PROT-PORK-SAUSAGEITAL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh lemon",
+        "sku_id": "PROD-LEMON-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "raw shelled peanuts",
+        "sku_id": "DRY-PEANUT-RAWSHELLED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "fresh lemon juice",
+        "sku_id": "BEV-JUICE-LEMON",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "dijon mustard",
+        "sku_id": "COND-MUSTARD-DIJON",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "granulated white sugar",
+        "sku_id": "DRY-SUGAR-GRANULATED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Gluten free breadcrumbs",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Cashew-based dressing",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "vegan mozzarella-style cheese",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "vegan basil pesto",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "guava paste",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      }
+    ],
+    "plate_costs": [
+      {
+        "item_name": "Focaccia",
+        "plate_cost": 0.4917,
+        "menu_price": 6.0,
+        "food_cost_pct": 0.082,
+        "costed_components": 5,
+        "total_components": 5,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Instant dry yeast (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Dried rosemary (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3135,
+        "costable": true
+      },
+      {
+        "item_name": "Vegan Garlic Knots",
+        "plate_cost": 0.4171,
+        "menu_price": 7.0,
+        "food_cost_pct": 0.0596,
+        "costed_components": 5,
+        "total_components": 6,
+        "coverage": 0.8333,
+        "uncosted": [
+          "Flat-leaf parsley (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.2708,
+        "costable": true
+      },
+      {
+        "item_name": "Vegan Caesar Salad (SM)",
+        "plate_cost": 0.3007,
+        "menu_price": 15.0,
+        "food_cost_pct": 0.02,
+        "costed_components": 3,
+        "total_components": 5,
+        "coverage": 0.6,
+        "uncosted": [
+          "Gluten free breadcrumbs (no catalog SKU matched)",
+          "Cashew-based dressing (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Roasted nori sheets (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.144,
+        "costable": true
+      },
+      {
+        "item_name": "Vegan Caesar Salad (LG)",
+        "plate_cost": 0.5196,
+        "menu_price": 22.0,
+        "food_cost_pct": 0.0236,
+        "costed_components": 3,
+        "total_components": 5,
+        "coverage": 0.6,
+        "uncosted": [
+          "Gluten free breadcrumbs (no catalog SKU matched)",
+          "Cashew-based dressing (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Roasted nori sheets (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.144,
+        "costable": true
+      },
+      {
+        "item_name": "Garden Salad (SM)",
+        "plate_cost": 2.109,
+        "menu_price": 14.0,
+        "food_cost_pct": 0.1506,
+        "costed_components": 8,
+        "total_components": 8,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3825,
+        "costable": true
+      },
+      {
+        "item_name": "Garden Salad (LG)",
+        "plate_cost": 3.5704,
+        "menu_price": 21.0,
+        "food_cost_pct": 0.17,
+        "costed_components": 8,
+        "total_components": 8,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3825,
+        "costable": true
+      },
+      {
+        "item_name": "All Beef Meatballs",
+        "plate_cost": 2.732,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.1708,
+        "costed_components": 8,
+        "total_components": 9,
+        "coverage": 0.8889,
+        "uncosted": [
+          "Fresh basil (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [
+          "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3575,
+        "costable": true
+      },
+      {
+        "item_name": "Eggplant Parm App",
+        "plate_cost": 2.1852,
+        "menu_price": 15.0,
+        "food_cost_pct": 0.1457,
+        "costed_components": 6,
+        "total_components": 8,
+        "coverage": 0.75,
+        "uncosted": [
+          "Gluten free breadcrumbs (no catalog SKU matched)",
+          "Fresh basil (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [
+          "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.285,
+        "costable": true
+      },
+      {
+        "item_name": "Chicken Parm App",
+        "plate_cost": 2.8789,
+        "menu_price": 19.0,
+        "food_cost_pct": 0.1515,
+        "costed_components": 6,
+        "total_components": 8,
+        "coverage": 0.75,
+        "uncosted": [
+          "Gluten free breadcrumbs (no catalog SKU matched)",
+          "Fresh basil (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [
+          "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.285,
+        "costable": true
+      },
+      {
+        "item_name": "Original (12\")",
+        "plate_cost": 2.4743,
+        "menu_price": 25.0,
+        "food_cost_pct": 0.099,
+        "costed_components": 5,
+        "total_components": 6,
+        "coverage": 0.8333,
+        "uncosted": [
+          "Fresh basil (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [
+          "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3629,
+        "costable": true
+      },
+      {
+        "item_name": "Original (20\")",
+        "plate_cost": 0.1428,
+        "menu_price": 33.0,
+        "food_cost_pct": 0.0043,
+        "costed_components": 4,
+        "total_components": 6,
+        "coverage": 0.6667,
+        "uncosted": [
+          "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+          "Extra virgin olive oil (no conversion from oz to gal)"
+        ],
+        "low_confidence": [
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2017,
+        "costable": true
+      },
+      {
+        "item_name": "Margherita (12\")",
+        "plate_cost": 1.4584,
+        "menu_price": 27.0,
+        "food_cost_pct": 0.054,
+        "costed_components": 5,
+        "total_components": 7,
+        "coverage": 0.7143,
+        "uncosted": [
+          "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+          "Extra virgin olive oil (no conversion from oz to gal)"
+        ],
+        "low_confidence": [
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3321,
+        "costable": true
+      },
+      {
+        "item_name": "Margherita (20\")",
+        "plate_cost": 0.2138,
+        "menu_price": 35.0,
+        "food_cost_pct": 0.0061,
+        "costed_components": 5,
+        "total_components": 7,
+        "coverage": 0.7143,
+        "uncosted": [
+          "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+          "Extra virgin olive oil (no conversion from oz to gal)"
+        ],
+        "low_confidence": [
+          "Fresh basil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2443,
+        "costable": true
+      },
+      {
+        "item_name": "Hotboi (12\")",
+        "plate_cost": 1.6201,
+        "menu_price": 29.0,
+        "food_cost_pct": 0.0559,
+        "costed_components": 7,
+        "total_components": 9,
+        "coverage": 0.7778,
+        "uncosted": [
+          "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+          "Clover honey (no conversion from fl_oz to lb)"
+        ],
+        "low_confidence": [
+          "Crushed red pepper flakes (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3033,
+        "costable": true
+      },
+      {
+        "item_name": "Hotboi (20\")",
+        "plate_cost": 0.2356,
+        "menu_price": 41.0,
+        "food_cost_pct": 0.0057,
+        "costed_components": 7,
+        "total_components": 9,
+        "coverage": 0.7778,
+        "uncosted": [
+          "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+          "Clover honey (no conversion from fl_oz to lb)"
+        ],
+        "low_confidence": [
+          "Low-moisture whole milk mozzarella loaf (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Jalapeno pepper (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Crushed red pepper flakes (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2322,
+        "costable": true
+      },
+      {
+        "item_name": "Vegan (12\")",
+        "plate_cost": 0.3803,
+        "menu_price": 28.0,
+        "food_cost_pct": 0.0136,
+        "costed_components": 4,
+        "total_components": 7,
+        "coverage": 0.5714,
+        "uncosted": [
+          "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+          "vegan mozzarella-style cheese (no catalog SKU matched)",
+          "Extra virgin olive oil (no conversion from oz to gal)"
+        ],
+        "low_confidence": [
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1971,
+        "costable": true
+      },
+      {
+        "item_name": "Vegan (20\")",
+        "plate_cost": 0.0566,
+        "menu_price": 36.0,
+        "food_cost_pct": 0.0016,
+        "costed_components": 4,
+        "total_components": 7,
+        "coverage": 0.5714,
+        "uncosted": [
+          "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+          "vegan mozzarella-style cheese (no catalog SKU matched)",
+          "Extra virgin olive oil (no conversion from oz to gal)"
+        ],
+        "low_confidence": [
+          "Fresh basil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1689,
+        "costable": true
+      },
+      {
+        "item_name": "Vodka Pesto (12\")",
+        "plate_cost": 1.175,
+        "menu_price": 28.0,
+        "food_cost_pct": 0.042,
+        "costed_components": 6,
+        "total_components": 7,
+        "coverage": 0.8571,
+        "uncosted": [
+          "vegan basil pesto (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Canned coconut milk (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Canned tomato paste (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Low-moisture whole milk mozzarella loaf (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2057,
+        "costable": true
+      },
+      {
+        "item_name": "Vodka Pesto (20\")",
+        "plate_cost": 0.1729,
+        "menu_price": 36.0,
+        "food_cost_pct": 0.0048,
+        "costed_components": 6,
+        "total_components": 7,
+        "coverage": 0.8571,
+        "uncosted": [
+          "vegan basil pesto (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Tipo 00 pizza flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Canned coconut milk (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "Canned tomato paste (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "Low-moisture whole milk mozzarella loaf (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1686,
+        "costable": true
+      },
+      {
+        "item_name": "White (12\")",
+        "plate_cost": 1.7672,
+        "menu_price": 29.0,
+        "food_cost_pct": 0.0609,
+        "costed_components": 8,
+        "total_components": 9,
+        "coverage": 0.8889,
+        "uncosted": [
+          "Extra virgin olive oil (no conversion from oz to gal)"
+        ],
+        "low_confidence": [
+          "Ground black pepper (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.32,
+        "costable": true
+      },
+      {
+        "item_name": "White (20\")",
+        "plate_cost": 0.6543,
+        "menu_price": 37.0,
+        "food_cost_pct": 0.0177,
+        "costed_components": 9,
+        "total_components": 9,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Low-moisture whole milk mozzarella loaf (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Ground black pepper (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3719,
+        "costable": true
+      },
+      {
+        "item_name": "Cheese",
+        "plate_cost": 0.1944,
+        "menu_price": 35.0,
+        "food_cost_pct": 0.0056,
+        "costed_components": 5,
+        "total_components": 6,
+        "coverage": 0.8333,
+        "uncosted": [
+          "Canned San Marzano whole tomatoes (no conversion from oz to each)"
+        ],
+        "low_confidence": [
+          "Rice flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Dried oregano (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.265,
+        "costable": true
+      },
+      {
+        "item_name": "DJ Clark Kent",
+        "plate_cost": 0.3078,
+        "menu_price": 38.0,
+        "food_cost_pct": 0.0081,
+        "costed_components": 6,
+        "total_components": 7,
+        "coverage": 0.8571,
+        "uncosted": [
+          "Canned San Marzano whole tomatoes (no conversion from oz to each)"
+        ],
+        "low_confidence": [
+          "Rice flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Italian pork sausage (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "Peeled garlic cloves (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2475,
+        "costable": true
+      },
+      {
+        "item_name": "Hotboi",
+        "plate_cost": 0.2773,
+        "menu_price": 37.0,
+        "food_cost_pct": 0.0075,
+        "costed_components": 6,
+        "total_components": 8,
+        "coverage": 0.75,
+        "uncosted": [
+          "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+          "Clover honey (no conversion from fl_oz to lb)"
+        ],
+        "low_confidence": [
+          "Rice flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Sliced pepperoni (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2437,
+        "costable": true
+      },
+      {
+        "item_name": "Lemon Pepper Chicken",
+        "plate_cost": 0.4122,
+        "menu_price": 38.0,
+        "food_cost_pct": 0.0108,
+        "costed_components": 8,
+        "total_components": 8,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Rice flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Low-moisture whole milk mozzarella loaf (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Fresh mozzarella ball (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Italian pork sausage (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Ground black pepper (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2888,
+        "costable": true
+      },
+      {
+        "item_name": "Cheese",
+        "plate_cost": 1.8522,
+        "menu_price": 35.0,
+        "food_cost_pct": 0.0529,
+        "costed_components": 5,
+        "total_components": 6,
+        "coverage": 0.8333,
+        "uncosted": [
+          "Canned San Marzano whole tomatoes (no conversion from oz to each)"
+        ],
+        "low_confidence": [
+          "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2979,
+        "costable": true
+      },
+      {
+        "item_name": "Vegan Cheese",
+        "plate_cost": 0.6622,
+        "menu_price": 23.0,
+        "food_cost_pct": 0.0288,
+        "costed_components": 6,
+        "total_components": 7,
+        "coverage": 0.8571,
+        "uncosted": [
+          "Canned San Marzano whole tomatoes (no conversion from oz to each)"
+        ],
+        "low_confidence": [
+          "Red bell pepper (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Peeled garlic cloves (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Fresh basil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2554,
+        "costable": true
+      },
+      {
+        "item_name": "Beef Meatball",
+        "plate_cost": 2.8613,
+        "menu_price": 24.0,
+        "food_cost_pct": 0.1192,
+        "costed_components": 7,
+        "total_components": 8,
+        "coverage": 0.875,
+        "uncosted": [
+          "Canned San Marzano whole tomatoes (no conversion from oz to each)"
+        ],
+        "low_confidence": [
+          "Ground beef 80/20 (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Italian seasoned breadcrumbs (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Large shell eggs (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2775,
+        "costable": true
+      },
+      {
+        "item_name": "Mike's Hot Honey Dip Cup 1oz",
+        "plate_cost": 0.0085,
+        "menu_price": 2.0,
+        "food_cost_pct": 0.0043,
+        "costed_components": 1,
+        "total_components": 2,
+        "coverage": 0.5,
+        "uncosted": [
+          "Clover honey (no conversion from fl_oz to lb)"
+        ],
+        "low_confidence": [
+          "Crushed red pepper flakes (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2125,
+        "costable": true
+      },
+      {
+        "item_name": "Organic Dinapoli Tomato Sauce 2oz",
+        "plate_cost": null,
+        "menu_price": 2.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 1,
+        "coverage": 0.0,
+        "uncosted": [
+          "Canned San Marzano whole tomatoes (no conversion from oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      },
+      {
+        "item_name": "Vegan Caesar Dressing 2oz",
+        "plate_cost": 0.4662,
+        "menu_price": 3.0,
+        "food_cost_pct": 0.1554,
+        "costed_components": 7,
+        "total_components": 7,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "raw shelled peanuts (quantity confidence 0.20 below the 0.60 review floor -- costed anyway)",
+          "extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "dijon mustard (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "ground black pepper (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2514,
+        "costable": true
+      },
+      {
+        "item_name": "Guava Calzone",
+        "plate_cost": 1.2609,
+        "menu_price": 14.0,
+        "food_cost_pct": 0.0901,
+        "costed_components": 7,
+        "total_components": 8,
+        "coverage": 0.875,
+        "uncosted": [
+          "guava paste (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "granulated white sugar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3544,
+        "costable": true
+      },
+      {
+        "item_name": "Scarr's Seasonal Soft-Serve",
+        "plate_cost": 0.5681,
+        "menu_price": 9.0,
+        "food_cost_pct": 0.0631,
+        "costed_components": 2,
+        "total_components": 2,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "canned coconut milk (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+          "granulated white sugar (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.0975,
+        "costable": true
+      }
+    ],
+    "demand_forecast": {},
+    "par_levels": [],
+    "purchase_order": {},
+    "review_queue": [
+      {
+        "kind": "sku_match",
+        "ref": "Gluten free breadcrumbs",
+        "confidence": 0.0,
+        "question": "Which SKU is 'Gluten free breadcrumbs'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "Catalog only has wheat-based panko/Italian breadcrumbs, no gluten-free option"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "Cashew-based dressing",
+        "confidence": 0.0,
+        "question": "Which SKU is 'Cashew-based dressing'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "No cashew-based or nut-based dressing product in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "vegan mozzarella-style cheese",
+        "confidence": 0.0,
+        "question": "Which SKU is 'vegan mozzarella-style cheese'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "All mozzarella catalog entries are dairy-based, no vegan analog available"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "vegan basil pesto",
+        "confidence": 0.0,
+        "question": "Which SKU is 'vegan basil pesto'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "Catalog has fresh basil but no prepared pesto product, vegan or otherwise"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "guava paste",
+        "confidence": 0.0,
+        "question": "Which SKU is 'guava paste'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "No guava paste or guava product exists anywhere in catalog"
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Focaccia",
+        "confidence": 0.3135,
+        "question": "Focaccia is costed at $0.49 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.4917,
+          "menu_price": 6.0,
+          "low_confidence": [
+            "Instant dry yeast (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Dried rosemary (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Focaccia",
+        "confidence": 0.3135,
+        "question": "Focaccia computes to 8% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.4917,
+          "menu_price": 6.0,
+          "food_cost_pct": 0.082,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Vegan Garlic Knots",
+        "confidence": 0.2708,
+        "question": "Vegan Garlic Knots computes to 6% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.4171,
+          "menu_price": 7.0,
+          "food_cost_pct": 0.0596,
+          "coverage": 0.8333,
+          "uncosted": [
+            "Flat-leaf parsley (no conversion from oz to bunch)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Vegan Caesar Salad (SM)",
+        "confidence": 0.144,
+        "question": "Vegan Caesar Salad (SM) is costed at $0.30 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.3007,
+          "menu_price": 15.0,
+          "low_confidence": [
+            "Roasted nori sheets (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Vegan Caesar Salad (SM)",
+        "confidence": 0.144,
+        "question": "Vegan Caesar Salad (SM) computes to 2% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.3007,
+          "menu_price": 15.0,
+          "food_cost_pct": 0.02,
+          "coverage": 0.6,
+          "uncosted": [
+            "Gluten free breadcrumbs (no catalog SKU matched)",
+            "Cashew-based dressing (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Vegan Caesar Salad (LG)",
+        "confidence": 0.144,
+        "question": "Vegan Caesar Salad (LG) is costed at $0.52 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.5196,
+          "menu_price": 22.0,
+          "low_confidence": [
+            "Roasted nori sheets (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Vegan Caesar Salad (LG)",
+        "confidence": 0.144,
+        "question": "Vegan Caesar Salad (LG) computes to 2% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.5196,
+          "menu_price": 22.0,
+          "food_cost_pct": 0.0236,
+          "coverage": 0.6,
+          "uncosted": [
+            "Gluten free breadcrumbs (no catalog SKU matched)",
+            "Cashew-based dressing (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Garden Salad (SM)",
+        "confidence": 0.3825,
+        "question": "Garden Salad (SM) is costed at $2.11 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.109,
+          "menu_price": 14.0,
+          "low_confidence": [
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Garden Salad (LG)",
+        "confidence": 0.3825,
+        "question": "Garden Salad (LG) is costed at $3.57 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 3.5704,
+          "menu_price": 21.0,
+          "low_confidence": [
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "All Beef Meatballs",
+        "confidence": 0.3575,
+        "question": "All Beef Meatballs is costed at $2.73 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.732,
+          "menu_price": 16.0,
+          "low_confidence": [
+            "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Eggplant Parm App",
+        "confidence": 0.285,
+        "question": "Eggplant Parm App is costed at $2.19 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.1852,
+          "menu_price": 15.0,
+          "low_confidence": [
+            "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Chicken Parm App",
+        "confidence": 0.285,
+        "question": "Chicken Parm App is costed at $2.88 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.8789,
+          "menu_price": 19.0,
+          "low_confidence": [
+            "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Original (12\")",
+        "confidence": 0.3629,
+        "question": "Original (12\") is costed at $2.47 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.4743,
+          "menu_price": 25.0,
+          "low_confidence": [
+            "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Original (12\")",
+        "confidence": 0.3629,
+        "question": "Original (12\") computes to 10% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 2.4743,
+          "menu_price": 25.0,
+          "food_cost_pct": 0.099,
+          "coverage": 0.8333,
+          "uncosted": [
+            "Fresh basil (no conversion from oz to bunch)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Original (20\")",
+        "confidence": 0.2017,
+        "question": "Original (20\") is costed at $0.14 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.1428,
+          "menu_price": 33.0,
+          "low_confidence": [
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Original (20\")",
+        "confidence": 0.2017,
+        "question": "Original (20\") computes to 0% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.1428,
+          "menu_price": 33.0,
+          "food_cost_pct": 0.0043,
+          "coverage": 0.6667,
+          "uncosted": [
+            "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+            "Extra virgin olive oil (no conversion from oz to gal)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Margherita (12\")",
+        "confidence": 0.3321,
+        "question": "Margherita (12\") is costed at $1.46 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.4584,
+          "menu_price": 27.0,
+          "low_confidence": [
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Margherita (12\")",
+        "confidence": 0.3321,
+        "question": "Margherita (12\") computes to 5% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.4584,
+          "menu_price": 27.0,
+          "food_cost_pct": 0.054,
+          "coverage": 0.7143,
+          "uncosted": [
+            "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+            "Extra virgin olive oil (no conversion from oz to gal)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Margherita (20\")",
+        "confidence": 0.2443,
+        "question": "Margherita (20\") is costed at $0.21 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.2138,
+          "menu_price": 35.0,
+          "low_confidence": [
+            "Fresh basil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Margherita (20\")",
+        "confidence": 0.2443,
+        "question": "Margherita (20\") computes to 1% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.2138,
+          "menu_price": 35.0,
+          "food_cost_pct": 0.0061,
+          "coverage": 0.7143,
+          "uncosted": [
+            "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+            "Extra virgin olive oil (no conversion from oz to gal)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Hotboi (12\")",
+        "confidence": 0.3033,
+        "question": "Hotboi (12\") is costed at $1.62 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.6201,
+          "menu_price": 29.0,
+          "low_confidence": [
+            "Crushed red pepper flakes (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Hotboi (12\")",
+        "confidence": 0.3033,
+        "question": "Hotboi (12\") computes to 6% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.6201,
+          "menu_price": 29.0,
+          "food_cost_pct": 0.0559,
+          "coverage": 0.7778,
+          "uncosted": [
+            "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+            "Clover honey (no conversion from fl_oz to lb)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Hotboi (20\")",
+        "confidence": 0.2322,
+        "question": "Hotboi (20\") is costed at $0.24 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.2356,
+          "menu_price": 41.0,
+          "low_confidence": [
+            "Low-moisture whole milk mozzarella loaf (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Jalapeno pepper (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Crushed red pepper flakes (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Hotboi (20\")",
+        "confidence": 0.2322,
+        "question": "Hotboi (20\") computes to 1% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.2356,
+          "menu_price": 41.0,
+          "food_cost_pct": 0.0057,
+          "coverage": 0.7778,
+          "uncosted": [
+            "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+            "Clover honey (no conversion from fl_oz to lb)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Vegan (12\")",
+        "confidence": 0.1971,
+        "question": "Vegan (12\") is costed at $0.38 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.3803,
+          "menu_price": 28.0,
+          "low_confidence": [
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Vegan (12\")",
+        "confidence": 0.1971,
+        "question": "Vegan (12\") computes to 1% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.3803,
+          "menu_price": 28.0,
+          "food_cost_pct": 0.0136,
+          "coverage": 0.5714,
+          "uncosted": [
+            "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+            "vegan mozzarella-style cheese (no catalog SKU matched)",
+            "Extra virgin olive oil (no conversion from oz to gal)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Vegan (20\")",
+        "confidence": 0.1689,
+        "question": "Vegan (20\") is costed at $0.06 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.0566,
+          "menu_price": 36.0,
+          "low_confidence": [
+            "Fresh basil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Vegan (20\")",
+        "confidence": 0.1689,
+        "question": "Vegan (20\") computes to 0% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.0566,
+          "menu_price": 36.0,
+          "food_cost_pct": 0.0016,
+          "coverage": 0.5714,
+          "uncosted": [
+            "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+            "vegan mozzarella-style cheese (no catalog SKU matched)",
+            "Extra virgin olive oil (no conversion from oz to gal)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Vodka Pesto (12\")",
+        "confidence": 0.2057,
+        "question": "Vodka Pesto (12\") is costed at $1.18 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.175,
+          "menu_price": 28.0,
+          "low_confidence": [
+            "Canned coconut milk (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Canned tomato paste (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Low-moisture whole milk mozzarella loaf (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Vodka Pesto (12\")",
+        "confidence": 0.2057,
+        "question": "Vodka Pesto (12\") computes to 4% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.175,
+          "menu_price": 28.0,
+          "food_cost_pct": 0.042,
+          "coverage": 0.8571,
+          "uncosted": [
+            "vegan basil pesto (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Vodka Pesto (20\")",
+        "confidence": 0.1686,
+        "question": "Vodka Pesto (20\") is costed at $0.17 using 6 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.1729,
+          "menu_price": 36.0,
+          "low_confidence": [
+            "Tipo 00 pizza flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Canned coconut milk (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "Canned tomato paste (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "Low-moisture whole milk mozzarella loaf (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Vodka Pesto (20\")",
+        "confidence": 0.1686,
+        "question": "Vodka Pesto (20\") computes to 0% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.1729,
+          "menu_price": 36.0,
+          "food_cost_pct": 0.0048,
+          "coverage": 0.8571,
+          "uncosted": [
+            "vegan basil pesto (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "White (12\")",
+        "confidence": 0.32,
+        "question": "White (12\") is costed at $1.77 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.7672,
+          "menu_price": 29.0,
+          "low_confidence": [
+            "Ground black pepper (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "White (12\")",
+        "confidence": 0.32,
+        "question": "White (12\") computes to 6% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.7672,
+          "menu_price": 29.0,
+          "food_cost_pct": 0.0609,
+          "coverage": 0.8889,
+          "uncosted": [
+            "Extra virgin olive oil (no conversion from oz to gal)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "White (20\")",
+        "confidence": 0.3719,
+        "question": "White (20\") is costed at $0.65 using 4 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.6543,
+          "menu_price": 37.0,
+          "low_confidence": [
+            "Low-moisture whole milk mozzarella loaf (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Ground black pepper (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "White (20\")",
+        "confidence": 0.3719,
+        "question": "White (20\") computes to 2% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.6543,
+          "menu_price": 37.0,
+          "food_cost_pct": 0.0177,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Cheese",
+        "confidence": 0.265,
+        "question": "Cheese is costed at $0.19 using 4 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.1944,
+          "menu_price": 35.0,
+          "low_confidence": [
+            "Rice flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Dried oregano (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Cheese",
+        "confidence": 0.265,
+        "question": "Cheese computes to 1% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.1944,
+          "menu_price": 35.0,
+          "food_cost_pct": 0.0056,
+          "coverage": 0.8333,
+          "uncosted": [
+            "Canned San Marzano whole tomatoes (no conversion from oz to each)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "DJ Clark Kent",
+        "confidence": 0.2475,
+        "question": "DJ Clark Kent is costed at $0.31 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.3078,
+          "menu_price": 38.0,
+          "low_confidence": [
+            "Rice flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Italian pork sausage (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "Peeled garlic cloves (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "DJ Clark Kent",
+        "confidence": 0.2475,
+        "question": "DJ Clark Kent computes to 1% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.3078,
+          "menu_price": 38.0,
+          "food_cost_pct": 0.0081,
+          "coverage": 0.8571,
+          "uncosted": [
+            "Canned San Marzano whole tomatoes (no conversion from oz to each)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Hotboi",
+        "confidence": 0.2437,
+        "question": "Hotboi is costed at $0.28 using 4 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.2773,
+          "menu_price": 37.0,
+          "low_confidence": [
+            "Rice flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Sliced pepperoni (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Hotboi",
+        "confidence": 0.2437,
+        "question": "Hotboi computes to 1% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.2773,
+          "menu_price": 37.0,
+          "food_cost_pct": 0.0075,
+          "coverage": 0.75,
+          "uncosted": [
+            "Canned San Marzano whole tomatoes (no conversion from oz to each)",
+            "Clover honey (no conversion from fl_oz to lb)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Lemon Pepper Chicken",
+        "confidence": 0.2888,
+        "question": "Lemon Pepper Chicken is costed at $0.41 using 7 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.4122,
+          "menu_price": 38.0,
+          "low_confidence": [
+            "Rice flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Low-moisture whole milk mozzarella loaf (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Fresh mozzarella ball (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Italian pork sausage (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Ground black pepper (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Lemon Pepper Chicken",
+        "confidence": 0.2888,
+        "question": "Lemon Pepper Chicken computes to 1% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.4122,
+          "menu_price": 38.0,
+          "food_cost_pct": 0.0108,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Cheese",
+        "confidence": 0.2979,
+        "question": "Cheese is costed at $1.85 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.8522,
+          "menu_price": 35.0,
+          "low_confidence": [
+            "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Cheese",
+        "confidence": 0.2979,
+        "question": "Cheese computes to 5% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.8522,
+          "menu_price": 35.0,
+          "food_cost_pct": 0.0529,
+          "coverage": 0.8333,
+          "uncosted": [
+            "Canned San Marzano whole tomatoes (no conversion from oz to each)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Vegan Cheese",
+        "confidence": 0.2554,
+        "question": "Vegan Cheese is costed at $0.66 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.6622,
+          "menu_price": 23.0,
+          "low_confidence": [
+            "Red bell pepper (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Peeled garlic cloves (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Fresh basil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Vegan Cheese",
+        "confidence": 0.2554,
+        "question": "Vegan Cheese computes to 3% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.6622,
+          "menu_price": 23.0,
+          "food_cost_pct": 0.0288,
+          "coverage": 0.8571,
+          "uncosted": [
+            "Canned San Marzano whole tomatoes (no conversion from oz to each)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Beef Meatball",
+        "confidence": 0.2775,
+        "question": "Beef Meatball is costed at $2.86 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.8613,
+          "menu_price": 24.0,
+          "low_confidence": [
+            "Ground beef 80/20 (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Italian seasoned breadcrumbs (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Large shell eggs (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Mike's Hot Honey Dip Cup 1oz",
+        "confidence": 0.2125,
+        "question": "Mike's Hot Honey Dip Cup 1oz is costed at $0.01 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.0085,
+          "menu_price": 2.0,
+          "low_confidence": [
+            "Crushed red pepper flakes (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Mike's Hot Honey Dip Cup 1oz",
+        "confidence": 0.2125,
+        "question": "Mike's Hot Honey Dip Cup 1oz computes to 0% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.0085,
+          "menu_price": 2.0,
+          "food_cost_pct": 0.0043,
+          "coverage": 0.5,
+          "uncosted": [
+            "Clover honey (no conversion from fl_oz to lb)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Vegan Caesar Dressing 2oz",
+        "confidence": 0.2514,
+        "question": "Vegan Caesar Dressing 2oz is costed at $0.47 using 6 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.4662,
+          "menu_price": 3.0,
+          "low_confidence": [
+            "raw shelled peanuts (quantity confidence 0.20 below the 0.60 review floor -- costed anyway)",
+            "extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "dijon mustard (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "ground black pepper (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Guava Calzone",
+        "confidence": 0.3544,
+        "question": "Guava Calzone is costed at $1.26 using 4 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.2609,
+          "menu_price": 14.0,
+          "low_confidence": [
+            "granulated white sugar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Guava Calzone",
+        "confidence": 0.3544,
+        "question": "Guava Calzone computes to 9% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.2609,
+          "menu_price": 14.0,
+          "food_cost_pct": 0.0901,
+          "coverage": 0.875,
+          "uncosted": [
+            "guava paste (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Scarr's Seasonal Soft-Serve",
+        "confidence": 0.0975,
+        "question": "Scarr's Seasonal Soft-Serve is costed at $0.57 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.5681,
+          "menu_price": 9.0,
+          "low_confidence": [
+            "canned coconut milk (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+            "granulated white sugar (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Scarr's Seasonal Soft-Serve",
+        "confidence": 0.0975,
+        "question": "Scarr's Seasonal Soft-Serve computes to 6% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.5681,
+          "menu_price": 9.0,
+          "food_cost_pct": 0.0631,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      }
+    ],
+    "stage": "costed"
+  }
+}

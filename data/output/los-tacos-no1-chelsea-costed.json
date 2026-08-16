@@ -1,0 +1,1571 @@
+{
+  "slug": "los-tacos-no1-chelsea",
+  "tier": "A",
+  "cuisine": "mexican",
+  "menu_format": "html",
+  "elapsed_s": 53.5,
+  "usage": {
+    "calls": 4,
+    "input_tokens": 25504,
+    "output_tokens": 6925,
+    "cache_read": 20794,
+    "cache_write": 0
+  },
+  "error": "",
+  "state": {
+    "input": "los-tacos-no1-chelsea",
+    "extracted_data": {},
+    "retry_count": 0,
+    "last_error": "",
+    "human_decision": "",
+    "needs_human": false,
+    "restaurant": {
+      "slug": "los-tacos-no1-chelsea",
+      "name": "Los Tacos No. 1 (Chelsea Market)",
+      "url": "https://www.lostacos1.com/menus/",
+      "cuisine": "mexican",
+      "price_tier": "$",
+      "seats": 20,
+      "service_style": "counter",
+      "neighborhood": "Chelsea",
+      "snapshot_date": "2026-08-08",
+      "menu_format": "html",
+      "popular_times_index": [
+        0.75,
+        0.96,
+        0.95,
+        1.0,
+        0.89,
+        0.89,
+        0.74
+      ],
+      "review_count": 5494,
+      "tier": "A",
+      "estimated_fields": [
+        "seats"
+      ],
+      "observed_fields": [
+        "popular_times_index",
+        "review_count"
+      ],
+      "observed_source": "Google Maps listing, read 2026-08-08",
+      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\los-tacos-no1-chelsea\\source.html"
+    },
+    "menu_items": [
+      {
+        "name": "Carne Asada",
+        "section": "Tacos & Tostadas",
+        "price": 5.95,
+        "description": "Grilled Steak",
+        "confidence": 0.9
+      },
+      {
+        "name": "Pollo Asado",
+        "section": "Tacos & Tostadas",
+        "price": 5.65,
+        "description": "Grilled Chicken",
+        "confidence": 0.9
+      },
+      {
+        "name": "Adobada",
+        "section": "Tacos & Tostadas",
+        "price": 5.65,
+        "description": "Marinated Pork",
+        "confidence": 0.9
+      },
+      {
+        "name": "Nopal",
+        "section": "Tacos & Tostadas",
+        "price": 5.25,
+        "description": "Grilled Cactus",
+        "confidence": 0.9
+      },
+      {
+        "name": "Carne Asada",
+        "section": "Quesadillas & Mulas",
+        "price": 7.25,
+        "description": "Grilled Steak",
+        "confidence": 0.9
+      },
+      {
+        "name": "Pollo Asado",
+        "section": "Quesadillas & Mulas",
+        "price": 6.95,
+        "description": "Grilled Chicken",
+        "confidence": 0.9
+      },
+      {
+        "name": "Adobada",
+        "section": "Quesadillas & Mulas",
+        "price": 6.95,
+        "description": "Marinated Pork",
+        "confidence": 0.9
+      },
+      {
+        "name": "Nopal",
+        "section": "Quesadillas & Mulas",
+        "price": 6.55,
+        "description": "Grilled Cactus",
+        "confidence": 0.9
+      },
+      {
+        "name": "Especial",
+        "section": "Quesadillas & Mulas",
+        "price": 9.0,
+        "description": "Fried Quesadilla",
+        "confidence": 0.9
+      },
+      {
+        "name": "Nopal Plate",
+        "section": "On a Plate",
+        "price": 12.0,
+        "description": "Cactus, Beans & Cheese",
+        "confidence": 0.9
+      },
+      {
+        "name": "Chips y Salsa",
+        "section": "Sides",
+        "price": 4.75,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Chips y Guacamole",
+        "section": "Sides",
+        "price": 5.95,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Aguas Frescas",
+        "section": "Drinks",
+        "price": 4.75,
+        "description": "",
+        "confidence": 0.85
+      },
+      {
+        "name": "Mexican Sodas",
+        "section": "Drinks",
+        "price": 4.75,
+        "description": "",
+        "confidence": 0.85
+      },
+      {
+        "name": "Bottled Sodas",
+        "section": "Drinks",
+        "price": 3.75,
+        "description": "",
+        "confidence": 0.85
+      },
+      {
+        "name": "Water",
+        "section": "Drinks",
+        "price": 2.95,
+        "description": "",
+        "confidence": 0.85
+      }
+    ],
+    "recipes": [
+      {
+        "item_name": "Carne Asada",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef skirt steak",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Corn tortillas 6 inch",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "White onion",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Pollo Asado",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Boneless skinless chicken thigh",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Corn tortillas 6 inch",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "White onion",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Adobada",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Boneless pork loin",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Dried guajillo chiles",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Dried ancho chiles",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Golden pineapple",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Corn tortillas 6 inch",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "White onion",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Nopal",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Nopal cactus paddle",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Corn tortillas 6 inch",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "White onion",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Queso fresco",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Carne Asada",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef skirt steak",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Flour tortillas 10 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "White onion",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Pollo Asado",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Boneless skinless chicken thigh",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Flour tortillas 10 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "White onion",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Adobada",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Boneless pork loin",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Dried guajillo chiles",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Dried ancho chiles",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Golden pineapple",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Flour tortillas 10 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Nopal",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Nopal cactus paddle",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Flour tortillas 10 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Queso fresco",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Especial",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Flour tortillas 10 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Low-moisture whole milk mozzarella loaf",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Beef skirt steak",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.35
+          },
+          {
+            "raw_name": "Boneless skinless chicken thigh",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.35
+          },
+          {
+            "raw_name": "Boneless pork loin",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.35
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Sour cream",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.4
+      },
+      {
+        "item_name": "Nopal Plate",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Nopal cactus paddle",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Dried pinto beans",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Queso fresco",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "White onion",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Corn tortillas 6 inch",
+            "qty": 3.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Chips y Salsa",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Corn tortillas 6 inch",
+            "qty": 3.0,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Roma tomato",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Jalapeno pepper",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Chips y Guacamole",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Corn tortillas 6 inch",
+            "qty": 3.0,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Hass avocado",
+            "qty": 1.5,
+            "uom": "each",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Jalapeno pepper",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Aguas Frescas",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Ripe papaya",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Fresh lime",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.35
+      },
+      {
+        "item_name": "Mexican Sodas",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Cola cans 12 oz",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "Bottled Sodas",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Cola cans 12 oz",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "Water",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Sparkling water bottles",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.5
+      }
+    ],
+    "sku_matches": [
+      {
+        "raw_name": "Beef skirt steak",
+        "sku_id": "PROT-BEEF-SKIRT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Corn tortillas 6 inch",
+        "sku_id": "DRY-TORTILLA-CORN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh cilantro",
+        "sku_id": "PROD-HERB-CILANTRO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Persian lime",
+        "sku_id": "PROD-LIME-PERSIAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canola oil",
+        "sku_id": "COND-OIL-CANOLA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Kosher salt",
+        "sku_id": "SPICE-SALT-KOSHER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Boneless skinless chicken thigh",
+        "sku_id": "PROT-CHICKEN-THIGHBNLS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Boneless pork loin",
+        "sku_id": "PROT-PORK-LOIN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried guajillo chiles",
+        "sku_id": "SPICE-CHILE-GUAJILLO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried ancho chiles",
+        "sku_id": "SPICE-CHILE-ANCHO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Golden pineapple",
+        "sku_id": "PROD-PINEAPPLE-GOLDEN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Queso fresco",
+        "sku_id": "DAIR-QUESOFRESCO-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Flour tortillas 10 inch",
+        "sku_id": "DRY-TORTILLA-FLOUR",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Low-moisture whole milk mozzarella loaf",
+        "sku_id": "DAIR-MOZZ-LMWHOLELOAF",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Clear fry oil",
+        "sku_id": "COND-OIL-FRYER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sour cream",
+        "sku_id": "DAIR-SOURCREAM-TUB",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried pinto beans",
+        "sku_id": "DRY-BEAN-PINTODRY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Roma tomato",
+        "sku_id": "PROD-TOMATO-ROMA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Yellow onion",
+        "sku_id": "PROD-ONION-YELLOW",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Jalapeno pepper",
+        "sku_id": "PROD-PEPPER-JALAPENO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Hass avocado",
+        "sku_id": "PROD-AVOCADO-HASS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red onion",
+        "sku_id": "PROD-ONION-RED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Granulated white sugar",
+        "sku_id": "DRY-SUGAR-GRANULATED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ripe papaya",
+        "sku_id": "PROD-PAPAYA-RIPE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh lime",
+        "sku_id": "PROD-LIME-PERSIAN",
+        "method": "normalized",
+        "confidence": 0.9
+      },
+      {
+        "raw_name": "Cola cans 12 oz",
+        "sku_id": "BEV-SODA-COLACAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sparkling water bottles",
+        "sku_id": "BEV-WATER-SPARKLING",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "White onion",
+        "sku_id": "PROD-ONION-YELLOW",
+        "method": "llm",
+        "confidence": 0.65
+      },
+      {
+        "raw_name": "Nopal cactus paddle",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      }
+    ],
+    "plate_costs": [
+      {
+        "item_name": "Carne Asada",
+        "plate_cost": 1.9478,
+        "menu_price": 5.95,
+        "food_cost_pct": 0.3274,
+        "costed_components": 6,
+        "total_components": 7,
+        "coverage": 0.8571,
+        "uncosted": [
+          "Corn tortillas 6 inch (no conversion from each to lb)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.39,
+        "costable": true
+      },
+      {
+        "item_name": "Pollo Asado",
+        "plate_cost": 0.5103,
+        "menu_price": 5.65,
+        "food_cost_pct": 0.0903,
+        "costed_components": 6,
+        "total_components": 7,
+        "coverage": 0.8571,
+        "uncosted": [
+          "Corn tortillas 6 inch (no conversion from each to lb)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.39,
+        "costable": true
+      },
+      {
+        "item_name": "Adobada",
+        "plate_cost": 0.6809,
+        "menu_price": 5.65,
+        "food_cost_pct": 0.1205,
+        "costed_components": 8,
+        "total_components": 9,
+        "coverage": 0.8889,
+        "uncosted": [
+          "Corn tortillas 6 inch (no conversion from each to lb)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.3726,
+        "costable": true
+      },
+      {
+        "item_name": "Nopal",
+        "plate_cost": 0.279,
+        "menu_price": 5.25,
+        "food_cost_pct": 0.0531,
+        "costed_components": 6,
+        "total_components": 8,
+        "coverage": 0.75,
+        "uncosted": [
+          "Nopal cactus paddle (no catalog SKU matched)",
+          "Corn tortillas 6 inch (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "Queso fresco (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2795,
+        "costable": true
+      },
+      {
+        "item_name": "Carne Asada",
+        "plate_cost": 2.8193,
+        "menu_price": 5.95,
+        "food_cost_pct": 0.4738,
+        "costed_components": 6,
+        "total_components": 6,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "White onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4267,
+        "costable": true
+      },
+      {
+        "item_name": "Pollo Asado",
+        "plate_cost": 1.0943,
+        "menu_price": 5.65,
+        "food_cost_pct": 0.1937,
+        "costed_components": 6,
+        "total_components": 6,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "White onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4267,
+        "costable": true
+      },
+      {
+        "item_name": "Adobada",
+        "plate_cost": 1.2329,
+        "menu_price": 5.65,
+        "food_cost_pct": 0.2182,
+        "costed_components": 7,
+        "total_components": 7,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.4179,
+        "costable": true
+      },
+      {
+        "item_name": "Nopal",
+        "plate_cost": 0.7439,
+        "menu_price": 5.25,
+        "food_cost_pct": 0.1417,
+        "costed_components": 4,
+        "total_components": 5,
+        "coverage": 0.8,
+        "uncosted": [
+          "Nopal cactus paddle (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Queso fresco (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3,
+        "costable": true
+      },
+      {
+        "item_name": "Especial",
+        "plate_cost": 2.5321,
+        "menu_price": 9.0,
+        "food_cost_pct": 0.2813,
+        "costed_components": 8,
+        "total_components": 8,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Low-moisture whole milk mozzarella loaf (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Beef skirt steak (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+          "Boneless skinless chicken thigh (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+          "Boneless pork loin (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+          "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Sour cream (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Fresh cilantro (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1775,
+        "costable": true
+      },
+      {
+        "item_name": "Nopal Plate",
+        "plate_cost": 0.7887,
+        "menu_price": 12.0,
+        "food_cost_pct": 0.0657,
+        "costed_components": 7,
+        "total_components": 9,
+        "coverage": 0.7778,
+        "uncosted": [
+          "Nopal cactus paddle (no catalog SKU matched)",
+          "Corn tortillas 6 inch (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "White onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3156,
+        "costable": true
+      },
+      {
+        "item_name": "Chips y Salsa",
+        "plate_cost": 0.513,
+        "menu_price": 4.75,
+        "food_cost_pct": 0.108,
+        "costed_components": 7,
+        "total_components": 8,
+        "coverage": 0.875,
+        "uncosted": [
+          "Corn tortillas 6 inch (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Roma tomato (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Yellow onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Jalapeno pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Fresh cilantro (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Persian lime (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2775,
+        "costable": true
+      },
+      {
+        "item_name": "Chips y Guacamole",
+        "plate_cost": 2.3064,
+        "menu_price": 5.95,
+        "food_cost_pct": 0.3876,
+        "costed_components": 7,
+        "total_components": 8,
+        "coverage": 0.875,
+        "uncosted": [
+          "Corn tortillas 6 inch (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Red onion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Fresh cilantro (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Jalapeno pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2888,
+        "costable": true
+      },
+      {
+        "item_name": "Aguas Frescas",
+        "plate_cost": 0.4619,
+        "menu_price": 4.75,
+        "food_cost_pct": 0.0972,
+        "costed_components": 3,
+        "total_components": 3,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Granulated white sugar (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+          "Ripe papaya (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+          "Fresh lime (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1015,
+        "costable": true
+      },
+      {
+        "item_name": "Mexican Sodas",
+        "plate_cost": 0.8,
+        "menu_price": 4.75,
+        "food_cost_pct": 0.1684,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Cola cans 12 oz (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.25,
+        "costable": true
+      },
+      {
+        "item_name": "Bottled Sodas",
+        "plate_cost": 0.8,
+        "menu_price": 3.75,
+        "food_cost_pct": 0.2133,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Cola cans 12 oz (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.25,
+        "costable": true
+      },
+      {
+        "item_name": "Water",
+        "plate_cost": 1.1,
+        "menu_price": 2.95,
+        "food_cost_pct": 0.3729,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Sparkling water bottles (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.25,
+        "costable": true
+      }
+    ],
+    "demand_forecast": {},
+    "par_levels": [],
+    "purchase_order": {},
+    "review_queue": [
+      {
+        "kind": "sku_match",
+        "ref": "White onion",
+        "confidence": 0.65,
+        "question": "Which SKU is 'White onion'?",
+        "payload": {
+          "suggested": "PROD-ONION-YELLOW",
+          "reasoning": "Catalog has no white onion specifically; yellow onion is the closest common substitute but not a genuine match"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "Nopal cactus paddle",
+        "confidence": 0.0,
+        "question": "Which SKU is 'Nopal cactus paddle'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "No cactus/nopal product exists anywhere in the catalog"
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Pollo Asado",
+        "confidence": 0.39,
+        "question": "Pollo Asado computes to 9% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.5103,
+          "menu_price": 5.65,
+          "food_cost_pct": 0.0903,
+          "coverage": 0.8571,
+          "uncosted": [
+            "Corn tortillas 6 inch (no conversion from each to lb)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Nopal",
+        "confidence": 0.2795,
+        "question": "Nopal is costed at $0.28 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.279,
+          "menu_price": 5.25,
+          "low_confidence": [
+            "Queso fresco (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Nopal",
+        "confidence": 0.2795,
+        "question": "Nopal computes to 5% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.279,
+          "menu_price": 5.25,
+          "food_cost_pct": 0.0531,
+          "coverage": 0.75,
+          "uncosted": [
+            "Nopal cactus paddle (no catalog SKU matched)",
+            "Corn tortillas 6 inch (no conversion from each to lb)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Carne Asada",
+        "confidence": 0.4267,
+        "question": "Carne Asada is costed at $2.82 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.8193,
+          "menu_price": 5.95,
+          "low_confidence": [
+            "White onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Pollo Asado",
+        "confidence": 0.4267,
+        "question": "Pollo Asado is costed at $1.09 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.0943,
+          "menu_price": 5.65,
+          "low_confidence": [
+            "White onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Nopal",
+        "confidence": 0.3,
+        "question": "Nopal is costed at $0.74 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.7439,
+          "menu_price": 5.25,
+          "low_confidence": [
+            "Queso fresco (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Especial",
+        "confidence": 0.1775,
+        "question": "Especial is costed at $2.53 using 7 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.5321,
+          "menu_price": 9.0,
+          "low_confidence": [
+            "Low-moisture whole milk mozzarella loaf (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Beef skirt steak (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+            "Boneless skinless chicken thigh (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+            "Boneless pork loin (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+            "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Sour cream (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Fresh cilantro (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Nopal Plate",
+        "confidence": 0.3156,
+        "question": "Nopal Plate is costed at $0.79 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.7887,
+          "menu_price": 12.0,
+          "low_confidence": [
+            "White onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Nopal Plate",
+        "confidence": 0.3156,
+        "question": "Nopal Plate computes to 7% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.7887,
+          "menu_price": 12.0,
+          "food_cost_pct": 0.0657,
+          "coverage": 0.7778,
+          "uncosted": [
+            "Nopal cactus paddle (no catalog SKU matched)",
+            "Corn tortillas 6 inch (no conversion from each to lb)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Chips y Salsa",
+        "confidence": 0.2775,
+        "question": "Chips y Salsa is costed at $0.51 using 6 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.513,
+          "menu_price": 4.75,
+          "low_confidence": [
+            "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Roma tomato (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Yellow onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Jalapeno pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Fresh cilantro (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Persian lime (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Chips y Guacamole",
+        "confidence": 0.2888,
+        "question": "Chips y Guacamole is costed at $2.31 using 4 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.3064,
+          "menu_price": 5.95,
+          "low_confidence": [
+            "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Red onion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Fresh cilantro (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Jalapeno pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Aguas Frescas",
+        "confidence": 0.1015,
+        "question": "Aguas Frescas is costed at $0.46 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.4619,
+          "menu_price": 4.75,
+          "low_confidence": [
+            "Granulated white sugar (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+            "Ripe papaya (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+            "Fresh lime (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Aguas Frescas",
+        "confidence": 0.1015,
+        "question": "Aguas Frescas computes to 10% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.4619,
+          "menu_price": 4.75,
+          "food_cost_pct": 0.0972,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Mexican Sodas",
+        "confidence": 0.25,
+        "question": "Mexican Sodas is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.8,
+          "menu_price": 4.75,
+          "low_confidence": [
+            "Cola cans 12 oz (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Bottled Sodas",
+        "confidence": 0.25,
+        "question": "Bottled Sodas is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.8,
+          "menu_price": 3.75,
+          "low_confidence": [
+            "Cola cans 12 oz (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Water",
+        "confidence": 0.25,
+        "question": "Water is costed at $1.10 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.1,
+          "menu_price": 2.95,
+          "low_confidence": [
+            "Sparkling water bottles (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      }
+    ],
+    "stage": "costed"
+  }
+}

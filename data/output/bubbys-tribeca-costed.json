@@ -1,0 +1,6330 @@
+{
+  "slug": "bubbys-tribeca",
+  "tier": "B",
+  "cuisine": "diner-american",
+  "menu_format": "html",
+  "elapsed_s": 1168.5,
+  "usage": {
+    "calls": 52,
+    "input_tokens": 324578,
+    "output_tokens": 170108,
+    "cache_read": 239350,
+    "cache_write": 4787
+  },
+  "error": "ended at stage menu_extracted instead of costed",
+  "state": {
+    "input": "bubbys-tribeca",
+    "extracted_data": {},
+    "retry_count": 3,
+    "last_error": "decomposition failed for 40 item(s): Acqua Panna Bottle (1L), Pellegrino Bottle (1L), Variety Coffee, Harney & Sons, Iced Tea, Arnold Palmer, Hibiscus Iced Tea, Hibiscus Palmer, Fresh Squeezed Orange Juice, Cold Pressed Green Juice, Bubby's Apron, Bubby's Pie or Brunch Cookbook, Doerfler's Maple Syrup, Mac n' Cheese Balls, Nachos, Chicken Wings, Deviled Eggs, Pigs in a Blanket, Flaky Buttermilk Biscuits, Cobb Salad, Chicken Burger, Veggie Burger, James Beard, Pancake Flight, Fried Chicken & Pancakes, Bacon Mac N' Cheese, Vegetarian Mac n Cheese, Spicy Broccoli, Seared Asparagus, Baked Potato, Kids Chicken Strips, Kids Grilled Cheese, Kids Fruit Salad, Fresh Blueberry, Local Apple, Michigan Sour Cherry, Banoffee, Peanut Butter Chocolate, Key Lime, Chocolate Walnut Brownie | ValidationError: 1 validation error for RecipeBatch\nrecipes.5.components.1.qty\n  Input should be greater than 0 [type=greater_than, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than ; ValidationError: 1 validation error for RecipeBatch\nrecipes.5.components.4.qty\n  Input should be greater than 0 [type=greater_than, input_value=0, input_type=int]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than ; ValidationError: 1 validation error for RecipeBatch\nrecipes.3.components.10.qty\n  Input should be greater than 0 [type=greater_than, input_value=0.0, input_type=float]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than ; ValidationError: 2 validation errors for RecipeBatch\nrecipes.1.components.1.qty\n  Input should be greater than 0 [type=greater_than, input_value=0.0, input_type=float]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than\nrecipes.1.components.2.qty\n  Input should be greater than 0 [type=greater_than, input_value=0.0, input_type=float]\n    For further information visit https://errors.pydantic.dev/2.13/v/greater_than",
+    "human_decision": "",
+    "needs_human": false,
+    "restaurant": {
+      "slug": "bubbys-tribeca",
+      "name": "Bubby's Tribeca",
+      "url": "https://www.bubbys.com/menus/",
+      "cuisine": "diner-american",
+      "price_tier": "$$",
+      "seats": 96,
+      "service_style": "full-service",
+      "neighborhood": "Tribeca",
+      "snapshot_date": "2026-08-08",
+      "menu_format": "html",
+      "popular_times_index": [
+        0.81,
+        0.76,
+        0.87,
+        0.93,
+        1.0,
+        0.78,
+        0.61
+      ],
+      "review_count": 8836,
+      "tier": "B",
+      "estimated_fields": [
+        "seats"
+      ],
+      "observed_fields": [
+        "popular_times_index",
+        "review_count"
+      ],
+      "observed_source": "Google Maps listing, read 2026-08-08",
+      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\bubbys-tribeca\\source.html"
+    },
+    "menu_items": [
+      {
+        "name": "Acqua Panna Bottle (1L)",
+        "section": "Water",
+        "price": 10.0,
+        "description": "still spring water",
+        "confidence": 0.9
+      },
+      {
+        "name": "Pellegrino Bottle (1L)",
+        "section": "Water",
+        "price": 10.0,
+        "description": "sparkling mineral water",
+        "confidence": 0.9
+      },
+      {
+        "name": "Variety Coffee",
+        "section": "Coffee + Tea",
+        "price": 5.0,
+        "description": "Drip Coffee: unlimited refills in house; Regular - Perla de Inzá, Colombia; Decaf - Midnight Cowboy, Colombia; Cold Brew Iced Coffee: High Hopes, Colombia - $6, no refills",
+        "confidence": 0.55
+      },
+      {
+        "name": "Harney & Sons",
+        "section": "Coffee + Tea",
+        "price": 5.0,
+        "description": "English Breakfast | Earl Grey | Mint | Chamomile | Green",
+        "confidence": 0.85
+      },
+      {
+        "name": "Iced Tea",
+        "section": "Coffee + Tea",
+        "price": 5.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Arnold Palmer",
+        "section": "Coffee + Tea",
+        "price": 6.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Hibiscus Iced Tea",
+        "section": "Coffee + Tea",
+        "price": 5.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Hibiscus Palmer",
+        "section": "Coffee + Tea",
+        "price": 6.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Fresh Squeezed Orange Juice",
+        "section": "Juice + Lemonade + Soda",
+        "price": 8.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Cold Pressed Green Juice",
+        "section": "Juice + Lemonade + Soda",
+        "price": 9.0,
+        "description": "celery, kale, apple, lemon",
+        "confidence": 0.9
+      },
+      {
+        "name": "Pink Lemonade",
+        "section": "Juice + Lemonade + Soda",
+        "price": 6.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Watermelon Lemonade",
+        "section": "Juice + Lemonade + Soda",
+        "price": 8.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Strawberry Lemonade",
+        "section": "Juice + Lemonade + Soda",
+        "price": 7.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Passionfruit Lemonade",
+        "section": "Juice + Lemonade + Soda",
+        "price": 7.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Homemade Sodas",
+        "section": "Juice + Lemonade + Soda",
+        "price": 6.0,
+        "description": "Pineapple Lime, Lemon Lime Press, Orange Press, Root Beer, Ginger Beer",
+        "confidence": 0.85
+      },
+      {
+        "name": "Shirley Temple",
+        "section": "Juice + Lemonade + Soda",
+        "price": 7.0,
+        "description": "homemade soda",
+        "confidence": 0.9
+      },
+      {
+        "name": "Root Beer Float",
+        "section": "Juice + Lemonade + Soda",
+        "price": 10.0,
+        "description": "Coke Float also available!",
+        "confidence": 0.85
+      },
+      {
+        "name": "Mimosa",
+        "section": "Cocktails",
+        "price": 14.0,
+        "description": "classic, pomegranate, blueberry lavender, grapefruit lemonade, passionfruit. Or try a flight ($19)!",
+        "confidence": 0.85
+      },
+      {
+        "name": "Mimosa Flight",
+        "section": "Cocktails",
+        "price": 19.0,
+        "description": "pomegranate, passionfruit, lavender, grapefruit *no substitutions",
+        "confidence": 0.85
+      },
+      {
+        "name": "Bloody Mary",
+        "section": "Cocktails",
+        "price": 15.0,
+        "description": "classic or pickle brine",
+        "confidence": 0.9
+      },
+      {
+        "name": "Spicy Mango Margarita",
+        "section": "Cocktails",
+        "price": 17.0,
+        "description": "spicy tequila, mango, lime, agave",
+        "confidence": 0.9
+      },
+      {
+        "name": "House Old Fashioned",
+        "section": "Cocktails",
+        "price": 17.0,
+        "description": "blend of rums, homemade root beer, bitters",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bubby's Punch",
+        "section": "Cocktails",
+        "price": 17.0,
+        "description": "vodka, watermelon, grapefruit, lemon",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bubby's Spritz",
+        "section": "Cocktails",
+        "price": 15.0,
+        "description": "blood orange aperitivo, vanilla, saline, prosecco",
+        "confidence": 0.9
+      },
+      {
+        "name": "Hugo Spritz",
+        "section": "Cocktails",
+        "price": 15.0,
+        "description": "elderflower, limoncello, prosecco",
+        "confidence": 0.9
+      },
+      {
+        "name": "Passionfruit Mojito",
+        "section": "Cocktails",
+        "price": 17.0,
+        "description": "white rum, falernum, sherry, passionfruit, lime, mint",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bourbon Sweet Tea",
+        "section": "Cocktails",
+        "price": 17.0,
+        "description": "peach infused bourbon, sweet tea, hint of lemon",
+        "confidence": 0.9
+      },
+      {
+        "name": "Cold Brewtini",
+        "section": "Cocktails",
+        "price": 17.0,
+        "description": "vodka, cold brew, cocoa, frangelico, amaro *contains nuts",
+        "confidence": 0.9
+      },
+      {
+        "name": "Rye Manhattan",
+        "section": "Cocktails",
+        "price": 17.0,
+        "description": "rye, sweet vermouth, angostura bitters, touch of Grand Marnier",
+        "confidence": 0.9
+      },
+      {
+        "name": "Kyiv Mule",
+        "section": "Cocktails",
+        "price": 17.0,
+        "description": "vodka, homemade ginger syrup, lime",
+        "confidence": 0.9
+      },
+      {
+        "name": "High Noon Raspberry",
+        "section": "Cocktails",
+        "price": 8.0,
+        "description": "vodka seltzer",
+        "confidence": 0.9
+      },
+      {
+        "name": "The Pathfinder Negroni (NA)",
+        "section": "Cocktails",
+        "price": 12.0,
+        "description": "non-alcoholic cocktail",
+        "confidence": 0.75
+      },
+      {
+        "name": "Pilsner",
+        "section": "Beer",
+        "price": 9.0,
+        "description": "draft",
+        "confidence": 0.9
+      },
+      {
+        "name": "Blue Moon",
+        "section": "Beer",
+        "price": 9.0,
+        "description": "draft",
+        "confidence": 0.9
+      },
+      {
+        "name": "IPA",
+        "section": "Beer",
+        "price": 9.0,
+        "description": "draft",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bronx Summer Pale Ale",
+        "section": "Beer",
+        "price": 9.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Miller High Life",
+        "section": "Beer",
+        "price": 7.0,
+        "description": "bottle",
+        "confidence": 0.9
+      },
+      {
+        "name": "Aval Hard Cider",
+        "section": "Beer",
+        "price": 7.0,
+        "description": "can",
+        "confidence": 0.9
+      },
+      {
+        "name": "Guinness",
+        "section": "Beer",
+        "price": 10.0,
+        "description": "can",
+        "confidence": 0.9
+      },
+      {
+        "name": "Athletic Brewing Co. Lite",
+        "section": "Beer",
+        "price": 7.0,
+        "description": "can *non-alcoholic brew: contains less than 0.5% ABV",
+        "confidence": 0.9
+      },
+      {
+        "name": "Michelada",
+        "section": "Beer",
+        "price": 12.0,
+        "description": "homemade bloody mix, Key lime juice, pilsner",
+        "confidence": 0.9
+      },
+      {
+        "name": "House White",
+        "section": "White Wine",
+        "price": 12.0,
+        "description": "Pinot Grigio, Dalia; Cells Venezie, Italy, 2023 - $12 glass / $45 bottle",
+        "confidence": 0.7
+      },
+      {
+        "name": "Sauvignon Blanc",
+        "section": "White Wine",
+        "price": 14.0,
+        "description": "Momo; Marlborough, New Zealand; 2024 - $14 glass / $50 bottle",
+        "confidence": 0.7
+      },
+      {
+        "name": "Petit Chablis",
+        "section": "White Wine",
+        "price": 65.0,
+        "description": "Petit Chablis, Louis Moreau, France; 2023 *bottle only",
+        "confidence": 0.85
+      },
+      {
+        "name": "Prosecco",
+        "section": "Sparkling Wine + Rose",
+        "price": 12.0,
+        "description": "Franco Amoroso; Italy - $12 glass / $45 bottle",
+        "confidence": 0.7
+      },
+      {
+        "name": "Crémant",
+        "section": "Sparkling Wine + Rose",
+        "price": 15.0,
+        "description": "Camille Braun Crémant d'Alsace, France - $15 glass / $60 bottle",
+        "confidence": 0.7
+      },
+      {
+        "name": "Rose",
+        "section": "Sparkling Wine + Rose",
+        "price": 15.0,
+        "description": "Routas; Provence, France, 2025 - $15 glass / $56 bottle",
+        "confidence": 0.7
+      },
+      {
+        "name": "Sparkling Rose",
+        "section": "Sparkling Wine + Rose",
+        "price": 15.0,
+        "description": "Gelida; Brut Reserva, Spain - $15 glass / $56 bottle",
+        "confidence": 0.7
+      },
+      {
+        "name": "House Red",
+        "section": "Red Wine",
+        "price": 12.0,
+        "description": "Tempranillo, Protocolo, Spain, 2022 - $12 glass / $45 bottle",
+        "confidence": 0.7
+      },
+      {
+        "name": "Côtes du Rhône",
+        "section": "Red Wine",
+        "price": 14.0,
+        "description": "Domaine Brusset, France; 2023 - $14 glass / $50 bottle",
+        "confidence": 0.7
+      },
+      {
+        "name": "Bordeaux",
+        "section": "Red Wine",
+        "price": 50.0,
+        "description": "Cru Monplaisir; France 2019 *bottle only",
+        "confidence": 0.85
+      },
+      {
+        "name": "Flaky Buttermilk Biscuits",
+        "section": "Starters",
+        "price": 8.0,
+        "description": "served with butter and homemade jam - best biscuits in town *contains leaf lard. 2 for $8, 4 for $16",
+        "confidence": 0.75
+      },
+      {
+        "name": "Deviled Eggs",
+        "section": "Starters",
+        "price": 13.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "James Beard",
+        "section": "Pancakes",
+        "price": 24.0,
+        "description": "light and fluffy traditional flapjacks",
+        "confidence": 0.85
+      },
+      {
+        "name": "1890 Sourdough",
+        "section": "Pancakes",
+        "price": 24.0,
+        "description": "thin & chewy",
+        "confidence": 0.85
+      },
+      {
+        "name": "Gluten Free Pancakes",
+        "section": "Pancakes",
+        "price": 26.0,
+        "description": "Not recommended for people with Celiac Disease - there is cross contamination. GF flour includes: cornstarch, white rice flour, brown rice flour, milk powder, tapioca flour, potato starch, xanthan gum",
+        "confidence": 0.85
+      },
+      {
+        "name": "Pancake Flight",
+        "section": "Pancakes",
+        "price": 27.0,
+        "description": "three James Beard pancakes: caramelized banana & toasted walnuts; blueberries; nutella, macerated strawberries & whipped cream",
+        "confidence": 0.9
+      },
+      {
+        "name": "Fried Chicken & Pancakes",
+        "section": "Pancakes",
+        "price": 29.0,
+        "description": "world famous pancakes! Sullivan County Farms chicken, bourbon maple syrup",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bubby's Breakfast",
+        "section": "Breakfast Plates",
+        "price": 25.0,
+        "description": "two eggs*, home fries, sourdough toast, choice of bacon, pork or chicken sausage",
+        "confidence": 0.9
+      },
+      {
+        "name": "Griddle Special",
+        "section": "Breakfast Plates",
+        "price": 25.0,
+        "description": "two eggs*, one pancake, choice of bacon, pork or chicken sausage",
+        "confidence": 0.9
+      },
+      {
+        "name": "Cheese Grits Breakfast",
+        "section": "Breakfast Plates",
+        "price": 26.0,
+        "description": "two eggs*, pork sausage, cheddar grits, toast",
+        "confidence": 0.9
+      },
+      {
+        "name": "Biscuits and Hatch Chili Sausage Gravy",
+        "section": "Breakfast Plates",
+        "price": 26.0,
+        "description": "two eggs*, flaky buttermilk biscuit, Hatch chili sausage gravy, home fries or salad *biscuit contains leaf lard",
+        "confidence": 0.9
+      },
+      {
+        "name": "Huevos Rancheros",
+        "section": "Breakfast Plates",
+        "price": 25.0,
+        "description": "two eggs*, tortilla, avocado, ranchero sauce, black beans, green rice, queso fresco",
+        "confidence": 0.9
+      },
+      {
+        "name": "Eggs Benedict",
+        "section": "Breakfast Plates",
+        "price": 27.0,
+        "description": "2 poached eggs* with a choice of: Canadian bacon, smoked salmon or avocado & tomato, comes with hollandaise and a side of home fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Overstuffed Green Omelet*",
+        "section": "Breakfast Plates",
+        "price": 26.0,
+        "description": "broccoli, greens, scallions, cheddar, choice of home fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Summer Omelet*",
+        "section": "Breakfast Plates",
+        "price": 26.0,
+        "description": "roasted corn, marinated tomato, onions, basil, tarragon sauce, and mozzarella, choice of home fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Abe Lincoln Breakfast",
+        "section": "Breakfast Plates",
+        "price": 28.0,
+        "description": "two eggs*, two silver dollar pancakes, bacon, pork sausage, grits, home fries",
+        "confidence": 0.9
+      },
+      {
+        "name": "House Smoked Salmon Bagel Plate*",
+        "section": "Breakfast Plates",
+        "price": 24.0,
+        "description": "cucumber, horseradish cream cheese, onion, capers, salad choice of homemade everything or plain bagel",
+        "confidence": 0.9
+      },
+      {
+        "name": "Granola",
+        "section": "Breakfast Plates",
+        "price": 18.0,
+        "description": "seasonal fruit, Kesso Greek yogurt, honey",
+        "confidence": 0.9
+      },
+      {
+        "name": "Fried Chicken",
+        "section": "Breakfast Plates",
+        "price": 26.0,
+        "description": "Sullivan County Farms 1/2 chicken, 24 hour brine, crispy southern style, coleslaw, biscuit *biscuit contains leaf lard",
+        "confidence": 0.9
+      },
+      {
+        "name": "Avocado Toast",
+        "section": "Sandwiches",
+        "price": 24.0,
+        "description": "cherry tomatoes, goat cheese, basil, chili flakes, sunny side egg*; served with hand cut fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Turkey Pastrami Reuben",
+        "section": "Sandwiches",
+        "price": 24.0,
+        "description": "smoked turkey pastrami, Swiss cheese, sauerkraut, Russian dressing, rye bread; served with hand cut fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Turkey B.A.L.T.",
+        "section": "Sandwiches",
+        "price": 23.0,
+        "description": "roasted turkey, bacon, avocado, lettuce, tomato, mayo; served with hand cut fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Hot Chicken Sandwich",
+        "section": "Sandwiches",
+        "price": 24.0,
+        "description": "spicy fried chicken breast, bread and butter pickles, lettuce, mayo; served with hand cut fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Tomato Soup & Grilled Cheese",
+        "section": "Sandwiches",
+        "price": 22.0,
+        "description": "cheddar, homemade sourdough bread, local tomatoes, basil",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bubby's Burger*",
+        "section": "Burgers",
+        "price": 24.0,
+        "description": "Youngman Farms, NY. Each burger comes from one animal; served with hand cut fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Double Bubby 2.0*",
+        "section": "Burgers",
+        "price": 26.0,
+        "description": "two beef patties with American cheese, mustard, caramelized onions, lettuce, tomato, pickles, special sauce; served with hand cut fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Chicken Burger",
+        "section": "Burgers",
+        "price": 23.0,
+        "description": "all natural chicken, onion, carrot, zucchini, fresh herbs; served with hand cut fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Veggie Burger",
+        "section": "Burgers",
+        "price": 23.0,
+        "description": "homemade lentil veggie patty: lentils, black beans, peas; served with hand cut fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Summer Grain Bowl",
+        "section": "Salads & Soup",
+        "price": 24.0,
+        "description": "kale, millet, roasted corn, tomatoes, cotija cheese, spicy pumpkin seeds, and jalapeno cilantro dressing",
+        "confidence": 0.9
+      },
+      {
+        "name": "Caesar",
+        "section": "Salads & Soup",
+        "price": 21.0,
+        "description": "romaine, parmesan, homemade sourdough croutons, radishes, Caesar dressing",
+        "confidence": 0.9
+      },
+      {
+        "name": "Kale & Farro",
+        "section": "Salads & Soup",
+        "price": 22.0,
+        "description": "currants, ricotta salata, grapefruit, radishes, pine nuts, cider vinaigrette",
+        "confidence": 0.9
+      },
+      {
+        "name": "Cobb",
+        "section": "Salads & Soup",
+        "price": 24.0,
+        "description": "roasted chicken, romaine, bacon, egg, avocado, tomato, Maytag blue cheese, red wine vinaigrette",
+        "confidence": 0.9
+      },
+      {
+        "name": "Matzo Ball Soup",
+        "section": "Salads & Soup",
+        "price": 15.0,
+        "description": "chicken, vegetables",
+        "confidence": 0.9
+      },
+      {
+        "name": "Veggie Chili",
+        "section": "Salads & Soup",
+        "price": 15.0,
+        "description": "beans, vegetables, cheddar, sour cream, and tortilla chips",
+        "confidence": 0.9
+      },
+      {
+        "name": "Tomato Soup & Grilled Cheese",
+        "section": "Salads & Soup",
+        "price": 22.0,
+        "description": "cheddar, homemade sourdough bread, local tomatoes, basil",
+        "confidence": 0.9
+      },
+      {
+        "name": "Fruit Salad",
+        "section": "Sides",
+        "price": 9.0,
+        "description": "fruit selection subject to change",
+        "confidence": 0.9
+      },
+      {
+        "name": "Homemade Bagel with Cream Cheese",
+        "section": "Sides",
+        "price": 6.0,
+        "description": "Plain or Everything",
+        "confidence": 0.9
+      },
+      {
+        "name": "Home Fries",
+        "section": "Sides",
+        "price": 7.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bacon",
+        "section": "Sides",
+        "price": 9.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Chicken Sausage",
+        "section": "Sides",
+        "price": 7.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Pork Sausage",
+        "section": "Sides",
+        "price": 9.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Canadian Bacon",
+        "section": "Sides",
+        "price": 8.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Sourdough Toast",
+        "section": "Sides",
+        "price": 4.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bacon Mac N' Cheese",
+        "section": "Sides",
+        "price": 14.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Vegetarian Mac n Cheese",
+        "section": "Sides",
+        "price": 13.0,
+        "description": "bechemel, cheddar",
+        "confidence": 0.9
+      },
+      {
+        "name": "Hand Cut Fries",
+        "section": "Sides",
+        "price": 7.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Coleslaw",
+        "section": "Sides",
+        "price": 6.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Spicy Broccoli",
+        "section": "Sides",
+        "price": 8.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Anson Mill's Grits",
+        "section": "Sides",
+        "price": 8.0,
+        "description": "add cheese & scallions $1.00",
+        "confidence": 0.85
+      },
+      {
+        "name": "Roasted Chicken",
+        "section": "Sides",
+        "price": 10.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Grilled or House-smoked Salmon*",
+        "section": "Sides",
+        "price": 15.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bubby's Sour Cream Pancake Mix",
+        "section": "Merchandise",
+        "price": 15.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bubby's Mug",
+        "section": "Merchandise",
+        "price": 12.0,
+        "description": "2 for $20!",
+        "confidence": 0.85
+      },
+      {
+        "name": "Bubby's Sweatshirt",
+        "section": "Merchandise",
+        "price": 65.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bubby's T-Shirt",
+        "section": "Merchandise",
+        "price": 25.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bubby's Beanie",
+        "section": "Merchandise",
+        "price": 25.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bubby's Hat",
+        "section": "Merchandise",
+        "price": 25.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Cow Tote",
+        "section": "Merchandise",
+        "price": 25.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Short Stack Onesies",
+        "section": "Merchandise",
+        "price": 25.0,
+        "description": "6 month and 12 months",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bubby's Apron",
+        "section": "Merchandise",
+        "price": 40.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bubby's Pie or Brunch Cookbook",
+        "section": "Merchandise",
+        "price": 30.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Doerfler's Maple Syrup",
+        "section": "Merchandise",
+        "price": 15.0,
+        "description": "8 oz pure maple syrup",
+        "confidence": 0.9
+      },
+      {
+        "name": "Mac n' Cheese Balls",
+        "section": "Starters",
+        "price": 13.0,
+        "description": "buffalo dipping sauce",
+        "confidence": 0.9
+      },
+      {
+        "name": "Nachos",
+        "section": "Starters",
+        "price": 15.0,
+        "description": "cheddar, jalapeño, black beans, guacamole, sour cream, red salsa",
+        "confidence": 0.9
+      },
+      {
+        "name": "Chicken Wings",
+        "section": "Starters",
+        "price": 15.0,
+        "description": "bull sauce, Maytag blue cheese",
+        "confidence": 0.9
+      },
+      {
+        "name": "Deviled Eggs",
+        "section": "Starters",
+        "price": 13.0,
+        "description": "Brey's Farm eggs, horseradish, mustard, mayo",
+        "confidence": 0.9
+      },
+      {
+        "name": "Pigs in a Blanket",
+        "section": "Starters",
+        "price": 13.0,
+        "description": "everything bagel seasoned, pastry wrapped wagyu beef hot dogs, served with spicy honey mustard *pastry contains leaf lard",
+        "confidence": 0.9
+      },
+      {
+        "name": "Flaky Buttermilk Biscuits",
+        "section": "Buttermilk Biscuits",
+        "price": 8.0,
+        "description": "served with butter and homemade jam - best biscuits in town *contains leaf lard. 2 for $8, 4 for $16",
+        "confidence": 0.75
+      },
+      {
+        "name": "Cobb Salad",
+        "section": "Salads & Soups",
+        "price": 24.0,
+        "description": "roasted chicken, romaine, bacon, hard-boiled egg, avocado, tomato, blue cheese, red wine vinaigrette",
+        "confidence": 0.9
+      },
+      {
+        "name": "Chicken Shish Kebabs",
+        "section": "Mains",
+        "price": 24.0,
+        "description": "2 marinated chicken thigh skewers, green and red pepper, cherry tomato, onion, mushroom served over herbed rice with tzatziki dressing",
+        "confidence": 0.9
+      },
+      {
+        "name": "New York Strip Steak*",
+        "section": "Mains",
+        "price": 37.0,
+        "description": "10 oz NY strip served with a twice stuffed potato (butter, sour cream, yellow cheddar, scallions), seared asparagus, steak sauce, and freshly grated horseradish",
+        "confidence": 0.9
+      },
+      {
+        "name": "Summer Salmon*",
+        "section": "Mains",
+        "price": 27.0,
+        "description": "arugula, roasted corn, marinated tomato, basil, tarragon sauce and toasted pistachios",
+        "confidence": 0.9
+      },
+      {
+        "name": "Meatloaf",
+        "section": "Mains",
+        "price": 25.0,
+        "description": "Youngman Farms, NY beef, pork, and bacon with crispy onions, mashed potatoes, chicken gravy",
+        "confidence": 0.9
+      },
+      {
+        "name": "Fried Chicken",
+        "section": "Mains",
+        "price": 26.0,
+        "description": "Sullivan County Farms 1/2 chicken, 24 hour brine, crispy southern style, coleslaw, biscuit *biscuit contains leaf lard",
+        "confidence": 0.9
+      },
+      {
+        "name": "Fried Chicken & Pancakes",
+        "section": "Mains",
+        "price": 29.0,
+        "description": "world famous pancakes! Sullivan County Farms chicken, bourbon maple syrup",
+        "confidence": 0.9
+      },
+      {
+        "name": "Hot Chicken Sandwich",
+        "section": "Mains",
+        "price": 24.0,
+        "description": "spicy fried chicken breast, bread and butter pickles, lettuce, mayo, served with hand cut fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Tomato Soup & Grilled Cheese",
+        "section": "Mains",
+        "price": 22.0,
+        "description": "cheddar, homemade sourdough bread, local tomatoes, basil",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bubby's Burger*",
+        "section": "Burgers (Dinner)",
+        "price": 24.0,
+        "description": "Youngman Farms, NY. Each burger comes from one animal; served with hand cut fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Double Bubby 2.0*",
+        "section": "Burgers (Dinner)",
+        "price": 26.0,
+        "description": "two beef patties with American cheese, mustard, caramelized onions, lettuce, tomato, pickles, special sauce; served with hand cut fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Chicken Burger",
+        "section": "Burgers (Dinner)",
+        "price": 23.0,
+        "description": "all natural chicken, onion, carrot, zucchini, fresh herbs; served with hand cut fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "Veggie Burger",
+        "section": "Burgers (Dinner)",
+        "price": 23.0,
+        "description": "homemade lentil veggie patty, pickled cucumber and onion; served with hand cut fries or salad",
+        "confidence": 0.9
+      },
+      {
+        "name": "James Beard",
+        "section": "Pancakes (Dinner)",
+        "price": 24.0,
+        "description": "light and fluffy traditional flapjacks",
+        "confidence": 0.9
+      },
+      {
+        "name": "Pancake Flight",
+        "section": "Pancakes (Dinner)",
+        "price": 27.0,
+        "description": "three James Beard pancakes: caramelized banana & toasted walnuts; blueberries; nutella, macerated strawberries & whipped cream",
+        "confidence": 0.9
+      },
+      {
+        "name": "Fried Chicken & Pancakes",
+        "section": "Pancakes (Dinner)",
+        "price": 29.0,
+        "description": "world famous pancakes! Sullivan County Farms chicken, bourbon maple syrup",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bacon Mac N' Cheese",
+        "section": "To Share, To Add",
+        "price": 14.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Vegetarian Mac n Cheese",
+        "section": "To Share, To Add",
+        "price": 13.0,
+        "description": "bechemel, cheddar",
+        "confidence": 0.9
+      },
+      {
+        "name": "Spicy Broccoli",
+        "section": "To Share, To Add",
+        "price": 8.0,
+        "description": "chili flakes, garlic",
+        "confidence": 0.9
+      },
+      {
+        "name": "Seared Asparagus",
+        "section": "To Share, To Add",
+        "price": 8.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Baked Potato",
+        "section": "To Share, To Add",
+        "price": 9.0,
+        "description": "Idaho potato, butter, sour cream, yellow cheddar, scallions",
+        "confidence": 0.9
+      },
+      {
+        "name": "Hand Cut Fries",
+        "section": "To Share, To Add",
+        "price": 7.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Mashed Potatoes",
+        "section": "To Share, To Add",
+        "price": 7.0,
+        "description": "chicken gravy",
+        "confidence": 0.9
+      },
+      {
+        "name": "Coleslaw",
+        "section": "To Share, To Add",
+        "price": 6.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Grilled Salmon",
+        "section": "To Share, To Add",
+        "price": 15.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Roasted Chicken",
+        "section": "To Share, To Add",
+        "price": 10.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Bacon",
+        "section": "To Share, To Add",
+        "price": 9.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Side Salad",
+        "section": "To Share, To Add",
+        "price": 7.0,
+        "description": "Mixed greens, cucumber, radish, lemon dressing",
+        "confidence": 0.9
+      },
+      {
+        "name": "Kids Pancakes",
+        "section": "Kids Menu",
+        "price": 13.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Kids Mac n Cheese",
+        "section": "Kids Menu",
+        "price": 12.0,
+        "description": "bechemel, cheddar",
+        "confidence": 0.9
+      },
+      {
+        "name": "Junior Burger*",
+        "section": "Kids Menu",
+        "price": 15.0,
+        "description": "served with fries",
+        "confidence": 0.9
+      },
+      {
+        "name": "Kids Chicken Strips",
+        "section": "Kids Menu",
+        "price": 12.0,
+        "description": "served with fries",
+        "confidence": 0.9
+      },
+      {
+        "name": "Kids Grilled Cheese",
+        "section": "Kids Menu",
+        "price": 12.0,
+        "description": "cheddar, swiss, or american - served with fries",
+        "confidence": 0.9
+      },
+      {
+        "name": "Kids Fruit Salad",
+        "section": "Kids Menu",
+        "price": 7.0,
+        "description": "Available only during daytime",
+        "confidence": 0.85
+      },
+      {
+        "name": "Fresh Blueberry",
+        "section": "Homemade Pies",
+        "price": 9.0,
+        "description": "fresh, local blueberry pie with shortbread crust and creme fraiche",
+        "confidence": 0.9
+      },
+      {
+        "name": "Local Apple",
+        "section": "Homemade Pies",
+        "price": 9.0,
+        "description": "cinnamon, cloves, lemon zest, sea salt, double crust. *pastry crust made with leaf lard",
+        "confidence": 0.9
+      },
+      {
+        "name": "Michigan Sour Cherry",
+        "section": "Homemade Pies",
+        "price": 9.0,
+        "description": "tart, juicy, lattice crust. *pastry crust made with leaf lard",
+        "confidence": 0.9
+      },
+      {
+        "name": "Banoffee",
+        "section": "Homemade Pies",
+        "price": 9.0,
+        "description": "bananas, dulce de leche, espresso, whipped cream, graham cracker crust",
+        "confidence": 0.9
+      },
+      {
+        "name": "Peanut Butter Chocolate",
+        "section": "Homemade Pies",
+        "price": 9.0,
+        "description": "peanut butter mousse, ganache, chocolate cookie crust",
+        "confidence": 0.9
+      },
+      {
+        "name": "Key Lime",
+        "section": "Homemade Pies",
+        "price": 9.0,
+        "description": "tangy, tart, Florida Key Lime, graham cracker crust",
+        "confidence": 0.9
+      },
+      {
+        "name": "Chocolate Walnut Brownie",
+        "section": "Homemade Desserts",
+        "price": 6.0,
+        "description": "add chocolate or vanilla ice cream $3",
+        "confidence": 0.9
+      },
+      {
+        "name": "Chocolate Chip Cookie",
+        "section": "Homemade Desserts",
+        "price": 4.0,
+        "description": "add chocolate or vanilla ice cream $3",
+        "confidence": 0.9
+      },
+      {
+        "name": "Vanilla Ice Cream",
+        "section": "Homemade Desserts",
+        "price": 6.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Chocolate Ice Cream",
+        "section": "Homemade Desserts",
+        "price": 6.0,
+        "description": "",
+        "confidence": 0.9
+      },
+      {
+        "name": "Root Beer Float",
+        "section": "Homemade Desserts",
+        "price": 10.0,
+        "description": "Coke Float also available!",
+        "confidence": 0.85
+      }
+    ],
+    "recipes": [
+      {
+        "item_name": "Pink Lemonade",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Simple syrup",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh strawberry",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "Watermelon Lemonade",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Simple syrup",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "watermelon juice",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.45
+      },
+      {
+        "item_name": "Strawberry Lemonade",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Simple syrup",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh strawberry",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "Passionfruit Lemonade",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Simple syrup",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Passion fruit puree",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "Homemade Sodas",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Sparkling water bottles",
+            "qty": 8.0,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Simple syrup",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.3
+      },
+      {
+        "item_name": "Shirley Temple",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ginger beer bottles 12 oz",
+            "qty": 8.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Simple syrup",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "fresh cherry",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.4
+      },
+      {
+        "item_name": "Root Beer Float",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "root beer",
+            "qty": 10.0,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "vanilla ice cream",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.4
+      },
+      {
+        "item_name": "Mimosa",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Prosecco",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Not-from-concentrate orange juice",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.4
+      },
+      {
+        "item_name": "Mimosa Flight",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Prosecco",
+            "qty": 8.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Not-from-concentrate orange juice",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Passion fruit puree",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.35
+      },
+      {
+        "item_name": "Bloody Mary",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Well vodka",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "tomato juice",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Worcestershire sauce",
+            "qty": 0.25,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Louisiana-style hot sauce",
+            "qty": 0.1,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.25,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Celery",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.4
+      },
+      {
+        "item_name": "Spicy Mango Margarita",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Blanco tequila 1.75L",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ataulfo mango",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 0.75,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Clover honey",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Habanero pepper",
+            "qty": 0.05,
+            "uom": "each",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Triple sec 1L",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Bubby's Pie or Brunch Cookbook",
+        "yield_qty": 1.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "Cookbook (non-food merchandise item)",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.2
+          }
+        ],
+        "confidence": 0.2
+      },
+      {
+        "item_name": "House Old Fashioned",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Well bourbon 1.75L",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "White rum 1.75L",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Aromatic bitters 4 oz",
+            "qty": 0.1,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "Bubby's Punch",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Well vodka 1.75L",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Not-from-concentrate orange juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.75,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Simple syrup",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Bubby's Spritz",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Aperol aperitivo 1L",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Prosecco",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sparkling water bottles",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Simple syrup",
+            "qty": 0.25,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "Hugo Spritz",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Italicus bergamot liqueur 750ml",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Triple sec 1L",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Prosecco",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sparkling water bottles",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.02,
+            "uom": "bunch",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Passionfruit Mojito",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "White rum 1.75L",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Passion fruit puree",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 0.75,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Simple syrup",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.02,
+            "uom": "bunch",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Sweet vermouth 1L",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Bourbon Sweet Tea",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Well bourbon 1.75L",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Black tea bags",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.1,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Cold Brewtini",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Well vodka 1.75L",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Espresso roast whole bean coffee",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Coffee liqueur 1L",
+            "qty": 0.75,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Creamy peanut butter",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "Rye Manhattan",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Rye whiskey 1.75L",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Sweet vermouth 1L",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Aromatic bitters 4 oz",
+            "qty": 0.05,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Triple sec 1L",
+            "qty": 0.25,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Kyiv Mule",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Well vodka 1.75L",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Simple syrup",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "High Noon Raspberry",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Well vodka 1.75L",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Sparkling water bottles",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh strawberry",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.35
+      },
+      {
+        "item_name": "The Pathfinder Negroni (NA)",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Aperol aperitivo 1L",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Sweet vermouth 1L",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Sparkling water bottles",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Fresh orange",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.2
+          }
+        ],
+        "confidence": 0.25
+      },
+      {
+        "item_name": "Pilsner",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Domestic draft beer half barrel keg",
+            "qty": 16.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "Blue Moon",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Domestic draft beer half barrel keg",
+            "qty": 16.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "IPA",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Domestic draft beer half barrel keg",
+            "qty": 16.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Bronx Summer Pale Ale",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Domestic draft beer half barrel keg",
+            "qty": 16.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.45
+      },
+      {
+        "item_name": "Miller High Life",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Domestic bottled beer 12 oz",
+            "qty": 12.0,
+            "uom": "fl_oz",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Aval Hard Cider",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Aval Hard Cider can 12 oz",
+            "qty": 12.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Guinness",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Guinness can 14.9 oz",
+            "qty": 14.9,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Athletic Brewing Co. Lite",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Athletic Brewing Co. Lite can 12 oz",
+            "qty": 12.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Michelada",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Domestic draft beer half barrel keg",
+            "qty": 10.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "tomato juice",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Worcestershire sauce",
+            "qty": 0.25,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Louisiana-style hot sauce",
+            "qty": 0.25,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "House White",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "House white wine",
+            "qty": 6.0,
+            "uom": "fl_oz",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "item_name": "Sauvignon Blanc",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Sauvignon Blanc wine",
+            "qty": 6.0,
+            "uom": "fl_oz",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Petit Chablis",
+        "yield_qty": 1.0,
+        "yield_uom": "bottle",
+        "components": [
+          {
+            "raw_name": "Petit Chablis wine",
+            "qty": 25.4,
+            "uom": "fl_oz",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Prosecco",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Prosecco",
+            "qty": 6.0,
+            "uom": "fl_oz",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "item_name": "Crémant",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Cremant d'Alsace wine",
+            "qty": 6.0,
+            "uom": "fl_oz",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Rose",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Rose wine",
+            "qty": 6.0,
+            "uom": "fl_oz",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Sparkling Rose",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Sparkling rose wine",
+            "qty": 6.0,
+            "uom": "fl_oz",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "House Red",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "House red wine",
+            "qty": 6.0,
+            "uom": "fl_oz",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "item_name": "Côtes du Rhône",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Cotes du Rhone wine",
+            "qty": 6.0,
+            "uom": "fl_oz",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Bordeaux",
+        "yield_qty": 1.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "house red wine",
+            "qty": 25.4,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "item_name": "Flaky Buttermilk Biscuits",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Cultured buttermilk",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "clover honey",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Deviled Eggs",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 3.0,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Dijon mustard",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "smoked paprika",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "James Beard",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "clover honey",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "1890 Sourdough",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.75,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Gluten Free Pancakes",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "cornstarch",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "rice flour",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "Pancake Flight",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 6.0,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.75,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "banana",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "raw shelled peanuts",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "fresh strawberry",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "coffee liqueur",
+            "qty": 0.1,
+            "uom": "fl_oz",
+            "confidence": 0.2
+          },
+          {
+            "raw_name": "heavy whipping cream 36%",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Fried Chicken & Pancakes",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Boneless skinless chicken thigh",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 4.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "well bourbon",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "clover honey",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "clear fry oil",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Bubby's Breakfast",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Russet potato",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sliced bacon",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "canola oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "ground black pepper",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Griddle Special",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Sliced bacon",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "canola oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Cheese Grits Breakfast",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.9
+          },
+          {
+            "raw_name": "Italian pork sausage",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Yellow cornmeal",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Biscuits and Hatch Chili Sausage Gravy",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.9
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Cultured buttermilk",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Italian pork sausage",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "poblano pepper",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Russet potato",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Huevos Rancheros",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.9
+          },
+          {
+            "raw_name": "Corn tortillas 6 inch",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Hass avocado",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Canned crushed tomatoes",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Dried ancho chiles",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Dried black beans",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Jasmine rice",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Queso fresco",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Eggs Benedict",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 4.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Russet potato",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Prosciutto di Parma",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Overstuffed Green Omelet*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 3.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Broccoli crown",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Baby spinach",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Russet potato",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Summer Omelet*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 3.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Sweet corn on the cob",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Cherry tomato",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh mozzarella ball",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Heavy whipping cream 36%",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Russet potato",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Abe Lincoln Breakfast",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Sliced bacon",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Italian pork sausage",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Yellow cornmeal",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Russet potato",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "House Smoked Salmon Bagel Plate*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Atlantic salmon fillet",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Cream cheese",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Slicing cucumber",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Spring mix greens",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Granola",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Plain Greek yogurt",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh strawberry",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Banana",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Clover honey",
+            "qty": 0.75,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Raw shelled peanuts",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Fried Chicken",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Whole chicken",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Cultured buttermilk",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Green cabbage",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Cultured buttermilk",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Avocado Toast",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Hass avocado",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "sourdough bread",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "cherry tomato",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "goat cheese",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "fresh basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "crushed red pepper flakes",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "russet potato",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Turkey Pastrami Reuben",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "smoked turkey pastrami",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sliced Swiss cheese",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "sauerkraut",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Russian dressing",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "rye bread",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "russet potato",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "Turkey B.A.L.T.",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "roasted turkey breast",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Sliced bacon",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Hass avocado",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "iceberg lettuce",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "beefsteak tomato",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "heavy-duty mayonnaise",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "sourdough bread",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "russet potato",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "Hot Chicken Sandwich",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Boneless skinless chicken breast",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "cayenne pepper",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "bread and butter pickles",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "iceberg lettuce",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "heavy-duty mayonnaise",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Burger buns 4 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "russet potato",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.78
+      },
+      {
+        "item_name": "Tomato Soup & Grilled Cheese",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Roma tomato",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "fresh basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "sourdough bread",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Bubby's Burger*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ground beef 80/20",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Burger buns 4 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "iceberg lettuce",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "beefsteak tomato",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "red onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "ground black pepper",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "russet potato",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Double Bubby 2.0*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ground beef 80/20",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Sliced American cheese",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Dijon mustard",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "yellow onion",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "iceberg lettuce",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "beefsteak tomato",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "bread and butter pickles",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "heavy-duty mayonnaise",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "tomato ketchup",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Burger buns 4 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "russet potato",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Chicken Burger",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ground chicken",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "jumbo carrot",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "green zucchini",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "flat-leaf parsley",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Burger buns 4 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "russet potato",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Veggie Burger",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "red lentils",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Dried black beans",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "green peas",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Burger buns 4 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "extra virgin olive oil",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "russet potato",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Summer Grain Bowl",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Lacinato kale",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "millet",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "sweet corn on the cob",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "cherry tomato",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "aged cotija cheese",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "raw shelled peanuts",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "jalapeno pepper",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "fresh cilantro",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "extra virgin olive oil",
+            "qty": 0.6,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "fresh lime",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Caesar",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 0.4,
+            "uom": "lb",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Parmigiano Reggiano",
+            "qty": 0.1,
+            "uom": "lb",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 0.05,
+            "uom": "lb",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Dijon mustard",
+            "qty": 0.1,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Radish",
+            "qty": 0.05,
+            "uom": "lb",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.01,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Kale & Farro",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Lacinato kale",
+            "qty": 0.3,
+            "uom": "lb",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Coarse bulgur wheat",
+            "qty": 0.15,
+            "uom": "lb",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Queso fresco",
+            "qty": 0.08,
+            "uom": "lb",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Valencia orange",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Radish",
+            "qty": 0.05,
+            "uom": "lb",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Raw shelled peanuts",
+            "qty": 0.05,
+            "uom": "lb",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Apple cider vinegar",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Cobb",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Boneless skinless chicken breast",
+            "qty": 0.3,
+            "uom": "lb",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 0.35,
+            "uom": "lb",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Sliced bacon",
+            "qty": 0.1,
+            "uom": "lb",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Hass avocado",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Roma tomato",
+            "qty": 0.15,
+            "uom": "lb",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 0.06,
+            "uom": "lb",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Red wine vinegar",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.01,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Matzo Ball Soup",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Boneless skinless chicken thigh",
+            "qty": 0.2,
+            "uom": "lb",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Jumbo carrot",
+            "qty": 0.1,
+            "uom": "lb",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Celery",
+            "qty": 0.1,
+            "uom": "lb",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.08,
+            "uom": "lb",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 0.1,
+            "uom": "lb",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh dill",
+            "qty": 0.02,
+            "uom": "bunch",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Veggie Chili",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Canned red kidney beans",
+            "qty": 0.2,
+            "uom": "lb",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Dried black beans",
+            "qty": 0.1,
+            "uom": "lb",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.1,
+            "uom": "lb",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Red bell pepper",
+            "qty": 0.1,
+            "uom": "lb",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canned crushed tomatoes",
+            "qty": 0.25,
+            "uom": "lb",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 0.06,
+            "uom": "lb",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Sour cream",
+            "qty": 0.1,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Corn tortillas 6 inch",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Chili powder blend",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground cumin",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Tomato Soup & Grilled Cheese",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 0.5,
+            "uom": "lb",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.02,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Heavy whipping cream 36%",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 0.15,
+            "uom": "lb",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 0.15,
+            "uom": "lb",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Fruit Salad",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Golden pineapple",
+            "qty": 0.15,
+            "uom": "lb",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Fresh strawberry",
+            "qty": 0.15,
+            "uom": "lb",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Banana",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Valencia orange",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.45
+      },
+      {
+        "item_name": "Homemade Bagel with Cream Cheese",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "High-gluten bread flour",
+            "qty": 0.3,
+            "uom": "lb",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Cream cheese",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Home Fries",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Yukon gold potato",
+            "qty": 0.6,
+            "uom": "lb",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.6,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.05,
+            "uom": "lb",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Smoked paprika",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.01,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Bacon",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Sliced bacon",
+            "qty": 0.25,
+            "uom": "lb",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Chicken Sausage",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ground chicken",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "Pork Sausage",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Italian pork sausage",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Canadian Bacon",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Sliced bacon",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.1,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.45
+      },
+      {
+        "item_name": "Sourdough Toast",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.4
+      },
+      {
+        "item_name": "Bacon Mac N' Cheese",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Dry penne rigate",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Sliced bacon",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Vegetarian Mac n Cheese",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Dry penne rigate",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "Hand Cut Fries",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Russet potato",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Coleslaw",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Green cabbage",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Jumbo carrot",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Apple cider vinegar",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "Spicy Broccoli",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Broccoli crown",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Crushed red pepper flakes",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Anson Mill's Grits",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Yellow cornmeal",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Roasted Chicken",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Whole chicken",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Dried rosemary",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "Grilled or House-smoked Salmon*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Atlantic salmon fillet",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Bubby's Sour Cream Pancake Mix",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 16.0,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.25
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.25
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.25
+          }
+        ],
+        "confidence": 0.3
+      },
+      {
+        "item_name": "Bubby's Mug",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Bubby's branded mug (non-food merchandise)",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.3
+      },
+      {
+        "item_name": "Bubby's Sweatshirt",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Bubby's branded sweatshirt (non-food merchandise)",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.3
+      },
+      {
+        "item_name": "Bubby's T-Shirt",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Bubby's branded t-shirt (non-food merchandise)",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.3
+      },
+      {
+        "item_name": "Bubby's Beanie",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Bubby's branded beanie (non-food merchandise)",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.3
+      },
+      {
+        "item_name": "Bubby's Hat",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Bubby's branded hat (non-food merchandise)",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.3
+      },
+      {
+        "item_name": "Cow Tote",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Cow-print canvas tote bag (non-food merchandise)",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.3
+      },
+      {
+        "item_name": "Short Stack Onesies",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Bubby's branded onesie (non-food merchandise)",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.3
+      },
+      {
+        "item_name": "Chicken Shish Kebabs",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Boneless skinless chicken thigh",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Green bell pepper",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Red bell pepper",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Cherry tomato",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "White button mushroom",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Basmati rice",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Fresh dill",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Plain Greek yogurt",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Slicing cucumber",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "New York Strip Steak*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef NY strip loin",
+            "qty": 10.0,
+            "uom": "oz",
+            "confidence": 0.9
+          },
+          {
+            "raw_name": "Russet potato",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Sour cream",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Green bean",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Tomato ketchup",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Summer Salmon*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Atlantic salmon fillet",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Baby arugula",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Sweet corn on the cob",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Cherry tomato",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Heavy whipping cream 36%",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Raw shelled peanuts",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Meatloaf",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ground beef 80/20",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ground pork",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sliced bacon",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Italian seasoned breadcrumbs",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Russet potato",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Fried Chicken",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Whole chicken",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Cultured buttermilk",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Green cabbage",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Jumbo carrot",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Apple cider vinegar",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Cultured buttermilk",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Fried Chicken & Pancakes",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Whole chicken",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Cultured buttermilk",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Well bourbon 1.75L",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Clover honey",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "Hot Chicken Sandwich",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Boneless skinless chicken breast",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Cultured buttermilk",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Chili powder blend",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Cayenne pepper",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Burger buns 4 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Iceberg lettuce",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Russet potato",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "Tomato Soup & Grilled Cheese",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Roma tomato",
+            "qty": 10.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Heavy whipping cream 36%",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Instant dry yeast",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Bubby's Burger*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ground beef 80/20",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Burger buns 4 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Iceberg lettuce",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Russet potato",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "Double Bubby 2.0*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ground beef 80/20",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Burger buns 4 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Sliced American cheese",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Dijon mustard",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Iceberg lettuce",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Beefsteak tomato",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Tomato ketchup",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Russet potato",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "Hand Cut Fries",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Russet potato",
+            "qty": 10.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.8
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Mashed Potatoes",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Yukon gold potato",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Whole chicken",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "Coleslaw",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Green cabbage",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Jumbo carrot",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Apple cider vinegar",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.75
+          }
+        ],
+        "confidence": 0.82
+      },
+      {
+        "item_name": "Grilled Salmon",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Atlantic salmon fillet",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.9
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Roasted Chicken",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Whole chicken",
+            "qty": 10.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.06,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Dried thyme",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "Bacon",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Sliced bacon",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Side Salad",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Spring mix greens",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Slicing cucumber",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Daikon radish",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Kids Pancakes",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Clover honey",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Kids Mac n Cheese",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Dry penne rigate",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "Junior Burger*",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ground beef 80/20",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Burger buns 4 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Sliced American cheese",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.01,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Tomato ketchup",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Russet potato",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 0.8,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "Chocolate Chip Cookie",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Light brown sugar",
+            "qty": 0.75,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Baking powder",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Semisweet chocolate chips",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.8
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "Vanilla Ice Cream",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Heavy whipping cream 36%",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Chocolate Ice Cream",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Heavy whipping cream 36%",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Whole milk",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Cocoa powder",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "Root Beer Float",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Root beer bottles 12 oz",
+            "qty": 12.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Vanilla Ice Cream",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.6
+      }
+    ],
+    "sku_matches": [],
+    "plate_costs": [],
+    "demand_forecast": {},
+    "par_levels": [],
+    "purchase_order": {},
+    "review_queue": [],
+    "stage": "menu_extracted"
+  }
+}

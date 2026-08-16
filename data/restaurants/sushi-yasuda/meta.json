@@ -1,0 +1,31 @@
+{
+  "slug": "sushi-yasuda",
+  "name": "Sushi Yasuda",
+  "url": "https://www.sushiyasuda.com/menu/dining_menu.pdf",
+  "cuisine": "japanese-sushi",
+  "price_tier": "$$$$",
+  "seats": 58,
+  "service_style": "full-service",
+  "neighborhood": "Midtown East",
+  "snapshot_date": "2026-08-08",
+  "menu_format": "pdf",
+  "popular_times_index": [
+    0.62,
+    0.72,
+    0.85,
+    0.95,
+    1.0,
+    0.72,
+    0.35
+  ],
+  "review_count": 1574,
+  "tier": "B",
+  "estimated_fields": [
+    "popular_times_index",
+    "seats"
+  ],
+  "observed_fields": [
+    "review_count"
+  ],
+  "observed_source": "Google Maps listing, read 2026-08-08"
+}

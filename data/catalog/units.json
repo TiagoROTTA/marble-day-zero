@@ -1,0 +1,20 @@
+{
+  "oz:lb": 0.0625,
+  "lb:oz": 16.0,
+  "fl_oz:qt": 0.03125,
+  "qt:fl_oz": 32.0,
+  "qt:gal": 0.25,
+  "gal:qt": 4.0,
+  "fl_oz:gal": 0.0078125,
+  "gal:fl_oz": 128.0,
+  "dozen:each": 12.0,
+  "each:dozen": 0.08333,
+  "lb:lb": 1.0,
+  "oz:oz": 1.0,
+  "gal:gal": 1.0,
+  "qt:qt": 1.0,
+  "fl_oz:fl_oz": 1.0,
+  "each:each": 1.0,
+  "dozen:dozen": 1.0,
+  "bunch:bunch": 1.0
+}

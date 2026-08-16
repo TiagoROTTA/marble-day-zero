@@ -1,0 +1,42 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets & local config
+# .env.example is deliberately NOT ignored: it is the only thing telling a
+# stranger which variables the project needs. Every real secret lives in .env
+# or a hand-made backup of it, and both must stay out of history.
+.env
+.env.*
+!.env.example
+
+# Runtime data
+# The -shm and -wal sidecars are SQLite's write-ahead log, rewritten on every
+# run: they were tracked by mistake and carry no information the checkpoint
+# database itself does not.
+data/*.sqlite
+data/*.sqlite-journal
+data/*.sqlite-shm
+data/*.sqlite-wal
+data/*.db
+
+# Personal documents that live in the working directory but are not the project
+/CV_*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.egg-info/

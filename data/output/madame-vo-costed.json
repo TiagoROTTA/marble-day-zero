@@ -1,0 +1,5588 @@
+{
+  "slug": "madame-vo",
+  "tier": "A",
+  "cuisine": "vietnamese",
+  "menu_format": "html",
+  "elapsed_s": 299.4,
+  "usage": {
+    "calls": 14,
+    "input_tokens": 88008,
+    "output_tokens": 43752,
+    "cache_read": 68664,
+    "cache_write": 0
+  },
+  "error": "",
+  "state": {
+    "input": "madame-vo",
+    "extracted_data": {},
+    "retry_count": 1,
+    "last_error": "",
+    "human_decision": "",
+    "needs_human": false,
+    "restaurant": {
+      "slug": "madame-vo",
+      "name": "Madame Vo",
+      "url": "https://www.madamevo.com/menu",
+      "cuisine": "vietnamese",
+      "price_tier": "$$",
+      "seats": 44,
+      "service_style": "full-service",
+      "neighborhood": "East Village",
+      "snapshot_date": "2026-08-08",
+      "menu_format": "html",
+      "popular_times_index": [
+        0.54,
+        0.65,
+        0.71,
+        0.6,
+        0.82,
+        1.0,
+        0.67
+      ],
+      "review_count": 1526,
+      "tier": "A",
+      "estimated_fields": [
+        "seats"
+      ],
+      "observed_fields": [
+        "popular_times_index",
+        "review_count"
+      ],
+      "observed_source": "Google Maps listing, read 2026-08-08",
+      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\madame-vo\\source.html"
+    },
+    "menu_items": [
+      {
+        "name": "CHA GIO",
+        "section": "Appetizers",
+        "price": 15.0,
+        "description": "Golden fried spring rolls stuffed with a savory mix of shrimp, crab, and pork. Served with fish sauce for dipping.",
+        "confidence": 0.95
+      },
+      {
+        "name": "NEM NUONG CUON",
+        "section": "Appetizers",
+        "price": 13.0,
+        "description": "Grilled pork rolls wrapped in soft rice paper with vermicelli, crisp lettuce, fresh mint, and crispy rice paper.",
+        "confidence": 0.95
+      },
+      {
+        "name": "GOI CUON *GF",
+        "section": "Appetizers",
+        "price": 13.0,
+        "description": "Summer rolls w. shrimp, vermicelli, cucumbers, lettuce and mint served with a creamy dipping sauce.",
+        "confidence": 0.95
+      },
+      {
+        "name": "MADAME WINGS *GF",
+        "section": "Appetizers",
+        "price": 18.0,
+        "description": "chicken wings glazed in a bold caramelized garlic fish sauce",
+        "confidence": 0.95
+      },
+      {
+        "name": "BANH XEO",
+        "section": "Appetizers",
+        "price": 17.0,
+        "description": "Vietnamese savory crepe with sautéed shrimp & pork belly. Served with fish sauce. Vegetarian option available upon request.",
+        "confidence": 0.95
+      },
+      {
+        "name": "BANH KHOT",
+        "section": "Appetizers",
+        "price": 16.0,
+        "description": "Crispy mini coconut-turmeric rice pancakes topped with shrimp, scallion, & crispy shallots",
+        "confidence": 0.95
+      },
+      {
+        "name": "BANH BOT CHIEN",
+        "section": "Appetizers",
+        "price": 19.0,
+        "description": "Pan fried rice cakes with eggs & scallions topped with fried garlic, diced sausage, cilantro & Fresno chilis. Served with fish sauce.",
+        "confidence": 0.95
+      },
+      {
+        "name": "GOI BUOI*GF",
+        "section": "Appetizers",
+        "price": 18.0,
+        "description": "A vibrant and spicy pomelo salad tossed with shrimp, green papaya, carrots, daikon, Thai basil, mint, crispy shallots, and roasted peanuts.",
+        "confidence": 0.95
+      },
+      {
+        "name": "GOI NGO BO",
+        "section": "Appetizers",
+        "price": 24.0,
+        "description": "Spicy Vietnamese beef and cilantro salad topped with crushed peanuts, served with sesame rice paper for scooping and sharing.",
+        "confidence": 0.95
+      },
+      {
+        "name": "MUC RANG MUOI",
+        "section": "Appetizers",
+        "price": 22.0,
+        "description": "Salt toasted fried squid served with avocado sauce.",
+        "confidence": 0.95
+      },
+      {
+        "name": "CUA LOT RANG MUOI",
+        "section": "Appetizers",
+        "price": 28.0,
+        "description": "Salt toasted soft-shell crab served with avocado sauce.",
+        "confidence": 0.95
+      },
+      {
+        "name": "TOM RANG MUOI",
+        "section": "Appetizers",
+        "price": 16.0,
+        "description": "Salt toasted prawns served with avocado sauce.",
+        "confidence": 0.95
+      },
+      {
+        "name": "MADAME PLATTER",
+        "section": "Appetizers",
+        "price": 68.0,
+        "description": "A feast for the senses: grilled chicken, shrimp, and pork, honey-glazed pork, and crispy fried spring rolls over delicate bánh hỏi noodles. Served with rice paper for wrapping, topped with crushed peanuts, and accompanied by fish sauce.",
+        "confidence": 0.95
+      },
+      {
+        "name": "THE MADAME PHO *GF",
+        "section": "Noodle Dishes",
+        "price": 20.0,
+        "description": "Aromatic beef broth simmered for 24 hours, served w. rice noodles, sliced eye round, brisket, and beef meatballs. Garnished with fresh cilantro and onions",
+        "confidence": 0.95
+      },
+      {
+        "name": "PHO CHAY *V",
+        "section": "Noodle Dishes",
+        "price": 19.0,
+        "description": "Savory mushroom-based broth infused with classic pho spices, served w. rice noodles and topped w. shiitake mushrooms,tofu, fresh cilantro, and scallions.",
+        "confidence": 0.95
+      },
+      {
+        "name": "BUN BO HUE *GF",
+        "section": "Noodle Dishes",
+        "price": 22.0,
+        "description": "Spicy lemongrass broth served with vermicelli noodles, brisket & Vietnamese pork roll.",
+        "confidence": 0.95
+      },
+      {
+        "name": "TET NOODLES",
+        "section": "Noodle Dishes",
+        "price": 30.0,
+        "description": "Egg noodles wok-tossed in a decadent garlic butter fish sauce, topped with succulent lump crab meat and juicy prawns. Finished with crispy fried garlic",
+        "confidence": 0.95
+      },
+      {
+        "name": "GARLIC NOODLES",
+        "section": "Noodle Dishes",
+        "price": 20.0,
+        "description": "Rice noodles stir fried with eggs, shrimp, scallions, and garlic.",
+        "confidence": 0.95
+      },
+      {
+        "name": "HU TIEU CHAY",
+        "section": "Noodle Dishes",
+        "price": 19.0,
+        "description": "Rice noodles stir fried with eggs, tofu, peppers & cilantro.",
+        "confidence": 0.95
+      },
+      {
+        "name": "VERMICELLI BOWL *V",
+        "section": "Noodle Dishes",
+        "price": 20.0,
+        "description": "Vermicelli noodles, mint, cucumbers, crushed peanuts & fried shallot with choice of: grilled chicken, spicy tofu, honey glazed pork, spicy lemongrass beef, shrimp, cha gio.",
+        "confidence": 0.9
+      },
+      {
+        "name": "Oxtail Fried Rice",
+        "section": "Rice Dishes",
+        "price": 34.0,
+        "description": "Fragrant five-spice braised oxtail, rich bone marrow, and sautéed onions, stir-fried with rice and topped with a crispy fried egg, golden shallots, and fresh cilantro",
+        "confidence": 0.95
+      },
+      {
+        "name": "COM SUON NUONG *GF",
+        "section": "Rice Dishes",
+        "price": 24.0,
+        "description": "Grilled pork chops served with rice, fried egg,& pickled veggies.",
+        "confidence": 0.95
+      },
+      {
+        "name": "BO LUC LAC",
+        "section": "Rice Dishes",
+        "price": 35.0,
+        "description": "Sizzling seared ribeye cubes wok-tossed with scallions and served with a fried egg.",
+        "confidence": 0.95
+      },
+      {
+        "name": "CA TIM XAO XA OT *V",
+        "section": "Rice Dishes",
+        "price": 19.0,
+        "description": "Eggplant stir fried with lemongrass, scallions & chili sauce.",
+        "confidence": 0.95
+      },
+      {
+        "name": "GA XAO XA OT",
+        "section": "Rice Dishes",
+        "price": 19.0,
+        "description": "Chicken stir fried with lemongrass, peppers, onions, and chili sauce.",
+        "confidence": 0.95
+      },
+      {
+        "name": "MAMA LY'S FRIED RICE *GF",
+        "section": "Rice Dishes",
+        "price": 19.0,
+        "description": "Fried rice with shrimp, sausage, eggs, scallions & fried garlic. Vegetarian option available upon request.",
+        "confidence": 0.95
+      },
+      {
+        "name": "STRING BEANS IN GARLIC SAUCE",
+        "section": "Sides",
+        "price": 16.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "FRIED EGG",
+        "section": "Sides",
+        "price": 5.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "JASMINE RICE",
+        "section": "Sides",
+        "price": 4.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "LYCHEE ICE TEA",
+        "section": "Non-Alcoholic",
+        "price": 7.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "LIMEADE",
+        "section": "Non-Alcoholic",
+        "price": 6.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "SALTED LIMEADE",
+        "section": "Non-Alcoholic",
+        "price": 7.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "VIETNAMESE ICED COFFEE",
+        "section": "Non-Alcoholic",
+        "price": 7.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "PANDAN SPARKLING WATER",
+        "section": "Non-Alcoholic",
+        "price": 6.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "FRESH COCONUT",
+        "section": "Non-Alcoholic",
+        "price": 10.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "SODA",
+        "section": "Non-Alcoholic",
+        "price": 4.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "HOT TEA",
+        "section": "Non-Alcoholic",
+        "price": 6.0,
+        "description": "Jasmine green, White Ginger Pear, Ginger lemongrass, Green mango peach, Pandan",
+        "confidence": 0.95
+      },
+      {
+        "name": "FIRST KISS",
+        "section": "Cocktails",
+        "price": 16.0,
+        "description": "Chrysanthemum infused Vodka, Italicus, Rose Syrup, Lemon",
+        "confidence": 0.95
+      },
+      {
+        "name": "MADAME SOUR",
+        "section": "Cocktails",
+        "price": 17.0,
+        "description": "Gin, Lychee puree, Basil, Lemon, Aquafaba",
+        "confidence": 0.95
+      },
+      {
+        "name": "MISS SAIGON",
+        "section": "Cocktails",
+        "price": 16.0,
+        "description": "Vodka, Plum wine, Peach Blossom, Mint, Lime",
+        "confidence": 0.95
+      },
+      {
+        "name": "LE SECRET D'AMOUR",
+        "section": "Cocktails",
+        "price": 17.0,
+        "description": "Rum, Passion Fruit, Aperol, Five Spice Bitters, Lime",
+        "confidence": 0.95
+      },
+      {
+        "name": "MEKONG DREAM",
+        "section": "Cocktails",
+        "price": 16.0,
+        "description": "Vodka, Passion Fruit, Fernet, Pandan,Lemon",
+        "confidence": 0.95
+      },
+      {
+        "name": "VIETNAMESE COFFEE MARTINI",
+        "section": "Cocktails",
+        "price": 17.0,
+        "description": "Esplon tequila, Vietnamese Coffee,Coffee Liquor",
+        "confidence": 0.95
+      },
+      {
+        "name": "Saigon Export",
+        "section": "Beer",
+        "price": 8.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "SAPPORO Reserve",
+        "section": "Beer",
+        "price": 8.0,
+        "description": "",
+        "confidence": 0.95
+      },
+      {
+        "name": "PROSECCO",
+        "section": "Wine - By The Glass",
+        "price": 13.0,
+        "description": "Isotta Mazoni, Italy",
+        "confidence": 0.9
+      },
+      {
+        "name": "GRUNER VELTLINER",
+        "section": "Wine - By The Glass",
+        "price": 13.0,
+        "description": "Von Donabaum, Austria",
+        "confidence": 0.9
+      },
+      {
+        "name": "SAUVIGNON BLANC",
+        "section": "Wine - By The Glass",
+        "price": 14.0,
+        "description": "INVIVO SJP, Marlborough",
+        "confidence": 0.9
+      },
+      {
+        "name": "Jalapeño Sauvignon Blanc",
+        "section": "Wine - By The Glass",
+        "price": 12.0,
+        "description": "INVIVO SJP, Marlborough",
+        "confidence": 0.9
+      },
+      {
+        "name": "ROSE",
+        "section": "Wine - By The Glass",
+        "price": 13.0,
+        "description": "Saveurs, France",
+        "confidence": 0.9
+      },
+      {
+        "name": "MONTEPULCIANO",
+        "section": "Wine - By The Glass",
+        "price": 13.0,
+        "description": "Regalato, Italy",
+        "confidence": 0.9
+      },
+      {
+        "name": "PINOT NOIR",
+        "section": "Wine - By The Glass",
+        "price": 19.0,
+        "description": "Fullerton Poetry, Oregon",
+        "confidence": 0.9
+      },
+      {
+        "name": "PROSECCO",
+        "section": "Wine - Bottles",
+        "price": 45.0,
+        "description": "Isotta Manzoni, Italy",
+        "confidence": 0.9
+      },
+      {
+        "name": "GRUNER VELTLINER",
+        "section": "Wine - Bottles",
+        "price": 45.0,
+        "description": "Von Donabaum, Austria",
+        "confidence": 0.9
+      },
+      {
+        "name": "SAUVIGNON BLANC",
+        "section": "Wine - Bottles",
+        "price": 50.0,
+        "description": "INVIVO SJP, Marlborough",
+        "confidence": 0.9
+      },
+      {
+        "name": "Jalapeño Sauvignon Blanc",
+        "section": "Wine - Bottles",
+        "price": 42.0,
+        "description": "INVIVO SJP, Marlborough",
+        "confidence": 0.9
+      },
+      {
+        "name": "ROSE",
+        "section": "Wine - Bottles",
+        "price": 45.0,
+        "description": "Saveurs du Temps, France",
+        "confidence": 0.9
+      },
+      {
+        "name": "MONTEPULCIANO",
+        "section": "Wine - Bottles",
+        "price": 45.0,
+        "description": "Regalato, Italy",
+        "confidence": 0.9
+      },
+      {
+        "name": "PINOT NOIR",
+        "section": "Wine - Bottles",
+        "price": 70.0,
+        "description": "Fullerton Poetry, Oregon",
+        "confidence": 0.9
+      },
+      {
+        "name": "CABERNET SAUVIGNON",
+        "section": "Wine - Bottles",
+        "price": 95.0,
+        "description": "JB Neufeld, Yakima Valley",
+        "confidence": 0.9
+      }
+    ],
+    "recipes": [
+      {
+        "item_name": "CHA GIO",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Shrimp 16/20 peeled and deveined",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Pasteurized lump crab meat",
+            "qty": 0.75,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ground pork",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Jumbo carrot",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Dried wood ear mushrooms",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Bean thread glass noodles",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Rice paper wrappers",
+            "qty": 3.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 0.15,
+            "uom": "each",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Vietnamese fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "NEM NUONG CUON",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ground pork",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Rice vermicelli",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Rice paper wrappers",
+            "qty": 3.0,
+            "uom": "each",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.45
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "GOI CUON *GF",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Shrimp 16/20 peeled and deveined",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Rice vermicelli",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Rice paper wrappers",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Slicing cucumber",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Creamy peanut butter",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Hoisin sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "MADAME WINGS *GF",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Chicken wings",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Vietnamese fish sauce",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Cornstarch",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "BANH XEO",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Rice flour",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canned coconut milk",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground turmeric",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Shrimp 16/20 peeled and deveined",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Pork belly",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Mung bean sprouts",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Vietnamese fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.45
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "BANH KHOT",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Rice flour",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Canned coconut milk",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground turmeric",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Shrimp 16/20 peeled and deveined",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Shallot",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Vietnamese fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "BANH BOT CHIEN",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Rice flour",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Chinese sausage (lap cheong)",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Jalapeno pepper",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Vietnamese fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "GOI BUOI*GF",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Pomelo",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Shrimp 16/20 peeled and deveined",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Green papaya",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Jumbo carrot",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Daikon radish",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Thai basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Shallot",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Raw shelled peanuts",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Vietnamese fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.45
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "GOI NGO BO",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef flank steak",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Raw shelled peanuts",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Rice paper wrappers",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "White sesame seeds",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Vietnamese fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.45
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "MUC RANG MUOI",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Cleaned calamari tubes and tentacles",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Cornstarch",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Hass avocado",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "CUA LOT RANG MUOI",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "soft-shell crab",
+            "qty": 3.0,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "cornstarch",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "clear fry oil",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "granulated garlic powder",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "hass avocado",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "heavy-duty mayonnaise",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "fresh lime juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "scallion",
+            "qty": 0.2,
+            "uom": "bunch",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "TOM RANG MUOI",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "shrimp 16/20 peeled and deveined",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "cornstarch",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "clear fry oil",
+            "qty": 4.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "granulated garlic powder",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "hass avocado",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "heavy-duty mayonnaise",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "fresh lime juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "scallion",
+            "qty": 0.2,
+            "uom": "bunch",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "MADAME PLATTER",
+        "yield_qty": 1.0,
+        "yield_uom": "platter (shared, ~3-4 people)",
+        "components": [
+          {
+            "raw_name": "boneless skinless chicken thigh",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "shrimp 16/20 peeled and deveined",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "pork shoulder butt",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "boneless pork loin",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "clover honey",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "soy sauce",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "banh pho flat rice noodles",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "rice paper wrappers",
+            "qty": 8.0,
+            "uom": "each",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "raw shelled peanuts",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "vietnamese fish sauce",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "fresh cilantro",
+            "qty": 0.2,
+            "uom": "bunch",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "romaine lettuce",
+            "qty": 0.2,
+            "uom": "each",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "all-purpose flour",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "clear fry oil",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.45
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "THE MADAME PHO *GF",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "beef marrow and knuckle bones",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "beef brisket",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "beef eye of round",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "ground beef 80/20",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "banh pho flat rice noodles",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "fresh ginger root",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "whole star anise",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "whole cloves",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "ground cinnamon",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "fresh cilantro",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "scallion",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "vietnamese fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "PHO CHAY *V",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "shiitake mushroom",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "firm tofu",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "banh pho flat rice noodles",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "fresh ginger root",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "whole star anise",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "ground cinnamon",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "fresh cilantro",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "scallion",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "soy sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "BUN BO HUE *GF",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "beef brisket",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "vietnamese pork roll (cha lua)",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "beef marrow and knuckle bones",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "rice vermicelli",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "fresh lemongrass",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "sambal oelek chili paste",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "annatto oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "vietnamese fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "scallion",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "TET NOODLES",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "fresh-style ramen noodles",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "pasteurized lump crab meat",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "shrimp 16/20 peeled and deveined",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "unsalted butter",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "vietnamese fish sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "peeled garlic cloves",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "scallion",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "GARLIC NOODLES",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "rice vermicelli",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "shrimp 16/20 peeled and deveined",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "scallion",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "peeled garlic cloves",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "canola oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "soy sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "HU TIEU CHAY",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "rice vermicelli",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "firm tofu",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "red bell pepper",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "fresh cilantro",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "canola oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "soy sauce",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "VERMICELLI BOWL *V",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "rice vermicelli",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "firm tofu",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "fresh mint",
+            "qty": 0.15,
+            "uom": "bunch",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "slicing cucumber",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "raw shelled peanuts",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "shallot",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "vietnamese fish sauce",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "romaine lettuce",
+            "qty": 0.2,
+            "uom": "each",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "clear fry oil",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Oxtail Fried Rice",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef oxtail",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Beef marrow and knuckle bones",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Jasmine rice",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Shallot",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Fresh cilantro",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Chinese five spice",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "COM SUON NUONG *GF",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Bone-in pork chop",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Jasmine rice",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Daikon radish",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Jumbo carrot",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Seasoned rice vinegar",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Fish sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "BO LUC LAC",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef ribeye",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Oyster sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Ground black pepper",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "CA TIM XAO XA OT *V",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Globe eggplant",
+            "qty": 8.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh lemongrass",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sambal oelek chili paste",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "GA XAO XA OT",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Boneless skinless chicken thigh",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh lemongrass",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Red bell pepper",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Sambal oelek chili paste",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "MAMA LY'S FRIED RICE *GF",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Jasmine rice",
+            "qty": 7.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Shrimp 16/20 peeled and deveined",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Chinese sausage (lap cheong)",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "STRING BEANS IN GARLIC SAUCE",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Green bean",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Oyster sauce",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "FRIED EGG",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.9
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "JASMINE RICE",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Jasmine rice",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.9
+          }
+        ],
+        "confidence": 0.9
+      },
+      {
+        "item_name": "LYCHEE ICE TEA",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Black tea bags",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Canned lychee in syrup",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Simple syrup",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "LIMEADE",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Simple syrup",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.3,
+            "uom": "each",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "SALTED LIMEADE",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Simple syrup",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.3,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Salted preserved lime",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "VIETNAMESE ICED COFFEE",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Vietnamese-style robusta ground coffee",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Sweetened condensed milk",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "PANDAN SPARKLING WATER",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Sparkling water bottles",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Pandan syrup",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "FRESH COCONUT",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Young coconut",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "SODA",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Cola cans 12 oz",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "HOT TEA",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Jasmine loose leaf tea",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.4
+      },
+      {
+        "item_name": "FIRST KISS",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Well vodka 1.75L",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Dried chrysanthemum flowers",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Italicus bergamot liqueur 750ml",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Rose syrup",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.75,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.1,
+            "uom": "each",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "MADAME SOUR",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Well gin 1.75L",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Lychee puree",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh basil",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.75,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Liquid egg whites",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "MISS SAIGON",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Well vodka 1.75L",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Plum wine 750ml",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Peach blossom liqueur 750ml",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fresh mint",
+            "qty": 0.05,
+            "uom": "bunch",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "LE SECRET D'AMOUR",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "White rum",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Passion fruit puree",
+            "qty": 0.75,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Aperol aperitivo 1L",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Aromatic bitters 4 oz",
+            "qty": 0.05,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh lime juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.1,
+            "uom": "each",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "MEKONG DREAM",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Well vodka",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Passion fruit puree",
+            "qty": 0.75,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Fernet Branca 1L",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Pandan syrup",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.8
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "VIETNAMESE COFFEE MARTINI",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Blanco tequila 1.75L",
+            "qty": 1.5,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Vietnamese-style robusta ground coffee",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Coffee liqueur 1L",
+            "qty": 0.75,
+            "uom": "fl_oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Sweetened condensed milk",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Saigon Export",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Domestic bottled beer 12 oz",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "SAPPORO Reserve",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Domestic bottled beer 12 oz",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "PROSECCO",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Prosecco",
+            "qty": 5.0,
+            "uom": "fl_oz",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "GRUNER VELTLINER",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "House white wine",
+            "qty": 5.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "SAUVIGNON BLANC",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "House white wine",
+            "qty": 5.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Jalapeño Sauvignon Blanc",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "House white wine",
+            "qty": 5.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Jalapeno pepper",
+            "qty": 0.3,
+            "uom": "each",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "ROSE",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "House red wine",
+            "qty": 5.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "MONTEPULCIANO",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "House red wine",
+            "qty": 6.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "PINOT NOIR",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "House red wine",
+            "qty": 6.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "PROSECCO",
+        "yield_qty": 1.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "Prosecco",
+            "qty": 25.4,
+            "uom": "fl_oz",
+            "confidence": 0.85
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "GRUNER VELTLINER",
+        "yield_qty": 1.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "House white wine",
+            "qty": 25.4,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "SAUVIGNON BLANC",
+        "yield_qty": 1.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "House white wine",
+            "qty": 25.4,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "Jalapeño Sauvignon Blanc",
+        "yield_qty": 1.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "House white wine",
+            "qty": 25.4,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Jalapeno pepper",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.4
+      },
+      {
+        "item_name": "ROSE",
+        "yield_qty": 1.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "House white wine",
+            "qty": 25.4,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "MONTEPULCIANO",
+        "yield_qty": 1.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "House red wine",
+            "qty": 25.4,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "PINOT NOIR",
+        "yield_qty": 1.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "House red wine",
+            "qty": 25.4,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "CABERNET SAUVIGNON",
+        "yield_qty": 1.0,
+        "yield_uom": "each",
+        "components": [
+          {
+            "raw_name": "House red wine",
+            "qty": 25.4,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.6
+      }
+    ],
+    "sku_matches": [
+      {
+        "raw_name": "Shrimp 16/20 peeled and deveined",
+        "sku_id": "PROT-SHRIMP-1620",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "shrimp 16/20 peeled and deveined",
+        "sku_id": "PROT-SHRIMP-1620",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pasteurized lump crab meat",
+        "sku_id": "PROT-CRAB-LUMPMEAT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "pasteurized lump crab meat",
+        "sku_id": "PROT-CRAB-LUMPMEAT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground pork",
+        "sku_id": "PROT-PORK-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Jumbo carrot",
+        "sku_id": "PROD-CARROT-JUMBO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried wood ear mushrooms",
+        "sku_id": "DRY-MUSHROOM-WOODEAR",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Bean thread glass noodles",
+        "sku_id": "DRY-NOODLE-GLASSBEANTHREAD",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Rice paper wrappers",
+        "sku_id": "DRY-RICEPAPER-BANHTRANG",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "rice paper wrappers",
+        "sku_id": "DRY-RICEPAPER-BANHTRANG",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Large shell eggs",
+        "sku_id": "DAIR-EGG-LARGE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "large shell eggs",
+        "sku_id": "DAIR-EGG-LARGE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Clear fry oil",
+        "sku_id": "COND-OIL-FRYER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "clear fry oil",
+        "sku_id": "COND-OIL-FRYER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Vietnamese fish sauce",
+        "sku_id": "COND-FISHSAUCE-VIET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "vietnamese fish sauce",
+        "sku_id": "COND-FISHSAUCE-VIET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Granulated white sugar",
+        "sku_id": "DRY-SUGAR-GRANULATED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh lime juice",
+        "sku_id": "BEV-JUICE-LIME",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "fresh lime juice",
+        "sku_id": "BEV-JUICE-LIME",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Peeled garlic cloves",
+        "sku_id": "PROD-GARLIC-PEELED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "peeled garlic cloves",
+        "sku_id": "PROD-GARLIC-PEELED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Rice vermicelli",
+        "sku_id": "DRY-NOODLE-RICEVERMICELLI",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "rice vermicelli",
+        "sku_id": "DRY-NOODLE-RICEVERMICELLI",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Romaine lettuce",
+        "sku_id": "PROD-LETTUCE-ROMAINE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "romaine lettuce",
+        "sku_id": "PROD-LETTUCE-ROMAINE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh mint",
+        "sku_id": "PROD-HERB-MINT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "fresh mint",
+        "sku_id": "PROD-HERB-MINT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canola oil",
+        "sku_id": "COND-OIL-CANOLA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "canola oil",
+        "sku_id": "COND-OIL-CANOLA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Slicing cucumber",
+        "sku_id": "PROD-CUCUMBER-SLICING",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "slicing cucumber",
+        "sku_id": "PROD-CUCUMBER-SLICING",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Creamy peanut butter",
+        "sku_id": "COND-PEANUTBUTTER-CREAMY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Hoisin sauce",
+        "sku_id": "COND-HOISIN-BULK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Chicken wings",
+        "sku_id": "PROT-CHICKEN-WINGS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cornstarch",
+        "sku_id": "DRY-CORNSTARCH-BULK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "cornstarch",
+        "sku_id": "DRY-CORNSTARCH-BULK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground black pepper",
+        "sku_id": "SPICE-PEPPER-BLACKGROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Rice flour",
+        "sku_id": "DRY-FLOUR-RICE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canned coconut milk",
+        "sku_id": "DRY-COCONUTMILK-CAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground turmeric",
+        "sku_id": "SPICE-TURMERIC-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pork belly",
+        "sku_id": "PROT-PORK-BELLY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Mung bean sprouts",
+        "sku_id": "PROD-SPROUT-MUNGBEAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Yellow onion",
+        "sku_id": "PROD-ONION-YELLOW",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "yellow onion",
+        "sku_id": "PROD-ONION-YELLOW",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Scallion",
+        "sku_id": "PROD-ONION-SCALLION",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "scallion",
+        "sku_id": "PROD-ONION-SCALLION",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Shallot",
+        "sku_id": "PROD-SHALLOT-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "shallot",
+        "sku_id": "PROD-SHALLOT-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Chinese sausage (lap cheong)",
+        "sku_id": "PROT-PORK-LAPCHEONG",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh cilantro",
+        "sku_id": "PROD-HERB-CILANTRO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "fresh cilantro",
+        "sku_id": "PROD-HERB-CILANTRO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Jalapeno pepper",
+        "sku_id": "PROD-PEPPER-JALAPENO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pomelo",
+        "sku_id": "PROD-POMELO-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Green papaya",
+        "sku_id": "PROD-PAPAYA-GREEN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Daikon radish",
+        "sku_id": "PROD-DAIKON-RADISH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Thai basil",
+        "sku_id": "PROD-HERB-THAIBASIL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Raw shelled peanuts",
+        "sku_id": "DRY-PEANUT-RAWSHELLED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "raw shelled peanuts",
+        "sku_id": "DRY-PEANUT-RAWSHELLED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Beef flank steak",
+        "sku_id": "PROT-BEEF-FLANK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red onion",
+        "sku_id": "PROD-ONION-RED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "White sesame seeds",
+        "sku_id": "SPICE-SESAMESEED-WHITE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cleaned calamari tubes and tentacles",
+        "sku_id": "PROT-CALAMARI-TUBES",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Kosher salt",
+        "sku_id": "SPICE-SALT-KOSHER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "kosher salt",
+        "sku_id": "SPICE-SALT-KOSHER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Hass avocado",
+        "sku_id": "PROD-AVOCADO-HASS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "hass avocado",
+        "sku_id": "PROD-AVOCADO-HASS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Heavy-duty mayonnaise",
+        "sku_id": "COND-MAYO-HEAVY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "heavy-duty mayonnaise",
+        "sku_id": "COND-MAYO-HEAVY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "granulated garlic powder",
+        "sku_id": "SPICE-GARLICPOWDER-GRANULATED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "boneless skinless chicken thigh",
+        "sku_id": "PROT-CHICKEN-THIGHBNLS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Boneless skinless chicken thigh",
+        "sku_id": "PROT-CHICKEN-THIGHBNLS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "pork shoulder butt",
+        "sku_id": "PROT-PORK-SHOULDER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "boneless pork loin",
+        "sku_id": "PROT-PORK-LOIN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "clover honey",
+        "sku_id": "COND-HONEY-CLOVER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "soy sauce",
+        "sku_id": "COND-SOYSAUCE-DARK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Soy sauce",
+        "sku_id": "COND-SOYSAUCE-DARK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "banh pho flat rice noodles",
+        "sku_id": "DRY-NOODLE-RICEBANHPHO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "all-purpose flour",
+        "sku_id": "DRY-FLOUR-ALLPURPOSE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "beef marrow and knuckle bones",
+        "sku_id": "PROT-BEEF-BONESBROTH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Beef marrow and knuckle bones",
+        "sku_id": "PROT-BEEF-BONESBROTH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "beef brisket",
+        "sku_id": "PROT-BEEF-BRISKET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "beef eye of round",
+        "sku_id": "PROT-BEEF-EYEROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "ground beef 80/20",
+        "sku_id": "PROT-BEEF-GROUND8020",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "fresh ginger root",
+        "sku_id": "PROD-GINGER-ROOT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "whole star anise",
+        "sku_id": "SPICE-STARANISE-WHOLE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "whole cloves",
+        "sku_id": "SPICE-CLOVE-WHOLE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "ground cinnamon",
+        "sku_id": "SPICE-CINNAMON-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "shiitake mushroom",
+        "sku_id": "PROD-MUSHROOM-SHIITAKE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "firm tofu",
+        "sku_id": "PROT-TOFU-FIRM",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "vietnamese pork roll (cha lua)",
+        "sku_id": "PROT-PORK-CHALUA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "fresh lemongrass",
+        "sku_id": "PROD-LEMONGRASS-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh lemongrass",
+        "sku_id": "PROD-LEMONGRASS-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "sambal oelek chili paste",
+        "sku_id": "COND-SAMBAL-OELEK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sambal oelek chili paste",
+        "sku_id": "COND-SAMBAL-OELEK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "annatto oil",
+        "sku_id": "COND-OIL-ANNATTO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "fresh-style ramen noodles",
+        "sku_id": "DRY-NOODLE-RAMEN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "unsalted butter",
+        "sku_id": "DAIR-BUTTER-UNSALTED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "red bell pepper",
+        "sku_id": "PROD-PEPPER-REDBELL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red bell pepper",
+        "sku_id": "PROD-PEPPER-REDBELL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Beef oxtail",
+        "sku_id": "PROT-BEEF-OXTAIL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Jasmine rice",
+        "sku_id": "DRY-RICE-JASMINE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Chinese five spice",
+        "sku_id": "SPICE-FIVESPICE-BLEND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Bone-in pork chop",
+        "sku_id": "PROT-PORK-CHOP",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Seasoned rice vinegar",
+        "sku_id": "COND-VINEGAR-RICE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fish sauce",
+        "sku_id": "COND-FISHSAUCE-VIET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Beef ribeye",
+        "sku_id": "PROT-BEEF-RIBEYE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Oyster sauce",
+        "sku_id": "COND-OYSTERSAUCE-BULK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Globe eggplant",
+        "sku_id": "PROD-EGGPLANT-GLOBE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Green bean",
+        "sku_id": "PROD-BEAN-GREEN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Black tea bags",
+        "sku_id": "BEV-TEA-BLACKBAG",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canned lychee in syrup",
+        "sku_id": "BEV-LYCHEE-CANNEDSYRUP",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Simple syrup",
+        "sku_id": "BEV-SYRUP-SIMPLE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Persian lime",
+        "sku_id": "PROD-LIME-PERSIAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Salted preserved lime",
+        "sku_id": "COND-LIME-SALTPRESERVED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Vietnamese-style robusta ground coffee",
+        "sku_id": "BEV-COFFEE-VIETNAMESEROBUSTA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sweetened condensed milk",
+        "sku_id": "DAIR-MILK-CONDENSEDSWEET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sparkling water bottles",
+        "sku_id": "BEV-WATER-SPARKLING",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pandan syrup",
+        "sku_id": "BEV-SYRUP-PANDAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Young coconut",
+        "sku_id": "PROD-COCONUT-YOUNG",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cola cans 12 oz",
+        "sku_id": "BEV-SODA-COLACAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Jasmine loose leaf tea",
+        "sku_id": "BEV-TEA-JASMINELOOSE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Well vodka 1.75L",
+        "sku_id": "BEV-SPIRIT-VODKAWELL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried chrysanthemum flowers",
+        "sku_id": "DRY-CHRYSANTHEMUM-DRIED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Italicus bergamot liqueur 750ml",
+        "sku_id": "BEV-LIQUEUR-ITALICUS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Rose syrup",
+        "sku_id": "BEV-SYRUP-ROSE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh lemon juice",
+        "sku_id": "BEV-JUICE-LEMON",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh lemon",
+        "sku_id": "PROD-LEMON-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Well gin 1.75L",
+        "sku_id": "BEV-SPIRIT-GIN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Lychee puree",
+        "sku_id": "BEV-PUREE-LYCHEE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh basil",
+        "sku_id": "PROD-HERB-BASIL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Liquid egg whites",
+        "sku_id": "DAIR-EGG-LIQUIDWHITE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Plum wine 750ml",
+        "sku_id": "BEV-WINE-PLUM",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Peach blossom liqueur 750ml",
+        "sku_id": "BEV-LIQUEUR-PEACHBLOSSOM",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "White rum",
+        "sku_id": "BEV-SPIRIT-RUMWHITE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Passion fruit puree",
+        "sku_id": "BEV-PUREE-PASSIONFRUIT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Aperol aperitivo 1L",
+        "sku_id": "BEV-LIQUEUR-APEROL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Aromatic bitters 4 oz",
+        "sku_id": "BEV-BITTERS-AROMATIC",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Well vodka",
+        "sku_id": "BEV-SPIRIT-VODKAWELL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fernet Branca 1L",
+        "sku_id": "BEV-AMARO-FERNETBRANCA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Blanco tequila 1.75L",
+        "sku_id": "BEV-SPIRIT-TEQUILABLANCO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Coffee liqueur 1L",
+        "sku_id": "BEV-LIQUEUR-COFFEE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Domestic bottled beer 12 oz",
+        "sku_id": "BEV-BEER-BOTTLEDOMESTIC",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Prosecco",
+        "sku_id": "BEV-WINE-PROSECCO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "House white wine",
+        "sku_id": "BEV-WINE-HOUSEWHITE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "House red wine",
+        "sku_id": "BEV-WINE-HOUSERED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "soft-shell crab",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      }
+    ],
+    "plate_costs": [
+      {
+        "item_name": "CHA GIO",
+        "plate_cost": 2.4718,
+        "menu_price": 15.0,
+        "food_cost_pct": 0.1648,
+        "costed_components": 12,
+        "total_components": 13,
+        "coverage": 0.9231,
+        "uncosted": [
+          "Rice paper wrappers (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "Dried wood ear mushrooms (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Large shell eggs (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Fresh lime juice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4067,
+        "costable": true
+      },
+      {
+        "item_name": "NEM NUONG CUON",
+        "plate_cost": 0.7484,
+        "menu_price": 13.0,
+        "food_cost_pct": 0.0576,
+        "costed_components": 7,
+        "total_components": 8,
+        "coverage": 0.875,
+        "uncosted": [
+          "Rice paper wrappers (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "Romaine lettuce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Fresh mint (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Granulated white sugar (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "Canola oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Peeled garlic cloves (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3006,
+        "costable": true
+      },
+      {
+        "item_name": "GOI CUON *GF",
+        "plate_cost": 1.5867,
+        "menu_price": 13.0,
+        "food_cost_pct": 0.1221,
+        "costed_components": 7,
+        "total_components": 8,
+        "coverage": 0.875,
+        "uncosted": [
+          "Rice paper wrappers (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "Slicing cucumber (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Romaine lettuce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Fresh mint (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Creamy peanut butter (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Hoisin sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3544,
+        "costable": true
+      },
+      {
+        "item_name": "MADAME WINGS *GF",
+        "plate_cost": 2.1582,
+        "menu_price": 18.0,
+        "food_cost_pct": 0.1199,
+        "costed_components": 7,
+        "total_components": 7,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Granulated white sugar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Peeled garlic cloves (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Cornstarch (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Ground black pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3343,
+        "costable": true
+      },
+      {
+        "item_name": "BANH XEO",
+        "plate_cost": 2.1201,
+        "menu_price": 17.0,
+        "food_cost_pct": 0.1247,
+        "costed_components": 12,
+        "total_components": 12,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Ground turmeric (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Mung bean sprouts (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Yellow onion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Vietnamese fish sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Romaine lettuce (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "Fresh mint (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3575,
+        "costable": true
+      },
+      {
+        "item_name": "BANH KHOT",
+        "plate_cost": 1.7911,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.1119,
+        "costed_components": 8,
+        "total_components": 8,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Rice flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Ground turmeric (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Shallot (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Vietnamese fish sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3225,
+        "costable": true
+      },
+      {
+        "item_name": "BANH BOT CHIEN",
+        "plate_cost": 1.3371,
+        "menu_price": 19.0,
+        "food_cost_pct": 0.0704,
+        "costed_components": 9,
+        "total_components": 9,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Rice flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Chinese sausage (lap cheong) (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Fresh cilantro (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Jalapeno pepper (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Vietnamese fish sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2842,
+        "costable": true
+      },
+      {
+        "item_name": "GOI BUOI*GF",
+        "plate_cost": 1.9964,
+        "menu_price": 18.0,
+        "food_cost_pct": 0.1109,
+        "costed_components": 11,
+        "total_components": 12,
+        "coverage": 0.9167,
+        "uncosted": [
+          "Pomelo (no conversion from oz to each)"
+        ],
+        "low_confidence": [
+          "Green papaya (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Jumbo carrot (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Daikon radish (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Thai basil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Fresh mint (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Shallot (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Raw shelled peanuts (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Vietnamese fish sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Fresh lime juice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Granulated white sugar (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2875,
+        "costable": true
+      },
+      {
+        "item_name": "GOI NGO BO",
+        "plate_cost": 2.7189,
+        "menu_price": 24.0,
+        "food_cost_pct": 0.1133,
+        "costed_components": 8,
+        "total_components": 9,
+        "coverage": 0.8889,
+        "uncosted": [
+          "Rice paper wrappers (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Red onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Raw shelled peanuts (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "White sesame seeds (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Fresh lime juice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Vietnamese fish sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Granulated white sugar (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2567,
+        "costable": true
+      },
+      {
+        "item_name": "MUC RANG MUOI",
+        "plate_cost": 3.9144,
+        "menu_price": 22.0,
+        "food_cost_pct": 0.1779,
+        "costed_components": 8,
+        "total_components": 8,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Cornstarch (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Hass avocado (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Fresh lime juice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3262,
+        "costable": true
+      },
+      {
+        "item_name": "CUA LOT RANG MUOI",
+        "plate_cost": 1.4665,
+        "menu_price": 28.0,
+        "food_cost_pct": 0.0524,
+        "costed_components": 8,
+        "total_components": 9,
+        "coverage": 0.8889,
+        "uncosted": [
+          "soft-shell crab (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "heavy-duty mayonnaise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "fresh lime juice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3394,
+        "costable": true
+      },
+      {
+        "item_name": "TOM RANG MUOI",
+        "plate_cost": 4.8806,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.305,
+        "costed_components": 9,
+        "total_components": 9,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "heavy-duty mayonnaise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "fresh lime juice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3864,
+        "costable": true
+      },
+      {
+        "item_name": "MADAME PLATTER",
+        "plate_cost": 6.1284,
+        "menu_price": 68.0,
+        "food_cost_pct": 0.0901,
+        "costed_components": 13,
+        "total_components": 14,
+        "coverage": 0.9286,
+        "uncosted": [
+          "rice paper wrappers (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "boneless skinless chicken thigh (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "shrimp 16/20 peeled and deveined (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "pork shoulder butt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "boneless pork loin (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "clover honey (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "soy sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "banh pho flat rice noodles (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "raw shelled peanuts (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "vietnamese fish sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "fresh cilantro (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "romaine lettuce (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "all-purpose flour (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "clear fry oil (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2268,
+        "costable": true
+      },
+      {
+        "item_name": "THE MADAME PHO *GF",
+        "plate_cost": 3.667,
+        "menu_price": 20.0,
+        "food_cost_pct": 0.1833,
+        "costed_components": 14,
+        "total_components": 14,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "ground beef 80/20 (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "whole star anise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "whole cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4446,
+        "costable": true
+      },
+      {
+        "item_name": "PHO CHAY *V",
+        "plate_cost": 2.0556,
+        "menu_price": 19.0,
+        "food_cost_pct": 0.1082,
+        "costed_components": 11,
+        "total_components": 11,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "whole star anise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.42,
+        "costable": true
+      },
+      {
+        "item_name": "BUN BO HUE *GF",
+        "plate_cost": 3.2275,
+        "menu_price": 22.0,
+        "food_cost_pct": 0.1467,
+        "costed_components": 10,
+        "total_components": 11,
+        "coverage": 0.9091,
+        "uncosted": [
+          "sambal oelek chili paste (no conversion from oz to qt)"
+        ],
+        "low_confidence": [
+          "beef marrow and knuckle bones (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "annatto oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "vietnamese fish sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "yellow onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "scallion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3368,
+        "costable": true
+      },
+      {
+        "item_name": "TET NOODLES",
+        "plate_cost": 6.9603,
+        "menu_price": 30.0,
+        "food_cost_pct": 0.232,
+        "costed_components": 7,
+        "total_components": 7,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "scallion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4039,
+        "costable": true
+      },
+      {
+        "item_name": "GARLIC NOODLES",
+        "plate_cost": 2.9077,
+        "menu_price": 20.0,
+        "food_cost_pct": 0.1454,
+        "costed_components": 7,
+        "total_components": 7,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "rice vermicelli (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "scallion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.39,
+        "costable": true
+      },
+      {
+        "item_name": "HU TIEU CHAY",
+        "plate_cost": 1.6947,
+        "menu_price": 19.0,
+        "food_cost_pct": 0.0892,
+        "costed_components": 7,
+        "total_components": 7,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3946,
+        "costable": true
+      },
+      {
+        "item_name": "VERMICELLI BOWL *V",
+        "plate_cost": 2.2306,
+        "menu_price": 20.0,
+        "food_cost_pct": 0.1115,
+        "costed_components": 9,
+        "total_components": 9,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "firm tofu (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "fresh mint (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "shallot (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "vietnamese fish sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "romaine lettuce (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "clear fry oil (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2933,
+        "costable": true
+      },
+      {
+        "item_name": "Oxtail Fried Rice",
+        "plate_cost": 3.7688,
+        "menu_price": 34.0,
+        "food_cost_pct": 0.1108,
+        "costed_components": 11,
+        "total_components": 12,
+        "coverage": 0.9167,
+        "uncosted": [
+          "Fresh cilantro (no conversion from oz to bunch)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.4781,
+        "costable": true
+      },
+      {
+        "item_name": "COM SUON NUONG *GF",
+        "plate_cost": 2.7299,
+        "menu_price": 24.0,
+        "food_cost_pct": 0.1137,
+        "costed_components": 10,
+        "total_components": 10,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Seasoned rice vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Fish sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Ground black pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4725,
+        "costable": true
+      },
+      {
+        "item_name": "BO LUC LAC",
+        "plate_cost": 6.2685,
+        "menu_price": 35.0,
+        "food_cost_pct": 0.1791,
+        "costed_components": 9,
+        "total_components": 9,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Oyster sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4958,
+        "costable": true
+      },
+      {
+        "item_name": "CA TIM XAO XA OT *V",
+        "plate_cost": 0.903,
+        "menu_price": 19.0,
+        "food_cost_pct": 0.0475,
+        "costed_components": 6,
+        "total_components": 7,
+        "coverage": 0.8571,
+        "uncosted": [
+          "Sambal oelek chili paste (no conversion from oz to qt)"
+        ],
+        "low_confidence": [
+          "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.39,
+        "costable": true
+      },
+      {
+        "item_name": "GA XAO XA OT",
+        "plate_cost": 1.2704,
+        "menu_price": 19.0,
+        "food_cost_pct": 0.0669,
+        "costed_components": 7,
+        "total_components": 8,
+        "coverage": 0.875,
+        "uncosted": [
+          "Sambal oelek chili paste (no conversion from oz to qt)"
+        ],
+        "low_confidence": [
+          "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3937,
+        "costable": true
+      },
+      {
+        "item_name": "MAMA LY'S FRIED RICE *GF",
+        "plate_cost": 3.372,
+        "menu_price": 19.0,
+        "food_cost_pct": 0.1775,
+        "costed_components": 8,
+        "total_components": 8,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.49,
+        "costable": true
+      },
+      {
+        "item_name": "STRING BEANS IN GARLIC SAUCE",
+        "plate_cost": 0.8656,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.0541,
+        "costed_components": 6,
+        "total_components": 6,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4875,
+        "costable": true
+      },
+      {
+        "item_name": "FRIED EGG",
+        "plate_cost": 0.3227,
+        "menu_price": 5.0,
+        "food_cost_pct": 0.0645,
+        "costed_components": 3,
+        "total_components": 3,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.6233,
+        "costable": true
+      },
+      {
+        "item_name": "JASMINE RICE",
+        "plate_cost": 0.3562,
+        "menu_price": 4.0,
+        "food_cost_pct": 0.0891,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.81,
+        "costable": true
+      },
+      {
+        "item_name": "LYCHEE ICE TEA",
+        "plate_cost": 0.1637,
+        "menu_price": 7.0,
+        "food_cost_pct": 0.0234,
+        "costed_components": 2,
+        "total_components": 3,
+        "coverage": 0.6667,
+        "uncosted": [
+          "Canned lychee in syrup (no conversion from oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.315,
+        "costable": true
+      },
+      {
+        "item_name": "LIMEADE",
+        "plate_cost": 0.9806,
+        "menu_price": 6.0,
+        "food_cost_pct": 0.1634,
+        "costed_components": 3,
+        "total_components": 3,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.6375,
+        "costable": true
+      },
+      {
+        "item_name": "SALTED LIMEADE",
+        "plate_cost": 1.083,
+        "menu_price": 7.0,
+        "food_cost_pct": 0.1547,
+        "costed_components": 5,
+        "total_components": 5,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.56,
+        "costable": true
+      },
+      {
+        "item_name": "VIETNAMESE ICED COFFEE",
+        "plate_cost": 0.4113,
+        "menu_price": 7.0,
+        "food_cost_pct": 0.0588,
+        "costed_components": 1,
+        "total_components": 2,
+        "coverage": 0.5,
+        "uncosted": [
+          "Sweetened condensed milk (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.3612,
+        "costable": true
+      },
+      {
+        "item_name": "PANDAN SPARKLING WATER",
+        "plate_cost": 1.3969,
+        "menu_price": 6.0,
+        "food_cost_pct": 0.2328,
+        "costed_components": 2,
+        "total_components": 2,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.66,
+        "costable": true
+      },
+      {
+        "item_name": "FRESH COCONUT",
+        "plate_cost": 2.5,
+        "menu_price": 10.0,
+        "food_cost_pct": 0.25,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.68,
+        "costable": true
+      },
+      {
+        "item_name": "SODA",
+        "plate_cost": 0.8,
+        "menu_price": 4.0,
+        "food_cost_pct": 0.2,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Cola cans 12 oz (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.25,
+        "costable": true
+      },
+      {
+        "item_name": "HOT TEA",
+        "plate_cost": 0.0688,
+        "menu_price": 6.0,
+        "food_cost_pct": 0.0115,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Jasmine loose leaf tea (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.16,
+        "costable": true
+      },
+      {
+        "item_name": "FIRST KISS",
+        "plate_cost": 0.3741,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.0234,
+        "costed_components": 4,
+        "total_components": 6,
+        "coverage": 0.6667,
+        "uncosted": [
+          "Well vodka 1.75L (no conversion from fl_oz to each)",
+          "Italicus bergamot liqueur 750ml (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.35,
+        "costable": true
+      },
+      {
+        "item_name": "MADAME SOUR",
+        "plate_cost": 0.8938,
+        "menu_price": 17.0,
+        "food_cost_pct": 0.0526,
+        "costed_components": 4,
+        "total_components": 5,
+        "coverage": 0.8,
+        "uncosted": [
+          "Well gin 1.75L (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.4275,
+        "costable": true
+      },
+      {
+        "item_name": "MISS SAIGON",
+        "plate_cost": 0.1766,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.011,
+        "costed_components": 2,
+        "total_components": 5,
+        "coverage": 0.4,
+        "uncosted": [
+          "Well vodka 1.75L (no conversion from fl_oz to each)",
+          "Plum wine 750ml (no conversion from fl_oz to each)",
+          "Peach blossom liqueur 750ml (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.21,
+        "costable": true
+      },
+      {
+        "item_name": "LE SECRET D'AMOUR",
+        "plate_cost": 0.5183,
+        "menu_price": 17.0,
+        "food_cost_pct": 0.0305,
+        "costed_components": 3,
+        "total_components": 6,
+        "coverage": 0.5,
+        "uncosted": [
+          "White rum (no conversion from fl_oz to each)",
+          "Aperol aperitivo 1L (no conversion from fl_oz to each)",
+          "Aromatic bitters 4 oz (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [
+          "Persian lime (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.215,
+        "costable": true
+      },
+      {
+        "item_name": "MEKONG DREAM",
+        "plate_cost": 0.632,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.0395,
+        "costed_components": 3,
+        "total_components": 5,
+        "coverage": 0.6,
+        "uncosted": [
+          "Well vodka (no conversion from fl_oz to each)",
+          "Fernet Branca 1L (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.3055,
+        "costable": true
+      },
+      {
+        "item_name": "VIETNAMESE COFFEE MARTINI",
+        "plate_cost": 0.1175,
+        "menu_price": 17.0,
+        "food_cost_pct": 0.0069,
+        "costed_components": 1,
+        "total_components": 4,
+        "coverage": 0.25,
+        "uncosted": [
+          "Blanco tequila 1.75L (no conversion from fl_oz to each)",
+          "Coffee liqueur 1L (no conversion from fl_oz to each)",
+          "Sweetened condensed milk (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0894,
+        "costable": true
+      },
+      {
+        "item_name": "Saigon Export",
+        "plate_cost": 1.4,
+        "menu_price": 8.0,
+        "food_cost_pct": 0.175,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.33,
+        "costable": true
+      },
+      {
+        "item_name": "SAPPORO Reserve",
+        "plate_cost": 1.4,
+        "menu_price": 8.0,
+        "food_cost_pct": 0.175,
+        "costed_components": 1,
+        "total_components": 1,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [],
+        "confidence": 0.33,
+        "costable": true
+      },
+      {
+        "item_name": "PROSECCO",
+        "plate_cost": null,
+        "menu_price": 13.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 1,
+        "coverage": 0.0,
+        "uncosted": [
+          "Prosecco (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      },
+      {
+        "item_name": "GRUNER VELTLINER",
+        "plate_cost": null,
+        "menu_price": 13.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 1,
+        "coverage": 0.0,
+        "uncosted": [
+          "House white wine (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      },
+      {
+        "item_name": "SAUVIGNON BLANC",
+        "plate_cost": null,
+        "menu_price": 14.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 1,
+        "coverage": 0.0,
+        "uncosted": [
+          "House white wine (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      },
+      {
+        "item_name": "Jalapeño Sauvignon Blanc",
+        "plate_cost": null,
+        "menu_price": 12.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 2,
+        "coverage": 0.0,
+        "uncosted": [
+          "House white wine (no conversion from fl_oz to each)",
+          "Jalapeno pepper (no conversion from each to lb)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      },
+      {
+        "item_name": "ROSE",
+        "plate_cost": null,
+        "menu_price": 13.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 1,
+        "coverage": 0.0,
+        "uncosted": [
+          "House red wine (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      },
+      {
+        "item_name": "MONTEPULCIANO",
+        "plate_cost": null,
+        "menu_price": 13.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 1,
+        "coverage": 0.0,
+        "uncosted": [
+          "House red wine (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      },
+      {
+        "item_name": "PINOT NOIR",
+        "plate_cost": null,
+        "menu_price": 19.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 1,
+        "coverage": 0.0,
+        "uncosted": [
+          "House red wine (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      },
+      {
+        "item_name": "PROSECCO",
+        "plate_cost": null,
+        "menu_price": 13.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 1,
+        "coverage": 0.0,
+        "uncosted": [
+          "Prosecco (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      },
+      {
+        "item_name": "GRUNER VELTLINER",
+        "plate_cost": null,
+        "menu_price": 13.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 1,
+        "coverage": 0.0,
+        "uncosted": [
+          "House white wine (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      },
+      {
+        "item_name": "SAUVIGNON BLANC",
+        "plate_cost": null,
+        "menu_price": 14.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 1,
+        "coverage": 0.0,
+        "uncosted": [
+          "House white wine (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      },
+      {
+        "item_name": "Jalapeño Sauvignon Blanc",
+        "plate_cost": 0.0563,
+        "menu_price": 12.0,
+        "food_cost_pct": 0.0047,
+        "costed_components": 1,
+        "total_components": 2,
+        "coverage": 0.5,
+        "uncosted": [
+          "House white wine (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [
+          "Jalapeno pepper (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.08,
+        "costable": true
+      },
+      {
+        "item_name": "ROSE",
+        "plate_cost": null,
+        "menu_price": 13.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 1,
+        "coverage": 0.0,
+        "uncosted": [
+          "House white wine (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      },
+      {
+        "item_name": "MONTEPULCIANO",
+        "plate_cost": null,
+        "menu_price": 13.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 1,
+        "coverage": 0.0,
+        "uncosted": [
+          "House red wine (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      },
+      {
+        "item_name": "PINOT NOIR",
+        "plate_cost": null,
+        "menu_price": 19.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 1,
+        "coverage": 0.0,
+        "uncosted": [
+          "House red wine (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      },
+      {
+        "item_name": "CABERNET SAUVIGNON",
+        "plate_cost": null,
+        "menu_price": 95.0,
+        "food_cost_pct": null,
+        "costed_components": 0,
+        "total_components": 1,
+        "coverage": 0.0,
+        "uncosted": [
+          "House red wine (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0,
+        "costable": false
+      }
+    ],
+    "demand_forecast": {},
+    "par_levels": [],
+    "purchase_order": {},
+    "review_queue": [
+      {
+        "kind": "sku_match",
+        "ref": "soft-shell crab",
+        "confidence": 0.0,
+        "question": "Which SKU is 'soft-shell crab'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "Catalog only has pasteurized lump crab meat, no whole soft-shell crab product"
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "CHA GIO",
+        "confidence": 0.4067,
+        "question": "CHA GIO is costed at $2.47 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.4718,
+          "menu_price": 15.0,
+          "low_confidence": [
+            "Dried wood ear mushrooms (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Large shell eggs (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Fresh lime juice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "NEM NUONG CUON",
+        "confidence": 0.3006,
+        "question": "NEM NUONG CUON is costed at $0.75 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.7484,
+          "menu_price": 13.0,
+          "low_confidence": [
+            "Romaine lettuce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Fresh mint (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Granulated white sugar (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "Canola oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Peeled garlic cloves (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "NEM NUONG CUON",
+        "confidence": 0.3006,
+        "question": "NEM NUONG CUON computes to 6% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.7484,
+          "menu_price": 13.0,
+          "food_cost_pct": 0.0576,
+          "coverage": 0.875,
+          "uncosted": [
+            "Rice paper wrappers (no conversion from each to lb)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "GOI CUON *GF",
+        "confidence": 0.3544,
+        "question": "GOI CUON *GF is costed at $1.59 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.5867,
+          "menu_price": 13.0,
+          "low_confidence": [
+            "Slicing cucumber (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Romaine lettuce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Fresh mint (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Creamy peanut butter (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Hoisin sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "MADAME WINGS *GF",
+        "confidence": 0.3343,
+        "question": "MADAME WINGS *GF is costed at $2.16 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.1582,
+          "menu_price": 18.0,
+          "low_confidence": [
+            "Granulated white sugar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Peeled garlic cloves (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Cornstarch (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Ground black pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "BANH XEO",
+        "confidence": 0.3575,
+        "question": "BANH XEO is costed at $2.12 using 7 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.1201,
+          "menu_price": 17.0,
+          "low_confidence": [
+            "Ground turmeric (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Mung bean sprouts (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Yellow onion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Vietnamese fish sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Romaine lettuce (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "Fresh mint (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "BANH KHOT",
+        "confidence": 0.3225,
+        "question": "BANH KHOT is costed at $1.79 using 6 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.7911,
+          "menu_price": 16.0,
+          "low_confidence": [
+            "Rice flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Ground turmeric (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Shallot (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Vietnamese fish sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "BANH BOT CHIEN",
+        "confidence": 0.2842,
+        "question": "BANH BOT CHIEN is costed at $1.34 using 8 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.3371,
+          "menu_price": 19.0,
+          "low_confidence": [
+            "Rice flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Chinese sausage (lap cheong) (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Fresh cilantro (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Jalapeno pepper (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Vietnamese fish sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "BANH BOT CHIEN",
+        "confidence": 0.2842,
+        "question": "BANH BOT CHIEN computes to 7% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.3371,
+          "menu_price": 19.0,
+          "food_cost_pct": 0.0704,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "GOI BUOI*GF",
+        "confidence": 0.2875,
+        "question": "GOI BUOI*GF is costed at $2.00 using 10 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.9964,
+          "menu_price": 18.0,
+          "low_confidence": [
+            "Green papaya (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Jumbo carrot (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Daikon radish (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Thai basil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Fresh mint (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Shallot (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Raw shelled peanuts (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Vietnamese fish sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Fresh lime juice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Granulated white sugar (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "GOI NGO BO",
+        "confidence": 0.2567,
+        "question": "GOI NGO BO is costed at $2.72 using 7 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.7189,
+          "menu_price": 24.0,
+          "low_confidence": [
+            "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Red onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Raw shelled peanuts (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "White sesame seeds (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Fresh lime juice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Vietnamese fish sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Granulated white sugar (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "MUC RANG MUOI",
+        "confidence": 0.3262,
+        "question": "MUC RANG MUOI is costed at $3.91 using 6 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 3.9144,
+          "menu_price": 22.0,
+          "low_confidence": [
+            "Cornstarch (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Hass avocado (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Fresh lime juice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "CUA LOT RANG MUOI",
+        "confidence": 0.3394,
+        "question": "CUA LOT RANG MUOI is costed at $1.47 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.4665,
+          "menu_price": 28.0,
+          "low_confidence": [
+            "heavy-duty mayonnaise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "fresh lime juice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "CUA LOT RANG MUOI",
+        "confidence": 0.3394,
+        "question": "CUA LOT RANG MUOI computes to 5% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.4665,
+          "menu_price": 28.0,
+          "food_cost_pct": 0.0524,
+          "coverage": 0.8889,
+          "uncosted": [
+            "soft-shell crab (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "TOM RANG MUOI",
+        "confidence": 0.3864,
+        "question": "TOM RANG MUOI is costed at $4.88 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 4.8806,
+          "menu_price": 16.0,
+          "low_confidence": [
+            "heavy-duty mayonnaise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "fresh lime juice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "MADAME PLATTER",
+        "confidence": 0.2268,
+        "question": "MADAME PLATTER is costed at $6.13 using 13 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 6.1284,
+          "menu_price": 68.0,
+          "low_confidence": [
+            "boneless skinless chicken thigh (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "shrimp 16/20 peeled and deveined (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "pork shoulder butt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "boneless pork loin (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "clover honey (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "soy sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "banh pho flat rice noodles (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "raw shelled peanuts (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "vietnamese fish sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "fresh cilantro (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "romaine lettuce (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "all-purpose flour (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "clear fry oil (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "MADAME PLATTER",
+        "confidence": 0.2268,
+        "question": "MADAME PLATTER computes to 9% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 6.1284,
+          "menu_price": 68.0,
+          "food_cost_pct": 0.0901,
+          "coverage": 0.9286,
+          "uncosted": [
+            "rice paper wrappers (no conversion from each to lb)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "THE MADAME PHO *GF",
+        "confidence": 0.4446,
+        "question": "THE MADAME PHO *GF is costed at $3.67 using 4 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 3.667,
+          "menu_price": 20.0,
+          "low_confidence": [
+            "ground beef 80/20 (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "whole star anise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "whole cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "PHO CHAY *V",
+        "confidence": 0.42,
+        "question": "PHO CHAY *V is costed at $2.06 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.0556,
+          "menu_price": 19.0,
+          "low_confidence": [
+            "whole star anise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "BUN BO HUE *GF",
+        "confidence": 0.3368,
+        "question": "BUN BO HUE *GF is costed at $3.23 using 6 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 3.2275,
+          "menu_price": 22.0,
+          "low_confidence": [
+            "beef marrow and knuckle bones (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "annatto oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "vietnamese fish sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "yellow onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "scallion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "TET NOODLES",
+        "confidence": 0.4039,
+        "question": "TET NOODLES is costed at $6.96 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 6.9603,
+          "menu_price": 30.0,
+          "low_confidence": [
+            "scallion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "GARLIC NOODLES",
+        "confidence": 0.39,
+        "question": "GARLIC NOODLES is costed at $2.91 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.9077,
+          "menu_price": 20.0,
+          "low_confidence": [
+            "rice vermicelli (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "scallion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "HU TIEU CHAY",
+        "confidence": 0.3946,
+        "question": "HU TIEU CHAY is costed at $1.69 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.6947,
+          "menu_price": 19.0,
+          "low_confidence": [
+            "soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "HU TIEU CHAY",
+        "confidence": 0.3946,
+        "question": "HU TIEU CHAY computes to 9% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.6947,
+          "menu_price": 19.0,
+          "food_cost_pct": 0.0892,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "VERMICELLI BOWL *V",
+        "confidence": 0.2933,
+        "question": "VERMICELLI BOWL *V is costed at $2.23 using 6 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.2306,
+          "menu_price": 20.0,
+          "low_confidence": [
+            "firm tofu (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "fresh mint (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "shallot (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "vietnamese fish sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "romaine lettuce (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "clear fry oil (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "COM SUON NUONG *GF",
+        "confidence": 0.4725,
+        "question": "COM SUON NUONG *GF is costed at $2.73 using 4 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.7299,
+          "menu_price": 24.0,
+          "low_confidence": [
+            "Seasoned rice vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Fish sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Ground black pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "BO LUC LAC",
+        "confidence": 0.4958,
+        "question": "BO LUC LAC is costed at $6.27 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 6.2685,
+          "menu_price": 35.0,
+          "low_confidence": [
+            "Oyster sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "CA TIM XAO XA OT *V",
+        "confidence": 0.39,
+        "question": "CA TIM XAO XA OT *V is costed at $0.90 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.903,
+          "menu_price": 19.0,
+          "low_confidence": [
+            "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "CA TIM XAO XA OT *V",
+        "confidence": 0.39,
+        "question": "CA TIM XAO XA OT *V computes to 5% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.903,
+          "menu_price": 19.0,
+          "food_cost_pct": 0.0475,
+          "coverage": 0.8571,
+          "uncosted": [
+            "Sambal oelek chili paste (no conversion from oz to qt)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "GA XAO XA OT",
+        "confidence": 0.3937,
+        "question": "GA XAO XA OT is costed at $1.27 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.2704,
+          "menu_price": 19.0,
+          "low_confidence": [
+            "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "GA XAO XA OT",
+        "confidence": 0.3937,
+        "question": "GA XAO XA OT computes to 7% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.2704,
+          "menu_price": 19.0,
+          "food_cost_pct": 0.0669,
+          "coverage": 0.875,
+          "uncosted": [
+            "Sambal oelek chili paste (no conversion from oz to qt)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "MAMA LY'S FRIED RICE *GF",
+        "confidence": 0.49,
+        "question": "MAMA LY'S FRIED RICE *GF is costed at $3.37 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 3.372,
+          "menu_price": 19.0,
+          "low_confidence": [
+            "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "STRING BEANS IN GARLIC SAUCE",
+        "confidence": 0.4875,
+        "question": "STRING BEANS IN GARLIC SAUCE is costed at $0.87 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.8656,
+          "menu_price": 16.0,
+          "low_confidence": [
+            "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "STRING BEANS IN GARLIC SAUCE",
+        "confidence": 0.4875,
+        "question": "STRING BEANS IN GARLIC SAUCE computes to 5% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.8656,
+          "menu_price": 16.0,
+          "food_cost_pct": 0.0541,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "FRIED EGG",
+        "confidence": 0.6233,
+        "question": "FRIED EGG computes to 6% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.3227,
+          "menu_price": 5.0,
+          "food_cost_pct": 0.0645,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "JASMINE RICE",
+        "confidence": 0.81,
+        "question": "JASMINE RICE computes to 9% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.3562,
+          "menu_price": 4.0,
+          "food_cost_pct": 0.0891,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "LYCHEE ICE TEA",
+        "confidence": 0.315,
+        "question": "LYCHEE ICE TEA computes to 2% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.1637,
+          "menu_price": 7.0,
+          "food_cost_pct": 0.0234,
+          "coverage": 0.6667,
+          "uncosted": [
+            "Canned lychee in syrup (no conversion from oz to each)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "VIETNAMESE ICED COFFEE",
+        "confidence": 0.3612,
+        "question": "VIETNAMESE ICED COFFEE computes to 6% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.4113,
+          "menu_price": 7.0,
+          "food_cost_pct": 0.0588,
+          "coverage": 0.5,
+          "uncosted": [
+            "Sweetened condensed milk (no conversion from fl_oz to each)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "SODA",
+        "confidence": 0.25,
+        "question": "SODA is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.8,
+          "menu_price": 4.0,
+          "low_confidence": [
+            "Cola cans 12 oz (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "HOT TEA",
+        "confidence": 0.16,
+        "question": "HOT TEA is costed at $0.07 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.0688,
+          "menu_price": 6.0,
+          "low_confidence": [
+            "Jasmine loose leaf tea (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "HOT TEA",
+        "confidence": 0.16,
+        "question": "HOT TEA computes to 1% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.0688,
+          "menu_price": 6.0,
+          "food_cost_pct": 0.0115,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "FIRST KISS",
+        "confidence": 0.35,
+        "question": "FIRST KISS computes to 2% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.3741,
+          "menu_price": 16.0,
+          "food_cost_pct": 0.0234,
+          "coverage": 0.6667,
+          "uncosted": [
+            "Well vodka 1.75L (no conversion from fl_oz to each)",
+            "Italicus bergamot liqueur 750ml (no conversion from fl_oz to each)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "MADAME SOUR",
+        "confidence": 0.4275,
+        "question": "MADAME SOUR computes to 5% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.8938,
+          "menu_price": 17.0,
+          "food_cost_pct": 0.0526,
+          "coverage": 0.8,
+          "uncosted": [
+            "Well gin 1.75L (no conversion from fl_oz to each)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "MISS SAIGON",
+        "confidence": 0.21,
+        "question": "MISS SAIGON computes to 1% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.1766,
+          "menu_price": 16.0,
+          "food_cost_pct": 0.011,
+          "coverage": 0.4,
+          "uncosted": [
+            "Well vodka 1.75L (no conversion from fl_oz to each)",
+            "Plum wine 750ml (no conversion from fl_oz to each)",
+            "Peach blossom liqueur 750ml (no conversion from fl_oz to each)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "LE SECRET D'AMOUR",
+        "confidence": 0.215,
+        "question": "LE SECRET D'AMOUR is costed at $0.52 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.5183,
+          "menu_price": 17.0,
+          "low_confidence": [
+            "Persian lime (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "LE SECRET D'AMOUR",
+        "confidence": 0.215,
+        "question": "LE SECRET D'AMOUR computes to 3% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.5183,
+          "menu_price": 17.0,
+          "food_cost_pct": 0.0305,
+          "coverage": 0.5,
+          "uncosted": [
+            "White rum (no conversion from fl_oz to each)",
+            "Aperol aperitivo 1L (no conversion from fl_oz to each)",
+            "Aromatic bitters 4 oz (no conversion from fl_oz to each)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "MEKONG DREAM",
+        "confidence": 0.3055,
+        "question": "MEKONG DREAM computes to 4% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.632,
+          "menu_price": 16.0,
+          "food_cost_pct": 0.0395,
+          "coverage": 0.6,
+          "uncosted": [
+            "Well vodka (no conversion from fl_oz to each)",
+            "Fernet Branca 1L (no conversion from fl_oz to each)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "VIETNAMESE COFFEE MARTINI",
+        "confidence": 0.0894,
+        "question": "VIETNAMESE COFFEE MARTINI computes to 1% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.1175,
+          "menu_price": 17.0,
+          "food_cost_pct": 0.0069,
+          "coverage": 0.25,
+          "uncosted": [
+            "Blanco tequila 1.75L (no conversion from fl_oz to each)",
+            "Coffee liqueur 1L (no conversion from fl_oz to each)",
+            "Sweetened condensed milk (no conversion from fl_oz to each)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "Jalapeño Sauvignon Blanc",
+        "confidence": 0.08,
+        "question": "Jalapeño Sauvignon Blanc is costed at $0.06 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.0563,
+          "menu_price": 12.0,
+          "low_confidence": [
+            "Jalapeno pepper (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "Jalapeño Sauvignon Blanc",
+        "confidence": 0.08,
+        "question": "Jalapeño Sauvignon Blanc computes to 0% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.0563,
+          "menu_price": 12.0,
+          "food_cost_pct": 0.0047,
+          "coverage": 0.5,
+          "uncosted": [
+            "House white wine (no conversion from fl_oz to each)"
+          ]
+        }
+      }
+    ],
+    "stage": "costed"
+  }
+}

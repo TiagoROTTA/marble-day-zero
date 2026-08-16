@@ -1,0 +1,31 @@
+{
+  "slug": "fonda-park-slope",
+  "name": "Fonda (Park Slope)",
+  "url": "https://www.fondarestaurant.com/menus",
+  "cuisine": "mexican",
+  "price_tier": "$$",
+  "seats": 58,
+  "service_style": "full-service",
+  "neighborhood": "Park Slope",
+  "snapshot_date": "2026-08-08",
+  "menu_format": "html",
+  "popular_times_index": [
+    0.36,
+    0.49,
+    0.33,
+    0.45,
+    0.76,
+    1.0,
+    0.89
+  ],
+  "review_count": 1000,
+  "tier": "B",
+  "estimated_fields": [
+    "seats"
+  ],
+  "observed_fields": [
+    "popular_times_index",
+    "review_count"
+  ],
+  "observed_source": "Google Maps listing, read 2026-08-08"
+}

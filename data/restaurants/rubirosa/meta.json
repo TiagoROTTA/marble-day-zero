@@ -1,0 +1,16 @@
+{
+  "slug": "rubirosa",
+  "name": "Rubirosa Ristorante",
+  "url": "https://www.rubirosanyc.com/menus/",
+  "cuisine": "italian",
+  "price_tier": "$$",
+  "seats": 62,
+  "service_style": "full-service",
+  "neighborhood": "Nolita",
+  "snapshot_date": "2026-08-08",
+  "menu_format": "html",
+  "popular_times_index": [0.58, 0.64, 0.72, 0.83, 0.96, 1.0, 0.86],
+  "review_count": 5300,
+  "tier": "B",
+  "estimated_fields": ["popular_times_index", "seats", "review_count"]
+}

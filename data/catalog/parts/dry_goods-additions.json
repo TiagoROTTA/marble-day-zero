@@ -1,0 +1,296 @@
+[
+  {
+    "sku_id": "DRY-RICEPAPER-BANHTRANG",
+    "display_name": "Rice paper wrappers",
+    "aliases": [
+      "rice paper",
+      "banh trang",
+      "rice paper wrappers",
+      "spring roll wrappers",
+      "summer roll wrappers",
+      "galettes de riz"
+    ],
+    "category": "dry_goods",
+    "pack_unit": "case",
+    "pack_qty": 30.0,
+    "pack_uom": "lb",
+    "price_per_pack": 93.0,
+    "price_per_uom": 3.1,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DRY-MUSHROOM-WOODEAR",
+    "display_name": "Dried wood ear mushrooms",
+    "aliases": [
+      "wood ear",
+      "wood ear mushrooms",
+      "black fungus",
+      "nam meo",
+      "moc nhi",
+      "cloud ear mushroom"
+    ],
+    "category": "dry_goods",
+    "pack_unit": "case",
+    "pack_qty": 10.0,
+    "pack_uom": "lb",
+    "price_per_pack": 98.0,
+    "price_per_uom": 9.8,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DRY-LOTUSSTEM-BRINE",
+    "display_name": "Lotus stems in brine",
+    "aliases": [
+      "lotus stem",
+      "lotus stems",
+      "ngo sen",
+      "pickled lotus stem",
+      "lotus stem in brine",
+      "lotus root stem"
+    ],
+    "category": "dry_goods",
+    "pack_unit": "case",
+    "pack_qty": 12.0,
+    "pack_uom": "lb",
+    "price_per_pack": 52.8,
+    "price_per_uom": 4.4,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DRY-CHRYSANTHEMUM-DRIED",
+    "display_name": "Dried chrysanthemum flowers",
+    "aliases": [
+      "chrysanthemum",
+      "dried chrysanthemum",
+      "chrysanthemum flowers",
+      "cuc hoa",
+      "ju hua",
+      "chrysanthemum tea flowers"
+    ],
+    "category": "dry_goods",
+    "pack_unit": "case",
+    "pack_qty": 5.0,
+    "pack_uom": "lb",
+    "price_per_pack": 85.0,
+    "price_per_uom": 17.0,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DRY-DASHI-POWDER",
+    "display_name": "Instant dashi powder",
+    "aliases": [
+      "dashi",
+      "dashi powder",
+      "hondashi",
+      "instant dashi",
+      "dashi no moto",
+      "bonito soup base"
+    ],
+    "category": "dry_goods",
+    "pack_unit": "case",
+    "pack_qty": 10.0,
+    "pack_uom": "lb",
+    "price_per_pack": 135.0,
+    "price_per_uom": 13.5,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DRY-KOMBU-DRIED",
+    "display_name": "Dried kombu kelp",
+    "aliases": [
+      "kombu",
+      "konbu",
+      "dried kombu",
+      "dashi kombu",
+      "kelp",
+      "sea kelp sheets"
+    ],
+    "category": "dry_goods",
+    "pack_unit": "case",
+    "pack_qty": 5.0,
+    "pack_uom": "lb",
+    "price_per_pack": 88.0,
+    "price_per_uom": 17.6,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DRY-BONITO-KATSUOBUSHI",
+    "display_name": "Bonito flakes (katsuobushi)",
+    "aliases": [
+      "bonito flakes",
+      "katsuobushi",
+      "dried bonito",
+      "shaved bonito",
+      "hana katsuo",
+      "bonito fish flakes"
+    ],
+    "category": "dry_goods",
+    "pack_unit": "case",
+    "pack_qty": 5.0,
+    "pack_uom": "lb",
+    "price_per_pack": 145.0,
+    "price_per_uom": 29.0,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DRY-FALAFEL-MIX",
+    "display_name": "Falafel mix",
+    "aliases": [
+      "falafel mix",
+      "falafel powder",
+      "dry falafel mix",
+      "falafel base",
+      "falafel flour",
+      "ta'ameya mix"
+    ],
+    "category": "dry_goods",
+    "pack_unit": "sack",
+    "pack_qty": 25.0,
+    "pack_uom": "lb",
+    "price_per_pack": 77.5,
+    "price_per_uom": 3.1,
+    "uom": "lb",
+    "vendor": "Chef's Warehouse",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DRY-BULGUR-COARSE",
+    "display_name": "Coarse bulgur wheat",
+    "aliases": [
+      "bulgur",
+      "bulghur",
+      "burghul",
+      "cracked wheat",
+      "bulgur wheat",
+      "coarse bulgur"
+    ],
+    "category": "dry_goods",
+    "pack_unit": "sack",
+    "pack_qty": 25.0,
+    "pack_uom": "lb",
+    "price_per_pack": 43.0,
+    "price_per_uom": 1.72,
+    "uom": "lb",
+    "vendor": "Chef's Warehouse",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DRY-PEANUT-RAWSHELLED",
+    "display_name": "Raw shelled peanuts",
+    "aliases": [
+      "peanuts",
+      "raw peanuts",
+      "shelled peanuts",
+      "groundnuts",
+      "peanut, raw",
+      "blanched peanuts"
+    ],
+    "category": "dry_goods",
+    "pack_unit": "case",
+    "pack_qty": 30.0,
+    "pack_uom": "lb",
+    "price_per_pack": 70.5,
+    "price_per_uom": 2.35,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DRY-NOODLE-GLASSBEANTHREAD",
+    "display_name": "Bean thread glass noodles",
+    "aliases": [
+      "glass noodles",
+      "bean thread noodles",
+      "cellophane noodles",
+      "mien",
+      "mung bean noodles",
+      "noodles, glass"
+    ],
+    "category": "dry_goods",
+    "pack_unit": "case",
+    "pack_qty": 30.0,
+    "pack_uom": "lb",
+    "price_per_pack": 102.0,
+    "price_per_uom": 3.4,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DRY-COUSCOUS-MEDIUM",
+    "display_name": "Medium-grain couscous",
+    "aliases": [
+      "couscous",
+      "cous cous",
+      "moroccan couscous",
+      "medium couscous",
+      "semolina couscous",
+      "kuskus"
+    ],
+    "category": "dry_goods",
+    "pack_unit": "sack",
+    "pack_qty": 25.0,
+    "pack_uom": "lb",
+    "price_per_pack": 52.5,
+    "price_per_uom": 2.1,
+    "uom": "lb",
+    "vendor": "Chef's Warehouse",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DRY-CHILE-CHIPOTLEADOBO",
+    "display_name": "Canned chipotle chiles in adobo",
+    "aliases": [
+      "chipotle in adobo",
+      "chipotles en adobo",
+      "chipotle chiles",
+      "canned chipotle",
+      "adobo chipotle",
+      "chipotle peppers"
+    ],
+    "category": "dry_goods",
+    "pack_unit": "case",
+    "pack_qty": 6.0,
+    "pack_uom": "each",
+    "price_per_pack": 57.0,
+    "price_per_uom": 9.5,
+    "uom": "each",
+    "vendor": "Restaurant Depot",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "DRY-HOMINY-CANNED",
+    "display_name": "Canned white hominy",
+    "aliases": [
+      "hominy",
+      "canned hominy",
+      "white hominy",
+      "pozole corn",
+      "maiz pozolero",
+      "nixtamal corn"
+    ],
+    "category": "dry_goods",
+    "pack_unit": "case",
+    "pack_qty": 6.0,
+    "pack_uom": "each",
+    "price_per_pack": 38.4,
+    "price_per_uom": 6.4,
+    "uom": "each",
+    "vendor": "Restaurant Depot",
+    "source": "hand-curated 2026-08"
+  }
+]

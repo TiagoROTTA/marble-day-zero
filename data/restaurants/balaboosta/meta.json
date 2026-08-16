@@ -1,0 +1,16 @@
+{
+  "slug": "balaboosta",
+  "name": "Balaboosta",
+  "url": "https://www.balaboostanyc.com/menus",
+  "cuisine": "middle-eastern",
+  "price_tier": "$$$",
+  "seats": 68,
+  "service_style": "full-service",
+  "neighborhood": "West Village",
+  "snapshot_date": "2026-08-08",
+  "menu_format": "html",
+  "popular_times_index": [0.4, 0.5, 0.6, 0.76, 0.95, 1.0, 0.78],
+  "review_count": 1900,
+  "tier": "B",
+  "estimated_fields": ["popular_times_index", "seats", "review_count"]
+}

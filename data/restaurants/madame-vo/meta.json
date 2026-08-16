@@ -1,0 +1,31 @@
+{
+  "slug": "madame-vo",
+  "name": "Madame Vo",
+  "url": "https://www.madamevo.com/menu",
+  "cuisine": "vietnamese",
+  "price_tier": "$$",
+  "seats": 44,
+  "service_style": "full-service",
+  "neighborhood": "East Village",
+  "snapshot_date": "2026-08-08",
+  "menu_format": "html",
+  "popular_times_index": [
+    0.54,
+    0.65,
+    0.71,
+    0.6,
+    0.82,
+    1.0,
+    0.67
+  ],
+  "review_count": 1526,
+  "tier": "A",
+  "estimated_fields": [
+    "seats"
+  ],
+  "observed_fields": [
+    "popular_times_index",
+    "review_count"
+  ],
+  "observed_source": "Google Maps listing, read 2026-08-08"
+}

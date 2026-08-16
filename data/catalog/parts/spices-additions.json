@@ -1,0 +1,65 @@
+[
+  {
+    "sku_id": "SPICE-WASABI-POWDER",
+    "display_name": "Wasabi powder",
+    "aliases": [
+      "wasabi",
+      "wasabi powder",
+      "powdered wasabi",
+      "japanese horseradish",
+      "wasabi ko",
+      "green horseradish powder"
+    ],
+    "category": "spices",
+    "pack_unit": "case",
+    "pack_qty": 5.0,
+    "pack_uom": "lb",
+    "price_per_pack": 105.0,
+    "price_per_uom": 21.0,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "SPICE-ALEPPO-PEPPER",
+    "display_name": "Aleppo pepper flakes",
+    "aliases": [
+      "aleppo pepper",
+      "aleppo chili flakes",
+      "halaby pepper",
+      "pul biber",
+      "turkish red pepper flakes",
+      "pepper, aleppo"
+    ],
+    "category": "spices",
+    "pack_unit": "case",
+    "pack_qty": 5.0,
+    "pack_uom": "lb",
+    "price_per_pack": 62.0,
+    "price_per_uom": 12.4,
+    "uom": "lb",
+    "vendor": "Chef's Warehouse",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "SPICE-SHICHIMI-TOGARASHI",
+    "display_name": "Shichimi togarashi",
+    "aliases": [
+      "shichimi",
+      "togarashi",
+      "shichimi togarashi",
+      "japanese seven spice",
+      "nanami togarashi",
+      "seven spice blend"
+    ],
+    "category": "spices",
+    "pack_unit": "case",
+    "pack_qty": 3.0,
+    "pack_uom": "lb",
+    "price_per_pack": 57.0,
+    "price_per_uom": 19.0,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  }
+]

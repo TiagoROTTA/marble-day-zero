@@ -1,0 +1,31 @@
+{
+  "slug": "adda-indian-canteen",
+  "name": "Adda Indian Canteen",
+  "url": "https://www.addanyc.com/menus",
+  "cuisine": "indian",
+  "price_tier": "$$$",
+  "seats": 48,
+  "service_style": "full-service",
+  "neighborhood": "Long Island City",
+  "snapshot_date": "2026-08-08",
+  "menu_format": "pdf",
+  "popular_times_index": [
+    0.45,
+    0.55,
+    0.66,
+    0.8,
+    0.97,
+    1.0,
+    0.72
+  ],
+  "review_count": 1075,
+  "tier": "A",
+  "estimated_fields": [
+    "popular_times_index",
+    "seats"
+  ],
+  "observed_fields": [
+    "review_count"
+  ],
+  "observed_source": "Google Maps listing, read 2026-08-08"
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "los-tacos-no1-chelsea",
+  "name": "Los Tacos No. 1 (Chelsea Market)",
+  "url": "https://www.lostacos1.com/menus/",
+  "cuisine": "mexican",
+  "price_tier": "$",
+  "seats": 20,
+  "service_style": "counter",
+  "neighborhood": "Chelsea",
+  "snapshot_date": "2026-08-08",
+  "menu_format": "html",
+  "popular_times_index": [
+    0.75,
+    0.96,
+    0.95,
+    1.0,
+    0.89,
+    0.89,
+    0.74
+  ],
+  "review_count": 5494,
+  "tier": "A",
+  "estimated_fields": [
+    "seats"
+  ],
+  "observed_fields": [
+    "popular_times_index",
+    "review_count"
+  ],
+  "observed_source": "Google Maps listing, read 2026-08-08"
+}

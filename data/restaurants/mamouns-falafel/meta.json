@@ -1,0 +1,16 @@
+{
+  "slug": "mamouns-falafel",
+  "name": "Mamoun's Falafel (MacDougal St)",
+  "url": "https://mamouns.com/menu",
+  "cuisine": "middle-eastern",
+  "price_tier": "$",
+  "seats": 14,
+  "service_style": "counter",
+  "neighborhood": "Greenwich Village",
+  "snapshot_date": "2026-08-08",
+  "menu_format": "html",
+  "popular_times_index": [0.6, 0.63, 0.68, 0.78, 0.95, 1.0, 0.82],
+  "review_count": 7600,
+  "tier": "B",
+  "estimated_fields": ["popular_times_index", "seats", "review_count"]
+}

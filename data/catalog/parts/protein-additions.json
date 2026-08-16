@@ -1,0 +1,149 @@
+[
+  {
+    "sku_id": "PROT-BEEF-OXTAIL",
+    "display_name": "Beef oxtail",
+    "aliases": [
+      "oxtail",
+      "oxtails",
+      "ox tail",
+      "beef oxtail",
+      "duoi bo",
+      "rabo de res"
+    ],
+    "category": "protein",
+    "pack_unit": "case",
+    "pack_qty": 30.0,
+    "pack_uom": "lb",
+    "price_per_pack": 258.0,
+    "price_per_uom": 8.6,
+    "uom": "lb",
+    "vendor": "Restaurant Depot",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROT-CRAB-LUMPMEAT",
+    "display_name": "Pasteurized lump crab meat",
+    "aliases": [
+      "crab meat",
+      "crabmeat",
+      "lump crab",
+      "jumbo lump crab",
+      "crab",
+      "blue crab meat"
+    ],
+    "category": "protein",
+    "pack_unit": "case",
+    "pack_qty": 12.0,
+    "pack_uom": "lb",
+    "price_per_pack": 264.0,
+    "price_per_uom": 22.0,
+    "uom": "lb",
+    "vendor": "Chef's Warehouse",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROT-PORK-LAPCHEONG",
+    "display_name": "Chinese sausage (lap cheong)",
+    "aliases": [
+      "lap cheong",
+      "lap xuong",
+      "lapcheong",
+      "chinese sausage",
+      "sausage, chinese",
+      "dried chinese sausage"
+    ],
+    "category": "protein",
+    "pack_unit": "case",
+    "pack_qty": 10.0,
+    "pack_uom": "lb",
+    "price_per_pack": 74.0,
+    "price_per_uom": 7.4,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROT-PORK-CHALUA",
+    "display_name": "Vietnamese pork roll (cha lua)",
+    "aliases": [
+      "cha lua",
+      "gio lua",
+      "vietnamese pork roll",
+      "vietnamese ham",
+      "pork roll, cha lua",
+      "banh mi pork roll"
+    ],
+    "category": "protein",
+    "pack_unit": "case",
+    "pack_qty": 10.0,
+    "pack_uom": "lb",
+    "price_per_pack": 65.0,
+    "price_per_uom": 6.5,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROT-YELLOWTAIL-HAMACHI",
+    "display_name": "Yellowtail hamachi loin",
+    "aliases": [
+      "yellowtail",
+      "hamachi",
+      "buri",
+      "yellowtail loin",
+      "hamachi loin",
+      "japanese amberjack"
+    ],
+    "category": "protein",
+    "pack_unit": "case",
+    "pack_qty": 10.0,
+    "pack_uom": "lb",
+    "price_per_pack": 240.0,
+    "price_per_uom": 24.0,
+    "uom": "lb",
+    "vendor": "Chef's Warehouse",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROT-UNI-SEAURCHIN",
+    "display_name": "Sea urchin roe (uni) tray",
+    "aliases": [
+      "uni",
+      "sea urchin",
+      "sea urchin roe",
+      "urchin",
+      "uni tray",
+      "murasaki uni"
+    ],
+    "category": "protein",
+    "pack_unit": "case",
+    "pack_qty": 12.0,
+    "pack_uom": "each",
+    "price_per_pack": 504.0,
+    "price_per_uom": 42.0,
+    "uom": "each",
+    "vendor": "Chef's Warehouse",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROT-SCALLOP-U10",
+    "display_name": "Dry-pack sea scallops U-10",
+    "aliases": [
+      "scallops",
+      "sea scallops",
+      "u10 scallops",
+      "dry pack scallops",
+      "diver scallops",
+      "scallop, dry"
+    ],
+    "category": "protein",
+    "pack_unit": "case",
+    "pack_qty": 10.0,
+    "pack_uom": "lb",
+    "price_per_pack": 245.0,
+    "price_per_uom": 24.5,
+    "uom": "lb",
+    "vendor": "Chef's Warehouse",
+    "source": "hand-curated 2026-08"
+  }
+]

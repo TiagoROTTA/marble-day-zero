@@ -1,0 +1,31 @@
+{
+  "slug": "junoon",
+  "name": "Junoon",
+  "url": "https://junoonnyc.com/menus/",
+  "cuisine": "indian",
+  "price_tier": "$$$$",
+  "seats": 110,
+  "service_style": "full-service",
+  "neighborhood": "Flatiron",
+  "snapshot_date": "2026-08-08",
+  "menu_format": "html",
+  "popular_times_index": [
+    0.56,
+    0.77,
+    0.61,
+    0.79,
+    0.93,
+    1.0,
+    0.56
+  ],
+  "review_count": 4610,
+  "tier": "B",
+  "estimated_fields": [
+    "seats"
+  ],
+  "observed_fields": [
+    "popular_times_index",
+    "review_count"
+  ],
+  "observed_source": "Google Maps listing, read 2026-08-08"
+}

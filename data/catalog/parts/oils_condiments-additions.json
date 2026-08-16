@@ -1,0 +1,170 @@
+[
+  {
+    "sku_id": "COND-SHRIMPPASTE-FERMENTED",
+    "display_name": "Fermented shrimp paste",
+    "aliases": [
+      "shrimp paste",
+      "mam ruoc",
+      "mam tom",
+      "belacan",
+      "kapi",
+      "paste, shrimp"
+    ],
+    "category": "oils_condiments",
+    "pack_unit": "case",
+    "pack_qty": 12.0,
+    "pack_uom": "lb",
+    "price_per_pack": 55.2,
+    "price_per_uom": 4.6,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "COND-OIL-ANNATTO",
+    "display_name": "Annatto oil",
+    "aliases": [
+      "annatto oil",
+      "achiote oil",
+      "dau dieu",
+      "oil, annatto",
+      "atsuete oil",
+      "annatto seed oil"
+    ],
+    "category": "oils_condiments",
+    "pack_unit": "case",
+    "pack_qty": 6.0,
+    "pack_uom": "qt",
+    "price_per_pack": 51.0,
+    "price_per_uom": 8.5,
+    "uom": "qt",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "COND-LIME-SALTPRESERVED",
+    "display_name": "Salted preserved lime",
+    "aliases": [
+      "preserved lime",
+      "salted lime",
+      "chanh muoi",
+      "pickled lime",
+      "lime, preserved",
+      "salt cured lime"
+    ],
+    "category": "oils_condiments",
+    "pack_unit": "case",
+    "pack_qty": 12.0,
+    "pack_uom": "lb",
+    "price_per_pack": 64.8,
+    "price_per_uom": 5.4,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "COND-PONZU-CITRUS",
+    "display_name": "Ponzu citrus sauce",
+    "aliases": [
+      "ponzu",
+      "ponzu sauce",
+      "sauce, ponzu",
+      "citrus soy sauce",
+      "yuzu ponzu",
+      "ponzu shoyu"
+    ],
+    "category": "oils_condiments",
+    "pack_unit": "case",
+    "pack_qty": 6.0,
+    "pack_uom": "qt",
+    "price_per_pack": 55.2,
+    "price_per_uom": 9.2,
+    "uom": "qt",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "COND-POMEGRANATE-MOLASSES",
+    "display_name": "Pomegranate molasses",
+    "aliases": [
+      "pomegranate molasses",
+      "molasses, pomegranate",
+      "dibs rumman",
+      "pomegranate syrup",
+      "narsharab",
+      "rob el roman"
+    ],
+    "category": "oils_condiments",
+    "pack_unit": "case",
+    "pack_qty": 12.0,
+    "pack_uom": "qt",
+    "price_per_pack": 90.0,
+    "price_per_uom": 7.5,
+    "uom": "qt",
+    "vendor": "Chef's Warehouse",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "COND-SAKE-COOKING",
+    "display_name": "Cooking sake",
+    "aliases": [
+      "cooking sake",
+      "ryorishu",
+      "sake, cooking",
+      "rice cooking wine",
+      "japanese cooking wine",
+      "sake for cooking"
+    ],
+    "category": "oils_condiments",
+    "pack_unit": "case",
+    "pack_qty": 6.0,
+    "pack_uom": "qt",
+    "price_per_pack": 39.0,
+    "price_per_uom": 6.5,
+    "uom": "qt",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "COND-SAMBAL-OELEK",
+    "display_name": "Sambal oelek chili paste",
+    "aliases": [
+      "sambal",
+      "sambal oelek",
+      "chili garlic sauce",
+      "paste, sambal",
+      "ground fresh chili paste",
+      "tuong ot toi"
+    ],
+    "category": "oils_condiments",
+    "pack_unit": "case",
+    "pack_qty": 12.0,
+    "pack_uom": "qt",
+    "price_per_pack": 81.6,
+    "price_per_uom": 6.8,
+    "uom": "qt",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "COND-PEANUTBUTTER-CREAMY",
+    "display_name": "Creamy peanut butter",
+    "aliases": [
+      "peanut butter",
+      "creamy peanut butter",
+      "butter, peanut",
+      "smooth peanut butter",
+      "peanut spread",
+      "ground peanut butter"
+    ],
+    "category": "oils_condiments",
+    "pack_unit": "pail",
+    "pack_qty": 35.0,
+    "pack_uom": "lb",
+    "price_per_pack": 89.25,
+    "price_per_uom": 2.55,
+    "uom": "lb",
+    "vendor": "Restaurant Depot",
+    "source": "hand-curated 2026-08"
+  }
+]

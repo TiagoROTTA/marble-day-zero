@@ -1,0 +1,2258 @@
+{
+  "slug": "sushi-yasuda",
+  "tier": "B",
+  "cuisine": "japanese-sushi",
+  "menu_format": "pdf",
+  "elapsed_s": 81.2,
+  "usage": {
+    "calls": 3,
+    "input_tokens": 14525,
+    "output_tokens": 8746,
+    "cache_read": 9574,
+    "cache_write": 0
+  },
+  "error": "",
+  "state": {
+    "input": "sushi-yasuda",
+    "extracted_data": {},
+    "retry_count": 0,
+    "last_error": "",
+    "human_decision": "",
+    "needs_human": false,
+    "restaurant": {
+      "slug": "sushi-yasuda",
+      "name": "Sushi Yasuda",
+      "url": "https://www.sushiyasuda.com/menu/dining_menu.pdf",
+      "cuisine": "japanese-sushi",
+      "price_tier": "$$$$",
+      "seats": 58,
+      "service_style": "full-service",
+      "neighborhood": "Midtown East",
+      "snapshot_date": "2026-08-08",
+      "menu_format": "pdf",
+      "popular_times_index": [
+        0.62,
+        0.72,
+        0.85,
+        0.95,
+        1.0,
+        0.72,
+        0.35
+      ],
+      "review_count": 1574,
+      "tier": "B",
+      "estimated_fields": [
+        "popular_times_index",
+        "seats"
+      ],
+      "observed_fields": [
+        "review_count"
+      ],
+      "observed_source": "Google Maps listing, read 2026-08-08",
+      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\sushi-yasuda\\source.pdf"
+    },
+    "menu_items": [
+      {
+        "name": "sushi toku",
+        "section": "Appetizer",
+        "price": 60.0,
+        "description": "10 pieces and 1 roll selected by the chef",
+        "confidence": 0.85
+      },
+      {
+        "name": "kinpira",
+        "section": "Appetizer",
+        "price": 9.0,
+        "description": "stir-fried burdock and lotus root",
+        "confidence": 0.8
+      },
+      {
+        "name": "edamame",
+        "section": "Appetizer",
+        "price": 11.0,
+        "description": "boiled Japanese soy beans",
+        "confidence": 0.8
+      },
+      {
+        "name": "hone senbei",
+        "section": "Appetizer",
+        "price": 12.0,
+        "description": "flash fried sea eel's backbone",
+        "confidence": 0.8
+      },
+      {
+        "name": "morokyu",
+        "section": "Appetizer",
+        "price": 16.5,
+        "description": "fresh cucumber with sweet miso paste or chicken miso (prepared with garlic and sesame)",
+        "confidence": 0.75
+      },
+      {
+        "name": "chawan mushi",
+        "section": "Appetizer",
+        "price": 9.0,
+        "description": "steamed egg custard",
+        "confidence": 0.8
+      },
+      {
+        "name": "gindara miso kasuzuke",
+        "section": "Appetizer",
+        "price": 27.5,
+        "description": "grilled black cod marinated in miso and sake reduction",
+        "confidence": 0.8
+      },
+      {
+        "name": "scottish salmon",
+        "section": "Appetizer",
+        "price": 25.0,
+        "description": "grilled scottish salmon with teriyaki sauce or salt",
+        "confidence": 0.8
+      },
+      {
+        "name": "ebi matcha-age",
+        "section": "Appetizer",
+        "price": 18.0,
+        "description": "arare rice crackers crusted fried shrimp with sprinkled matcha powder",
+        "confidence": 0.75
+      },
+      {
+        "name": "maguro tatsuta-age",
+        "section": "Appetizer",
+        "price": 23.0,
+        "description": "flash fried ginger soy marinated tuna",
+        "confidence": 0.8
+      },
+      {
+        "name": "omakase",
+        "section": "Main Course",
+        "price": 195.0,
+        "description": "selected by the chef, presented with a meal of sushi, sashimi and small bites if you wish—please tell us any preferences and/or restrictions you may have",
+        "confidence": 0.8
+      },
+      {
+        "name": "omakase 15",
+        "section": "Main Course",
+        "price": null,
+        "description": "selected by the chef, presented with 15 pieces of sushi (no sashimi) and a half roll—please tell us of any restrictions you may have",
+        "confidence": 0.5
+      },
+      {
+        "name": "okonomi",
+        "section": "Main Course",
+        "price": null,
+        "description": "market price; you select order sushi and/or sashimi according to your own preferences (charged per piece); see a la carte menu",
+        "confidence": 0.3
+      },
+      {
+        "name": "tiramisu",
+        "section": "Dessert",
+        "price": null,
+        "description": "mochi and weekend desserts by Chika Tillman, founder of NYC's cult-favorite ChikaLicious Dessert Bar; ask your server about today's creation",
+        "confidence": 0.4
+      },
+      {
+        "name": "ara jiru",
+        "section": "Soup",
+        "price": 7.75,
+        "description": "shinshu white miso with fish broth",
+        "confidence": 0.85
+      },
+      {
+        "name": "aka dashi",
+        "section": "Soup",
+        "price": 11.25,
+        "description": "aka miso with nameko mushrooms or asari clams",
+        "confidence": 0.85
+      },
+      {
+        "name": "ushio",
+        "section": "Soup",
+        "price": 8.5,
+        "description": "clear fish broth",
+        "confidence": 0.85
+      },
+      {
+        "name": "kaisou",
+        "section": "Salad",
+        "price": 13.0,
+        "description": "ugo, tokasa and wakame varieties of seaweed with yuzu dressing",
+        "confidence": 0.85
+      },
+      {
+        "name": "oshinko",
+        "section": "Salad",
+        "price": 11.5,
+        "description": "Today's japanese pickled vegetables",
+        "confidence": 0.85
+      },
+      {
+        "name": "salad",
+        "section": "Salad",
+        "price": 13.25,
+        "description": "greens and fried burdock with ginger dressing",
+        "confidence": 0.85
+      }
+    ],
+    "recipes": [
+      {
+        "item_name": "sushi toku",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ahi tuna loin",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Atlantic salmon fillet",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Yellowtail hamachi loin",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Shrimp 16/20 peeled and deveined",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Sea urchin roe (uni) tray",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Sushi rice",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Roasted nori sheets",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Pasteurized lump crab meat",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Hass avocado",
+            "qty": 0.25,
+            "uom": "each",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Wasabi powder",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.4
+      },
+      {
+        "item_name": "kinpira",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Lotus stems in brine",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Jumbo carrot",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Toasted sesame oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.4,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Mirin sweet cooking wine",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "White sesame seeds",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Dried chrysanthemum flowers",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "edamame",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Green bean",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "hone senbei",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Beef marrow and knuckle bones",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 2.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Cornstarch",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.4
+      },
+      {
+        "item_name": "morokyu",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Slicing cucumber",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "White miso paste",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Toasted sesame oil",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "White sesame seeds",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.5
+      },
+      {
+        "item_name": "chawan mushi",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.5,
+            "uom": "each",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Instant dashi powder",
+            "qty": 0.15,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Mirin sweet cooking wine",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Shrimp 16/20 peeled and deveined",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Shiitake mushroom",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Boneless skinless chicken breast",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "gindara miso kasuzoke",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "White miso paste",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Cooking sake",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Mirin sweet cooking wine",
+            "qty": 0.7,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "gindara miso kasuzuke",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Atlantic cod fillet",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "White miso paste",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Cooking sake",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Mirin sweet cooking wine",
+            "qty": 0.7,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "scottish salmon",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Atlantic salmon fillet",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Mirin sweet cooking wine",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "ebi matcha-age",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Shrimp 16/20 peeled and deveined",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 0.3,
+            "uom": "each",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Panko breadcrumbs",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.55
+      },
+      {
+        "item_name": "maguro tatsuta-age",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ahi tuna loin",
+            "qty": 4.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.6,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Cornstarch",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 3.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "omakase",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ahi tuna loin",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Yellowtail hamachi loin",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Atlantic salmon fillet",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Sea urchin roe (uni) tray",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.25
+          },
+          {
+            "raw_name": "Sushi rice",
+            "qty": 6.0,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Roasted nori sheets",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Wasabi powder",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Pasteurized lump crab meat",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.25
+          }
+        ],
+        "confidence": 0.3
+      },
+      {
+        "item_name": "omakase 15",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Sushi rice",
+            "qty": 7.5,
+            "uom": "oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Ahi tuna loin",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Yellowtail hamachi loin",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Atlantic salmon fillet",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Shrimp 16/20 peeled and deveined",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Roasted nori sheets",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Wasabi powder",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.35
+      },
+      {
+        "item_name": "okonomi",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Ahi tuna loin",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.2
+          },
+          {
+            "raw_name": "Sushi rice",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.25
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Wasabi powder",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.2
+      },
+      {
+        "item_name": "tiramisu",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Mascarpone",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Granulated white sugar",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Espresso roast whole bean coffee",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.35
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.2
+          },
+          {
+            "raw_name": "Coffee liqueur",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.35
+      },
+      {
+        "item_name": "ara jiru",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "White miso paste",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Atlantic salmon fillet",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Instant dashi powder",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.4
+      },
+      {
+        "item_name": "aka dashi",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "White miso paste",
+            "qty": 1.2,
+            "uom": "oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Shiitake mushroom",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.35
+          },
+          {
+            "raw_name": "Littleneck clams",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.35
+          },
+          {
+            "raw_name": "Instant dashi powder",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.4
+      },
+      {
+        "item_name": "ushio",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Atlantic salmon fillet",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Instant dashi powder",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Scallion",
+            "qty": 0.1,
+            "uom": "bunch",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.4
+      },
+      {
+        "item_name": "kaisou",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Dried wood ear mushrooms",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.2
+          },
+          {
+            "raw_name": "Fresh lemon",
+            "qty": 0.5,
+            "uom": "each",
+            "confidence": 0.35
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Toasted sesame oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "White sesame seeds",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.35
+      },
+      {
+        "item_name": "oshinko",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Daikon radish",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.35
+          },
+          {
+            "raw_name": "Napa cabbage",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.35
+          },
+          {
+            "raw_name": "Persian lime",
+            "qty": 0.2,
+            "uom": "each",
+            "confidence": 0.25
+          },
+          {
+            "raw_name": "Seasoned rice vinegar",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.4
+          }
+        ],
+        "confidence": 0.35
+      },
+      {
+        "item_name": "salad",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Spring mix greens",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Fresh ginger root",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Canola oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Seasoned rice vinegar",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.35
+          },
+          {
+            "raw_name": "Soy sauce",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.35
+          },
+          {
+            "raw_name": "All-purpose flour",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.3
+          },
+          {
+            "raw_name": "Clear fry oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.3
+          }
+        ],
+        "confidence": 0.4
+      }
+    ],
+    "sku_matches": [
+      {
+        "raw_name": "Ahi tuna loin",
+        "sku_id": "PROT-TUNA-AHILOIN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Atlantic salmon fillet",
+        "sku_id": "PROT-SALMON-FILLET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Yellowtail hamachi loin",
+        "sku_id": "PROT-YELLOWTAIL-HAMACHI",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Shrimp 16/20 peeled and deveined",
+        "sku_id": "PROT-SHRIMP-1620",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sea urchin roe (uni) tray",
+        "sku_id": "PROT-UNI-SEAURCHIN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sushi rice",
+        "sku_id": "DRY-RICE-SUSHI",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Roasted nori sheets",
+        "sku_id": "DRY-NORI-SHEETS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pasteurized lump crab meat",
+        "sku_id": "PROT-CRAB-LUMPMEAT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Hass avocado",
+        "sku_id": "PROD-AVOCADO-HASS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Wasabi powder",
+        "sku_id": "SPICE-WASABI-POWDER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Soy sauce",
+        "sku_id": "COND-SOYSAUCE-DARK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Lotus stems in brine",
+        "sku_id": "DRY-LOTUSSTEM-BRINE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Jumbo carrot",
+        "sku_id": "PROD-CARROT-JUMBO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Toasted sesame oil",
+        "sku_id": "COND-OIL-SESAMETOASTED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Mirin sweet cooking wine",
+        "sku_id": "COND-MIRIN-BULK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Granulated white sugar",
+        "sku_id": "DRY-SUGAR-GRANULATED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "White sesame seeds",
+        "sku_id": "SPICE-SESAMESEED-WHITE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried chrysanthemum flowers",
+        "sku_id": "DRY-CHRYSANTHEMUM-DRIED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Green bean",
+        "sku_id": "PROD-BEAN-GREEN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Kosher salt",
+        "sku_id": "SPICE-SALT-KOSHER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Beef marrow and knuckle bones",
+        "sku_id": "PROT-BEEF-BONESBROTH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Clear fry oil",
+        "sku_id": "COND-OIL-FRYER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cornstarch",
+        "sku_id": "DRY-CORNSTARCH-BULK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Slicing cucumber",
+        "sku_id": "PROD-CUCUMBER-SLICING",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "White miso paste",
+        "sku_id": "COND-MISO-WHITE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Peeled garlic cloves",
+        "sku_id": "PROD-GARLIC-PEELED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Large shell eggs",
+        "sku_id": "DAIR-EGG-LARGE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Instant dashi powder",
+        "sku_id": "DRY-DASHI-POWDER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Shiitake mushroom",
+        "sku_id": "PROD-MUSHROOM-SHIITAKE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Boneless skinless chicken breast",
+        "sku_id": "PROT-CHICKEN-BREASTBNLS",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cooking sake",
+        "sku_id": "COND-SAKE-COOKING",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Canola oil",
+        "sku_id": "COND-OIL-CANOLA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Atlantic cod fillet",
+        "sku_id": "PROT-COD-FILLET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "All-purpose flour",
+        "sku_id": "DRY-FLOUR-ALLPURPOSE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Panko breadcrumbs",
+        "sku_id": "DRY-BREADCRUMB-PANKO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh ginger root",
+        "sku_id": "PROD-GINGER-ROOT",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Mascarpone",
+        "sku_id": "DAIR-MASCARPONE-TUB",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Espresso roast whole bean coffee",
+        "sku_id": "BEV-COFFEE-ESPRESSOBEAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Coffee liqueur",
+        "sku_id": "BEV-LIQUEUR-COFFEE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Scallion",
+        "sku_id": "PROD-ONION-SCALLION",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Littleneck clams",
+        "sku_id": "PROT-CLAM-LITTLENECK",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dried wood ear mushrooms",
+        "sku_id": "DRY-MUSHROOM-WOODEAR",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh lemon",
+        "sku_id": "PROD-LEMON-FRESH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Daikon radish",
+        "sku_id": "PROD-DAIKON-RADISH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Napa cabbage",
+        "sku_id": "PROD-CABBAGE-NAPA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Persian lime",
+        "sku_id": "PROD-LIME-PERSIAN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Seasoned rice vinegar",
+        "sku_id": "COND-VINEGAR-RICE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Spring mix greens",
+        "sku_id": "PROD-GREENS-SPRINGMIX",
+        "method": "alias",
+        "confidence": 1.0
+      }
+    ],
+    "plate_costs": [
+      {
+        "item_name": "sushi toku",
+        "plate_cost": 7.9742,
+        "menu_price": 60.0,
+        "food_cost_pct": 0.1329,
+        "costed_components": 9,
+        "total_components": 11,
+        "coverage": 0.8182,
+        "uncosted": [
+          "Sea urchin roe (uni) tray (no conversion from oz to each)",
+          "Roasted nori sheets (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "Ahi tuna loin (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Atlantic salmon fillet (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Yellowtail hamachi loin (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Shrimp 16/20 peeled and deveined (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Sushi rice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Pasteurized lump crab meat (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Hass avocado (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Wasabi powder (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Soy sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1418,
+        "costable": true
+      },
+      {
+        "item_name": "kinpira",
+        "plate_cost": 1.6839,
+        "menu_price": 9.0,
+        "food_cost_pct": 0.1871,
+        "costed_components": 8,
+        "total_components": 8,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Lotus stems in brine (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Jumbo carrot (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "White sesame seeds (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Dried chrysanthemum flowers (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2853,
+        "costable": true
+      },
+      {
+        "item_name": "edamame",
+        "plate_cost": 0.6412,
+        "menu_price": 11.0,
+        "food_cost_pct": 0.0583,
+        "costed_components": 2,
+        "total_components": 2,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Green bean (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.375,
+        "costable": true
+      },
+      {
+        "item_name": "hone senbei",
+        "plate_cost": 0.4788,
+        "menu_price": 12.0,
+        "food_cost_pct": 0.0399,
+        "costed_components": 4,
+        "total_components": 4,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Beef marrow and knuckle bones (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+          "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Cornstarch (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.19,
+        "costable": true
+      },
+      {
+        "item_name": "morokyu",
+        "plate_cost": 0.6549,
+        "menu_price": 16.5,
+        "food_cost_pct": 0.0397,
+        "costed_components": 6,
+        "total_components": 6,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "White miso paste (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Toasted sesame oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "White sesame seeds (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Granulated white sugar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2542,
+        "costable": true
+      },
+      {
+        "item_name": "chawan mushi",
+        "plate_cost": 1.2437,
+        "menu_price": 9.0,
+        "food_cost_pct": 0.1382,
+        "costed_components": 7,
+        "total_components": 7,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Instant dashi powder (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Soy sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Mirin sweet cooking wine (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Shrimp 16/20 peeled and deveined (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Shiitake mushroom (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Boneless skinless chicken breast (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2871,
+        "costable": true
+      },
+      {
+        "item_name": "gindara miso kasuzoke",
+        "plate_cost": 0.6208,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 5,
+        "total_components": 5,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Canola oil (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.378,
+        "costable": true
+      },
+      {
+        "item_name": "gindara miso kasuzuke",
+        "plate_cost": 4.295,
+        "menu_price": 27.5,
+        "food_cost_pct": 0.1562,
+        "costed_components": 5,
+        "total_components": 5,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.4575,
+        "costable": true
+      },
+      {
+        "item_name": "scottish salmon",
+        "plate_cost": 4.3236,
+        "menu_price": 25.0,
+        "food_cost_pct": 0.1729,
+        "costed_components": 6,
+        "total_components": 6,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Canola oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.45,
+        "costable": true
+      },
+      {
+        "item_name": "ebi matcha-age",
+        "plate_cost": 2.8409,
+        "menu_price": 18.0,
+        "food_cost_pct": 0.1578,
+        "costed_components": 6,
+        "total_components": 6,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "All-purpose flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Large shell eggs (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Panko breadcrumbs (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2933,
+        "costable": true
+      },
+      {
+        "item_name": "maguro tatsuta-age",
+        "plate_cost": 5.7268,
+        "menu_price": 23.0,
+        "food_cost_pct": 0.249,
+        "costed_components": 6,
+        "total_components": 6,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Cornstarch (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3738,
+        "costable": true
+      },
+      {
+        "item_name": "omakase",
+        "plate_cost": 7.125,
+        "menu_price": 195.0,
+        "food_cost_pct": 0.0365,
+        "costed_components": 7,
+        "total_components": 9,
+        "coverage": 0.7778,
+        "uncosted": [
+          "Sea urchin roe (uni) tray (no conversion from oz to each)",
+          "Roasted nori sheets (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "Ahi tuna loin (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+          "Yellowtail hamachi loin (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+          "Atlantic salmon fillet (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+          "Sushi rice (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Soy sauce (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Wasabi powder (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Pasteurized lump crab meat (quantity confidence 0.25 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.0783,
+        "costable": true
+      },
+      {
+        "item_name": "omakase 15",
+        "plate_cost": 7.6625,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 7,
+        "total_components": 8,
+        "coverage": 0.875,
+        "uncosted": [
+          "Roasted nori sheets (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "Sushi rice (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "Ahi tuna loin (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+          "Yellowtail hamachi loin (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+          "Atlantic salmon fillet (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+          "Shrimp 16/20 peeled and deveined (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+          "Soy sauce (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Wasabi powder (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1072,
+        "costable": true
+      },
+      {
+        "item_name": "okonomi",
+        "plate_cost": 1.4539,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 4,
+        "total_components": 4,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Ahi tuna loin (quantity confidence 0.20 below the 0.60 review floor -- costed anyway)",
+          "Sushi rice (quantity confidence 0.25 below the 0.60 review floor -- costed anyway)",
+          "Soy sauce (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+          "Wasabi powder (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.0525,
+        "costable": true
+      },
+      {
+        "item_name": "tiramisu",
+        "plate_cost": 1.8283,
+        "menu_price": null,
+        "food_cost_pct": null,
+        "costed_components": 5,
+        "total_components": 6,
+        "coverage": 0.8333,
+        "uncosted": [
+          "Coffee liqueur (no conversion from fl_oz to each)"
+        ],
+        "low_confidence": [
+          "Mascarpone (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Large shell eggs (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Granulated white sugar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Espresso roast whole bean coffee (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+          "All-purpose flour (quantity confidence 0.20 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1021,
+        "costable": true
+      },
+      {
+        "item_name": "ara jiru",
+        "plate_cost": 2.4756,
+        "menu_price": 7.75,
+        "food_cost_pct": 0.3194,
+        "costed_components": 4,
+        "total_components": 4,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "White miso paste (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Atlantic salmon fillet (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+          "Instant dashi powder (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Scallion (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.16,
+        "costable": true
+      },
+      {
+        "item_name": "aka dashi",
+        "plate_cost": 0.7347,
+        "menu_price": 11.25,
+        "food_cost_pct": 0.0653,
+        "costed_components": 4,
+        "total_components": 5,
+        "coverage": 0.8,
+        "uncosted": [
+          "Littleneck clams (no conversion from oz to each)"
+        ],
+        "low_confidence": [
+          "White miso paste (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "Shiitake mushroom (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+          "Instant dashi powder (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Scallion (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.128,
+        "costable": true
+      },
+      {
+        "item_name": "ushio",
+        "plate_cost": 2.2875,
+        "menu_price": 8.5,
+        "food_cost_pct": 0.2691,
+        "costed_components": 4,
+        "total_components": 4,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Atlantic salmon fillet (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+          "Instant dashi powder (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Scallion (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.16,
+        "costable": true
+      },
+      {
+        "item_name": "kaisou",
+        "plate_cost": 0.5708,
+        "menu_price": 13.0,
+        "food_cost_pct": 0.0439,
+        "costed_components": 5,
+        "total_components": 5,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Dried wood ear mushrooms (quantity confidence 0.20 below the 0.60 review floor -- costed anyway)",
+          "Fresh lemon (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+          "Soy sauce (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Toasted sesame oil (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "White sesame seeds (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1225,
+        "costable": true
+      },
+      {
+        "item_name": "oshinko",
+        "plate_cost": 0.284,
+        "menu_price": 11.5,
+        "food_cost_pct": 0.0247,
+        "costed_components": 5,
+        "total_components": 5,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Daikon radish (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+          "Napa cabbage (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+          "Persian lime (quantity confidence 0.25 below the 0.60 review floor -- costed anyway)",
+          "Seasoned rice vinegar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Kosher salt (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1225,
+        "costable": true
+      },
+      {
+        "item_name": "salad",
+        "plate_cost": 0.9148,
+        "menu_price": 13.25,
+        "food_cost_pct": 0.069,
+        "costed_components": 7,
+        "total_components": 7,
+        "coverage": 1.0,
+        "uncosted": [],
+        "low_confidence": [
+          "Spring mix greens (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+          "Fresh ginger root (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Canola oil (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Seasoned rice vinegar (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+          "Soy sauce (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+          "All-purpose flour (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+          "Clear fry oil (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1457,
+        "costable": true
+      }
+    ],
+    "demand_forecast": {},
+    "par_levels": [],
+    "purchase_order": {},
+    "review_queue": [
+      {
+        "kind": "plate_quantity",
+        "ref": "sushi toku",
+        "confidence": 0.1418,
+        "question": "sushi toku is costed at $7.97 using 9 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 7.9742,
+          "menu_price": 60.0,
+          "low_confidence": [
+            "Ahi tuna loin (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Atlantic salmon fillet (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Yellowtail hamachi loin (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Shrimp 16/20 peeled and deveined (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Sushi rice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Pasteurized lump crab meat (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Hass avocado (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Wasabi powder (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Soy sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "kinpira",
+        "confidence": 0.2853,
+        "question": "kinpira is costed at $1.68 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.6839,
+          "menu_price": 9.0,
+          "low_confidence": [
+            "Lotus stems in brine (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Jumbo carrot (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "White sesame seeds (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Dried chrysanthemum flowers (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "edamame",
+        "confidence": 0.375,
+        "question": "edamame is costed at $0.64 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.6412,
+          "menu_price": 11.0,
+          "low_confidence": [
+            "Green bean (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "edamame",
+        "confidence": 0.375,
+        "question": "edamame computes to 6% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.6412,
+          "menu_price": 11.0,
+          "food_cost_pct": 0.0583,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "hone senbei",
+        "confidence": 0.19,
+        "question": "hone senbei is costed at $0.48 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.4788,
+          "menu_price": 12.0,
+          "low_confidence": [
+            "Beef marrow and knuckle bones (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+            "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Cornstarch (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "hone senbei",
+        "confidence": 0.19,
+        "question": "hone senbei computes to 4% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.4788,
+          "menu_price": 12.0,
+          "food_cost_pct": 0.0399,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "morokyu",
+        "confidence": 0.2542,
+        "question": "morokyu is costed at $0.65 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.6549,
+          "menu_price": 16.5,
+          "low_confidence": [
+            "White miso paste (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Toasted sesame oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "White sesame seeds (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Granulated white sugar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "morokyu",
+        "confidence": 0.2542,
+        "question": "morokyu computes to 4% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.6549,
+          "menu_price": 16.5,
+          "food_cost_pct": 0.0397,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "chawan mushi",
+        "confidence": 0.2871,
+        "question": "chawan mushi is costed at $1.24 using 6 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.2437,
+          "menu_price": 9.0,
+          "low_confidence": [
+            "Instant dashi powder (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Soy sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Mirin sweet cooking wine (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Shrimp 16/20 peeled and deveined (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Shiitake mushroom (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Boneless skinless chicken breast (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "gindara miso kasuzoke",
+        "confidence": 0.378,
+        "question": "gindara miso kasuzoke is costed at $0.62 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.6208,
+          "menu_price": null,
+          "low_confidence": [
+            "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Canola oil (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "gindara miso kasuzuke",
+        "confidence": 0.4575,
+        "question": "gindara miso kasuzuke is costed at $4.29 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 4.295,
+          "menu_price": 27.5,
+          "low_confidence": [
+            "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "scottish salmon",
+        "confidence": 0.45,
+        "question": "scottish salmon is costed at $4.32 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 4.3236,
+          "menu_price": 25.0,
+          "low_confidence": [
+            "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Canola oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "ebi matcha-age",
+        "confidence": 0.2933,
+        "question": "ebi matcha-age is costed at $2.84 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.8409,
+          "menu_price": 18.0,
+          "low_confidence": [
+            "All-purpose flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Large shell eggs (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Panko breadcrumbs (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "maguro tatsuta-age",
+        "confidence": 0.3738,
+        "question": "maguro tatsuta-age is costed at $5.73 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 5.7268,
+          "menu_price": 23.0,
+          "low_confidence": [
+            "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Cornstarch (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "omakase",
+        "confidence": 0.0783,
+        "question": "omakase is costed at $7.12 using 7 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 7.125,
+          "menu_price": 195.0,
+          "low_confidence": [
+            "Ahi tuna loin (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+            "Yellowtail hamachi loin (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+            "Atlantic salmon fillet (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+            "Sushi rice (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Soy sauce (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Wasabi powder (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Pasteurized lump crab meat (quantity confidence 0.25 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "omakase",
+        "confidence": 0.0783,
+        "question": "omakase computes to 4% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 7.125,
+          "menu_price": 195.0,
+          "food_cost_pct": 0.0365,
+          "coverage": 0.7778,
+          "uncosted": [
+            "Sea urchin roe (uni) tray (no conversion from oz to each)",
+            "Roasted nori sheets (no conversion from each to lb)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "omakase 15",
+        "confidence": 0.1072,
+        "question": "omakase 15 is costed at $7.66 using 7 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 7.6625,
+          "menu_price": null,
+          "low_confidence": [
+            "Sushi rice (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "Ahi tuna loin (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+            "Yellowtail hamachi loin (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+            "Atlantic salmon fillet (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+            "Shrimp 16/20 peeled and deveined (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+            "Soy sauce (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Wasabi powder (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "okonomi",
+        "confidence": 0.0525,
+        "question": "okonomi is costed at $1.45 using 4 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.4539,
+          "menu_price": null,
+          "low_confidence": [
+            "Ahi tuna loin (quantity confidence 0.20 below the 0.60 review floor -- costed anyway)",
+            "Sushi rice (quantity confidence 0.25 below the 0.60 review floor -- costed anyway)",
+            "Soy sauce (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+            "Wasabi powder (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "tiramisu",
+        "confidence": 0.1021,
+        "question": "tiramisu is costed at $1.83 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.8283,
+          "menu_price": null,
+          "low_confidence": [
+            "Mascarpone (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Large shell eggs (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Granulated white sugar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Espresso roast whole bean coffee (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+            "All-purpose flour (quantity confidence 0.20 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "ara jiru",
+        "confidence": 0.16,
+        "question": "ara jiru is costed at $2.48 using 4 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.4756,
+          "menu_price": 7.75,
+          "low_confidence": [
+            "White miso paste (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Atlantic salmon fillet (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+            "Instant dashi powder (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Scallion (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "aka dashi",
+        "confidence": 0.128,
+        "question": "aka dashi is costed at $0.73 using 4 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.7347,
+          "menu_price": 11.25,
+          "low_confidence": [
+            "White miso paste (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "Shiitake mushroom (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+            "Instant dashi powder (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Scallion (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "aka dashi",
+        "confidence": 0.128,
+        "question": "aka dashi computes to 7% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.7347,
+          "menu_price": 11.25,
+          "food_cost_pct": 0.0653,
+          "coverage": 0.8,
+          "uncosted": [
+            "Littleneck clams (no conversion from oz to each)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "ushio",
+        "confidence": 0.16,
+        "question": "ushio is costed at $2.29 using 4 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 2.2875,
+          "menu_price": 8.5,
+          "low_confidence": [
+            "Atlantic salmon fillet (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+            "Instant dashi powder (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Scallion (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "kaisou",
+        "confidence": 0.1225,
+        "question": "kaisou is costed at $0.57 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.5708,
+          "menu_price": 13.0,
+          "low_confidence": [
+            "Dried wood ear mushrooms (quantity confidence 0.20 below the 0.60 review floor -- costed anyway)",
+            "Fresh lemon (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+            "Soy sauce (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Toasted sesame oil (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "White sesame seeds (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "kaisou",
+        "confidence": 0.1225,
+        "question": "kaisou computes to 4% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.5708,
+          "menu_price": 13.0,
+          "food_cost_pct": 0.0439,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "oshinko",
+        "confidence": 0.1225,
+        "question": "oshinko is costed at $0.28 using 5 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.284,
+          "menu_price": 11.5,
+          "low_confidence": [
+            "Daikon radish (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+            "Napa cabbage (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+            "Persian lime (quantity confidence 0.25 below the 0.60 review floor -- costed anyway)",
+            "Seasoned rice vinegar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Kosher salt (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "oshinko",
+        "confidence": 0.1225,
+        "question": "oshinko computes to 2% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.284,
+          "menu_price": 11.5,
+          "food_cost_pct": 0.0247,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "salad",
+        "confidence": 0.1457,
+        "question": "salad is costed at $0.91 using 7 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.9148,
+          "menu_price": 13.25,
+          "low_confidence": [
+            "Spring mix greens (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
+            "Fresh ginger root (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Canola oil (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Seasoned rice vinegar (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+            "Soy sauce (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
+            "All-purpose flour (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
+            "Clear fry oil (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "salad",
+        "confidence": 0.1457,
+        "question": "salad computes to 7% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.9148,
+          "menu_price": 13.25,
+          "food_cost_pct": 0.069,
+          "coverage": 1.0,
+          "uncosted": []
+        }
+      }
+    ],
+    "stage": "costed"
+  }
+}

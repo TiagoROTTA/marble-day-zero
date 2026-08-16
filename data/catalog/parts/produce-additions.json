@@ -1,0 +1,254 @@
+[
+  {
+    "sku_id": "PROD-BEAN-GREEN",
+    "display_name": "Green bean",
+    "aliases": [
+      "green beans",
+      "string bean",
+      "string beans",
+      "haricot vert",
+      "snap beans",
+      "beans, green"
+    ],
+    "category": "produce",
+    "pack_unit": "case",
+    "pack_qty": 25.0,
+    "pack_uom": "lb",
+    "price_per_pack": 42.0,
+    "price_per_uom": 1.68,
+    "uom": "lb",
+    "vendor": "Restaurant Depot",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROD-PAPAYA-GREEN",
+    "display_name": "Green papaya",
+    "aliases": [
+      "green papaya",
+      "unripe papaya",
+      "du du xanh",
+      "papaya, green",
+      "shredded green papaya",
+      "som tam papaya"
+    ],
+    "category": "produce",
+    "pack_unit": "case",
+    "pack_qty": 30.0,
+    "pack_uom": "lb",
+    "price_per_pack": 39.0,
+    "price_per_uom": 1.3,
+    "uom": "lb",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROD-PAPAYA-RIPE",
+    "display_name": "Ripe papaya",
+    "aliases": [
+      "papaya",
+      "papayas",
+      "maradol papaya",
+      "ripe papaya",
+      "hawaiian papaya",
+      "du du chin"
+    ],
+    "category": "produce",
+    "pack_unit": "case",
+    "pack_qty": 35.0,
+    "pack_uom": "lb",
+    "price_per_pack": 47.25,
+    "price_per_uom": 1.35,
+    "uom": "lb",
+    "vendor": "Baldor Specialty Foods",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROD-POMELO-FRESH",
+    "display_name": "Pomelo",
+    "aliases": [
+      "pomelo",
+      "pomelos",
+      "pummelo",
+      "buoi",
+      "chinese grapefruit",
+      "shaddock"
+    ],
+    "category": "produce",
+    "pack_unit": "case",
+    "pack_qty": 12.0,
+    "pack_uom": "each",
+    "price_per_pack": 33.0,
+    "price_per_uom": 2.75,
+    "uom": "each",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROD-COCONUT-YOUNG",
+    "display_name": "Young coconut",
+    "aliases": [
+      "young coconut",
+      "young coconuts",
+      "thai coconut",
+      "coconut, young",
+      "dua tuoi",
+      "fresh green coconut"
+    ],
+    "category": "produce",
+    "pack_unit": "case",
+    "pack_qty": 9.0,
+    "pack_uom": "each",
+    "price_per_pack": 22.5,
+    "price_per_uom": 2.5,
+    "uom": "each",
+    "vendor": "Jetro Cash & Carry",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROD-TOMATILLO-FRESH",
+    "display_name": "Tomatillo",
+    "aliases": [
+      "tomatillo",
+      "tomatillos",
+      "husk tomato",
+      "tomate verde",
+      "green tomatillo",
+      "milpero tomatillo"
+    ],
+    "category": "produce",
+    "pack_unit": "case",
+    "pack_qty": 25.0,
+    "pack_uom": "lb",
+    "price_per_pack": 37.5,
+    "price_per_uom": 1.5,
+    "uom": "lb",
+    "vendor": "Restaurant Depot",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROD-MANGO-ATAULFO",
+    "display_name": "Ataulfo mango",
+    "aliases": [
+      "mango",
+      "mangoes",
+      "mangos",
+      "ataulfo mango",
+      "honey mango",
+      "champagne mango"
+    ],
+    "category": "produce",
+    "pack_unit": "case",
+    "pack_qty": 20.0,
+    "pack_uom": "lb",
+    "price_per_pack": 29.0,
+    "price_per_uom": 1.45,
+    "uom": "lb",
+    "vendor": "Baldor Specialty Foods",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROD-PINEAPPLE-GOLDEN",
+    "display_name": "Golden pineapple",
+    "aliases": [
+      "pineapple",
+      "pineapples",
+      "golden pineapple",
+      "fresh pineapple",
+      "ananas",
+      "md2 pineapple"
+    ],
+    "category": "produce",
+    "pack_unit": "case",
+    "pack_qty": 8.0,
+    "pack_uom": "each",
+    "price_per_pack": 22.0,
+    "price_per_uom": 2.75,
+    "uom": "each",
+    "vendor": "Baldor Specialty Foods",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROD-HERB-DILL",
+    "display_name": "Fresh dill",
+    "aliases": [
+      "dill",
+      "fresh dill",
+      "dill weed",
+      "thi la",
+      "herbs, dill",
+      "dill bunch"
+    ],
+    "category": "produce",
+    "pack_unit": "case",
+    "pack_qty": 12.0,
+    "pack_uom": "bunch",
+    "price_per_pack": 18.0,
+    "price_per_uom": 1.5,
+    "uom": "bunch",
+    "vendor": "Baldor Specialty Foods",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROD-HERB-PERILLA",
+    "display_name": "Perilla leaf",
+    "aliases": [
+      "perilla",
+      "perilla leaf",
+      "shiso",
+      "shiso leaf",
+      "tia to",
+      "herbs, perilla"
+    ],
+    "category": "produce",
+    "pack_unit": "case",
+    "pack_qty": 12.0,
+    "pack_uom": "bunch",
+    "price_per_pack": 33.0,
+    "price_per_uom": 2.75,
+    "uom": "bunch",
+    "vendor": "Baldor Specialty Foods",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROD-OKRA-FRESH",
+    "display_name": "Fresh okra",
+    "aliases": [
+      "okra",
+      "okras",
+      "bhindi",
+      "lady finger",
+      "ladies fingers",
+      "dau bap"
+    ],
+    "category": "produce",
+    "pack_unit": "case",
+    "pack_qty": 20.0,
+    "pack_uom": "lb",
+    "price_per_pack": 46.0,
+    "price_per_uom": 2.3,
+    "uom": "lb",
+    "vendor": "Restaurant Depot",
+    "source": "hand-curated 2026-08"
+  },
+  {
+    "sku_id": "PROD-PEPPER-HABANERO",
+    "display_name": "Habanero pepper",
+    "aliases": [
+      "habanero",
+      "habaneros",
+      "habanero chile",
+      "chile habanero",
+      "scotch bonnet",
+      "peppers, habanero"
+    ],
+    "category": "produce",
+    "pack_unit": "case",
+    "pack_qty": 10.0,
+    "pack_uom": "lb",
+    "price_per_pack": 32.0,
+    "price_per_uom": 3.2,
+    "uom": "lb",
+    "vendor": "Restaurant Depot",
+    "source": "hand-curated 2026-08"
+  }
+]

@@ -1,0 +1,3971 @@
+{
+  "slug": "court-street-grocers",
+  "tier": "B",
+  "cuisine": "american-sandwich",
+  "menu_format": "html",
+  "elapsed_s": 123.4,
+  "usage": {
+    "calls": 5,
+    "input_tokens": 33921,
+    "output_tokens": 17475,
+    "cache_read": 25581,
+    "cache_write": 0
+  },
+  "error": "",
+  "state": {
+    "input": "court-street-grocers",
+    "extracted_data": {},
+    "retry_count": 0,
+    "last_error": "",
+    "human_decision": "",
+    "needs_human": false,
+    "restaurant": {
+      "slug": "court-street-grocers",
+      "name": "Court Street Grocers (Carroll Gardens)",
+      "url": "https://www.courtstreetgrocers.com/menu-csg",
+      "cuisine": "american-sandwich",
+      "price_tier": "$",
+      "seats": 16,
+      "service_style": "counter",
+      "neighborhood": "Carroll Gardens",
+      "snapshot_date": "2026-08-08",
+      "menu_format": "html",
+      "popular_times_index": [
+        0.61,
+        0.62,
+        0.67,
+        0.69,
+        1.0,
+        0.92,
+        0.81
+      ],
+      "review_count": 654,
+      "tier": "B",
+      "estimated_fields": [
+        "seats"
+      ],
+      "observed_fields": [
+        "popular_times_index",
+        "review_count"
+      ],
+      "observed_source": "Google Maps listing, read 2026-08-08",
+      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\court-street-grocers\\source.html"
+    },
+    "menu_items": [
+      {
+        "name": "BREAKFAST SANDWICH",
+        "section": "",
+        "price": 9.95,
+        "description": "soft scrambled eggs, cheddar cheese, and arugula on ciabatta",
+        "confidence": 0.9
+      },
+      {
+        "name": "B+B",
+        "section": "",
+        "price": 11.95,
+        "description": "soft scrambled eggs, burger's smokehouse bacon, cheddar cheese, and arugula on ciabatta",
+        "confidence": 0.9
+      },
+      {
+        "name": "B+C",
+        "section": "",
+        "price": 11.95,
+        "description": "soft scrambled eggs, house-made chorizo, cheddar cheese, and salsa verde on ciabatta",
+        "confidence": 0.9
+      },
+      {
+        "name": "PORK ROLL",
+        "section": "",
+        "price": 11.95,
+        "description": "soft scrambled eggs, taylor ham, and american cheese on a white bun",
+        "confidence": 0.9
+      },
+      {
+        "name": "MR. VICTOR",
+        "section": "",
+        "price": 11.95,
+        "description": "soft scrambled eggs, edward's hickory smoked sausage, cheddar cheese, and arugula on ciabatta",
+        "confidence": 0.9
+      },
+      {
+        "name": "OLLIEFLOWER",
+        "section": "",
+        "price": 16.0,
+        "description": "roasted cauliflower, provolone, broccoli rabe, crystal hot honey, and mayo on a seeded hero",
+        "confidence": 0.9
+      },
+      {
+        "name": "OLLIE",
+        "section": "",
+        "price": 17.5,
+        "description": "roast turkey breast, provolone, broccoli rabe, crystal hot honey, and mayo on a seeded hero",
+        "confidence": 0.9
+      },
+      {
+        "name": "UNCLE CHUCKY",
+        "section": "",
+        "price": 16.0,
+        "description": "roasted cauliflower, pickled fennel, ajvar, sumac vinaigrette, arugula, and white onion on a seeded hero",
+        "confidence": 0.9
+      },
+      {
+        "name": "UNCLE GRANDPA",
+        "section": "",
+        "price": 17.5,
+        "description": "roast turkey breast, pickled fennel, ajvar, sumac vinaigrette, arugula, and white onion on a seeded hero",
+        "confidence": 0.9
+      },
+      {
+        "name": "FLIP FLOP",
+        "section": "",
+        "price": 17.5,
+        "description": "pepperoni, heritage ham, pepperjack cheese, pickled jalapeño, pepperoncini, duke's mayo, red wine vinaigrette, and shredded iceberg lettuce on a seeded hero",
+        "confidence": 0.9
+      },
+      {
+        "name": "VEGLOAF CLASSIC",
+        "section": "",
+        "price": 16.0,
+        "description": "csg mushroom + black bean patty, vegan american cheese, full sour pickles, vegan comeback sauce, white onion, and romaine on a white bun",
+        "confidence": 0.9
+      },
+      {
+        "name": "REUBEN BROCC",
+        "section": "",
+        "price": 16.0,
+        "description": "roasted broccoli, swiss, sauerkraut, and comeback sauce on orwasher's rye bread",
+        "confidence": 0.9
+      },
+      {
+        "name": "REUBEN",
+        "section": "",
+        "price": 17.5,
+        "description": "corned beef or turkey, swiss, sauerkraut, and comeback sauce on orwasher's rye bread",
+        "confidence": 0.9
+      },
+      {
+        "name": "VEGITALIAN",
+        "section": "",
+        "price": 16.0,
+        "description": "roasted sweet potato, swiss, mozzarella, pecorino, csg hoagie spread, arugula, white onion, and mayo on a seeded hero",
+        "confidence": 0.9
+      },
+      {
+        "name": "ITALIAN COMBO",
+        "section": "",
+        "price": 17.5,
+        "description": "mortadella, soppressata, swiss, mozzarella, pecorino, csg hoagie spread, arugula, white onion, and mayo on a seeded hero",
+        "confidence": 0.9
+      },
+      {
+        "name": "AMERICAN COMBO",
+        "section": "",
+        "price": 17.5,
+        "description": "turkey breast, heritage ham, american cheese, coleslaw, sweet pickles, and comeback sauce on a seeded hero",
+        "confidence": 0.9
+      },
+      {
+        "name": "DROOPY",
+        "section": "",
+        "price": 17.5,
+        "description": "roast beef, french's fried onions, horseradish mayo, and arugula on Sullivan St. stecca",
+        "confidence": 0.9
+      },
+      {
+        "name": "THE JAWN",
+        "section": "",
+        "price": 17.5,
+        "description": "roast beef, swiss, mozzarella, pecorino romano, csg hoagie spread, red wine vinaigrette, mayo, onions, and romaine on a seeded hero",
+        "confidence": 0.9
+      },
+      {
+        "name": "VEG-DELITE",
+        "section": "",
+        "price": 16.0,
+        "description": "roasted cauliflower, swiss, coleslaw, full sour pickles, and comeback sauce on orwasher's rye bread",
+        "confidence": 0.9
+      },
+      {
+        "name": "DELIGHT",
+        "section": "",
+        "price": 17.5,
+        "description": "corned beef or turkey, swiss, coleslaw, full sour pickles, and comeback sauce on orwasher's rye bread",
+        "confidence": 0.9
+      },
+      {
+        "name": "TUNABERRY",
+        "section": "",
+        "price": 17.5,
+        "description": "tuna salad, cranberry apple sauce, horseradish mayo, white onion, and arugula on sullivan street stecca",
+        "confidence": 0.9
+      },
+      {
+        "name": "SALMON SANDWICH",
+        "section": "",
+        "price": 17.5,
+        "description": "cold smoked salmon, horseradish mayo, lemon juice, potato chips, capers, pickled onions, and arugula on sullivan street stecca",
+        "confidence": 0.9
+      },
+      {
+        "name": "CLEAN TURKEY",
+        "section": "",
+        "price": 17.5,
+        "description": "Turkey breast, sweet pickles, duke's mayo, red wine vinaigrette, white onion, and arugula on a seeded hero",
+        "confidence": 0.9
+      },
+      {
+        "name": "HAM & CHEESE",
+        "section": "",
+        "price": 17.5,
+        "description": "heritage ham, cheddar cheese, pickle mayo, and romaine lettuce on a seeded hero",
+        "confidence": 0.9
+      },
+      {
+        "name": "YASHA",
+        "section": "",
+        "price": 17.5,
+        "description": "tuna, green goddess, pickled red onion, radish and arugula on sullivan street stecca",
+        "confidence": 0.9
+      },
+      {
+        "name": "CUBANO",
+        "section": "",
+        "price": 17.5,
+        "description": "confit pork shoulder, heritage ham, swiss, sour pickles, mayo, and yellow mustard on sullivan street stecca",
+        "confidence": 0.9
+      },
+      {
+        "name": "MACHO (WO)MAN",
+        "section": "",
+        "price": 17.5,
+        "description": "confit pork shoulder, cheddar, coleslaw, pickled jalapeños, and catskill sauce on garlic-toasted ciabatta",
+        "confidence": 0.9
+      },
+      {
+        "name": "ULTIMATE WARRIOR",
+        "section": "",
+        "price": 17.5,
+        "description": "confit pork shoulder, broccoli rabe, provolone, pecorino, mama Lil's pickled red peppers, and mayo on a seeded hero",
+        "confidence": 0.9
+      },
+      {
+        "name": "CATSKILL ROAST PORK",
+        "section": "",
+        "price": 16.0,
+        "description": "confit pork shoulder, catskill sauce, and spicy mustard on a garlic ciabatta",
+        "confidence": 0.9
+      }
+    ],
+    "recipes": [
+      {
+        "item_name": "BREAKFAST SANDWICH",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.9
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Baby arugula",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "ciabatta roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "B+B",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.9
+          },
+          {
+            "raw_name": "Sliced bacon",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Baby arugula",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "ciabatta roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.85
+      },
+      {
+        "item_name": "B+C",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.9
+          },
+          {
+            "raw_name": "Mexican pork chorizo",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "salsa verde",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "ciabatta roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "PORK ROLL",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.9
+          },
+          {
+            "raw_name": "Vietnamese pork roll (cha lua)",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Sliced American cheese",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Burger buns 4 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "MR. VICTOR",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Large shell eggs",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.9
+          },
+          {
+            "raw_name": "Italian pork sausage",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.85
+          },
+          {
+            "raw_name": "Baby arugula",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "ciabatta roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.25,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.8
+      },
+      {
+        "item_name": "OLLIEFLOWER",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Cauliflower",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sharp provolone",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "broccoli rabe",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Clover honey",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Crushed red pepper flakes",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "seeded hero roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "OLLIE",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "turkey breast, roasted, sliced",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sharp provolone",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "broccoli rabe",
+            "qty": 2.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Clover honey",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Crushed red pepper flakes",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "seeded hero roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "UNCLE CHUCKY",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Cauliflower",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "pickled fennel",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "ajvar",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Ground sumac",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Red wine vinegar",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Baby arugula",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "seeded hero roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "UNCLE GRANDPA",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "turkey breast, roasted, sliced",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "pickled fennel",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "ajvar",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Ground sumac",
+            "qty": 0.05,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Red wine vinegar",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Baby arugula",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "seeded hero roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.03,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "FLIP FLOP",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Sliced pepperoni",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "heritage ham, sliced",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "pepperjack cheese, sliced",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Jalapeno pepper",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Pepperoncini",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Red wine vinegar",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Iceberg lettuce",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "seeded hero roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Kosher salt",
+            "qty": 0.02,
+            "uom": "oz",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "VEGLOAF CLASSIC",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "vegan mushroom black bean patty",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "vegan american cheese",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "full sour pickles",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "vegan comeback sauce",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "yellow onion",
+            "qty": 0.75,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "romaine lettuce",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "burger buns 4 inch",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "REUBEN BROCC",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "broccoli crown",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "sliced Swiss cheese",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "sauerkraut",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "comeback sauce",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "rye bread",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.75
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "REUBEN",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "corned beef",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "sliced Swiss cheese",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "sauerkraut",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "comeback sauce",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "rye bread",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.75
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "VEGITALIAN",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "sweet potato",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "sliced Swiss cheese",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "low-moisture whole milk mozzarella loaf",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Pecorino Romano",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "hoagie spread",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "baby arugula",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "white onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "heavy-duty mayonnaise",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "seeded hero roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "ITALIAN COMBO",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "mortadella",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "soppressata",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "sliced Swiss cheese",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "low-moisture whole milk mozzarella loaf",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Pecorino Romano",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "hoagie spread",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "baby arugula",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "white onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "heavy-duty mayonnaise",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "seeded hero roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "item_name": "AMERICAN COMBO",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "turkey breast",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "heritage ham",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sliced American cheese",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "coleslaw",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "sweet pickles",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "comeback sauce",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "seeded hero roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "DROOPY",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "roast beef",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "French's fried onions",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "horseradish mayo",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "baby arugula",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "stecca bread",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.65
+          }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "item_name": "THE JAWN",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "roast beef",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "sliced Swiss cheese",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "low-moisture whole milk mozzarella loaf",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Pecorino Romano",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "hoagie spread",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "red wine vinaigrette",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "heavy-duty mayonnaise",
+            "qty": 0.5,
+            "uom": "fl_oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "yellow onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "romaine lettuce",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "seeded hero roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.7
+          }
+        ],
+        "confidence": 0.68
+      },
+      {
+        "item_name": "VEG-DELITE",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "cauliflower",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.75
+          },
+          {
+            "raw_name": "extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "sliced Swiss cheese",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "coleslaw",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "full sour pickles",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "comeback sauce",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "rye bread",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.75
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "DELIGHT",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "corned beef",
+            "qty": 5.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "sliced Swiss cheese",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.8
+          },
+          {
+            "raw_name": "coleslaw",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "full sour pickles",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "comeback sauce",
+            "qty": 1.0,
+            "uom": "fl_oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "rye bread",
+            "qty": 2.0,
+            "uom": "each",
+            "confidence": 0.75
+          }
+        ],
+        "confidence": 0.75
+      },
+      {
+        "item_name": "TUNABERRY",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "canned tuna",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Granny Smith apple",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "dried cranberries",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "prepared horseradish",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Baby arugula",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Italian sub roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.62
+      },
+      {
+        "item_name": "SALMON SANDWICH",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "smoked salmon",
+            "qty": 3.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "prepared horseradish",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Fresh lemon juice",
+            "qty": 0.25,
+            "uom": "fl_oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "potato chips",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "capers",
+            "qty": 0.2,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "White distilled vinegar",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Baby arugula",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Italian sub roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "CLEAN TURKEY",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "turkey breast",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "sweet pickles",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Red wine vinegar",
+            "qty": 0.25,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.25,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Yellow onion",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "Baby arugula",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "seeded hero roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.65
+      },
+      {
+        "item_name": "HAM & CHEESE",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "heritage ham",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "sweet pickles",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Romaine lettuce",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "seeded hero roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.7
+      },
+      {
+        "item_name": "YASHA",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "canned tuna",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "green goddess dressing",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.45
+          },
+          {
+            "raw_name": "Red onion",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Red wine vinegar",
+            "qty": 0.2,
+            "uom": "fl_oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Daikon radish",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Baby arugula",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Italian sub roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "CUBANO",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Pork shoulder butt",
+            "qty": 3.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "heritage ham",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Sliced Swiss cheese",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "sour pickles",
+            "qty": 0.6,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Dijon mustard",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Italian sub roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.55
+          }
+        ],
+        "confidence": 0.72
+      },
+      {
+        "item_name": "MACHO (WO)MAN",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Pork shoulder butt",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "Sharp cheddar",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Green cabbage",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Jumbo carrot",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 0.6,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Jalapeno pepper",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "catskill sauce",
+            "qty": 0.8,
+            "uom": "oz",
+            "confidence": 0.35
+          },
+          {
+            "raw_name": "ciabatta roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "ULTIMATE WARRIOR",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Pork shoulder butt",
+            "qty": 4.0,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "broccoli rabe",
+            "qty": 2.0,
+            "uom": "oz",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Sharp provolone",
+            "qty": 1.5,
+            "uom": "oz",
+            "confidence": 0.65
+          },
+          {
+            "raw_name": "Pecorino Romano",
+            "qty": 0.5,
+            "uom": "oz",
+            "confidence": 0.6
+          },
+          {
+            "raw_name": "mama Lil's pickled peppers",
+            "qty": 0.7,
+            "uom": "oz",
+            "confidence": 0.4
+          },
+          {
+            "raw_name": "Heavy-duty mayonnaise",
+            "qty": 0.6,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Extra virgin olive oil",
+            "qty": 0.3,
+            "uom": "fl_oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "seeded hero roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.6
+          }
+        ],
+        "confidence": 0.6
+      },
+      {
+        "item_name": "CATSKILL ROAST PORK",
+        "yield_qty": 1.0,
+        "yield_uom": "serving",
+        "components": [
+          {
+            "raw_name": "Pork shoulder butt",
+            "qty": 4.5,
+            "uom": "oz",
+            "confidence": 0.7
+          },
+          {
+            "raw_name": "catskill sauce",
+            "qty": 1.0,
+            "uom": "oz",
+            "confidence": 0.35
+          },
+          {
+            "raw_name": "Dijon mustard",
+            "qty": 0.4,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "ciabatta roll",
+            "qty": 1.0,
+            "uom": "each",
+            "confidence": 0.55
+          },
+          {
+            "raw_name": "Peeled garlic cloves",
+            "qty": 0.1,
+            "uom": "oz",
+            "confidence": 0.5
+          },
+          {
+            "raw_name": "Unsalted butter",
+            "qty": 0.3,
+            "uom": "oz",
+            "confidence": 0.5
+          }
+        ],
+        "confidence": 0.62
+      }
+    ],
+    "sku_matches": [
+      {
+        "raw_name": "Large shell eggs",
+        "sku_id": "DAIR-EGG-LARGE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sharp cheddar",
+        "sku_id": "DAIR-CHEDDAR-SHARP",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Baby arugula",
+        "sku_id": "PROD-ARUGULA-BABY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "baby arugula",
+        "sku_id": "PROD-ARUGULA-BABY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Unsalted butter",
+        "sku_id": "DAIR-BUTTER-UNSALTED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Kosher salt",
+        "sku_id": "SPICE-SALT-KOSHER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sliced bacon",
+        "sku_id": "PROT-PORK-BACON",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Mexican pork chorizo",
+        "sku_id": "PROT-PORK-CHORIZO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Vietnamese pork roll (cha lua)",
+        "sku_id": "PROT-PORK-CHALUA",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sliced American cheese",
+        "sku_id": "DAIR-AMERICAN-SLICED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Burger buns 4 inch",
+        "sku_id": "DRY-BUN-BURGER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "burger buns 4 inch",
+        "sku_id": "DRY-BUN-BURGER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Italian pork sausage",
+        "sku_id": "PROT-PORK-SAUSAGEITAL",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Cauliflower",
+        "sku_id": "PROD-CAULIFLOWER-HEAD",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "cauliflower",
+        "sku_id": "PROD-CAULIFLOWER-HEAD",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Extra virgin olive oil",
+        "sku_id": "COND-OIL-EVOO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "extra virgin olive oil",
+        "sku_id": "COND-OIL-EVOO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sharp provolone",
+        "sku_id": "DAIR-PROVOLONE-SHARP",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Clover honey",
+        "sku_id": "COND-HONEY-CLOVER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Crushed red pepper flakes",
+        "sku_id": "SPICE-CHILIFLAKE-CRUSHED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Heavy-duty mayonnaise",
+        "sku_id": "COND-MAYO-HEAVY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "heavy-duty mayonnaise",
+        "sku_id": "COND-MAYO-HEAVY",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Ground sumac",
+        "sku_id": "SPICE-SUMAC-GROUND",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red wine vinegar",
+        "sku_id": "COND-VINEGAR-REDWINE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Yellow onion",
+        "sku_id": "PROD-ONION-YELLOW",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "yellow onion",
+        "sku_id": "PROD-ONION-YELLOW",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sliced pepperoni",
+        "sku_id": "PROT-PORK-PEPPERONI",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Jalapeno pepper",
+        "sku_id": "PROD-PEPPER-JALAPENO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Iceberg lettuce",
+        "sku_id": "PROD-LETTUCE-ICEBERG",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "romaine lettuce",
+        "sku_id": "PROD-LETTUCE-ROMAINE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Romaine lettuce",
+        "sku_id": "PROD-LETTUCE-ROMAINE",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "broccoli crown",
+        "sku_id": "PROD-BROCCOLI-CROWN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "sliced Swiss cheese",
+        "sku_id": "DAIR-SWISS-SLICED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Sliced Swiss cheese",
+        "sku_id": "DAIR-SWISS-SLICED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "sweet potato",
+        "sku_id": "PROD-POTATO-SWEET",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "low-moisture whole milk mozzarella loaf",
+        "sku_id": "DAIR-MOZZ-LMWHOLELOAF",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pecorino Romano",
+        "sku_id": "DAIR-PECORINO-ROMANO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Granny Smith apple",
+        "sku_id": "PROD-APPLE-GRANNYSMITH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Fresh lemon juice",
+        "sku_id": "BEV-JUICE-LEMON",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Red onion",
+        "sku_id": "PROD-ONION-RED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "White distilled vinegar",
+        "sku_id": "COND-VINEGAR-WHITEDISTILLED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Daikon radish",
+        "sku_id": "PROD-DAIKON-RADISH",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Pork shoulder butt",
+        "sku_id": "PROT-PORK-SHOULDER",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Dijon mustard",
+        "sku_id": "COND-MUSTARD-DIJON",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Green cabbage",
+        "sku_id": "PROD-CABBAGE-GREEN",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Jumbo carrot",
+        "sku_id": "PROD-CARROT-JUMBO",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "Peeled garlic cloves",
+        "sku_id": "PROD-GARLIC-PEELED",
+        "method": "alias",
+        "confidence": 1.0
+      },
+      {
+        "raw_name": "ciabatta roll",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "salsa verde",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "broccoli rabe",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "seeded hero roll",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "turkey breast, roasted, sliced",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "pickled fennel",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "ajvar",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "heritage ham, sliced",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "heritage ham",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "pepperjack cheese, sliced",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Pepperoncini",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "vegan mushroom black bean patty",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "vegan american cheese",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "full sour pickles",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "vegan comeback sauce",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "sauerkraut",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "comeback sauce",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "rye bread",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "corned beef",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "hoagie spread",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "white onion",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "mortadella",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "soppressata",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "turkey breast",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "coleslaw",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "sweet pickles",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "roast beef",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "French's fried onions",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "horseradish mayo",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "stecca bread",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "red wine vinaigrette",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "canned tuna",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "dried cranberries",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "prepared horseradish",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "Italian sub roll",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "smoked salmon",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "potato chips",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "capers",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "green goddess dressing",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "sour pickles",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "catskill sauce",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      },
+      {
+        "raw_name": "mama Lil's pickled peppers",
+        "sku_id": null,
+        "method": "llm",
+        "confidence": 0.0
+      }
+    ],
+    "plate_costs": [
+      {
+        "item_name": "BREAKFAST SANDWICH",
+        "plate_cost": 1.0475,
+        "menu_price": 9.95,
+        "food_cost_pct": 0.1053,
+        "costed_components": 5,
+        "total_components": 6,
+        "coverage": 0.8333,
+        "uncosted": [
+          "ciabatta roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.5454,
+        "costable": true
+      },
+      {
+        "item_name": "B+B",
+        "plate_cost": 1.7475,
+        "menu_price": 11.95,
+        "food_cost_pct": 0.1462,
+        "costed_components": 6,
+        "total_components": 7,
+        "coverage": 0.8571,
+        "uncosted": [
+          "ciabatta roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.5646,
+        "costable": true
+      },
+      {
+        "item_name": "B+C",
+        "plate_cost": 1.6271,
+        "menu_price": 11.95,
+        "food_cost_pct": 0.1362,
+        "costed_components": 5,
+        "total_components": 7,
+        "coverage": 0.7143,
+        "uncosted": [
+          "salsa verde (no catalog SKU matched)",
+          "ciabatta roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.4071,
+        "costable": true
+      },
+      {
+        "item_name": "PORK ROLL",
+        "plate_cost": 1.7271,
+        "menu_price": 11.95,
+        "food_cost_pct": 0.1445,
+        "costed_components": 5,
+        "total_components": 6,
+        "coverage": 0.8333,
+        "uncosted": [
+          "Sliced American cheese (no conversion from each to lb)"
+        ],
+        "low_confidence": [
+          "Vietnamese pork roll (cha lua) (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.46,
+        "costable": true
+      },
+      {
+        "item_name": "MR. VICTOR",
+        "plate_cost": 1.66,
+        "menu_price": 11.95,
+        "food_cost_pct": 0.1389,
+        "costed_components": 6,
+        "total_components": 7,
+        "coverage": 0.8571,
+        "uncosted": [
+          "ciabatta roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.52,
+        "costable": true
+      },
+      {
+        "item_name": "OLLIEFLOWER",
+        "plate_cost": 1.1274,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.0705,
+        "costed_components": 6,
+        "total_components": 9,
+        "coverage": 0.6667,
+        "uncosted": [
+          "broccoli rabe (no catalog SKU matched)",
+          "Clover honey (no conversion from fl_oz to lb)",
+          "seeded hero roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.3228,
+        "costable": true
+      },
+      {
+        "item_name": "OLLIE",
+        "plate_cost": 0.5688,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.0325,
+        "costed_components": 4,
+        "total_components": 8,
+        "coverage": 0.5,
+        "uncosted": [
+          "turkey breast, roasted, sliced (no catalog SKU matched)",
+          "broccoli rabe (no catalog SKU matched)",
+          "Clover honey (no conversion from fl_oz to lb)",
+          "seeded hero roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.2531,
+        "costable": true
+      },
+      {
+        "item_name": "UNCLE CHUCKY",
+        "plate_cost": 0.9361,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.0585,
+        "costed_components": 8,
+        "total_components": 11,
+        "coverage": 0.7273,
+        "uncosted": [
+          "pickled fennel (no catalog SKU matched)",
+          "ajvar (no catalog SKU matched)",
+          "seeded hero roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Red wine vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.3073,
+        "costable": true
+      },
+      {
+        "item_name": "UNCLE GRANDPA",
+        "plate_cost": 0.3775,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.0216,
+        "costed_components": 6,
+        "total_components": 10,
+        "coverage": 0.6,
+        "uncosted": [
+          "turkey breast, roasted, sliced (no catalog SKU matched)",
+          "pickled fennel (no catalog SKU matched)",
+          "ajvar (no catalog SKU matched)",
+          "seeded hero roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Red wine vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2437,
+        "costable": true
+      },
+      {
+        "item_name": "FLIP FLOP",
+        "plate_cost": 0.877,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.0501,
+        "costed_components": 7,
+        "total_components": 11,
+        "coverage": 0.6364,
+        "uncosted": [
+          "heritage ham, sliced (no catalog SKU matched)",
+          "pepperjack cheese, sliced (no catalog SKU matched)",
+          "Pepperoncini (no catalog SKU matched)",
+          "seeded hero roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Red wine vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2895,
+        "costable": true
+      },
+      {
+        "item_name": "VEGLOAF CLASSIC",
+        "plate_cost": 0.2799,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.0175,
+        "costed_components": 3,
+        "total_components": 7,
+        "coverage": 0.4286,
+        "uncosted": [
+          "vegan mushroom black bean patty (no catalog SKU matched)",
+          "vegan american cheese (no catalog SKU matched)",
+          "full sour pickles (no catalog SKU matched)",
+          "vegan comeback sauce (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.21,
+        "costable": true
+      },
+      {
+        "item_name": "REUBEN BROCC",
+        "plate_cost": 1.182,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.0739,
+        "costed_components": 3,
+        "total_components": 6,
+        "coverage": 0.5,
+        "uncosted": [
+          "sauerkraut (no catalog SKU matched)",
+          "comeback sauce (no catalog SKU matched)",
+          "rye bread (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.2687,
+        "costable": true
+      },
+      {
+        "item_name": "REUBEN",
+        "plate_cost": 0.6562,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.0375,
+        "costed_components": 1,
+        "total_components": 5,
+        "coverage": 0.2,
+        "uncosted": [
+          "corned beef (no catalog SKU matched)",
+          "sauerkraut (no catalog SKU matched)",
+          "comeback sauce (no catalog SKU matched)",
+          "rye bread (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.12,
+        "costable": true
+      },
+      {
+        "item_name": "VEGITALIAN",
+        "plate_cost": 1.5145,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.0947,
+        "costed_components": 7,
+        "total_components": 10,
+        "coverage": 0.7,
+        "uncosted": [
+          "hoagie spread (no catalog SKU matched)",
+          "white onion (no catalog SKU matched)",
+          "seeded hero roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.3395,
+        "costable": true
+      },
+      {
+        "item_name": "ITALIAN COMBO",
+        "plate_cost": 1.2137,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.0694,
+        "costed_components": 5,
+        "total_components": 10,
+        "coverage": 0.5,
+        "uncosted": [
+          "mortadella (no catalog SKU matched)",
+          "soppressata (no catalog SKU matched)",
+          "hoagie spread (no catalog SKU matched)",
+          "white onion (no catalog SKU matched)",
+          "seeded hero roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.252,
+        "costable": true
+      },
+      {
+        "item_name": "AMERICAN COMBO",
+        "plate_cost": 0.3469,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.0198,
+        "costed_components": 1,
+        "total_components": 7,
+        "coverage": 0.1429,
+        "uncosted": [
+          "turkey breast (no catalog SKU matched)",
+          "heritage ham (no catalog SKU matched)",
+          "coleslaw (no catalog SKU matched)",
+          "sweet pickles (no catalog SKU matched)",
+          "comeback sauce (no catalog SKU matched)",
+          "seeded hero roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.0804,
+        "costable": true
+      },
+      {
+        "item_name": "DROOPY",
+        "plate_cost": 0.1406,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.008,
+        "costed_components": 1,
+        "total_components": 5,
+        "coverage": 0.2,
+        "uncosted": [
+          "roast beef (no catalog SKU matched)",
+          "French's fried onions (no catalog SKU matched)",
+          "horseradish mayo (no catalog SKU matched)",
+          "stecca bread (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.1008,
+        "costable": true
+      },
+      {
+        "item_name": "THE JAWN",
+        "plate_cost": 1.1203,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.064,
+        "costed_components": 6,
+        "total_components": 10,
+        "coverage": 0.6,
+        "uncosted": [
+          "roast beef (no catalog SKU matched)",
+          "hoagie spread (no catalog SKU matched)",
+          "red wine vinaigrette (no catalog SKU matched)",
+          "seeded hero roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.2856,
+        "costable": true
+      },
+      {
+        "item_name": "VEG-DELITE",
+        "plate_cost": 1.0695,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.0668,
+        "costed_components": 3,
+        "total_components": 7,
+        "coverage": 0.4286,
+        "uncosted": [
+          "coleslaw (no catalog SKU matched)",
+          "full sour pickles (no catalog SKU matched)",
+          "comeback sauce (no catalog SKU matched)",
+          "rye bread (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.2304,
+        "costable": true
+      },
+      {
+        "item_name": "DELIGHT",
+        "plate_cost": 0.6562,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.0375,
+        "costed_components": 1,
+        "total_components": 6,
+        "coverage": 0.1667,
+        "uncosted": [
+          "corned beef (no catalog SKU matched)",
+          "coleslaw (no catalog SKU matched)",
+          "full sour pickles (no catalog SKU matched)",
+          "comeback sauce (no catalog SKU matched)",
+          "rye bread (no catalog SKU matched)"
+        ],
+        "low_confidence": [],
+        "confidence": 0.1,
+        "costable": true
+      },
+      {
+        "item_name": "TUNABERRY",
+        "plate_cost": 0.5002,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.0286,
+        "costed_components": 5,
+        "total_components": 9,
+        "coverage": 0.5556,
+        "uncosted": [
+          "canned tuna (no catalog SKU matched)",
+          "dried cranberries (no catalog SKU matched)",
+          "prepared horseradish (no catalog SKU matched)",
+          "Italian sub roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Heavy-duty mayonnaise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Granny Smith apple (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1963,
+        "costable": true
+      },
+      {
+        "item_name": "SALMON SANDWICH",
+        "plate_cost": 0.324,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.0185,
+        "costed_components": 5,
+        "total_components": 10,
+        "coverage": 0.5,
+        "uncosted": [
+          "smoked salmon (no catalog SKU matched)",
+          "prepared horseradish (no catalog SKU matched)",
+          "potato chips (no catalog SKU matched)",
+          "capers (no catalog SKU matched)",
+          "Italian sub roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Red onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "White distilled vinegar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1755,
+        "costable": true
+      },
+      {
+        "item_name": "CLEAN TURKEY",
+        "plate_cost": 0.3573,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.0204,
+        "costed_components": 5,
+        "total_components": 8,
+        "coverage": 0.625,
+        "uncosted": [
+          "turkey breast (no catalog SKU matched)",
+          "sweet pickles (no catalog SKU matched)",
+          "seeded hero roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Red wine vinegar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2234,
+        "costable": true
+      },
+      {
+        "item_name": "HAM & CHEESE",
+        "plate_cost": 0.5621,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.0321,
+        "costed_components": 3,
+        "total_components": 6,
+        "coverage": 0.5,
+        "uncosted": [
+          "heritage ham (no catalog SKU matched)",
+          "sweet pickles (no catalog SKU matched)",
+          "seeded hero roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Heavy-duty mayonnaise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2217,
+        "costable": true
+      },
+      {
+        "item_name": "YASHA",
+        "plate_cost": 0.2118,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.0121,
+        "costed_components": 4,
+        "total_components": 7,
+        "coverage": 0.5714,
+        "uncosted": [
+          "canned tuna (no catalog SKU matched)",
+          "green goddess dressing (no catalog SKU matched)",
+          "Italian sub roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Red onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Red wine vinegar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+          "Daikon radish (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.18,
+        "costable": true
+      },
+      {
+        "item_name": "CUBANO",
+        "plate_cost": 1.1105,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.0635,
+        "costed_components": 4,
+        "total_components": 8,
+        "coverage": 0.5,
+        "uncosted": [
+          "heritage ham (no catalog SKU matched)",
+          "sour pickles (no catalog SKU matched)",
+          "Dijon mustard (no conversion from oz to gal)",
+          "Italian sub roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Heavy-duty mayonnaise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2205,
+        "costable": true
+      },
+      {
+        "item_name": "MACHO (WO)MAN",
+        "plate_cost": 1.2584,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.0719,
+        "costed_components": 8,
+        "total_components": 10,
+        "coverage": 0.8,
+        "uncosted": [
+          "catskill sauce (no catalog SKU matched)",
+          "ciabatta roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Green cabbage (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+          "Jumbo carrot (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Jalapeno pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.264,
+        "costable": true
+      },
+      {
+        "item_name": "ULTIMATE WARRIOR",
+        "plate_cost": 1.6624,
+        "menu_price": 17.5,
+        "food_cost_pct": 0.095,
+        "costed_components": 5,
+        "total_components": 8,
+        "coverage": 0.625,
+        "uncosted": [
+          "broccoli rabe (no catalog SKU matched)",
+          "mama Lil's pickled peppers (no catalog SKU matched)",
+          "seeded hero roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.2213,
+        "costable": true
+      },
+      {
+        "item_name": "CATSKILL ROAST PORK",
+        "plate_cost": 0.7128,
+        "menu_price": 16.0,
+        "food_cost_pct": 0.0445,
+        "costed_components": 3,
+        "total_components": 6,
+        "coverage": 0.5,
+        "uncosted": [
+          "catskill sauce (no catalog SKU matched)",
+          "Dijon mustard (no conversion from oz to gal)",
+          "ciabatta roll (no catalog SKU matched)"
+        ],
+        "low_confidence": [
+          "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+          "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+        ],
+        "confidence": 0.1757,
+        "costable": true
+      }
+    ],
+    "demand_forecast": {},
+    "par_levels": [],
+    "purchase_order": {},
+    "review_queue": [
+      {
+        "kind": "sku_match",
+        "ref": "ciabatta roll",
+        "confidence": 0.0,
+        "question": "Which SKU is 'ciabatta roll'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no bread rolls beyond burger buns/pita/tortillas in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "salsa verde",
+        "confidence": 0.0,
+        "question": "Which SKU is 'salsa verde'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no green sauce/salsa verde item in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "broccoli rabe",
+        "confidence": 0.0,
+        "question": "Which SKU is 'broccoli rabe'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "only broccoli crown exists, not the distinct bitter green broccoli rabe"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "seeded hero roll",
+        "confidence": 0.0,
+        "question": "Which SKU is 'seeded hero roll'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no sandwich roll/hero bread in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "turkey breast, roasted, sliced",
+        "confidence": 0.0,
+        "question": "Which SKU is 'turkey breast, roasted, sliced'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no turkey product in catalog at all"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "pickled fennel",
+        "confidence": 0.0,
+        "question": "Which SKU is 'pickled fennel'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no pickled fennel or fennel item available"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "ajvar",
+        "confidence": 0.0,
+        "question": "Which SKU is 'ajvar'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no roasted pepper spread like ajvar in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "heritage ham, sliced",
+        "confidence": 0.0,
+        "question": "Which SKU is 'heritage ham, sliced'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no ham product listed"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "pepperjack cheese, sliced",
+        "confidence": 0.0,
+        "question": "Which SKU is 'pepperjack cheese, sliced'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no pepperjack cheese variant, only unrelated sliced cheeses"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "Pepperoncini",
+        "confidence": 0.0,
+        "question": "Which SKU is 'Pepperoncini'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no pepperoncini pepper item, closest pickled peppers not equivalent"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "vegan mushroom black bean patty",
+        "confidence": 0.0,
+        "question": "Which SKU is 'vegan mushroom black bean patty'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no prepared veggie/vegan patty in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "vegan american cheese",
+        "confidence": 0.0,
+        "question": "Which SKU is 'vegan american cheese'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "only dairy American cheese exists, not a vegan substitute"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "full sour pickles",
+        "confidence": 0.0,
+        "question": "Which SKU is 'full sour pickles'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no pickle SKUs of any kind in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "vegan comeback sauce",
+        "confidence": 0.0,
+        "question": "Which SKU is 'vegan comeback sauce'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no comeback sauce or vegan mayo-based sauce in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "sauerkraut",
+        "confidence": 0.0,
+        "question": "Which SKU is 'sauerkraut'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no fermented cabbage/sauerkraut product listed"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "comeback sauce",
+        "confidence": 0.0,
+        "question": "Which SKU is 'comeback sauce'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no comeback sauce or equivalent condiment in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "rye bread",
+        "confidence": 0.0,
+        "question": "Which SKU is 'rye bread'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no rye or sliced bread item in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "corned beef",
+        "confidence": 0.0,
+        "question": "Which SKU is 'corned beef'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no corned beef or brined beef deli meat in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "hoagie spread",
+        "confidence": 0.0,
+        "question": "Which SKU is 'hoagie spread'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no generic oil-vinegar hoagie spread condiment in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "white onion",
+        "confidence": 0.0,
+        "question": "Which SKU is 'white onion'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "catalog has yellow and red onion but not white onion specifically"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "mortadella",
+        "confidence": 0.0,
+        "question": "Which SKU is 'mortadella'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no mortadella or similar Italian cold cut in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "soppressata",
+        "confidence": 0.0,
+        "question": "Which SKU is 'soppressata'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no soppressata or dry salami in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "turkey breast",
+        "confidence": 0.0,
+        "question": "Which SKU is 'turkey breast'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no turkey product in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "coleslaw",
+        "confidence": 0.0,
+        "question": "Which SKU is 'coleslaw'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no prepared coleslaw item in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "sweet pickles",
+        "confidence": 0.0,
+        "question": "Which SKU is 'sweet pickles'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no pickle SKUs in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "roast beef",
+        "confidence": 0.0,
+        "question": "Which SKU is 'roast beef'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no cooked/deli roast beef product, only raw beef cuts in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "French's fried onions",
+        "confidence": 0.0,
+        "question": "Which SKU is 'French's fried onions'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no crispy fried onion topping in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "horseradish mayo",
+        "confidence": 0.0,
+        "question": "Which SKU is 'horseradish mayo'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no horseradish or horseradish-mayo blend in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "stecca bread",
+        "confidence": 0.0,
+        "question": "Which SKU is 'stecca bread'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no stecca/baguette-style bread in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "red wine vinaigrette",
+        "confidence": 0.0,
+        "question": "Which SKU is 'red wine vinaigrette'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "only plain red wine vinegar exists, not a prepared vinaigrette dressing"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "canned tuna",
+        "confidence": 0.0,
+        "question": "Which SKU is 'canned tuna'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "catalog has only fresh ahi tuna loin, no canned tuna product"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "dried cranberries",
+        "confidence": 0.0,
+        "question": "Which SKU is 'dried cranberries'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no dried fruit like cranberries in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "prepared horseradish",
+        "confidence": 0.0,
+        "question": "Which SKU is 'prepared horseradish'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no horseradish product in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "Italian sub roll",
+        "confidence": 0.0,
+        "question": "Which SKU is 'Italian sub roll'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no sub/hoagie roll in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "smoked salmon",
+        "confidence": 0.0,
+        "question": "Which SKU is 'smoked salmon'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "catalog has raw Atlantic salmon fillet, not smoked/cured version"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "potato chips",
+        "confidence": 0.0,
+        "question": "Which SKU is 'potato chips'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no snack chips item in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "capers",
+        "confidence": 0.0,
+        "question": "Which SKU is 'capers'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no capers listed in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "green goddess dressing",
+        "confidence": 0.0,
+        "question": "Which SKU is 'green goddess dressing'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no prepared salad dressing like green goddess in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "sour pickles",
+        "confidence": 0.0,
+        "question": "Which SKU is 'sour pickles'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no pickle SKUs in catalog"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "catskill sauce",
+        "confidence": 0.0,
+        "question": "Which SKU is 'catskill sauce'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "unrecognized specialty sauce with no catalog equivalent"
+        }
+      },
+      {
+        "kind": "sku_match",
+        "ref": "mama Lil's pickled peppers",
+        "confidence": 0.0,
+        "question": "Which SKU is 'mama Lil's pickled peppers'?",
+        "payload": {
+          "suggested": null,
+          "reasoning": "no specific pickled hot pepper condiment brand or equivalent in catalog"
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "PORK ROLL",
+        "confidence": 0.46,
+        "question": "PORK ROLL is costed at $1.73 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.7271,
+          "menu_price": 11.95,
+          "low_confidence": [
+            "Vietnamese pork roll (cha lua) (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "OLLIEFLOWER",
+        "confidence": 0.3228,
+        "question": "OLLIEFLOWER computes to 7% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.1274,
+          "menu_price": 16.0,
+          "food_cost_pct": 0.0705,
+          "coverage": 0.6667,
+          "uncosted": [
+            "broccoli rabe (no catalog SKU matched)",
+            "Clover honey (no conversion from fl_oz to lb)",
+            "seeded hero roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "OLLIE",
+        "confidence": 0.2531,
+        "question": "OLLIE computes to 3% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.5688,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.0325,
+          "coverage": 0.5,
+          "uncosted": [
+            "turkey breast, roasted, sliced (no catalog SKU matched)",
+            "broccoli rabe (no catalog SKU matched)",
+            "Clover honey (no conversion from fl_oz to lb)",
+            "seeded hero roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "UNCLE CHUCKY",
+        "confidence": 0.3073,
+        "question": "UNCLE CHUCKY is costed at $0.94 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.9361,
+          "menu_price": 16.0,
+          "low_confidence": [
+            "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Red wine vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "UNCLE CHUCKY",
+        "confidence": 0.3073,
+        "question": "UNCLE CHUCKY computes to 6% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.9361,
+          "menu_price": 16.0,
+          "food_cost_pct": 0.0585,
+          "coverage": 0.7273,
+          "uncosted": [
+            "pickled fennel (no catalog SKU matched)",
+            "ajvar (no catalog SKU matched)",
+            "seeded hero roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "UNCLE GRANDPA",
+        "confidence": 0.2437,
+        "question": "UNCLE GRANDPA is costed at $0.38 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.3775,
+          "menu_price": 17.5,
+          "low_confidence": [
+            "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Red wine vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "UNCLE GRANDPA",
+        "confidence": 0.2437,
+        "question": "UNCLE GRANDPA computes to 2% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.3775,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.0216,
+          "coverage": 0.6,
+          "uncosted": [
+            "turkey breast, roasted, sliced (no catalog SKU matched)",
+            "pickled fennel (no catalog SKU matched)",
+            "ajvar (no catalog SKU matched)",
+            "seeded hero roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "FLIP FLOP",
+        "confidence": 0.2895,
+        "question": "FLIP FLOP is costed at $0.88 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.877,
+          "menu_price": 17.5,
+          "low_confidence": [
+            "Red wine vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "FLIP FLOP",
+        "confidence": 0.2895,
+        "question": "FLIP FLOP computes to 5% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.877,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.0501,
+          "coverage": 0.6364,
+          "uncosted": [
+            "heritage ham, sliced (no catalog SKU matched)",
+            "pepperjack cheese, sliced (no catalog SKU matched)",
+            "Pepperoncini (no catalog SKU matched)",
+            "seeded hero roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "VEGLOAF CLASSIC",
+        "confidence": 0.21,
+        "question": "VEGLOAF CLASSIC computes to 2% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.2799,
+          "menu_price": 16.0,
+          "food_cost_pct": 0.0175,
+          "coverage": 0.4286,
+          "uncosted": [
+            "vegan mushroom black bean patty (no catalog SKU matched)",
+            "vegan american cheese (no catalog SKU matched)",
+            "full sour pickles (no catalog SKU matched)",
+            "vegan comeback sauce (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "REUBEN BROCC",
+        "confidence": 0.2687,
+        "question": "REUBEN BROCC computes to 7% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.182,
+          "menu_price": 16.0,
+          "food_cost_pct": 0.0739,
+          "coverage": 0.5,
+          "uncosted": [
+            "sauerkraut (no catalog SKU matched)",
+            "comeback sauce (no catalog SKU matched)",
+            "rye bread (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "REUBEN",
+        "confidence": 0.12,
+        "question": "REUBEN computes to 4% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.6562,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.0375,
+          "coverage": 0.2,
+          "uncosted": [
+            "corned beef (no catalog SKU matched)",
+            "sauerkraut (no catalog SKU matched)",
+            "comeback sauce (no catalog SKU matched)",
+            "rye bread (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "VEGITALIAN",
+        "confidence": 0.3395,
+        "question": "VEGITALIAN computes to 9% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.5145,
+          "menu_price": 16.0,
+          "food_cost_pct": 0.0947,
+          "coverage": 0.7,
+          "uncosted": [
+            "hoagie spread (no catalog SKU matched)",
+            "white onion (no catalog SKU matched)",
+            "seeded hero roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "ITALIAN COMBO",
+        "confidence": 0.252,
+        "question": "ITALIAN COMBO computes to 7% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.2137,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.0694,
+          "coverage": 0.5,
+          "uncosted": [
+            "mortadella (no catalog SKU matched)",
+            "soppressata (no catalog SKU matched)",
+            "hoagie spread (no catalog SKU matched)",
+            "white onion (no catalog SKU matched)",
+            "seeded hero roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "AMERICAN COMBO",
+        "confidence": 0.0804,
+        "question": "AMERICAN COMBO computes to 2% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.3469,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.0198,
+          "coverage": 0.1429,
+          "uncosted": [
+            "turkey breast (no catalog SKU matched)",
+            "heritage ham (no catalog SKU matched)",
+            "coleslaw (no catalog SKU matched)",
+            "sweet pickles (no catalog SKU matched)",
+            "comeback sauce (no catalog SKU matched)",
+            "seeded hero roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "DROOPY",
+        "confidence": 0.1008,
+        "question": "DROOPY computes to 1% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.1406,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.008,
+          "coverage": 0.2,
+          "uncosted": [
+            "roast beef (no catalog SKU matched)",
+            "French's fried onions (no catalog SKU matched)",
+            "horseradish mayo (no catalog SKU matched)",
+            "stecca bread (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "THE JAWN",
+        "confidence": 0.2856,
+        "question": "THE JAWN computes to 6% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.1203,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.064,
+          "coverage": 0.6,
+          "uncosted": [
+            "roast beef (no catalog SKU matched)",
+            "hoagie spread (no catalog SKU matched)",
+            "red wine vinaigrette (no catalog SKU matched)",
+            "seeded hero roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "VEG-DELITE",
+        "confidence": 0.2304,
+        "question": "VEG-DELITE computes to 7% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.0695,
+          "menu_price": 16.0,
+          "food_cost_pct": 0.0668,
+          "coverage": 0.4286,
+          "uncosted": [
+            "coleslaw (no catalog SKU matched)",
+            "full sour pickles (no catalog SKU matched)",
+            "comeback sauce (no catalog SKU matched)",
+            "rye bread (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "DELIGHT",
+        "confidence": 0.1,
+        "question": "DELIGHT computes to 4% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.6562,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.0375,
+          "coverage": 0.1667,
+          "uncosted": [
+            "corned beef (no catalog SKU matched)",
+            "coleslaw (no catalog SKU matched)",
+            "full sour pickles (no catalog SKU matched)",
+            "comeback sauce (no catalog SKU matched)",
+            "rye bread (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "TUNABERRY",
+        "confidence": 0.1963,
+        "question": "TUNABERRY is costed at $0.50 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.5002,
+          "menu_price": 17.5,
+          "low_confidence": [
+            "Heavy-duty mayonnaise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Granny Smith apple (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "TUNABERRY",
+        "confidence": 0.1963,
+        "question": "TUNABERRY computes to 3% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.5002,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.0286,
+          "coverage": 0.5556,
+          "uncosted": [
+            "canned tuna (no catalog SKU matched)",
+            "dried cranberries (no catalog SKU matched)",
+            "prepared horseradish (no catalog SKU matched)",
+            "Italian sub roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "SALMON SANDWICH",
+        "confidence": 0.1755,
+        "question": "SALMON SANDWICH is costed at $0.32 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.324,
+          "menu_price": 17.5,
+          "low_confidence": [
+            "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Red onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "White distilled vinegar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "SALMON SANDWICH",
+        "confidence": 0.1755,
+        "question": "SALMON SANDWICH computes to 2% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.324,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.0185,
+          "coverage": 0.5,
+          "uncosted": [
+            "smoked salmon (no catalog SKU matched)",
+            "prepared horseradish (no catalog SKU matched)",
+            "potato chips (no catalog SKU matched)",
+            "capers (no catalog SKU matched)",
+            "Italian sub roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "CLEAN TURKEY",
+        "confidence": 0.2234,
+        "question": "CLEAN TURKEY is costed at $0.36 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.3573,
+          "menu_price": 17.5,
+          "low_confidence": [
+            "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Red wine vinegar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "CLEAN TURKEY",
+        "confidence": 0.2234,
+        "question": "CLEAN TURKEY computes to 2% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.3573,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.0204,
+          "coverage": 0.625,
+          "uncosted": [
+            "turkey breast (no catalog SKU matched)",
+            "sweet pickles (no catalog SKU matched)",
+            "seeded hero roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "HAM & CHEESE",
+        "confidence": 0.2217,
+        "question": "HAM & CHEESE is costed at $0.56 using 1 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.5621,
+          "menu_price": 17.5,
+          "low_confidence": [
+            "Heavy-duty mayonnaise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "HAM & CHEESE",
+        "confidence": 0.2217,
+        "question": "HAM & CHEESE computes to 3% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.5621,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.0321,
+          "coverage": 0.5,
+          "uncosted": [
+            "heritage ham (no catalog SKU matched)",
+            "sweet pickles (no catalog SKU matched)",
+            "seeded hero roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "YASHA",
+        "confidence": 0.18,
+        "question": "YASHA is costed at $0.21 using 3 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.2118,
+          "menu_price": 17.5,
+          "low_confidence": [
+            "Red onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Red wine vinegar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
+            "Daikon radish (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "YASHA",
+        "confidence": 0.18,
+        "question": "YASHA computes to 1% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.2118,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.0121,
+          "coverage": 0.5714,
+          "uncosted": [
+            "canned tuna (no catalog SKU matched)",
+            "green goddess dressing (no catalog SKU matched)",
+            "Italian sub roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "CUBANO",
+        "confidence": 0.2205,
+        "question": "CUBANO is costed at $1.11 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.1105,
+          "menu_price": 17.5,
+          "low_confidence": [
+            "Heavy-duty mayonnaise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "CUBANO",
+        "confidence": 0.2205,
+        "question": "CUBANO computes to 6% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.1105,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.0635,
+          "coverage": 0.5,
+          "uncosted": [
+            "heritage ham (no catalog SKU matched)",
+            "sour pickles (no catalog SKU matched)",
+            "Dijon mustard (no conversion from oz to gal)",
+            "Italian sub roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "MACHO (WO)MAN",
+        "confidence": 0.264,
+        "question": "MACHO (WO)MAN is costed at $1.26 using 6 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.2584,
+          "menu_price": 17.5,
+          "low_confidence": [
+            "Green cabbage (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
+            "Jumbo carrot (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Jalapeno pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "MACHO (WO)MAN",
+        "confidence": 0.264,
+        "question": "MACHO (WO)MAN computes to 7% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.2584,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.0719,
+          "coverage": 0.8,
+          "uncosted": [
+            "catskill sauce (no catalog SKU matched)",
+            "ciabatta roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "ULTIMATE WARRIOR",
+        "confidence": 0.2213,
+        "question": "ULTIMATE WARRIOR is costed at $1.66 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 1.6624,
+          "menu_price": 17.5,
+          "low_confidence": [
+            "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "ULTIMATE WARRIOR",
+        "confidence": 0.2213,
+        "question": "ULTIMATE WARRIOR computes to 10% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 1.6624,
+          "menu_price": 17.5,
+          "food_cost_pct": 0.095,
+          "coverage": 0.625,
+          "uncosted": [
+            "broccoli rabe (no catalog SKU matched)",
+            "mama Lil's pickled peppers (no catalog SKU matched)",
+            "seeded hero roll (no catalog SKU matched)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_quantity",
+        "ref": "CATSKILL ROAST PORK",
+        "confidence": 0.1757,
+        "question": "CATSKILL ROAST PORK is costed at $0.71 using 2 low-confidence quantity/quantities - check the recipe",
+        "payload": {
+          "plate_cost": 0.7128,
+          "menu_price": 16.0,
+          "low_confidence": [
+            "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
+            "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
+          ]
+        }
+      },
+      {
+        "kind": "plate_cost",
+        "ref": "CATSKILL ROAST PORK",
+        "confidence": 0.1757,
+        "question": "CATSKILL ROAST PORK computes to 4% food cost — check the recipe or the price",
+        "payload": {
+          "plate_cost": 0.7128,
+          "menu_price": 16.0,
+          "food_cost_pct": 0.0445,
+          "coverage": 0.5,
+          "uncosted": [
+            "catskill sauce (no catalog SKU matched)",
+            "Dijon mustard (no conversion from oz to gal)",
+            "ciabatta roll (no catalog SKU matched)"
+          ]
+        }
+      }
+    ],
+    "stage": "costed"
+  }
+}
