@@ -45,7 +45,7 @@ def _po(vendors: int = 2, lines_per_vendor: int = 3) -> dict:
         },
         "total_cost": 4211.5,
         "covers_per_week": 900,
-        "days_cover": 3,
+        "days_cover_label": "2-30 days cover by category",
         "assumptions": ["+15% safety factor", "packs rounded up"],
         "excluded_skus": [],
     }
@@ -356,9 +356,32 @@ def test_purchase_order_states_its_assumptions_next_to_the_total():
         if el["text"].startswith("Based on ")
     ]
     assert basis == [
-        "Based on 900/wk projected covers · 3 days cover "
+        "Based on 900/wk projected covers · 2-30 days cover by category "
         "· prices from hand-curated catalog"
     ]
+
+
+def test_purchase_order_omits_the_cover_basis_rather_than_inventing_one():
+    """A payload with no cover label must not fall back to a made-up number.
+
+    The card used to print a hardcoded "7 days cover" over an order that mixes
+    2-day produce with 30-day spices, contradicting the assumptions block two
+    lines below it.
+    """
+    po = _po()
+    po.pop("days_cover_label")
+    basis = [
+        el["text"]
+        for b in purchase_order_blocks("t1", "R", po)
+        if b.get("type") == "context"
+        for el in b["elements"]
+        if el["text"].startswith("Based on ")
+    ]
+
+    assert basis == [
+        "Based on 900/wk projected covers · prices from hand-curated catalog"
+    ]
+    assert not any("days cover" in t for t in basis)
 
 
 def test_empty_purchase_order_does_not_crash():

@@ -314,19 +314,21 @@ def purchase_order_blocks(thread_id: str, restaurant_name: str, po: dict) -> lis
             }
         )
 
-    covers = po.get("covers_per_week", 0)
-    days = po.get("days_cover", 7)
+    # Days of cover is a per-category policy, so draft_po sends the range it
+    # actually applied ("2-30 days cover by category") rather than a number.
+    # An older payload carries no label, in which case the card says nothing
+    # instead of inventing one — a wrong basis printed under the total is the
+    # same class of problem as a wrong total.
+    basis = [f"Based on {po.get('covers_per_week', 0)}/wk projected covers"]
+    days_cover_label = str(po.get("days_cover_label") or "").strip()
+    if days_cover_label:
+        basis.append(days_cover_label)
+    basis.append("prices from hand-curated catalog")
     blocks.append(
         {
             "type": "context",
             "elements": [
-                {
-                    "type": "mrkdwn",
-                    "text": _truncate(
-                        f"Based on {covers}/wk projected covers · {days} days cover "
-                        f"· prices from hand-curated catalog"
-                    ),
-                }
+                {"type": "mrkdwn", "text": _truncate(" · ".join(basis))}
             ],
         }
     )
