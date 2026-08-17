@@ -229,3 +229,42 @@ def test_router_sends_a_skipped_run_forward():
         state.update(review_wait_node(state))
 
     assert route(state) == "forecast"
+
+
+# ---------------------------------------------------------------------------
+# skipped_refs survives a COMPILED graph, not just a direct node call
+# ---------------------------------------------------------------------------
+#
+# Every skip test above calls review_wait_node() directly and inspects the dict
+# it returned, which is exactly why they all passed while the feature was broken
+# in the real pipeline: LangGraph silently DISCARDS any key a node returns that
+# is not declared on the state schema. `skipped_refs` was returned by
+# review_wait_node and read by draft_po._consumption, but was missing from
+# AgentState, so in the compiled graph it never made the trip between them and
+# "Skip flagged" degraded into a silent approve.
+#
+# A direct-call assertion structurally cannot catch that -- the loss happens in
+# the channel-write step, downstream of the node's return -- so this test goes
+# through compile()/invoke(). A one-node graph is enough: the drop is a property
+# of the schema, not of the Day Zero topology, and keeping it minimal keeps it
+# fast and free of LLM/Slack mocking.
+def test_skipped_refs_survives_a_compiled_graph():
+    from langgraph.graph import END, START, StateGraph
+
+    from src.state import AgentState
+
+    graph = StateGraph(AgentState)
+    graph.add_node(
+        "skip", lambda state: {"skipped_refs": ["PROD-TOMATO-ROMA"], "stage": "reviewed"}
+    )
+    graph.add_edge(START, "skip")
+    graph.add_edge("skip", END)
+
+    out = graph.compile().invoke({"stage": "costed"})
+
+    assert "skipped_refs" in out, (
+        "AgentState must declare skipped_refs; LangGraph drops undeclared keys "
+        "and the reviewer's skip silently becomes an approve"
+    )
+    assert out["skipped_refs"] == ["PROD-TOMATO-ROMA"]
+    assert out["stage"] == "reviewed"

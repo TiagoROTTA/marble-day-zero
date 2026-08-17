@@ -32,14 +32,25 @@ class AgentState(TypedDict, total=False):
     menu_items: list[dict[str, Any]]    # {name, section, price, description, confidence}
     recipes: list[dict[str, Any]]       # {item_name, yield_qty, yield_uom, components:[...]}
     sku_matches: list[dict[str, Any]]   # {raw_name, sku_id, method, confidence}
-    # plate_cost and food_cost_pct are None when costable is False: nothing in the
-    # plate could be costed, and 0.0 there would read as a real 0% food cost.
-    # {item_name, plate_cost, menu_price, food_cost_pct, coverage, costable, confidence}
+    # plate_cost, cost_per_serving and food_cost_pct are None when costable is
+    # False: nothing in the plate could be costed, and 0.0 there would read as a
+    # real 0% food cost. plate_cost is the cost of the whole MENU LINE — the same
+    # sold unit menu_price buys, so that food_cost_pct means something;
+    # cost_per_serving is that divided by yield_qty.
+    # {item_name, plate_cost, cost_per_serving, yield_qty, menu_price,
+    #  food_cost_pct, coverage, costable, confidence}
     plate_costs: list[dict[str, Any]]
     demand_forecast: dict[str, Any]     # {covers_per_day:[7 floats], item_mix:{name: share}, assumptions:[str]}
     par_levels: list[dict[str, Any]]    # {sku_id, par_qty, uom, days_cover, rationale}
     purchase_order: dict[str, Any]      # {vendor_lines:[...], total_cost, generated_at_stage}
     review_queue: list[dict[str, Any]]  # {kind, ref, confidence, question, payload}
+    # Refs (sku_id or raw_name) the reviewer chose to skip rather than approve,
+    # written by `review_wait_node`; `draft_po._consumption` withholds those SKUs
+    # from the order. It MUST be declared here: LangGraph silently discards any
+    # key a node returns that is not a field of the state schema, so without this
+    # line "Skip flagged" reaches draft_po as an empty list and behaves as a
+    # silent approve — the exact failure hitl.py's docstring says must not happen.
+    skipped_refs: list[str]
     stage: str                          # last completed pipeline stage name
 
 
@@ -79,5 +90,6 @@ def initial_dayzero_state(slug: str) -> AgentState:
         "par_levels": [],
         "purchase_order": {},
         "review_queue": [],
+        "skipped_refs": [],
         "stage": "",
     }
