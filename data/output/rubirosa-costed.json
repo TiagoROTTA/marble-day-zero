@@ -7747,6 +7747,8 @@
       {
         "item_name": "Piatto di Antipasti",
         "plate_cost": 5.793,
+        "cost_per_serving": 5.793,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -7759,12 +7761,14 @@
           "Pitted kalamata olives (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1925,
+        "confidence": 0.4387,
         "costable": true
       },
       {
         "item_name": "Salumi e Formaggi",
         "plate_cost": 6.1367,
+        "cost_per_serving": 6.1367,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 9,
@@ -7778,12 +7782,14 @@
           "Cauliflower (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
           "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1808,
+        "confidence": 0.4252,
         "costable": true
       },
       {
         "item_name": "Italian Wedding Soup",
         "plate_cost": 1.4455,
+        "cost_per_serving": 1.4455,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 8,
@@ -7799,12 +7805,14 @@
           "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.25,
+        "confidence": 0.4264,
         "costable": true
       },
       {
         "item_name": "Pasta e Fagioli",
         "plate_cost": 1.0463,
+        "cost_per_serving": 1.0463,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 6,
@@ -7819,12 +7827,14 @@
           "Yellow onion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1775,
+        "confidence": 0.344,
         "costable": true
       },
       {
         "item_name": "Heirloom Caprese",
         "plate_cost": 2.1035,
+        "cost_per_serving": 2.1035,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 6,
@@ -7835,12 +7845,14 @@
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Ground black pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4492,
+        "confidence": 0.6702,
         "costable": true
       },
       {
         "item_name": "Rubirosa Salad",
         "plate_cost": 2.6538,
+        "cost_per_serving": 2.6538,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 9,
@@ -7853,12 +7865,14 @@
           "Italian seasoned breadcrumbs (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Red wine vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3108,
+        "confidence": 0.5288,
         "costable": true
       },
       {
         "item_name": "Arugula",
         "plate_cost": 1.6493,
+        "cost_per_serving": 1.6493,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 6,
@@ -7869,12 +7883,14 @@
           "Queso fresco (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3042,
+        "confidence": 0.5515,
         "costable": true
       },
       {
         "item_name": "Caesar",
         "plate_cost": 1.4866,
+        "cost_per_serving": 1.4866,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -7890,12 +7906,14 @@
           "Fresh lemon juice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.315,
+        "confidence": 0.525,
         "costable": true
       },
       {
         "item_name": "Chopped Antipasto Salad",
         "plate_cost": 1.7317,
+        "cost_per_serving": 1.7317,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 9,
@@ -7908,12 +7926,14 @@
           "Red wine vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Dried oregano (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.255,
+        "confidence": 0.505,
         "costable": true
       },
       {
         "item_name": "Garlic Knots",
         "plate_cost": 0.9074,
+        "cost_per_serving": 0.9074,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 8,
@@ -7925,12 +7945,14 @@
           "Crushed red pepper flakes (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.33,
+        "confidence": 0.5745,
         "costable": true
       },
       {
         "item_name": "Eggplant Parmigiano",
         "plate_cost": 2.5779,
+        "cost_per_serving": 2.5779,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 10,
@@ -7938,12 +7960,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.568,
+        "confidence": 0.7537,
         "costable": true
       },
       {
         "item_name": "Grandma's Braciole",
         "plate_cost": 4.3005,
+        "cost_per_serving": 4.3005,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -7953,12 +7977,14 @@
           "Canned San Marzano whole tomatoes (no conversion from oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.3697,
+        "confidence": 0.5687,
         "costable": true
       },
       {
         "item_name": "Roasted Octopus",
         "plate_cost": 0.9287,
+        "cost_per_serving": 0.9287,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 10,
@@ -7976,12 +8002,14 @@
           "Cauliflower (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "White distilled vinegar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2945,
+        "confidence": 0.5175,
         "costable": true
       },
       {
         "item_name": "Baked Clams",
         "plate_cost": 3.0514,
+        "cost_per_serving": 3.0514,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -7989,12 +8017,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5143,
+        "confidence": 0.7171,
         "costable": true
       },
       {
         "item_name": "Meatballs",
         "plate_cost": 1.6555,
+        "cost_per_serving": 1.6555,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 8,
@@ -8007,12 +8037,14 @@
         "low_confidence": [
           "Flat-leaf parsley (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3605,
+        "confidence": 0.537,
         "costable": true
       },
       {
         "item_name": "Broccoli Rabe",
         "plate_cost": 0.2945,
+        "cost_per_serving": 0.2945,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 4,
@@ -8022,12 +8054,14 @@
           "broccoli rabe (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.39,
+        "confidence": 0.5586,
         "costable": true
       },
       {
         "item_name": "Mini Rice Balls",
         "plate_cost": 2.0559,
+        "cost_per_serving": 2.0559,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 9,
@@ -8042,12 +8076,14 @@
           "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Parmigiano Reggiano (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3025,
+        "confidence": 0.55,
         "costable": true
       },
       {
         "item_name": "Mozzarella Sticks",
         "plate_cost": 1.5341,
+        "cost_per_serving": 1.5341,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -8057,12 +8093,14 @@
         "low_confidence": [
           "Crushed red pepper flakes (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4982,
+        "confidence": 0.7058,
         "costable": true
       },
       {
         "item_name": "Crispy Calamari",
         "plate_cost": 3.1786,
+        "cost_per_serving": 3.1786,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -8072,12 +8110,14 @@
         "low_confidence": [
           "Crushed red pepper flakes (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4821,
+        "confidence": 0.6944,
         "costable": true
       },
       {
         "item_name": "Spaghetti alla Chitarra",
         "plate_cost": 1.3317,
+        "cost_per_serving": 1.3317,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 6,
@@ -8088,12 +8128,14 @@
           "House red wine (no conversion from fl_oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.3797,
+        "confidence": 0.5336,
         "costable": true
       },
       {
         "item_name": "Rubirosa Ragu",
         "plate_cost": 2.1846,
+        "cost_per_serving": 2.1846,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 8,
@@ -8104,12 +8146,14 @@
           "Yellow onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4734,
+        "confidence": 0.6881,
         "costable": true
       },
       {
         "item_name": "Ricotta Ravioli",
         "plate_cost": 2.0722,
+        "cost_per_serving": 2.0722,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 8,
@@ -8123,12 +8167,14 @@
           "Fresh basil (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3075,
+        "confidence": 0.5545,
         "costable": true
       },
       {
         "item_name": "Short Rib Agnolotti",
         "plate_cost": 3.1278,
+        "cost_per_serving": 3.1278,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 8,
@@ -8139,12 +8185,14 @@
           "Yellow onion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3859,
+        "confidence": 0.6212,
         "costable": true
       },
       {
         "item_name": "Linguine alla Vongole",
         "plate_cost": 5.1194,
+        "cost_per_serving": 5.1194,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -8157,12 +8205,14 @@
           "Crushed red pepper flakes (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4078,
+        "confidence": 0.5974,
         "costable": true
       },
       {
         "item_name": "Cavatelli",
         "plate_cost": 2.5054,
+        "cost_per_serving": 2.5054,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -8174,12 +8224,14 @@
           "Broccoli crown (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Crushed red pepper flakes (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4607,
+        "confidence": 0.6788,
         "costable": true
       },
       {
         "item_name": "Roman Cacio e Pepe",
         "plate_cost": 2.37,
+        "cost_per_serving": 2.37,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 4,
@@ -8187,12 +8239,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.6481,
+        "confidence": 0.8051,
         "costable": true
       },
       {
         "item_name": "Black & White Tagliatelle",
         "plate_cost": 5.421,
+        "cost_per_serving": 5.421,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 8,
@@ -8207,12 +8261,14 @@
           "Canned tomato paste (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Flat-leaf parsley (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2767,
+        "confidence": 0.4959,
         "costable": true
       },
       {
         "item_name": "Carbonara",
         "plate_cost": 3.0745,
+        "cost_per_serving": 3.0745,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -8222,12 +8278,14 @@
         "low_confidence": [
           "Sliced bacon (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.576,
+        "confidence": 0.7589,
         "costable": true
       },
       {
         "item_name": "Family Size Lasagne",
-        "plate_cost": 0.7743,
+        "plate_cost": 3.0974,
+        "cost_per_serving": 0.7743,
+        "yield_qty": 4.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 10,
@@ -8239,12 +8297,14 @@
           "Large shell eggs (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Fresh basil (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.39,
+        "confidence": 0.6245,
         "costable": true
       },
       {
         "item_name": "Mushroom Campanelle",
         "plate_cost": 2.4787,
+        "cost_per_serving": 2.4787,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 8,
@@ -8256,12 +8316,14 @@
           "Unsalted butter (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Flat-leaf parsley (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4359,
+        "confidence": 0.6603,
         "costable": true
       },
       {
         "item_name": "Lumache alla Vodka",
         "plate_cost": 2.1256,
+        "cost_per_serving": 2.1256,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 9,
@@ -8274,12 +8336,14 @@
         "low_confidence": [
           "Crushed red pepper flakes (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4907,
+        "confidence": 0.6336,
         "costable": true
       },
       {
         "item_name": "Sunday Sauce (Sundays Only)",
         "plate_cost": 5.9254,
+        "cost_per_serving": 5.9254,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 15,
@@ -8304,12 +8368,14 @@
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Ground black pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1946,
+        "confidence": 0.4143,
         "costable": true
       },
       {
         "item_name": "The TIE DYE™ Pizza",
         "plate_cost": 2.9105,
+        "cost_per_serving": 2.9105,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 9,
@@ -8322,12 +8388,14 @@
           "Peeled garlic cloves (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Grana Padano (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.339,
+        "confidence": 0.5524,
         "costable": true
       },
       {
         "item_name": "Classic",
         "plate_cost": 1.4342,
+        "cost_per_serving": 1.4342,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -8337,12 +8405,14 @@
           "Canned San Marzano whole tomatoes (no conversion from oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.5171,
+        "confidence": 0.6564,
         "costable": true
       },
       {
         "item_name": "Fresca",
         "plate_cost": 2.1261,
+        "cost_per_serving": 2.1261,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -8352,12 +8422,14 @@
           "Canned San Marzano whole tomatoes (no conversion from oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.5383,
+        "confidence": 0.6698,
         "costable": true
       },
       {
         "item_name": "Vodka",
         "plate_cost": 2.407,
+        "cost_per_serving": 2.407,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -8367,12 +8439,14 @@
           "Well vodka (no conversion from fl_oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.505,
+        "confidence": 0.6647,
         "costable": true
       },
       {
         "item_name": "Rubirosa Supreme",
         "plate_cost": 3.7331,
+        "cost_per_serving": 3.7331,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 11,
@@ -8387,12 +8461,14 @@
           "Parmigiano Reggiano (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4312,
+        "confidence": 0.6287,
         "costable": true
       },
       {
         "item_name": "Bianca",
         "plate_cost": 1.9097,
+        "cost_per_serving": 1.9097,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -8400,12 +8476,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5714,
+        "confidence": 0.7559,
         "costable": true
       },
       {
         "item_name": "Sausage & Broccoli Rabe",
         "plate_cost": 2.2941,
+        "cost_per_serving": 2.2941,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 6,
@@ -8415,12 +8493,14 @@
           "Broccoli rabe (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.4971,
+        "confidence": 0.6528,
         "costable": true
       },
       {
         "item_name": "Arugula",
         "plate_cost": 2.4508,
+        "cost_per_serving": 2.4508,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 9,
@@ -8432,12 +8512,14 @@
         "low_confidence": [
           "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.532,
+        "confidence": 0.692,
         "costable": true
       },
       {
         "item_name": "Honey Pie",
         "plate_cost": 1.6452,
+        "cost_per_serving": 1.6452,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -8451,12 +8533,14 @@
           "Sharp provolone (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Sliced pepperoni (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3625,
+        "confidence": 0.531,
         "costable": true
       },
       {
         "item_name": "Chicken Al Limone",
         "plate_cost": 3.067,
+        "cost_per_serving": 3.067,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 9,
@@ -8468,12 +8552,14 @@
         "low_confidence": [
           "Shallot (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4095,
+        "confidence": 0.6071,
         "costable": true
       },
       {
         "item_name": "Eggplant Parmigiano",
         "plate_cost": 3.8155,
+        "cost_per_serving": 3.8155,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 11,
@@ -8486,12 +8572,14 @@
           "Italian seasoned breadcrumbs (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Fresh basil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4451,
+        "confidence": 0.6672,
         "costable": true
       },
       {
         "item_name": "Chicken Parmigiano",
         "plate_cost": 4.5436,
+        "cost_per_serving": 4.5436,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 11,
@@ -8504,12 +8592,14 @@
           "Italian seasoned breadcrumbs (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Fresh basil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4636,
+        "confidence": 0.6809,
         "costable": true
       },
       {
         "item_name": "Espresso Martini",
         "plate_cost": 0.305,
+        "cost_per_serving": 0.305,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -8522,12 +8612,14 @@
         "low_confidence": [
           "Simple syrup (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1725,
+        "confidence": 0.2937,
         "costable": true
       },
       {
         "item_name": "Sue Me!",
         "plate_cost": 1.4081,
+        "cost_per_serving": 1.4081,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -8538,12 +8630,14 @@
           "Well gin (no conversion from fl_oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.2194,
+        "confidence": 0.3312,
         "costable": true
       },
       {
         "item_name": "La Cachalaca",
         "plate_cost": 0.2581,
+        "cost_per_serving": 0.2581,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -8555,12 +8649,14 @@
           "Peach blossom liqueur (no conversion from fl_oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.0825,
+        "confidence": 0.1436,
         "costable": true
       },
       {
         "item_name": "N.Y. Style Cheesecake",
         "plate_cost": 2.2222,
+        "cost_per_serving": 2.2222,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 9,
@@ -8571,12 +8667,14 @@
           "Italian seasoned breadcrumbs (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Granulated white sugar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4472,
+        "confidence": 0.6687,
         "costable": true
       },
       {
         "item_name": "Tiramisu",
         "plate_cost": 2.0468,
+        "cost_per_serving": 2.0468,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -8588,12 +8686,14 @@
         "low_confidence": [
           "All-purpose flour (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4,
+        "confidence": 0.5774,
         "costable": true
       },
       {
         "item_name": "Zeppole",
         "plate_cost": 0.6728,
+        "cost_per_serving": 0.6728,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 6,
@@ -8606,12 +8706,14 @@
           "Large shell eggs (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3129,
+        "confidence": 0.5178,
         "costable": true
       },
       {
         "item_name": "Italian American Cookies",
         "plate_cost": 0.3799,
+        "cost_per_serving": 0.3799,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 6,
@@ -8623,12 +8725,14 @@
           "raw shelled peanuts (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "clover honey (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2842,
+        "confidence": 0.5331,
         "costable": true
       },
       {
         "item_name": "Bread Pudding",
         "plate_cost": 0.9525,
+        "cost_per_serving": 0.9525,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -8643,12 +8747,14 @@
           "granulated white sugar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "clover honey (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2353,
+        "confidence": 0.4278,
         "costable": true
       },
       {
         "item_name": "Rubirosa Tartufo",
         "plate_cost": 0.0865,
+        "cost_per_serving": 0.0865,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -8662,12 +8768,14 @@
           "clover honey (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
           "canola oil (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.075,
+        "confidence": 0.1936,
         "costable": true
       },
       {
         "item_name": "Nonna's Cannoli",
         "plate_cost": 0.9631,
+        "cost_per_serving": 0.9631,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 6,
@@ -8679,12 +8787,14 @@
           "clear fry oil (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "granulated white sugar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.305,
+        "confidence": 0.5523,
         "costable": true
       },
       {
         "item_name": "Flourless Chocolate Cake",
         "plate_cost": 0.8136,
+        "cost_per_serving": 0.8136,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 3,
@@ -8694,12 +8804,14 @@
           "vanilla gelato (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.2775,
+        "confidence": 0.4562,
         "costable": true
       },
       {
         "item_name": "Dessert Sampler",
         "plate_cost": 0.7634,
+        "cost_per_serving": 0.7634,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 6,
@@ -8714,12 +8826,14 @@
           "clear fry oil (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
           "clover honey (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.15,
+        "confidence": 0.3873,
         "costable": true
       },
       {
         "item_name": "Caffe Panna Rainbow Ice Cream Pint",
         "plate_cost": 2.0752,
+        "cost_per_serving": 2.0752,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 4,
@@ -8732,12 +8846,14 @@
           "granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "large shell eggs (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2375,
+        "confidence": 0.4873,
         "costable": true
       },
       {
         "item_name": "Espresso",
         "plate_cost": 0.2581,
+        "cost_per_serving": 0.2581,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -8745,12 +8861,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.7225,
+        "confidence": 0.85,
         "costable": true
       },
       {
         "item_name": "Macchiato",
         "plate_cost": 0.2964,
+        "cost_per_serving": 0.2964,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -8758,12 +8876,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.62,
+        "confidence": 0.7874,
         "costable": true
       },
       {
         "item_name": "Americano",
         "plate_cost": 0.2581,
+        "cost_per_serving": 0.2581,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -8771,12 +8891,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.7225,
+        "confidence": 0.85,
         "costable": true
       },
       {
         "item_name": "Cappuccino",
         "plate_cost": 0.4113,
+        "cost_per_serving": 0.4113,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -8784,12 +8906,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.68,
+        "confidence": 0.8246,
         "costable": true
       },
       {
         "item_name": "Double Espresso",
         "plate_cost": 0.3688,
+        "cost_per_serving": 0.3688,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -8797,12 +8921,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.7225,
+        "confidence": 0.85,
         "costable": true
       },
       {
         "item_name": "Mint Tea",
         "plate_cost": 0.1194,
+        "cost_per_serving": 0.1194,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -8813,12 +8939,14 @@
           "Fresh mint (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Clover honey (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.22,
+        "confidence": 0.469,
         "costable": true
       },
       {
         "item_name": "Green Tea",
         "plate_cost": 0.075,
+        "cost_per_serving": 0.075,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -8826,12 +8954,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.68,
+        "confidence": 0.8246,
         "costable": true
       },
       {
         "item_name": "Chamomile Tea",
         "plate_cost": 0.07,
+        "cost_per_serving": 0.07,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -8841,12 +8971,14 @@
         "low_confidence": [
           "Black tea bags (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.135,
+        "confidence": 0.3674,
         "costable": true
       },
       {
         "item_name": "Earl Grey Tea",
         "plate_cost": 0.07,
+        "cost_per_serving": 0.07,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -8854,12 +8986,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.33,
+        "confidence": 0.5745,
         "costable": true
       },
       {
         "item_name": "GF Heirloom Tomato Caprese",
         "plate_cost": 2.2935,
+        "cost_per_serving": 2.2935,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 6,
@@ -8867,12 +9001,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.595,
+        "confidence": 0.7714,
         "costable": true
       },
       {
         "item_name": "GF Rubirosa Salad",
         "plate_cost": 2.4396,
+        "cost_per_serving": 2.4396,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 9,
@@ -8885,12 +9021,14 @@
           "Red wine vinegar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Panko breadcrumbs (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4095,
+        "confidence": 0.6071,
         "costable": true
       },
       {
         "item_name": "GF Arugula Salad",
         "plate_cost": 1.7618,
+        "cost_per_serving": 1.7618,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 6,
@@ -8900,12 +9038,14 @@
         "low_confidence": [
           "Queso fresco (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4875,
+        "confidence": 0.6982,
         "costable": true
       },
       {
         "item_name": "GF Caesar Salad",
         "plate_cost": 1.5576,
+        "cost_per_serving": 1.5576,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -8918,12 +9058,14 @@
           "Dijon mustard (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Fresh lemon (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4607,
+        "confidence": 0.6788,
         "costable": true
       },
       {
         "item_name": "GF Meatballs",
         "plate_cost": 1.9399,
+        "cost_per_serving": 1.9399,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 9,
@@ -8936,12 +9078,14 @@
           "Panko breadcrumbs (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Fresh basil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.297,
+        "confidence": 0.517,
         "costable": true
       },
       {
         "item_name": "GF Roasted Octopus",
         "plate_cost": 2.9441,
+        "cost_per_serving": 2.9441,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 10,
@@ -8960,12 +9104,14 @@
           "Jumbo carrot (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1559,
+        "confidence": 0.3765,
         "costable": true
       },
       {
         "item_name": "GF Mini Rice Balls",
         "plate_cost": 2.1587,
+        "cost_per_serving": 2.1587,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 9,
@@ -8980,12 +9126,14 @@
           "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2089,
+        "confidence": 0.457,
         "costable": true
       },
       {
         "item_name": "GF Mozzarella Sticks",
         "plate_cost": 1.5652,
+        "cost_per_serving": 1.5652,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 8,
@@ -9000,12 +9148,14 @@
           "Crushed red pepper flakes (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2417,
+        "confidence": 0.4635,
         "costable": true
       },
       {
         "item_name": "GF Calamari",
         "plate_cost": 3.25,
+        "cost_per_serving": 3.25,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 8,
@@ -9020,12 +9170,14 @@
           "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2781,
+        "confidence": 0.4972,
         "costable": true
       },
       {
         "item_name": "GF Spaghetti alla Chitarra",
         "plate_cost": 1.1745,
+        "cost_per_serving": 1.1745,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -9038,12 +9190,14 @@
         "low_confidence": [
           "Dry spaghetti (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2657,
+        "confidence": 0.4357,
         "costable": true
       },
       {
         "item_name": "Individual with Meatballs",
         "plate_cost": 2.0709,
+        "cost_per_serving": 2.0709,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -9062,12 +9216,14 @@
           "Fresh basil (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1283,
+        "confidence": 0.3159,
         "costable": true
       },
       {
         "item_name": "Family Style with Meatballs",
-        "plate_cost": 2.0709,
+        "plate_cost": 8.2838,
+        "cost_per_serving": 2.0709,
+        "yield_qty": 4.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -9086,12 +9242,14 @@
           "Fresh basil (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.11,
+        "confidence": 0.2925,
         "costable": true
       },
       {
         "item_name": "GF Roman Cacio e Pepe",
         "plate_cost": 1.9841,
+        "cost_per_serving": 1.9841,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -9101,12 +9259,14 @@
         "low_confidence": [
           "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.448,
+        "confidence": 0.6693,
         "costable": true
       },
       {
         "item_name": "GF Rubirosa Ragu",
         "plate_cost": 1.8619,
+        "cost_per_serving": 1.8619,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 6,
@@ -9121,12 +9281,14 @@
           "Yellow onion (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2269,
+        "confidence": 0.4125,
         "costable": true
       },
       {
         "item_name": "GF Rigatoni alla Vodka",
         "plate_cost": 1.8239,
+        "cost_per_serving": 1.8239,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -9137,12 +9299,14 @@
           "Well vodka (no conversion from fl_oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.4133,
+        "confidence": 0.567,
         "costable": true
       },
       {
         "item_name": "GF Cavatelli",
         "plate_cost": 1.1418,
+        "cost_per_serving": 1.1418,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -9156,12 +9320,14 @@
           "Crushed red pepper flakes (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2614,
+        "confidence": 0.4321,
         "costable": true
       },
       {
         "item_name": "GF Chicken Parmigiano",
         "plate_cost": 3.6346,
+        "cost_per_serving": 3.6346,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 10,
@@ -9177,12 +9343,14 @@
           "Fresh basil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4193,
+        "confidence": 0.6174,
         "costable": true
       },
       {
         "item_name": "GF Classic",
         "plate_cost": 1.1095,
+        "cost_per_serving": 1.1095,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 4,
@@ -9196,12 +9364,14 @@
           "Dried oregano (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.34,
+        "confidence": 0.4761,
         "costable": true
       },
       {
         "item_name": "GF The TIE DYE™ Pizza",
         "plate_cost": 1.6055,
+        "cost_per_serving": 1.6055,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -9216,12 +9386,14 @@
         "low_confidence": [
           "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1146,
+        "confidence": 0.1954,
         "costable": true
       },
       {
         "item_name": "GF Fresca",
         "plate_cost": 1.8083,
+        "cost_per_serving": 1.8083,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 4,
@@ -9234,12 +9406,14 @@
         "low_confidence": [
           "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3467,
+        "confidence": 0.4807,
         "costable": true
       },
       {
         "item_name": "GF Vodka",
         "plate_cost": 2.4578,
+        "cost_per_serving": 2.4578,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 4,
@@ -9251,12 +9425,14 @@
           "Well vodka (no conversion from fl_oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.2893,
+        "confidence": 0.4066,
         "costable": true
       },
       {
         "item_name": "GF Rubirosa Supreme",
         "plate_cost": 2.1712,
+        "cost_per_serving": 2.1712,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -9271,12 +9447,14 @@
           "Large shell eggs (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Italian seasoned breadcrumbs (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2853,
+        "confidence": 0.471,
         "costable": true
       },
       {
         "item_name": "GF Bianca",
         "plate_cost": 1.5838,
+        "cost_per_serving": 1.5838,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 6,
@@ -9289,12 +9467,14 @@
           "Dried oregano (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.44,
+        "confidence": 0.6141,
         "costable": true
       },
       {
         "item_name": "GF Sausage & Broccoli Rabe",
         "plate_cost": 2.0445,
+        "cost_per_serving": 2.0445,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 4,
@@ -9305,12 +9485,14 @@
           "broccoli rabe (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.3375,
+        "confidence": 0.4743,
         "costable": true
       },
       {
         "item_name": "GF Arugula",
         "plate_cost": 1.5588,
+        "cost_per_serving": 1.5588,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 8,
@@ -9320,12 +9502,14 @@
           "gluten-free pizza crust (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.468,
+        "confidence": 0.645,
         "costable": true
       },
       {
         "item_name": "GF Honey Pie",
         "plate_cost": 0.6538,
+        "cost_per_serving": 0.6538,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 3,
@@ -9338,12 +9522,14 @@
           "clover honey (no conversion from fl_oz to lb)"
         ],
         "low_confidence": [],
-        "confidence": 0.1894,
+        "confidence": 0.2849,
         "costable": true
       },
       {
         "item_name": "Flourless Chocolate Cake",
         "plate_cost": 0.8721,
+        "cost_per_serving": 0.8721,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -9356,12 +9542,14 @@
           "heavy whipping cream 36% (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2888,
+        "confidence": 0.4905,
         "costable": true
       },
       {
         "item_name": "RubiROSE Nerello Mascalese Sicilia '23",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9377,6 +9565,8 @@
       {
         "item_name": "RubiBIANCO Grillo Sicilia '23",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9392,6 +9582,8 @@
       {
         "item_name": "RubiROSSO Nero d'Avola Sicilia '21",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9407,6 +9599,8 @@
       {
         "item_name": "Prosecco | Ancium",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9422,6 +9616,8 @@
       {
         "item_name": "Prosecco | Cinzano",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9437,6 +9633,8 @@
       {
         "item_name": "Franciacorta Extra Brut | Ca'del Bosco",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9452,6 +9650,8 @@
       {
         "item_name": "Lambrusco | di Grasparossa Pederzana",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9467,6 +9667,8 @@
       {
         "item_name": "Rosato | Tomaresca Calafuria '24",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9482,6 +9684,8 @@
       {
         "item_name": "Gavi | Villa Sparina Piemonte '23",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9497,6 +9701,8 @@
       {
         "item_name": "Vermentino | La Spinetta Toscana '24",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9512,6 +9718,8 @@
       {
         "item_name": "Pinot Grigio | Jermann Friuli '22",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9527,6 +9735,8 @@
       {
         "item_name": "Chardonnay | Antinori Castella della Sala \"Bramito\" '23",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9542,6 +9752,8 @@
       {
         "item_name": "Langhe Nebbiolo DOC | Prunotto \"Occhetti\"",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9557,6 +9769,8 @@
       {
         "item_name": "Barbera d'Alba | Cordero di Montezemolo Piemonte '23",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9572,6 +9786,8 @@
       {
         "item_name": "Chianti Classico | DOCG Peppoli",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9587,6 +9803,8 @@
       {
         "item_name": "Barolo | Andrea Oberto Piemonte '20",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9602,6 +9820,8 @@
       {
         "item_name": "Angelico | Monteventrano Core Rosso Campania '19",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9617,6 +9837,8 @@
       {
         "item_name": "Langhe Nebbiolo | Borgogno No Name Piemonte '21",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9632,6 +9854,8 @@
       {
         "item_name": "Amarone della Valpolicella | Marion Veneto '19",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9647,6 +9871,8 @@
       {
         "item_name": "Montepulciano d'Abruzzo | Fantini \"Three Dreamers\"",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9662,6 +9888,8 @@
       {
         "item_name": "Langhe Rosso | Gaja Sito Moresco",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9677,6 +9905,8 @@
       {
         "item_name": "Brunello di Montalcino \"Pain Della Vigne\"",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9692,6 +9922,8 @@
       {
         "item_name": "Super Tuscan | Tiganello Antinori '22",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9707,6 +9939,8 @@
       {
         "item_name": "Rubirosa x Flagship Italian Pilsner",
         "plate_cost": 1.4375,
+        "cost_per_serving": 1.4375,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -9716,12 +9950,14 @@
         "low_confidence": [
           "Domestic draft beer half barrel keg (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.16,
+        "confidence": 0.4,
         "costable": true
       },
       {
         "item_name": "Birra Menabrea Blonde Lager",
         "plate_cost": 1.4375,
+        "cost_per_serving": 1.4375,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -9731,12 +9967,14 @@
         "low_confidence": [
           "Domestic draft beer half barrel keg (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.16,
+        "confidence": 0.4,
         "costable": true
       },
       {
         "item_name": "Fat Orange Cat Spiced Brown Ale",
         "plate_cost": 1.4375,
+        "cost_per_serving": 1.4375,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -9746,12 +9984,14 @@
         "low_confidence": [
           "Domestic draft beer half barrel keg (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.16,
+        "confidence": 0.4,
         "costable": true
       },
       {
         "item_name": "Other Half Green City IPA",
         "plate_cost": 1.4375,
+        "cost_per_serving": 1.4375,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -9761,12 +10001,14 @@
         "low_confidence": [
           "Domestic draft beer half barrel keg (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.16,
+        "confidence": 0.4,
         "costable": true
       },
       {
         "item_name": "Rotating Local New York Double IPA",
         "plate_cost": 1.4375,
+        "cost_per_serving": 1.4375,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -9776,12 +10018,14 @@
         "low_confidence": [
           "Domestic draft beer half barrel keg (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2,
+        "confidence": 0.4472,
         "costable": true
       },
       {
         "item_name": "Rubirosa X Flagship Italian Pilsner",
         "plate_cost": 1.4,
+        "cost_per_serving": 1.4,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -9789,12 +10033,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.3,
+        "confidence": 0.5477,
         "costable": true
       },
       {
         "item_name": "KCBC Superhero Sidekick Hazy IPA",
         "plate_cost": 1.4,
+        "cost_per_serving": 1.4,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -9802,12 +10048,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.3,
+        "confidence": 0.5477,
         "costable": true
       },
       {
         "item_name": "Glutenberg Gluten Free IPA",
         "plate_cost": 1.4,
+        "cost_per_serving": 1.4,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -9815,12 +10063,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.3,
+        "confidence": 0.5477,
         "costable": true
       },
       {
         "item_name": "Rotating Local New York Cider",
         "plate_cost": 1.4,
+        "cost_per_serving": 1.4,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -9830,12 +10080,14 @@
         "low_confidence": [
           "Domestic bottled beer 12 oz (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.14,
+        "confidence": 0.3742,
         "costable": true
       },
       {
         "item_name": "Athletic Brewing Co. Non-Alcoholic Hazy IPA",
         "plate_cost": 1.4,
+        "cost_per_serving": 1.4,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -9845,12 +10097,14 @@
         "low_confidence": [
           "Domestic bottled beer 12 oz (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.225,
+        "confidence": 0.4743,
         "costable": true
       },
       {
         "item_name": "Bero Brewing Non-Alcoholic Golden Pilsner",
         "plate_cost": 1.4,
+        "cost_per_serving": 1.4,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -9860,12 +10114,14 @@
         "low_confidence": [
           "Domestic bottled beer 12 oz (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.225,
+        "confidence": 0.4743,
         "costable": true
       },
       {
         "item_name": "St. Agrestis Phony Negroni",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -9882,6 +10138,8 @@
       {
         "item_name": "Hugo Says What? \"Spritz\"",
         "plate_cost": 0.1237,
+        "cost_per_serving": 0.1237,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -9895,12 +10153,14 @@
           "Fresh mint (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Simple syrup (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.0788,
+        "confidence": 0.1984,
         "costable": true
       },
       {
         "item_name": "Co - Z - Mo",
         "plate_cost": 0.2461,
+        "cost_per_serving": 0.2461,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -9912,12 +10172,14 @@
         "low_confidence": [
           "Simple syrup (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1333,
+        "confidence": 0.2981,
         "costable": true
       },
       {
         "item_name": "Spritz & Giggles",
         "plate_cost": 1.2375,
+        "cost_per_serving": 1.2375,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -9930,12 +10192,14 @@
         "low_confidence": [
           "Fresh lemon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1375,
+        "confidence": 0.2622,
         "costable": true
       },
       {
         "item_name": "RubiSlush",
         "plate_cost": 0.7807,
+        "cost_per_serving": 0.7807,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -9951,12 +10215,14 @@
           "Simple syrup (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Fresh lime juice (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1267,
+        "confidence": 0.3249,
         "costable": true
       },
       {
         "item_name": "Rubirosa Old Fashioned",
         "plate_cost": 0.0469,
+        "cost_per_serving": 0.0469,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -9971,12 +10237,14 @@
         "low_confidence": [
           "Simple syrup (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.06,
+        "confidence": 0.1095,
         "costable": true
       },
       {
         "item_name": "Strawberry Letter 235",
         "plate_cost": 0.4648,
+        "cost_per_serving": 0.4648,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 3,
@@ -9990,12 +10258,14 @@
           "Fresh strawberry (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Simple syrup (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.192,
+        "confidence": 0.3394,
         "costable": true
       },
       {
         "item_name": "Tough To Peel",
         "plate_cost": 0.1523,
+        "cost_per_serving": 0.1523,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -10007,12 +10277,14 @@
           "campari (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.075,
+        "confidence": 0.1369,
         "costable": true
       },
       {
         "item_name": "Mulberry St. Garden",
         "plate_cost": 0.2487,
+        "cost_per_serving": 0.2487,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 4,
@@ -10028,12 +10300,14 @@
           "Fresh lemon juice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Simple syrup (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1275,
+        "confidence": 0.2915,
         "costable": true
       },
       {
         "item_name": "Quarter Water (2018)",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -10051,6 +10325,8 @@
       {
         "item_name": "The Daisy (2011, updated 2022)",
         "plate_cost": 0.1523,
+        "cost_per_serving": 0.1523,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -10062,12 +10338,14 @@
           "St. Germain elderflower liqueur (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.0825,
+        "confidence": 0.1436,
         "costable": true
       },
       {
         "item_name": "Sangria Spritz (2024)",
         "plate_cost": 0.0875,
+        "cost_per_serving": 0.0875,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -10081,7 +10359,7 @@
         "low_confidence": [
           "Fresh lemon (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.0338,
+        "confidence": 0.0919,
         "costable": true
       }
     ],
@@ -10402,7 +10680,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Piatto di Antipasti",
-        "confidence": 0.1925,
+        "confidence": 0.4387,
         "question": "Piatto di Antipasti is costed at $5.79 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 5.793,
@@ -10418,7 +10696,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Salumi e Formaggi",
-        "confidence": 0.1808,
+        "confidence": 0.4252,
         "question": "Salumi e Formaggi is costed at $6.14 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 6.1367,
@@ -10435,7 +10713,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Italian Wedding Soup",
-        "confidence": 0.25,
+        "confidence": 0.4264,
         "question": "Italian Wedding Soup is costed at $1.45 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4455,
@@ -10450,7 +10728,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Pasta e Fagioli",
-        "confidence": 0.1775,
+        "confidence": 0.344,
         "question": "Pasta e Fagioli is costed at $1.05 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.0463,
@@ -10464,7 +10742,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Heirloom Caprese",
-        "confidence": 0.4492,
+        "confidence": 0.6702,
         "question": "Heirloom Caprese is costed at $2.10 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.1035,
@@ -10478,7 +10756,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Rubirosa Salad",
-        "confidence": 0.3108,
+        "confidence": 0.5288,
         "question": "Rubirosa Salad is costed at $2.65 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.6538,
@@ -10492,7 +10770,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Arugula",
-        "confidence": 0.3042,
+        "confidence": 0.5515,
         "question": "Arugula is costed at $1.65 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.6493,
@@ -10506,7 +10784,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Caesar",
-        "confidence": 0.315,
+        "confidence": 0.525,
         "question": "Caesar is costed at $1.49 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4866,
@@ -10523,7 +10801,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Chopped Antipasto Salad",
-        "confidence": 0.255,
+        "confidence": 0.505,
         "question": "Chopped Antipasto Salad is costed at $1.73 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.7317,
@@ -10539,7 +10817,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Garlic Knots",
-        "confidence": 0.33,
+        "confidence": 0.5745,
         "question": "Garlic Knots is costed at $0.91 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.9074,
@@ -10554,7 +10832,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Roasted Octopus",
-        "confidence": 0.2945,
+        "confidence": 0.5175,
         "question": "Roasted Octopus is costed at $0.93 using 7 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.9287,
@@ -10573,7 +10851,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Meatballs",
-        "confidence": 0.3605,
+        "confidence": 0.537,
         "question": "Meatballs is costed at $1.66 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.6555,
@@ -10586,7 +10864,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Mini Rice Balls",
-        "confidence": 0.3025,
+        "confidence": 0.55,
         "question": "Mini Rice Balls is costed at $2.06 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.0559,
@@ -10604,7 +10882,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Mozzarella Sticks",
-        "confidence": 0.4982,
+        "confidence": 0.7058,
         "question": "Mozzarella Sticks is costed at $1.53 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.5341,
@@ -10617,7 +10895,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Crispy Calamari",
-        "confidence": 0.4821,
+        "confidence": 0.6944,
         "question": "Crispy Calamari is costed at $3.18 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.1786,
@@ -10630,7 +10908,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Rubirosa Ragu",
-        "confidence": 0.4734,
+        "confidence": 0.6881,
         "question": "Rubirosa Ragu is costed at $2.18 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.1846,
@@ -10644,7 +10922,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Ricotta Ravioli",
-        "confidence": 0.3075,
+        "confidence": 0.5545,
         "question": "Ricotta Ravioli is costed at $2.07 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.0722,
@@ -10661,7 +10939,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Short Rib Agnolotti",
-        "confidence": 0.3859,
+        "confidence": 0.6212,
         "question": "Short Rib Agnolotti is costed at $3.13 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.1278,
@@ -10675,7 +10953,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Linguine alla Vongole",
-        "confidence": 0.4078,
+        "confidence": 0.5974,
         "question": "Linguine alla Vongole is costed at $5.12 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 5.1194,
@@ -10689,7 +10967,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Cavatelli",
-        "confidence": 0.4607,
+        "confidence": 0.6788,
         "question": "Cavatelli is costed at $2.51 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.5054,
@@ -10704,7 +10982,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Black & White Tagliatelle",
-        "confidence": 0.2767,
+        "confidence": 0.4959,
         "question": "Black & White Tagliatelle is costed at $5.42 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 5.421,
@@ -10720,7 +10998,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Carbonara",
-        "confidence": 0.576,
+        "confidence": 0.7589,
         "question": "Carbonara is costed at $3.07 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.0745,
@@ -10733,10 +11011,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Family Size Lasagne",
-        "confidence": 0.39,
-        "question": "Family Size Lasagne is costed at $0.77 using 3 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.6245,
+        "question": "Family Size Lasagne is costed at $3.10 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 0.7743,
+          "plate_cost": 3.0974,
           "menu_price": null,
           "low_confidence": [
             "Italian seasoned breadcrumbs (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
@@ -10748,7 +11026,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Mushroom Campanelle",
-        "confidence": 0.4359,
+        "confidence": 0.6603,
         "question": "Mushroom Campanelle is costed at $2.48 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.4787,
@@ -10763,7 +11041,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Lumache alla Vodka",
-        "confidence": 0.4907,
+        "confidence": 0.6336,
         "question": "Lumache alla Vodka is costed at $2.13 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.1256,
@@ -10776,7 +11054,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Sunday Sauce (Sundays Only)",
-        "confidence": 0.1946,
+        "confidence": 0.4143,
         "question": "Sunday Sauce (Sundays Only) is costed at $5.93 using 13 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 5.9254,
@@ -10801,7 +11079,7 @@
       {
         "kind": "plate_quantity",
         "ref": "The TIE DYE™ Pizza",
-        "confidence": 0.339,
+        "confidence": 0.5524,
         "question": "The TIE DYE™ Pizza is costed at $2.91 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.9105,
@@ -10815,7 +11093,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Rubirosa Supreme",
-        "confidence": 0.4312,
+        "confidence": 0.6287,
         "question": "Rubirosa Supreme is costed at $3.73 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.7331,
@@ -10831,7 +11109,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Arugula",
-        "confidence": 0.532,
+        "confidence": 0.692,
         "question": "Arugula is costed at $2.45 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.4508,
@@ -10844,7 +11122,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Honey Pie",
-        "confidence": 0.3625,
+        "confidence": 0.531,
         "question": "Honey Pie is costed at $1.65 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.6452,
@@ -10858,7 +11136,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Chicken Al Limone",
-        "confidence": 0.4095,
+        "confidence": 0.6071,
         "question": "Chicken Al Limone is costed at $3.07 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.067,
@@ -10871,7 +11149,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Eggplant Parmigiano",
-        "confidence": 0.4451,
+        "confidence": 0.6672,
         "question": "Eggplant Parmigiano is costed at $3.82 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.8155,
@@ -10887,7 +11165,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Chicken Parmigiano",
-        "confidence": 0.4636,
+        "confidence": 0.6809,
         "question": "Chicken Parmigiano is costed at $4.54 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.5436,
@@ -10903,7 +11181,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Espresso Martini",
-        "confidence": 0.1725,
+        "confidence": 0.2937,
         "question": "Espresso Martini is costed at $0.30 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.305,
@@ -10916,7 +11194,7 @@
       {
         "kind": "plate_quantity",
         "ref": "N.Y. Style Cheesecake",
-        "confidence": 0.4472,
+        "confidence": 0.6687,
         "question": "N.Y. Style Cheesecake is costed at $2.22 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.2222,
@@ -10930,7 +11208,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Tiramisu",
-        "confidence": 0.4,
+        "confidence": 0.5774,
         "question": "Tiramisu is costed at $2.05 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.0468,
@@ -10943,7 +11221,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Zeppole",
-        "confidence": 0.3129,
+        "confidence": 0.5178,
         "question": "Zeppole is costed at $0.67 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.6728,
@@ -10957,7 +11235,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Italian American Cookies",
-        "confidence": 0.2842,
+        "confidence": 0.5331,
         "question": "Italian American Cookies is costed at $0.38 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.3799,
@@ -10972,7 +11250,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Bread Pudding",
-        "confidence": 0.2353,
+        "confidence": 0.4278,
         "question": "Bread Pudding is costed at $0.95 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.9525,
@@ -10987,7 +11265,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Rubirosa Tartufo",
-        "confidence": 0.075,
+        "confidence": 0.1936,
         "question": "Rubirosa Tartufo is costed at $0.09 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.0865,
@@ -11001,7 +11279,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Nonna's Cannoli",
-        "confidence": 0.305,
+        "confidence": 0.5523,
         "question": "Nonna's Cannoli is costed at $0.96 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.9631,
@@ -11016,7 +11294,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Dessert Sampler",
-        "confidence": 0.15,
+        "confidence": 0.3873,
         "question": "Dessert Sampler is costed at $0.76 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.7634,
@@ -11034,7 +11312,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Caffe Panna Rainbow Ice Cream Pint",
-        "confidence": 0.2375,
+        "confidence": 0.4873,
         "question": "Caffe Panna Rainbow Ice Cream Pint is costed at $2.08 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.0752,
@@ -11050,7 +11328,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Mint Tea",
-        "confidence": 0.22,
+        "confidence": 0.469,
         "question": "Mint Tea is costed at $0.12 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.1194,
@@ -11064,7 +11342,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Chamomile Tea",
-        "confidence": 0.135,
+        "confidence": 0.3674,
         "question": "Chamomile Tea is costed at $0.07 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.07,
@@ -11077,7 +11355,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Rubirosa Salad",
-        "confidence": 0.4095,
+        "confidence": 0.6071,
         "question": "GF Rubirosa Salad is costed at $2.44 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.4396,
@@ -11091,7 +11369,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Arugula Salad",
-        "confidence": 0.4875,
+        "confidence": 0.6982,
         "question": "GF Arugula Salad is costed at $1.76 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.7618,
@@ -11104,7 +11382,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Caesar Salad",
-        "confidence": 0.4607,
+        "confidence": 0.6788,
         "question": "GF Caesar Salad is costed at $1.56 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.5576,
@@ -11120,7 +11398,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Meatballs",
-        "confidence": 0.297,
+        "confidence": 0.517,
         "question": "GF Meatballs is costed at $1.94 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.9399,
@@ -11134,7 +11412,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Roasted Octopus",
-        "confidence": 0.1559,
+        "confidence": 0.3765,
         "question": "GF Roasted Octopus is costed at $2.94 using 8 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.9441,
@@ -11154,7 +11432,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Mini Rice Balls",
-        "confidence": 0.2089,
+        "confidence": 0.457,
         "question": "GF Mini Rice Balls is costed at $2.16 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.1587,
@@ -11172,7 +11450,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Mozzarella Sticks",
-        "confidence": 0.2417,
+        "confidence": 0.4635,
         "question": "GF Mozzarella Sticks is costed at $1.57 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.5652,
@@ -11188,7 +11466,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Calamari",
-        "confidence": 0.2781,
+        "confidence": 0.4972,
         "question": "GF Calamari is costed at $3.25 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.25,
@@ -11204,7 +11482,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Spaghetti alla Chitarra",
-        "confidence": 0.2657,
+        "confidence": 0.4357,
         "question": "GF Spaghetti alla Chitarra is costed at $1.17 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.1745,
@@ -11217,7 +11495,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Individual with Meatballs",
-        "confidence": 0.1283,
+        "confidence": 0.3159,
         "question": "Individual with Meatballs is costed at $2.07 using 7 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.0709,
@@ -11236,10 +11514,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Family Style with Meatballs",
-        "confidence": 0.11,
-        "question": "Family Style with Meatballs is costed at $2.07 using 7 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.2925,
+        "question": "Family Style with Meatballs is costed at $8.28 using 7 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 2.0709,
+          "plate_cost": 8.2838,
           "menu_price": null,
           "low_confidence": [
             "Dry spaghetti (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
@@ -11255,7 +11533,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Roman Cacio e Pepe",
-        "confidence": 0.448,
+        "confidence": 0.6693,
         "question": "GF Roman Cacio e Pepe is costed at $1.98 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.9841,
@@ -11268,7 +11546,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Rubirosa Ragu",
-        "confidence": 0.2269,
+        "confidence": 0.4125,
         "question": "GF Rubirosa Ragu is costed at $1.86 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.8619,
@@ -11283,7 +11561,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Cavatelli",
-        "confidence": 0.2614,
+        "confidence": 0.4321,
         "question": "GF Cavatelli is costed at $1.14 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.1418,
@@ -11297,7 +11575,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Chicken Parmigiano",
-        "confidence": 0.4193,
+        "confidence": 0.6174,
         "question": "GF Chicken Parmigiano is costed at $3.63 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.6346,
@@ -11314,7 +11592,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Classic",
-        "confidence": 0.34,
+        "confidence": 0.4761,
         "question": "GF Classic is costed at $1.11 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.1095,
@@ -11328,7 +11606,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF The TIE DYE™ Pizza",
-        "confidence": 0.1146,
+        "confidence": 0.1954,
         "question": "GF The TIE DYE™ Pizza is costed at $1.61 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.6055,
@@ -11341,7 +11619,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Fresca",
-        "confidence": 0.3467,
+        "confidence": 0.4807,
         "question": "GF Fresca is costed at $1.81 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.8083,
@@ -11354,7 +11632,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Rubirosa Supreme",
-        "confidence": 0.2853,
+        "confidence": 0.471,
         "question": "GF Rubirosa Supreme is costed at $2.17 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.1712,
@@ -11369,7 +11647,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GF Bianca",
-        "confidence": 0.44,
+        "confidence": 0.6141,
         "question": "GF Bianca is costed at $1.58 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.5838,
@@ -11383,7 +11661,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Flourless Chocolate Cake",
-        "confidence": 0.2888,
+        "confidence": 0.4905,
         "question": "Flourless Chocolate Cake is costed at $0.87 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.8721,
@@ -11397,7 +11675,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Rubirosa x Flagship Italian Pilsner",
-        "confidence": 0.16,
+        "confidence": 0.4,
         "question": "Rubirosa x Flagship Italian Pilsner is costed at $1.44 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4375,
@@ -11410,7 +11688,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Birra Menabrea Blonde Lager",
-        "confidence": 0.16,
+        "confidence": 0.4,
         "question": "Birra Menabrea Blonde Lager is costed at $1.44 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4375,
@@ -11423,7 +11701,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Fat Orange Cat Spiced Brown Ale",
-        "confidence": 0.16,
+        "confidence": 0.4,
         "question": "Fat Orange Cat Spiced Brown Ale is costed at $1.44 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4375,
@@ -11436,7 +11714,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Other Half Green City IPA",
-        "confidence": 0.16,
+        "confidence": 0.4,
         "question": "Other Half Green City IPA is costed at $1.44 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4375,
@@ -11449,7 +11727,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Rotating Local New York Double IPA",
-        "confidence": 0.2,
+        "confidence": 0.4472,
         "question": "Rotating Local New York Double IPA is costed at $1.44 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4375,
@@ -11462,7 +11740,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Rotating Local New York Cider",
-        "confidence": 0.14,
+        "confidence": 0.3742,
         "question": "Rotating Local New York Cider is costed at $1.40 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4,
@@ -11475,7 +11753,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Athletic Brewing Co. Non-Alcoholic Hazy IPA",
-        "confidence": 0.225,
+        "confidence": 0.4743,
         "question": "Athletic Brewing Co. Non-Alcoholic Hazy IPA is costed at $1.40 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4,
@@ -11488,7 +11766,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Bero Brewing Non-Alcoholic Golden Pilsner",
-        "confidence": 0.225,
+        "confidence": 0.4743,
         "question": "Bero Brewing Non-Alcoholic Golden Pilsner is costed at $1.40 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4,
@@ -11501,7 +11779,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Hugo Says What? \"Spritz\"",
-        "confidence": 0.0788,
+        "confidence": 0.1984,
         "question": "Hugo Says What? \"Spritz\" is costed at $0.12 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.1237,
@@ -11515,7 +11793,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Co - Z - Mo",
-        "confidence": 0.1333,
+        "confidence": 0.2981,
         "question": "Co - Z - Mo is costed at $0.25 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.2461,
@@ -11528,7 +11806,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Spritz & Giggles",
-        "confidence": 0.1375,
+        "confidence": 0.2622,
         "question": "Spritz & Giggles is costed at $1.24 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.2375,
@@ -11541,7 +11819,7 @@
       {
         "kind": "plate_quantity",
         "ref": "RubiSlush",
-        "confidence": 0.1267,
+        "confidence": 0.3249,
         "question": "RubiSlush is costed at $0.78 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.7807,
@@ -11558,7 +11836,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Rubirosa Old Fashioned",
-        "confidence": 0.06,
+        "confidence": 0.1095,
         "question": "Rubirosa Old Fashioned is costed at $0.05 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.0469,
@@ -11571,7 +11849,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Strawberry Letter 235",
-        "confidence": 0.192,
+        "confidence": 0.3394,
         "question": "Strawberry Letter 235 is costed at $0.46 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.4648,
@@ -11585,7 +11863,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Mulberry St. Garden",
-        "confidence": 0.1275,
+        "confidence": 0.2915,
         "question": "Mulberry St. Garden is costed at $0.25 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.2487,
@@ -11601,7 +11879,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Sangria Spritz (2024)",
-        "confidence": 0.0338,
+        "confidence": 0.0919,
         "question": "Sangria Spritz (2024) is costed at $0.09 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.0875,

@@ -2263,6 +2263,8 @@
       {
         "item_name": "Papaya & Pig Ear Salad - Goi Du Du",
         "plate_cost": 0.728,
+        "cost_per_serving": 0.728,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.0383,
         "costed_components": 5,
@@ -2279,12 +2281,14 @@
         "low_confidence": [
           "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1745,
+        "confidence": 0.2817,
         "costable": true
       },
       {
         "item_name": "Poached Shrimp Salad - Goi Tom",
         "plate_cost": 2.1801,
+        "cost_per_serving": 2.1801,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1147,
         "costed_components": 6,
@@ -2299,12 +2303,14 @@
           "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Canned coconut milk (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.24,
+        "confidence": 0.4,
         "costable": true
       },
       {
         "item_name": "Sautéed Clams - Ngao Xao",
         "plate_cost": 4.8211,
+        "cost_per_serving": 4.8211,
+        "yield_qty": 1.0,
         "menu_price": 21.0,
         "food_cost_pct": 0.2296,
         "costed_components": 5,
@@ -2317,12 +2323,14 @@
         "low_confidence": [
           "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2357,
+        "confidence": 0.4103,
         "costable": true
       },
       {
         "item_name": "Summer Rolls - Goi Cuon",
         "plate_cost": 0.9492,
+        "cost_per_serving": 0.9492,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": 0.073,
         "costed_components": 7,
@@ -2337,12 +2345,14 @@
           "Vietnamese pork roll (cha lua) (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Firm tofu (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.209,
+        "confidence": 0.3825,
         "costable": true
       },
       {
         "item_name": "Crispy Spring Rolls - Nem Ran",
         "plate_cost": 2.0496,
+        "cost_per_serving": 2.0496,
+        "yield_qty": 1.0,
         "menu_price": 12.0,
         "food_cost_pct": 0.1708,
         "costed_components": 8,
@@ -2360,12 +2370,14 @@
           "Persian lime (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Romaine lettuce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.215,
+        "confidence": 0.3954,
         "costable": true
       },
       {
         "item_name": "Lemongrass Chicken Wings - Canh Ga Chien",
         "plate_cost": 2.1251,
+        "cost_per_serving": 2.1251,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1118,
         "costed_components": 8,
@@ -2376,12 +2388,14 @@
           "Jalapeno pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.36,
+        "confidence": 0.6,
         "costable": true
       },
       {
         "item_name": "Grilled Lamb Meatballs - Cuu La Lot",
         "plate_cost": 2.6636,
+        "cost_per_serving": 2.6636,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1402,
         "costed_components": 8,
@@ -2399,12 +2413,14 @@
           "Raw shelled peanuts (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Canola oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2567,
+        "confidence": 0.4776,
         "costable": true
       },
       {
         "item_name": "Grilled Shishito Peppers",
         "plate_cost": 0.4961,
+        "cost_per_serving": 0.4961,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": 0.0382,
         "costed_components": 4,
@@ -2417,12 +2433,14 @@
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Shrimp 16/20 peeled and deveined (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.246,
+        "confidence": 0.4436,
         "costable": true
       },
       {
         "item_name": "Morning Glory - Rau Muong",
         "plate_cost": 0.1598,
+        "cost_per_serving": 0.1598,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.0114,
         "costed_components": 3,
@@ -2432,12 +2450,14 @@
           "morning glory (water spinach) (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.2925,
+        "confidence": 0.4684,
         "costable": true
       },
       {
         "item_name": "Spicy Garlic Cauliflower - Sup Lo Cay",
         "plate_cost": 1.0046,
+        "cost_per_serving": 1.0046,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.0718,
         "costed_components": 7,
@@ -2448,12 +2468,14 @@
           "Sriracha chili sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3557,
+        "confidence": 0.5964,
         "costable": true
       },
       {
         "item_name": "Classic Hanoi Style Beef - Pho Bac (Two Meats)",
         "plate_cost": 4.8664,
+        "cost_per_serving": 4.8664,
+        "yield_qty": 1.0,
         "menu_price": 20.0,
         "food_cost_pct": 0.2433,
         "costed_components": 14,
@@ -2467,12 +2489,14 @@
           "Beef eye of round (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3922,
+        "confidence": 0.605,
         "costable": true
       },
       {
         "item_name": "Classic Hanoi Style Beef - Pho Bac (Three Meats)",
         "plate_cost": 4.9351,
+        "cost_per_serving": 4.9351,
+        "yield_qty": 1.0,
         "menu_price": 23.0,
         "food_cost_pct": 0.2146,
         "costed_components": 15,
@@ -2487,12 +2511,14 @@
           "Beef stew meat (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3839,
+        "confidence": 0.5999,
         "costable": true
       },
       {
         "item_name": "House Special - Dac Biet",
         "plate_cost": 4.5784,
+        "cost_per_serving": 4.5784,
+        "yield_qty": 1.0,
         "menu_price": 29.0,
         "food_cost_pct": 0.1579,
         "costed_components": 15,
@@ -2508,12 +2534,14 @@
           "Beef marrow and knuckle bones (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "All-purpose flour (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3544,
+        "confidence": 0.5764,
         "costable": true
       },
       {
         "item_name": "Chicken - Pho Ga",
         "plate_cost": 1.7316,
+        "cost_per_serving": 1.7316,
+        "yield_qty": 1.0,
         "menu_price": 18.0,
         "food_cost_pct": 0.0962,
         "costed_components": 10,
@@ -2525,12 +2553,14 @@
         "low_confidence": [
           "Whole chicken (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4391,
+        "confidence": 0.6318,
         "costable": true
       },
       {
         "item_name": "Vegetarian - Pho Chay",
         "plate_cost": 2.2684,
+        "cost_per_serving": 2.2684,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1194,
         "costed_components": 15,
@@ -2540,12 +2570,14 @@
           "Fresh cilantro (no conversion from oz to bunch)"
         ],
         "low_confidence": [],
-        "confidence": 0.4144,
+        "confidence": 0.6233,
         "costable": true
       },
       {
         "item_name": "Grilled Pork Noodles - Bun Cha Ha Noi",
         "plate_cost": 3.6564,
+        "cost_per_serving": 3.6564,
+        "yield_qty": 1.0,
         "menu_price": 26.0,
         "food_cost_pct": 0.1406,
         "costed_components": 14,
@@ -2563,12 +2595,14 @@
           "Fresh garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2915,
+        "confidence": 0.5216,
         "costable": true
       },
       {
         "item_name": "Shaking Beef - Bo Luc Lac",
         "plate_cost": 3.6673,
+        "cost_per_serving": 3.6673,
+        "yield_qty": 1.0,
         "menu_price": 36.0,
         "food_cost_pct": 0.1019,
         "costed_components": 10,
@@ -2580,12 +2614,14 @@
         "low_confidence": [
           "Beef marrow and knuckle bones (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4168,
+        "confidence": 0.6156,
         "costable": true
       },
       {
         "item_name": "Braised Beef Banh Mi",
         "plate_cost": 1.6046,
+        "cost_per_serving": 1.6046,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.0845,
         "costed_components": 7,
@@ -2598,12 +2634,14 @@
         "low_confidence": [
           "Unsalted butter (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2967,
+        "confidence": 0.4804,
         "costable": true
       },
       {
         "item_name": "Pho Broth (Small)",
         "plate_cost": 0.7398,
+        "cost_per_serving": 0.7398,
+        "yield_qty": 1.0,
         "menu_price": 6.0,
         "food_cost_pct": 0.1233,
         "costed_components": 6,
@@ -2615,12 +2653,14 @@
           "Whole star anise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3163,
+        "confidence": 0.5624,
         "costable": true
       },
       {
         "item_name": "Pho Broth (Large)",
         "plate_cost": 1.4795,
+        "cost_per_serving": 1.4795,
+        "yield_qty": 1.0,
         "menu_price": 12.0,
         "food_cost_pct": 0.1233,
         "costed_components": 6,
@@ -2632,12 +2672,14 @@
           "Whole star anise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3163,
+        "confidence": 0.5624,
         "costable": true
       },
       {
         "item_name": "Shrimp Chips - Banh Phong Tom",
         "plate_cost": 0.2496,
+        "cost_per_serving": 0.2496,
+        "yield_qty": 1.0,
         "menu_price": 2.25,
         "food_cost_pct": 0.1109,
         "costed_components": 3,
@@ -2649,12 +2691,14 @@
         "low_confidence": [
           "crushed red pepper flakes (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2406,
+        "confidence": 0.4248,
         "costable": true
       },
       {
         "item_name": "Steamed Rice - Com (Small)",
         "plate_cost": 0.2375,
+        "cost_per_serving": 0.2375,
+        "yield_qty": 1.0,
         "menu_price": 2.5,
         "food_cost_pct": 0.095,
         "costed_components": 1,
@@ -2662,12 +2706,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.7225,
+        "confidence": 0.85,
         "costable": true
       },
       {
         "item_name": "Steamed Rice - Com (Large)",
         "plate_cost": 0.475,
+        "cost_per_serving": 0.475,
+        "yield_qty": 1.0,
         "menu_price": 4.0,
         "food_cost_pct": 0.1187,
         "costed_components": 1,
@@ -2675,12 +2721,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.7225,
+        "confidence": 0.85,
         "costable": true
       },
       {
         "item_name": "Roasted Bone Marrow",
         "plate_cost": 1.291,
+        "cost_per_serving": 1.291,
+        "yield_qty": 1.0,
         "menu_price": 9.0,
         "food_cost_pct": 0.1434,
         "costed_components": 6,
@@ -2690,7 +2738,7 @@
         "low_confidence": [
           "pita bread 7 inch (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.38,
+        "confidence": 0.6164,
         "costable": true
       }
     ],
@@ -2771,7 +2819,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Papaya & Pig Ear Salad - Goi Du Du",
-        "confidence": 0.1745,
+        "confidence": 0.2817,
         "question": "Papaya & Pig Ear Salad - Goi Du Du is costed at $0.73 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.728,
@@ -2784,7 +2832,7 @@
       {
         "kind": "plate_cost",
         "ref": "Papaya & Pig Ear Salad - Goi Du Du",
-        "confidence": 0.1745,
+        "confidence": 0.2817,
         "question": "Papaya & Pig Ear Salad - Goi Du Du computes to 4% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.728,
@@ -2804,7 +2852,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Poached Shrimp Salad - Goi Tom",
-        "confidence": 0.24,
+        "confidence": 0.4,
         "question": "Poached Shrimp Salad - Goi Tom is costed at $2.18 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.1801,
@@ -2818,7 +2866,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Sautéed Clams - Ngao Xao",
-        "confidence": 0.2357,
+        "confidence": 0.4103,
         "question": "Sautéed Clams - Ngao Xao is costed at $4.82 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.8211,
@@ -2831,7 +2879,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Summer Rolls - Goi Cuon",
-        "confidence": 0.209,
+        "confidence": 0.3825,
         "question": "Summer Rolls - Goi Cuon is costed at $0.95 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.9492,
@@ -2845,7 +2893,7 @@
       {
         "kind": "plate_cost",
         "ref": "Summer Rolls - Goi Cuon",
-        "confidence": 0.209,
+        "confidence": 0.3825,
         "question": "Summer Rolls - Goi Cuon computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.9492,
@@ -2862,7 +2910,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Crispy Spring Rolls - Nem Ran",
-        "confidence": 0.215,
+        "confidence": 0.3954,
         "question": "Crispy Spring Rolls - Nem Ran is costed at $2.05 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.0496,
@@ -2879,7 +2927,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Lemongrass Chicken Wings - Canh Ga Chien",
-        "confidence": 0.36,
+        "confidence": 0.6,
         "question": "Lemongrass Chicken Wings - Canh Ga Chien is costed at $2.13 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.1251,
@@ -2893,7 +2941,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Grilled Lamb Meatballs - Cuu La Lot",
-        "confidence": 0.2567,
+        "confidence": 0.4776,
         "question": "Grilled Lamb Meatballs - Cuu La Lot is costed at $2.66 using 7 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.6636,
@@ -2912,7 +2960,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Grilled Shishito Peppers",
-        "confidence": 0.246,
+        "confidence": 0.4436,
         "question": "Grilled Shishito Peppers is costed at $0.50 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.4961,
@@ -2926,7 +2974,7 @@
       {
         "kind": "plate_cost",
         "ref": "Grilled Shishito Peppers",
-        "confidence": 0.246,
+        "confidence": 0.4436,
         "question": "Grilled Shishito Peppers computes to 4% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.4961,
@@ -2941,7 +2989,7 @@
       {
         "kind": "plate_cost",
         "ref": "Morning Glory - Rau Muong",
-        "confidence": 0.2925,
+        "confidence": 0.4684,
         "question": "Morning Glory - Rau Muong computes to 1% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.1598,
@@ -2956,7 +3004,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Spicy Garlic Cauliflower - Sup Lo Cay",
-        "confidence": 0.3557,
+        "confidence": 0.5964,
         "question": "Spicy Garlic Cauliflower - Sup Lo Cay is costed at $1.00 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.0046,
@@ -2970,7 +3018,7 @@
       {
         "kind": "plate_cost",
         "ref": "Spicy Garlic Cauliflower - Sup Lo Cay",
-        "confidence": 0.3557,
+        "confidence": 0.5964,
         "question": "Spicy Garlic Cauliflower - Sup Lo Cay computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.0046,
@@ -2983,7 +3031,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Classic Hanoi Style Beef - Pho Bac (Two Meats)",
-        "confidence": 0.3922,
+        "confidence": 0.605,
         "question": "Classic Hanoi Style Beef - Pho Bac (Two Meats) is costed at $4.87 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.8664,
@@ -2998,7 +3046,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Classic Hanoi Style Beef - Pho Bac (Three Meats)",
-        "confidence": 0.3839,
+        "confidence": 0.5999,
         "question": "Classic Hanoi Style Beef - Pho Bac (Three Meats) is costed at $4.94 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.9351,
@@ -3014,7 +3062,7 @@
       {
         "kind": "plate_quantity",
         "ref": "House Special - Dac Biet",
-        "confidence": 0.3544,
+        "confidence": 0.5764,
         "question": "House Special - Dac Biet is costed at $4.58 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.5784,
@@ -3031,7 +3079,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Chicken - Pho Ga",
-        "confidence": 0.4391,
+        "confidence": 0.6318,
         "question": "Chicken - Pho Ga is costed at $1.73 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.7316,
@@ -3044,7 +3092,7 @@
       {
         "kind": "plate_cost",
         "ref": "Chicken - Pho Ga",
-        "confidence": 0.4391,
+        "confidence": 0.6318,
         "question": "Chicken - Pho Ga computes to 10% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.7316,
@@ -3059,7 +3107,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Grilled Pork Noodles - Bun Cha Ha Noi",
-        "confidence": 0.2915,
+        "confidence": 0.5216,
         "question": "Grilled Pork Noodles - Bun Cha Ha Noi is costed at $3.66 using 7 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.6564,
@@ -3078,7 +3126,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Shaking Beef - Bo Luc Lac",
-        "confidence": 0.4168,
+        "confidence": 0.6156,
         "question": "Shaking Beef - Bo Luc Lac is costed at $3.67 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.6673,
@@ -3091,7 +3139,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Braised Beef Banh Mi",
-        "confidence": 0.2967,
+        "confidence": 0.4804,
         "question": "Braised Beef Banh Mi is costed at $1.60 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.6046,
@@ -3104,7 +3152,7 @@
       {
         "kind": "plate_cost",
         "ref": "Braised Beef Banh Mi",
-        "confidence": 0.2967,
+        "confidence": 0.4804,
         "question": "Braised Beef Banh Mi computes to 8% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.6046,
@@ -3120,7 +3168,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Pho Broth (Small)",
-        "confidence": 0.3163,
+        "confidence": 0.5624,
         "question": "Pho Broth (Small) is costed at $0.74 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.7398,
@@ -3135,7 +3183,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Pho Broth (Large)",
-        "confidence": 0.3163,
+        "confidence": 0.5624,
         "question": "Pho Broth (Large) is costed at $1.48 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4795,
@@ -3150,7 +3198,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Shrimp Chips - Banh Phong Tom",
-        "confidence": 0.2406,
+        "confidence": 0.4248,
         "question": "Shrimp Chips - Banh Phong Tom is costed at $0.25 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.2496,
@@ -3163,7 +3211,7 @@
       {
         "kind": "plate_cost",
         "ref": "Steamed Rice - Com (Small)",
-        "confidence": 0.7225,
+        "confidence": 0.85,
         "question": "Steamed Rice - Com (Small) computes to 10% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.2375,
@@ -3176,7 +3224,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Roasted Bone Marrow",
-        "confidence": 0.38,
+        "confidence": 0.6164,
         "question": "Roasted Bone Marrow is costed at $1.29 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.291,

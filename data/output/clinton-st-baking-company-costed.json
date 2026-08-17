@@ -4087,6 +4087,8 @@
       {
         "item_name": "Buttermilk Biscuit Sandwich",
         "plate_cost": 1.4421,
+        "cost_per_serving": 1.4421,
+        "yield_qty": 1.0,
         "menu_price": 15.0,
         "food_cost_pct": 0.0961,
         "costed_components": 8,
@@ -4099,12 +4101,14 @@
           "All-purpose flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4406,
+        "confidence": 0.6638,
         "costable": true
       },
       {
         "item_name": "Southern Breakfast",
         "plate_cost": 2.3353,
+        "cost_per_serving": 2.3353,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1229,
         "costed_components": 9,
@@ -4118,12 +4122,14 @@
           "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4239,
+        "confidence": 0.6511,
         "costable": true
       },
       {
         "item_name": "Spanish Scramble",
         "plate_cost": 2.4408,
+        "cost_per_serving": 2.4408,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1285,
         "costed_components": 10,
@@ -4135,12 +4141,14 @@
           "All-purpose flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4838,
+        "confidence": 0.6955,
         "costable": true
       },
       {
         "item_name": "Country Breakfast",
         "plate_cost": 2.06,
+        "cost_per_serving": 2.06,
+        "yield_qty": 1.0,
         "menu_price": 20.0,
         "food_cost_pct": 0.103,
         "costed_components": 7,
@@ -4152,12 +4160,14 @@
           "Cultured buttermilk (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Baking powder (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.41,
+        "confidence": 0.6403,
         "costable": true
       },
       {
         "item_name": "Brioche French Toast",
         "plate_cost": 1.3615,
+        "cost_per_serving": 1.3615,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.0717,
         "costed_components": 7,
@@ -4171,12 +4181,14 @@
           "Raw shelled peanuts (quantity confidence 0.20 below the 0.60 review floor -- costed anyway)",
           "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3609,
+        "confidence": 0.562,
         "costable": true
       },
       {
         "item_name": "Pancakes with Warm Maple Butter",
         "plate_cost": 0.9568,
+        "cost_per_serving": 0.9568,
+        "yield_qty": 1.0,
         "menu_price": 20.0,
         "food_cost_pct": 0.0478,
         "costed_components": 6,
@@ -4189,12 +4201,14 @@
           "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Baking powder (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3436,
+        "confidence": 0.5427,
         "costable": true
       },
       {
         "item_name": "Farmer's Plate",
         "plate_cost": 2.3705,
+        "cost_per_serving": 2.3705,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1248,
         "costed_components": 7,
@@ -4206,12 +4220,14 @@
           "High-gluten bread flour (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4607,
+        "confidence": 0.6788,
         "costable": true
       },
       {
         "item_name": "Classic Eggs Benedict",
         "plate_cost": 2.4833,
+        "cost_per_serving": 2.4833,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1307,
         "costed_components": 6,
@@ -4223,12 +4239,14 @@
           "All-purpose flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Cultured buttermilk (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4375,
+        "confidence": 0.6614,
         "costable": true
       },
       {
         "item_name": "Latke Eggs Benedict",
         "plate_cost": 2.735,
+        "cost_per_serving": 2.735,
+        "yield_qty": 1.0,
         "menu_price": 24.0,
         "food_cost_pct": 0.114,
         "costed_components": 9,
@@ -4242,12 +4260,14 @@
           "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4238,
+        "confidence": 0.6176,
         "costable": true
       },
       {
         "item_name": "Huevos Rancheros",
         "plate_cost": 1.9807,
+        "cost_per_serving": 1.9807,
+        "yield_qty": 1.0,
         "menu_price": 18.0,
         "food_cost_pct": 0.11,
         "costed_components": 9,
@@ -4261,12 +4281,14 @@
           "Masa harina (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Low-moisture part-skim shredded mozzarella (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4088,
+        "confidence": 0.6065,
         "costable": true
       },
       {
         "item_name": "B.E.L.T.",
         "plate_cost": 1.9234,
+        "cost_per_serving": 1.9234,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.1374,
         "costed_components": 9,
@@ -4276,12 +4298,14 @@
           "sourdough bread (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.5823,
+        "confidence": 0.7239,
         "costable": true
       },
       {
         "item_name": "Clinton St. Omelette",
         "plate_cost": 1.8579,
+        "cost_per_serving": 1.8579,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.0978,
         "costed_components": 7,
@@ -4294,12 +4318,14 @@
           "Sharp cheddar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Sliced Swiss cheese (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3163,
+        "confidence": 0.526,
         "costable": true
       },
       {
         "item_name": "Fried Chicken & Waffles",
         "plate_cost": 2.877,
+        "cost_per_serving": 2.877,
+        "yield_qty": 1.0,
         "menu_price": 23.0,
         "food_cost_pct": 0.1251,
         "costed_components": 11,
@@ -4307,12 +4333,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5455,
+        "confidence": 0.7385,
         "costable": true
       },
       {
         "item_name": "Smoked Salmon Scramble",
         "plate_cost": 3.4689,
+        "cost_per_serving": 3.4689,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1826,
         "costed_components": 9,
@@ -4322,12 +4350,14 @@
           "whole wheat bread (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.508,
+        "confidence": 0.6762,
         "costable": true
       },
       {
         "item_name": "Crispy Potato Pancakes",
         "plate_cost": 1.1288,
+        "cost_per_serving": 1.1288,
+        "yield_qty": 1.0,
         "menu_price": 15.0,
         "food_cost_pct": 0.0753,
         "costed_components": 10,
@@ -4337,12 +4367,14 @@
         "low_confidence": [
           "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4795,
+        "confidence": 0.6925,
         "costable": true
       },
       {
         "item_name": "Kale Salad",
         "plate_cost": 1.8022,
+        "cost_per_serving": 1.8022,
+        "yield_qty": 1.0,
         "menu_price": 15.0,
         "food_cost_pct": 0.1201,
         "costed_components": 8,
@@ -4355,12 +4387,14 @@
           "Raw shelled peanuts (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Basmati rice (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4375,
+        "confidence": 0.6236,
         "costable": true
       },
       {
         "item_name": "Grilled Chicken Sandwich",
         "plate_cost": 3.3671,
+        "cost_per_serving": 3.3671,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1772,
         "costed_components": 11,
@@ -4371,12 +4405,14 @@
           "sourdough bread (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.5015,
+        "confidence": 0.6514,
         "costable": true
       },
       {
         "item_name": "Veggie Sandwich",
         "plate_cost": 1.9587,
+        "cost_per_serving": 1.9587,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.1224,
         "costed_components": 9,
@@ -4388,12 +4424,14 @@
         "low_confidence": [
           "Fresh dill (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4758,
+        "confidence": 0.6544,
         "costable": true
       },
       {
         "item_name": "Fried Chicken Sandwich",
         "plate_cost": 2.497,
+        "cost_per_serving": 2.497,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1314,
         "costed_components": 13,
@@ -4403,12 +4441,14 @@
           "kaiser roll (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.4902,
+        "confidence": 0.6747,
         "costable": true
       },
       {
         "item_name": "Clinton St. Cheeseburger",
         "plate_cost": 3.2301,
+        "cost_per_serving": 3.2301,
+        "yield_qty": 1.0,
         "menu_price": 20.0,
         "food_cost_pct": 0.1615,
         "costed_components": 10,
@@ -4418,12 +4458,14 @@
           "kaiser roll (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.5018,
+        "confidence": 0.6754,
         "costable": true
       },
       {
         "item_name": "Double Smoked Bacon",
         "plate_cost": 1.05,
+        "cost_per_serving": 1.05,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.15,
         "costed_components": 1,
@@ -4431,12 +4473,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.7225,
+        "confidence": 0.85,
         "costable": true
       },
       {
         "item_name": "Sugar Cured Bacon",
         "plate_cost": 1.05,
+        "cost_per_serving": 1.05,
+        "yield_qty": 1.0,
         "menu_price": 8.0,
         "food_cost_pct": 0.1313,
         "costed_components": 1,
@@ -4444,12 +4488,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.7225,
+        "confidence": 0.85,
         "costable": true
       },
       {
         "item_name": "Chicken-Apple Sausage",
         "plate_cost": 0.8172,
+        "cost_per_serving": 0.8172,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.1167,
         "costed_components": 2,
@@ -4457,12 +4503,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.58,
+        "confidence": 0.7616,
         "costable": true
       },
       {
         "item_name": "Maple Cured Ham",
         "plate_cost": 0.9416,
+        "cost_per_serving": 0.9416,
+        "yield_qty": 1.0,
         "menu_price": 8.0,
         "food_cost_pct": 0.1177,
         "costed_components": 2,
@@ -4473,12 +4521,14 @@
           "Bone-in pork chop (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Clover honey (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.315,
+        "confidence": 0.5612,
         "costable": true
       },
       {
         "item_name": "Two Eggs Any Style",
         "plate_cost": 0.7057,
+        "cost_per_serving": 0.7057,
+        "yield_qty": 1.0,
         "menu_price": 8.0,
         "food_cost_pct": 0.0882,
         "costed_components": 3,
@@ -4486,12 +4536,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.6517,
+        "confidence": 0.8073,
         "costable": true
       },
       {
         "item_name": "Scrambled Eggs w/cheddar",
         "plate_cost": 0.9932,
+        "cost_per_serving": 0.9932,
+        "yield_qty": 1.0,
         "menu_price": 10.0,
         "food_cost_pct": 0.0993,
         "costed_components": 4,
@@ -4499,12 +4551,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.6694,
+        "confidence": 0.8182,
         "costable": true
       },
       {
         "item_name": "Hash Browns",
         "plate_cost": 0.2458,
+        "cost_per_serving": 0.2458,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.0351,
         "costed_components": 3,
@@ -4512,12 +4566,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.6092,
+        "confidence": 0.7805,
         "costable": true
       },
       {
         "item_name": "Fried Green Tomatoes",
         "plate_cost": 0.9514,
+        "cost_per_serving": 0.9514,
+        "yield_qty": 1.0,
         "menu_price": 8.0,
         "food_cost_pct": 0.1189,
         "costed_components": 6,
@@ -4525,12 +4581,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5533,
+        "confidence": 0.7439,
         "costable": true
       },
       {
         "item_name": "Cheese Grits",
         "plate_cost": 0.6169,
+        "cost_per_serving": 0.6169,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.0881,
         "costed_components": 5,
@@ -4538,12 +4596,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.576,
+        "confidence": 0.7589,
         "costable": true
       },
       {
         "item_name": "Toast: sourdough/7-grain",
         "plate_cost": 0.1894,
+        "cost_per_serving": 0.1894,
+        "yield_qty": 1.0,
         "menu_price": 4.0,
         "food_cost_pct": 0.0474,
         "costed_components": 2,
@@ -4553,12 +4613,14 @@
         "low_confidence": [
           "High-gluten bread flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4688,
+        "confidence": 0.6847,
         "costable": true
       },
       {
         "item_name": "Fresh Fruit",
         "plate_cost": 0.275,
+        "cost_per_serving": 0.275,
+        "yield_qty": 1.0,
         "menu_price": 8.0,
         "food_cost_pct": 0.0344,
         "costed_components": 1,
@@ -4573,12 +4635,14 @@
         "low_confidence": [
           "golden pineapple (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.036,
+        "confidence": 0.0849,
         "costable": true
       },
       {
         "item_name": "Hand Cut Fries",
         "plate_cost": 0.3948,
+        "cost_per_serving": 0.3948,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.0564,
         "costed_components": 3,
@@ -4586,12 +4650,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.525,
+        "confidence": 0.7246,
         "costable": true
       },
       {
         "item_name": "Sweet Potato Fries",
         "plate_cost": 0.6198,
+        "cost_per_serving": 0.6198,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.0885,
         "costed_components": 3,
@@ -4599,12 +4665,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.525,
+        "confidence": 0.7246,
         "costable": true
       },
       {
         "item_name": "Dressed Greens",
         "plate_cost": 1.3226,
+        "cost_per_serving": 1.3226,
+        "yield_qty": 1.0,
         "menu_price": 8.0,
         "food_cost_pct": 0.1653,
         "costed_components": 5,
@@ -4615,12 +4683,14 @@
           "cherry tomato (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "red wine vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.348,
+        "confidence": 0.5899,
         "costable": true
       },
       {
         "item_name": "Side Avocado",
         "plate_cost": 1.3361,
+        "cost_per_serving": 1.3361,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.1909,
         "costed_components": 3,
@@ -4630,12 +4700,14 @@
         "low_confidence": [
           "fresh lemon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.475,
+        "confidence": 0.6892,
         "costable": true
       },
       {
         "item_name": "LES Pickles",
         "plate_cost": 0.3458,
+        "cost_per_serving": 0.3458,
+        "yield_qty": 1.0,
         "menu_price": 4.0,
         "food_cost_pct": 0.0864,
         "costed_components": 3,
@@ -4649,12 +4721,14 @@
           "white distilled vinegar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "kosher salt (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.12,
+        "confidence": 0.3,
         "costable": true
       },
       {
         "item_name": "Fried Chicken Breast",
         "plate_cost": 1.7353,
+        "cost_per_serving": 1.7353,
+        "yield_qty": 1.0,
         "menu_price": 10.0,
         "food_cost_pct": 0.1735,
         "costed_components": 6,
@@ -4665,12 +4739,14 @@
           "clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "ground black pepper (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4008,
+        "confidence": 0.6331,
         "costable": true
       },
       {
         "item_name": "Warm Maple Butter",
         "plate_cost": 0.4312,
+        "cost_per_serving": 0.4312,
+        "yield_qty": 1.0,
         "menu_price": 2.5,
         "food_cost_pct": 0.1725,
         "costed_components": 1,
@@ -4680,12 +4756,14 @@
           "clover honey (no conversion from fl_oz to lb)"
         ],
         "low_confidence": [],
-        "confidence": 0.165,
+        "confidence": 0.2872,
         "costable": true
       },
       {
         "item_name": "Biscuit w/ Butter & Jam",
         "plate_cost": 0.6761,
+        "cost_per_serving": 0.6761,
+        "yield_qty": 1.0,
         "menu_price": 6.0,
         "food_cost_pct": 0.1127,
         "costed_components": 5,
@@ -4699,12 +4777,14 @@
           "baking powder (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2521,
+        "confidence": 0.4583,
         "costable": true
       },
       {
         "item_name": "House Smoked Salmon",
         "plate_cost": 2.1681,
+        "cost_per_serving": 2.1681,
+        "yield_qty": 1.0,
         "menu_price": 10.0,
         "food_cost_pct": 0.2168,
         "costed_components": 3,
@@ -4717,12 +4797,14 @@
           "red onion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "fresh lemon (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2844,
+        "confidence": 0.4618,
         "costable": true
       },
       {
         "item_name": "Muffin/Scone",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 4.5,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4738,6 +4820,8 @@
       {
         "item_name": "Fresh Squeezed Orange Juice",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4753,6 +4837,8 @@
       {
         "item_name": "Bottomless Coffee",
         "plate_cost": 0.2,
+        "cost_per_serving": 0.2,
+        "yield_qty": 1.0,
         "menu_price": 5.0,
         "food_cost_pct": 0.04,
         "costed_components": 1,
@@ -4760,12 +4846,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.49,
+        "confidence": 0.7,
         "costable": true
       },
       {
         "item_name": "Espresso",
         "plate_cost": 0.2581,
+        "cost_per_serving": 0.2581,
+        "yield_qty": 1.0,
         "menu_price": 4.0,
         "food_cost_pct": 0.0645,
         "costed_components": 1,
@@ -4773,12 +4861,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.7225,
+        "confidence": 0.85,
         "costable": true
       },
       {
         "item_name": "Con Leche",
         "plate_cost": 0.4211,
+        "cost_per_serving": 0.4211,
+        "yield_qty": 1.0,
         "menu_price": 4.5,
         "food_cost_pct": 0.0936,
         "costed_components": 3,
@@ -4786,12 +4876,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5375,
+        "confidence": 0.7331,
         "costable": true
       },
       {
         "item_name": "Cappuccino/Latte",
         "plate_cost": 0.4878,
+        "cost_per_serving": 0.4878,
+        "yield_qty": 1.0,
         "menu_price": 5.5,
         "food_cost_pct": 0.0887,
         "costed_components": 2,
@@ -4799,12 +4891,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.66,
+        "confidence": 0.8124,
         "costable": true
       },
       {
         "item_name": "Mocha",
         "plate_cost": 0.5026,
+        "cost_per_serving": 0.5026,
+        "yield_qty": 1.0,
         "menu_price": 6.0,
         "food_cost_pct": 0.0838,
         "costed_components": 3,
@@ -4814,12 +4908,14 @@
           "Coffee liqueur 1L (no conversion from fl_oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.4219,
+        "confidence": 0.5625,
         "costable": true
       },
       {
         "item_name": "Harney & Sons Teas",
         "plate_cost": 0.07,
+        "cost_per_serving": 0.07,
+        "yield_qty": 1.0,
         "menu_price": 4.0,
         "food_cost_pct": 0.0175,
         "costed_components": 1,
@@ -4827,12 +4923,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.49,
+        "confidence": 0.7,
         "costable": true
       },
       {
         "item_name": "Fresh Local Apple Cider",
         "plate_cost": 0.0095,
+        "cost_per_serving": 0.0095,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.0014,
         "costed_components": 1,
@@ -4844,12 +4942,14 @@
         "low_confidence": [
           "ground cinnamon (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.075,
+        "confidence": 0.1936,
         "costable": true
       },
       {
         "item_name": "House Blend Hot Chocolate",
         "plate_cost": 0.4851,
+        "cost_per_serving": 0.4851,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.0693,
         "costed_components": 3,
@@ -4861,12 +4961,14 @@
         "low_confidence": [
           "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3169,
+        "confidence": 0.4875,
         "costable": true
       },
       {
         "item_name": "Mexican Coffee",
         "plate_cost": 0.4686,
+        "cost_per_serving": 0.4686,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.0335,
         "costed_components": 3,
@@ -4879,12 +4981,14 @@
         "low_confidence": [
           "Ground cinnamon (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.192,
+        "confidence": 0.3394,
         "costable": true
       },
       {
         "item_name": "Hot Buttered Rum",
         "plate_cost": 0.1777,
+        "cost_per_serving": 0.1777,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.0127,
         "costed_components": 3,
@@ -4898,12 +5002,14 @@
           "Light brown sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.16,
+        "confidence": 0.3098,
         "costable": true
       },
       {
         "item_name": "Unsweetened Iced Tea",
         "plate_cost": 0.07,
+        "cost_per_serving": 0.07,
+        "yield_qty": 1.0,
         "menu_price": 4.0,
         "food_cost_pct": 0.0175,
         "costed_components": 1,
@@ -4911,12 +5017,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.42,
+        "confidence": 0.6481,
         "costable": true
       },
       {
         "item_name": "Herbal Raspberry Iced Tea",
         "plate_cost": 0.0947,
+        "cost_per_serving": 0.0947,
+        "yield_qty": 1.0,
         "menu_price": 5.0,
         "food_cost_pct": 0.0189,
         "costed_components": 2,
@@ -4927,12 +5035,14 @@
           "Black tea bags (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Granulated white sugar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.18,
+        "confidence": 0.4243,
         "costable": true
       },
       {
         "item_name": "House Lemonade",
         "plate_cost": 0.8625,
+        "cost_per_serving": 0.8625,
+        "yield_qty": 1.0,
         "menu_price": 6.0,
         "food_cost_pct": 0.1438,
         "costed_components": 2,
@@ -4940,12 +5050,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.405,
+        "confidence": 0.6364,
         "costable": true
       },
       {
         "item_name": "Arnold Palmer",
         "plate_cost": 0.4662,
+        "cost_per_serving": 0.4662,
+        "yield_qty": 1.0,
         "menu_price": 6.0,
         "food_cost_pct": 0.0777,
         "costed_components": 3,
@@ -4955,12 +5067,14 @@
         "low_confidence": [
           "Simple syrup (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3208,
+        "confidence": 0.5664,
         "costable": true
       },
       {
         "item_name": "Seasonal Lemonade",
         "plate_cost": 1.0813,
+        "cost_per_serving": 1.0813,
+        "yield_qty": 1.0,
         "menu_price": 8.0,
         "food_cost_pct": 0.1352,
         "costed_components": 3,
@@ -4972,12 +5086,14 @@
           "Simple syrup (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Fresh strawberry (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1867,
+        "confidence": 0.432,
         "costable": true
       },
       {
         "item_name": "Bottled Mexican Coke",
         "plate_cost": 0.8,
+        "cost_per_serving": 0.8,
+        "yield_qty": 1.0,
         "menu_price": 5.0,
         "food_cost_pct": 0.16,
         "costed_components": 1,
@@ -4985,12 +5101,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.36,
+        "confidence": 0.6,
         "costable": true
       },
       {
         "item_name": "Ithaca Root Beer",
         "plate_cost": 0.8,
+        "cost_per_serving": 0.8,
+        "yield_qty": 1.0,
         "menu_price": 5.0,
         "food_cost_pct": 0.16,
         "costed_components": 1,
@@ -5000,12 +5118,14 @@
         "low_confidence": [
           "Cola cans 12 oz (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.09,
+        "confidence": 0.3,
         "costable": true
       },
       {
         "item_name": "Boylan's Ginger Ale",
         "plate_cost": 1.55,
+        "cost_per_serving": 1.55,
+        "yield_qty": 1.0,
         "menu_price": 5.0,
         "food_cost_pct": 0.31,
         "costed_components": 1,
@@ -5015,12 +5135,14 @@
         "low_confidence": [
           "Ginger beer bottles 12 oz (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3025,
+        "confidence": 0.55,
         "costable": true
       },
       {
         "item_name": "Diet Coke / Seltzer",
         "plate_cost": 0.8,
+        "cost_per_serving": 0.8,
+        "yield_qty": 1.0,
         "menu_price": 3.0,
         "food_cost_pct": 0.2667,
         "costed_components": 1,
@@ -5028,12 +5150,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.3,
+        "confidence": 0.5477,
         "costable": true
       },
       {
         "item_name": "Mimosa",
         "plate_cost": 0.4031,
+        "cost_per_serving": 0.4031,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": 0.031,
         "costed_components": 1,
@@ -5043,12 +5167,14 @@
           "Prosecco (no conversion from fl_oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.3825,
+        "confidence": 0.4373,
         "costable": true
       },
       {
         "item_name": "Market Bellini",
         "plate_cost": 1.0312,
+        "cost_per_serving": 1.0312,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": 0.0793,
         "costed_components": 1,
@@ -5060,12 +5186,14 @@
         "low_confidence": [
           "Passion fruit puree (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.125,
+        "confidence": 0.25,
         "costable": true
       },
       {
         "item_name": "Clinton St. Bloody Mary",
         "plate_cost": 1.6254,
+        "cost_per_serving": 1.6254,
+        "yield_qty": 1.0,
         "menu_price": 15.0,
         "food_cost_pct": 0.1084,
         "costed_components": 5,
@@ -5080,12 +5208,14 @@
           "Worcestershire sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Fresh lemon (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.22,
+        "confidence": 0.4282,
         "costable": true
       },
       {
         "item_name": "Blood Orange Screwdriver",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -5102,6 +5232,8 @@
       {
         "item_name": "Spiked Apple Cider",
         "plate_cost": 0.0969,
+        "cost_per_serving": 0.0969,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.0069,
         "costed_components": 1,
@@ -5112,12 +5244,14 @@
           "Fresh Local Apple Cider (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.1283,
+        "confidence": 0.2068,
         "costable": true
       },
       {
         "item_name": "Tequila Sunrise",
         "plate_cost": 0.5844,
+        "cost_per_serving": 0.5844,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.0417,
         "costed_components": 2,
@@ -5129,12 +5263,14 @@
         "low_confidence": [
           "Simple syrup (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.21,
+        "confidence": 0.3742,
         "costable": true
       },
       {
         "item_name": "Tipsy Palmer",
         "plate_cost": 0.4044,
+        "cost_per_serving": 0.4044,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.0289,
         "costed_components": 3,
@@ -5147,12 +5283,14 @@
           "Black tea bags (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Simple syrup (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2,
+        "confidence": 0.3873,
         "costable": true
       },
       {
         "item_name": "Hard Blueberry Lemonade",
         "plate_cost": 0.5063,
+        "cost_per_serving": 0.5063,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.0362,
         "costed_components": 3,
@@ -5165,12 +5303,14 @@
           "Simple syrup (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Fresh mint (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2,
+        "confidence": 0.3873,
         "costable": true
       },
       {
         "item_name": "Vanilla Shake",
         "plate_cost": 0.4184,
+        "cost_per_serving": 0.4184,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 3,
@@ -5181,12 +5321,14 @@
           "Heavy whipping cream 36% (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Granulated white sugar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.25,
+        "confidence": 0.5,
         "costable": true
       },
       {
         "item_name": "Chocolate Shake",
         "plate_cost": 0.3172,
+        "cost_per_serving": 0.3172,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -5196,12 +5338,14 @@
           "chocolate ice cream (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.4392,
+        "confidence": 0.5411,
         "costable": true
       },
       {
         "item_name": "Coffee Shake",
         "plate_cost": 0.3172,
+        "cost_per_serving": 0.3172,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -5211,12 +5355,14 @@
           "coffee ice cream (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.4133,
+        "confidence": 0.5249,
         "costable": true
       },
       {
         "item_name": "Banana Shake",
         "plate_cost": 0.3172,
+        "cost_per_serving": 0.3172,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -5227,12 +5373,14 @@
           "Banana (no conversion from each to lb)"
         ],
         "low_confidence": [],
-        "confidence": 0.3294,
+        "confidence": 0.4058,
         "costable": true
       },
       {
         "item_name": "Black & White Shake",
         "plate_cost": 0.3172,
+        "cost_per_serving": 0.3172,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -5243,12 +5391,14 @@
           "vanilla ice cream (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.31,
+        "confidence": 0.3937,
         "costable": true
       },
       {
         "item_name": "Wild Maine Blueberry Shake",
         "plate_cost": 0.3172,
+        "cost_per_serving": 0.3172,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": 0.0244,
         "costed_components": 2,
@@ -5259,12 +5409,14 @@
           "wild Maine blueberries (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.2719,
+        "confidence": 0.3687,
         "costable": true
       },
       {
         "item_name": "Boozy Mexican Coffee",
         "plate_cost": 0.0144,
+        "cost_per_serving": 0.0144,
+        "yield_qty": 1.0,
         "menu_price": 15.0,
         "food_cost_pct": 0.001,
         "costed_components": 2,
@@ -5278,7 +5430,7 @@
           "chocolate-chili powder (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.1286,
+        "confidence": 0.1917,
         "costable": true
       }
     ],
@@ -5419,7 +5571,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Buttermilk Biscuit Sandwich",
-        "confidence": 0.4406,
+        "confidence": 0.6638,
         "question": "Buttermilk Biscuit Sandwich is costed at $1.44 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4421,
@@ -5435,7 +5587,7 @@
       {
         "kind": "plate_cost",
         "ref": "Buttermilk Biscuit Sandwich",
-        "confidence": 0.4406,
+        "confidence": 0.6638,
         "question": "Buttermilk Biscuit Sandwich computes to 10% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.4421,
@@ -5448,7 +5600,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Southern Breakfast",
-        "confidence": 0.4239,
+        "confidence": 0.6511,
         "question": "Southern Breakfast is costed at $2.34 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.3353,
@@ -5465,7 +5617,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Spanish Scramble",
-        "confidence": 0.4838,
+        "confidence": 0.6955,
         "question": "Spanish Scramble is costed at $2.44 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.4408,
@@ -5480,7 +5632,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Country Breakfast",
-        "confidence": 0.41,
+        "confidence": 0.6403,
         "question": "Country Breakfast is costed at $2.06 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.06,
@@ -5495,7 +5647,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Brioche French Toast",
-        "confidence": 0.3609,
+        "confidence": 0.562,
         "question": "Brioche French Toast is costed at $1.36 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.3615,
@@ -5510,7 +5662,7 @@
       {
         "kind": "plate_cost",
         "ref": "Brioche French Toast",
-        "confidence": 0.3609,
+        "confidence": 0.562,
         "question": "Brioche French Toast computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.3615,
@@ -5525,7 +5677,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Pancakes with Warm Maple Butter",
-        "confidence": 0.3436,
+        "confidence": 0.5427,
         "question": "Pancakes with Warm Maple Butter is costed at $0.96 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.9568,
@@ -5539,7 +5691,7 @@
       {
         "kind": "plate_cost",
         "ref": "Pancakes with Warm Maple Butter",
-        "confidence": 0.3436,
+        "confidence": 0.5427,
         "question": "Pancakes with Warm Maple Butter computes to 5% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.9568,
@@ -5554,7 +5706,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Farmer's Plate",
-        "confidence": 0.4607,
+        "confidence": 0.6788,
         "question": "Farmer's Plate is costed at $2.37 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.3705,
@@ -5569,7 +5721,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Classic Eggs Benedict",
-        "confidence": 0.4375,
+        "confidence": 0.6614,
         "question": "Classic Eggs Benedict is costed at $2.48 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.4833,
@@ -5584,7 +5736,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Latke Eggs Benedict",
-        "confidence": 0.4238,
+        "confidence": 0.6176,
         "question": "Latke Eggs Benedict is costed at $2.73 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.735,
@@ -5599,7 +5751,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Huevos Rancheros",
-        "confidence": 0.4088,
+        "confidence": 0.6065,
         "question": "Huevos Rancheros is costed at $1.98 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.9807,
@@ -5614,7 +5766,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Clinton St. Omelette",
-        "confidence": 0.3163,
+        "confidence": 0.526,
         "question": "Clinton St. Omelette is costed at $1.86 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.8579,
@@ -5628,7 +5780,7 @@
       {
         "kind": "plate_cost",
         "ref": "Clinton St. Omelette",
-        "confidence": 0.3163,
+        "confidence": 0.526,
         "question": "Clinton St. Omelette computes to 10% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.8579,
@@ -5643,7 +5795,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Crispy Potato Pancakes",
-        "confidence": 0.4795,
+        "confidence": 0.6925,
         "question": "Crispy Potato Pancakes is costed at $1.13 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.1288,
@@ -5656,7 +5808,7 @@
       {
         "kind": "plate_cost",
         "ref": "Crispy Potato Pancakes",
-        "confidence": 0.4795,
+        "confidence": 0.6925,
         "question": "Crispy Potato Pancakes computes to 8% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.1288,
@@ -5669,7 +5821,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Kale Salad",
-        "confidence": 0.4375,
+        "confidence": 0.6236,
         "question": "Kale Salad is costed at $1.80 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.8022,
@@ -5683,7 +5835,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Veggie Sandwich",
-        "confidence": 0.4758,
+        "confidence": 0.6544,
         "question": "Veggie Sandwich is costed at $1.96 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.9587,
@@ -5696,7 +5848,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Maple Cured Ham",
-        "confidence": 0.315,
+        "confidence": 0.5612,
         "question": "Maple Cured Ham is costed at $0.94 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.9416,
@@ -5710,7 +5862,7 @@
       {
         "kind": "plate_cost",
         "ref": "Two Eggs Any Style",
-        "confidence": 0.6517,
+        "confidence": 0.8073,
         "question": "Two Eggs Any Style computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.7057,
@@ -5723,7 +5875,7 @@
       {
         "kind": "plate_cost",
         "ref": "Scrambled Eggs w/cheddar",
-        "confidence": 0.6694,
+        "confidence": 0.8182,
         "question": "Scrambled Eggs w/cheddar computes to 10% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.9932,
@@ -5736,7 +5888,7 @@
       {
         "kind": "plate_cost",
         "ref": "Hash Browns",
-        "confidence": 0.6092,
+        "confidence": 0.7805,
         "question": "Hash Browns computes to 4% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.2458,
@@ -5749,7 +5901,7 @@
       {
         "kind": "plate_cost",
         "ref": "Cheese Grits",
-        "confidence": 0.576,
+        "confidence": 0.7589,
         "question": "Cheese Grits computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.6169,
@@ -5762,7 +5914,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Toast: sourdough/7-grain",
-        "confidence": 0.4688,
+        "confidence": 0.6847,
         "question": "Toast: sourdough/7-grain is costed at $0.19 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.1894,
@@ -5775,7 +5927,7 @@
       {
         "kind": "plate_cost",
         "ref": "Toast: sourdough/7-grain",
-        "confidence": 0.4688,
+        "confidence": 0.6847,
         "question": "Toast: sourdough/7-grain computes to 5% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.1894,
@@ -5788,7 +5940,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Fresh Fruit",
-        "confidence": 0.036,
+        "confidence": 0.0849,
         "question": "Fresh Fruit is costed at $0.28 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.275,
@@ -5801,7 +5953,7 @@
       {
         "kind": "plate_cost",
         "ref": "Fresh Fruit",
-        "confidence": 0.036,
+        "confidence": 0.0849,
         "question": "Fresh Fruit computes to 3% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.275,
@@ -5819,7 +5971,7 @@
       {
         "kind": "plate_cost",
         "ref": "Hand Cut Fries",
-        "confidence": 0.525,
+        "confidence": 0.7246,
         "question": "Hand Cut Fries computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.3948,
@@ -5832,7 +5984,7 @@
       {
         "kind": "plate_cost",
         "ref": "Sweet Potato Fries",
-        "confidence": 0.525,
+        "confidence": 0.7246,
         "question": "Sweet Potato Fries computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.6198,
@@ -5845,7 +5997,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Dressed Greens",
-        "confidence": 0.348,
+        "confidence": 0.5899,
         "question": "Dressed Greens is costed at $1.32 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.3226,
@@ -5859,7 +6011,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Side Avocado",
-        "confidence": 0.475,
+        "confidence": 0.6892,
         "question": "Side Avocado is costed at $1.34 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.3361,
@@ -5872,7 +6024,7 @@
       {
         "kind": "plate_quantity",
         "ref": "LES Pickles",
-        "confidence": 0.12,
+        "confidence": 0.3,
         "question": "LES Pickles is costed at $0.35 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.3458,
@@ -5887,7 +6039,7 @@
       {
         "kind": "plate_cost",
         "ref": "LES Pickles",
-        "confidence": 0.12,
+        "confidence": 0.3,
         "question": "LES Pickles computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.3458,
@@ -5902,7 +6054,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Fried Chicken Breast",
-        "confidence": 0.4008,
+        "confidence": 0.6331,
         "question": "Fried Chicken Breast is costed at $1.74 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.7353,
@@ -5916,7 +6068,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Biscuit w/ Butter & Jam",
-        "confidence": 0.2521,
+        "confidence": 0.4583,
         "question": "Biscuit w/ Butter & Jam is costed at $0.68 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.6761,
@@ -5931,7 +6083,7 @@
       {
         "kind": "plate_quantity",
         "ref": "House Smoked Salmon",
-        "confidence": 0.2844,
+        "confidence": 0.4618,
         "question": "House Smoked Salmon is costed at $2.17 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.1681,
@@ -5945,7 +6097,7 @@
       {
         "kind": "plate_cost",
         "ref": "Bottomless Coffee",
-        "confidence": 0.49,
+        "confidence": 0.7,
         "question": "Bottomless Coffee computes to 4% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.2,
@@ -5958,7 +6110,7 @@
       {
         "kind": "plate_cost",
         "ref": "Espresso",
-        "confidence": 0.7225,
+        "confidence": 0.85,
         "question": "Espresso computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.2581,
@@ -5971,7 +6123,7 @@
       {
         "kind": "plate_cost",
         "ref": "Con Leche",
-        "confidence": 0.5375,
+        "confidence": 0.7331,
         "question": "Con Leche computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.4211,
@@ -5984,7 +6136,7 @@
       {
         "kind": "plate_cost",
         "ref": "Cappuccino/Latte",
-        "confidence": 0.66,
+        "confidence": 0.8124,
         "question": "Cappuccino/Latte computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.4878,
@@ -5997,7 +6149,7 @@
       {
         "kind": "plate_cost",
         "ref": "Mocha",
-        "confidence": 0.4219,
+        "confidence": 0.5625,
         "question": "Mocha computes to 8% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.5026,
@@ -6012,7 +6164,7 @@
       {
         "kind": "plate_cost",
         "ref": "Harney & Sons Teas",
-        "confidence": 0.49,
+        "confidence": 0.7,
         "question": "Harney & Sons Teas computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.07,
@@ -6025,7 +6177,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Fresh Local Apple Cider",
-        "confidence": 0.075,
+        "confidence": 0.1936,
         "question": "Fresh Local Apple Cider is costed at $0.01 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.0095,
@@ -6038,7 +6190,7 @@
       {
         "kind": "plate_cost",
         "ref": "Fresh Local Apple Cider",
-        "confidence": 0.075,
+        "confidence": 0.1936,
         "question": "Fresh Local Apple Cider computes to 0% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.0095,
@@ -6053,7 +6205,7 @@
       {
         "kind": "plate_quantity",
         "ref": "House Blend Hot Chocolate",
-        "confidence": 0.3169,
+        "confidence": 0.4875,
         "question": "House Blend Hot Chocolate is costed at $0.49 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.4851,
@@ -6066,7 +6218,7 @@
       {
         "kind": "plate_cost",
         "ref": "House Blend Hot Chocolate",
-        "confidence": 0.3169,
+        "confidence": 0.4875,
         "question": "House Blend Hot Chocolate computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.4851,
@@ -6081,7 +6233,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Mexican Coffee",
-        "confidence": 0.192,
+        "confidence": 0.3394,
         "question": "Mexican Coffee is costed at $0.47 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.4686,
@@ -6094,7 +6246,7 @@
       {
         "kind": "plate_cost",
         "ref": "Mexican Coffee",
-        "confidence": 0.192,
+        "confidence": 0.3394,
         "question": "Mexican Coffee computes to 3% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.4686,
@@ -6110,7 +6262,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Hot Buttered Rum",
-        "confidence": 0.16,
+        "confidence": 0.3098,
         "question": "Hot Buttered Rum is costed at $0.18 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.1777,
@@ -6124,7 +6276,7 @@
       {
         "kind": "plate_cost",
         "ref": "Hot Buttered Rum",
-        "confidence": 0.16,
+        "confidence": 0.3098,
         "question": "Hot Buttered Rum computes to 1% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.1777,
@@ -6140,7 +6292,7 @@
       {
         "kind": "plate_cost",
         "ref": "Unsweetened Iced Tea",
-        "confidence": 0.42,
+        "confidence": 0.6481,
         "question": "Unsweetened Iced Tea computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.07,
@@ -6153,7 +6305,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Herbal Raspberry Iced Tea",
-        "confidence": 0.18,
+        "confidence": 0.4243,
         "question": "Herbal Raspberry Iced Tea is costed at $0.09 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.0947,
@@ -6167,7 +6319,7 @@
       {
         "kind": "plate_cost",
         "ref": "Herbal Raspberry Iced Tea",
-        "confidence": 0.18,
+        "confidence": 0.4243,
         "question": "Herbal Raspberry Iced Tea computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.0947,
@@ -6180,7 +6332,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Arnold Palmer",
-        "confidence": 0.3208,
+        "confidence": 0.5664,
         "question": "Arnold Palmer is costed at $0.47 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.4662,
@@ -6193,7 +6345,7 @@
       {
         "kind": "plate_cost",
         "ref": "Arnold Palmer",
-        "confidence": 0.3208,
+        "confidence": 0.5664,
         "question": "Arnold Palmer computes to 8% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.4662,
@@ -6206,7 +6358,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Seasonal Lemonade",
-        "confidence": 0.1867,
+        "confidence": 0.432,
         "question": "Seasonal Lemonade is costed at $1.08 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.0813,
@@ -6221,7 +6373,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Ithaca Root Beer",
-        "confidence": 0.09,
+        "confidence": 0.3,
         "question": "Ithaca Root Beer is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.8,
@@ -6234,7 +6386,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Boylan's Ginger Ale",
-        "confidence": 0.3025,
+        "confidence": 0.55,
         "question": "Boylan's Ginger Ale is costed at $1.55 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.55,
@@ -6247,7 +6399,7 @@
       {
         "kind": "plate_cost",
         "ref": "Mimosa",
-        "confidence": 0.3825,
+        "confidence": 0.4373,
         "question": "Mimosa computes to 3% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.4031,
@@ -6262,7 +6414,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Market Bellini",
-        "confidence": 0.125,
+        "confidence": 0.25,
         "question": "Market Bellini is costed at $1.03 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.0312,
@@ -6275,7 +6427,7 @@
       {
         "kind": "plate_cost",
         "ref": "Market Bellini",
-        "confidence": 0.125,
+        "confidence": 0.25,
         "question": "Market Bellini computes to 8% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.0312,
@@ -6290,7 +6442,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Clinton St. Bloody Mary",
-        "confidence": 0.22,
+        "confidence": 0.4282,
         "question": "Clinton St. Bloody Mary is costed at $1.63 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.6254,
@@ -6306,7 +6458,7 @@
       {
         "kind": "plate_cost",
         "ref": "Spiked Apple Cider",
-        "confidence": 0.1283,
+        "confidence": 0.2068,
         "question": "Spiked Apple Cider computes to 1% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.0969,
@@ -6322,7 +6474,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Tequila Sunrise",
-        "confidence": 0.21,
+        "confidence": 0.3742,
         "question": "Tequila Sunrise is costed at $0.58 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.5844,
@@ -6335,7 +6487,7 @@
       {
         "kind": "plate_cost",
         "ref": "Tequila Sunrise",
-        "confidence": 0.21,
+        "confidence": 0.3742,
         "question": "Tequila Sunrise computes to 4% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.5844,
@@ -6350,7 +6502,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Tipsy Palmer",
-        "confidence": 0.2,
+        "confidence": 0.3873,
         "question": "Tipsy Palmer is costed at $0.40 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.4044,
@@ -6364,7 +6516,7 @@
       {
         "kind": "plate_cost",
         "ref": "Tipsy Palmer",
-        "confidence": 0.2,
+        "confidence": 0.3873,
         "question": "Tipsy Palmer computes to 3% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.4044,
@@ -6379,7 +6531,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Hard Blueberry Lemonade",
-        "confidence": 0.2,
+        "confidence": 0.3873,
         "question": "Hard Blueberry Lemonade is costed at $0.51 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.5063,
@@ -6393,7 +6545,7 @@
       {
         "kind": "plate_cost",
         "ref": "Hard Blueberry Lemonade",
-        "confidence": 0.2,
+        "confidence": 0.3873,
         "question": "Hard Blueberry Lemonade computes to 4% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.5063,
@@ -6408,7 +6560,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Vanilla Shake",
-        "confidence": 0.25,
+        "confidence": 0.5,
         "question": "Vanilla Shake is costed at $0.42 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.4184,
@@ -6422,7 +6574,7 @@
       {
         "kind": "plate_cost",
         "ref": "Wild Maine Blueberry Shake",
-        "confidence": 0.2719,
+        "confidence": 0.3687,
         "question": "Wild Maine Blueberry Shake computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.3172,
@@ -6438,7 +6590,7 @@
       {
         "kind": "plate_cost",
         "ref": "Boozy Mexican Coffee",
-        "confidence": 0.1286,
+        "confidence": 0.1917,
         "question": "Boozy Mexican Coffee computes to 0% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.0144,

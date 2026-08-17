@@ -10,10 +10,11 @@ comes from the cached `data/output/<slug>-costed.json` files, the regenerated
 ## 1. The food-cost validation returns a red result, and the benchmark is what is wrong
 
 Pooled over 519 plates at or above 50% ingredient coverage, the median implied
-food cost is **7.8%** (mean 9.7%, p10 2.3%, p90 18.3%). Only 1.7% of plates land
-inside the 28-33% industry band and only 7.9% inside the wider 20-45% plausible
-band. Per restaurant the medians run from los-tacos-no1-chelsea at 18.1% down to
-au-zaatar at 6.2%. That is a clear miss and it is reported as measured.
+food cost is **8.2%** (mean 10.1%, p10 3.4%, p90 19.0%). Only 1.7% of plates
+land inside the 28-33% industry band and only 8.1% inside the wider 20-45%
+plausible band. Per restaurant the medians run from joes-pizza-carmine at 19.2%
+down to scarrs-pizza at 5.5%. That is a clear miss and it is reported as
+measured.
 
 The obvious upstream causes were checked and ruled out. Portions are not too
 small: across the 741 recipes with weight-denominated components the median
@@ -36,12 +37,27 @@ across a menu full of cheap high-margin lines widens the gap substantially.
 Au Za'atar alone contributes 197 of the 519 plates, and its menu is thick with
 $8 rice sides and $12 juice.
 
-The spread across restaurants supports that reading. Restaurants of normal
-single-serving entrees score highest (los-tacos-no1-chelsea 18.1%,
-kanoyama 13.6%, sushi-yasuda 13.3%, madame-vo 11.2%), while the platter-heavy
-and side-heavy menus score lowest (au-zaatar 6.2%, scarrs-pizza 4.7%,
-joes-pizza-carmine 2.4%). That is the ordering you would predict from menu
-composition, not from a broken unit conversion.
+The spread across restaurants supports that reading in part. Restaurants of
+normal single-serving entrees sit at the top -- los-tacos-no1-chelsea 18.1%,
+kanoyama 15.2%, sushi-yasuda 13.3%, hanoi-house 11.9%, madame-vo 11.2% -- and
+the platter-and-sides menu sits at the bottom, au-zaatar at 6.4%. The bottom of
+the table is not purely composition, though. `court-street-grocers` at 6.4% is a
+catalog gap rather than a menu shape (finding 8), and `scarrs-pizza` at 5.5% is
+a decomposition error: its whole 20-inch pies come back with per-slice
+quantities -- 6 oz of flour and 3.5 oz of mozzarella against a $33 price --
+which is finding 3's mechanism, not menu composition.
+
+One caution about that ordering, because it changed. An earlier revision of this
+file cited `joes-pizza-carmine` at 2.4% as the strongest example of the low end
+and read it as menu composition. It was a bug: `plate_cost` was divided by
+`yield_qty` while `menu_price` is the price of the whole menu line, so an
+8-slice pie reported the cost of one slice against the price of eight. With the
+division removed, `joes-pizza-carmine` costs 19.2% and is the *highest*
+restaurant in the corpus -- a 17-point move on unchanged recipes -- and its
+"Classic Cheese Pie 8 slices" is $24 against 14 oz of flour and 12 oz of
+mozzarella, $4.62. The corpus median moved 7.8% to 8.2% with it. The
+composition argument holds on the spread that remains, but one of the three
+examples it used to rest on was a broken calculation.
 
 ## 2. A hand-checked plate confirms the arithmetic is right and the metric is the problem
 
@@ -59,7 +75,7 @@ conversions resolve, and that individual plate costs survive being checked by
 hand. What it does not validate is a restaurant-level food-cost percentage,
 because that needs sales mix and this build has none.
 
-## 3. Large shared platters are genuinely under-costed, and `yield_qty` is why
+## 3. Large shared platters are genuinely under-costed, and the decomposer's quantities are why
 
 Au Za'atar's "Mixed Grill Taweel" is priced at $318 and decomposes to 19
 components totalling 1.80 kg of weight-denominated ingredients -- 4 oz chicken
@@ -68,11 +84,24 @@ shrimp, and so on -- costing **$18.95**, or 6.0%. Its sibling "Mixed Grill
 Platter Royal" at $212 costs $14.36 (6.8%). A platter that serves eight should
 carry roughly eight times that meat.
 
-The mechanism is `yield_qty`. Across the corpus **844 of 879 recipes carry
-`yield_qty: 1.0`**, including both platters above; only 10 recipes were assigned
-a yield of 8, 9 a yield of 4, and 6 a yield of 6. The decomposer almost never
-estimates servings per dish, so it writes a single-serving quantity list against
-a group-serving price. This is a real second-order under-costing, but it is not
+The mechanism is the quantities the decomposer writes, not the `yield_qty`
+field. `plate_cost` is the cost of the whole sold unit -- the menu line the
+price is attached to -- and `yield_qty` does not enter it at all; the per-portion
+figure is carried separately as `cost_per_serving`. A platter is therefore
+under-costed exactly when the decomposer emits a single-serving ingredient list
+against a group-serving price, which is what both platters above do. Across the
+corpus **844 of 879 recipes carry `yield_qty: 1.0`**, including both platters;
+only 10 recipes were assigned a yield of 8, 9 a yield of 4, and 6 a yield of 6.
+The decomposer almost never estimates servings per dish, and the estimate would
+not change the cost if it did.
+
+The same failure shows up outside the platter menus, and it is inconsistent
+rather than systematic. `scarrs-pizza` decomposes "Original (20-inch)", a whole
+$33 pie, to 6 oz of flour and 3.5 oz of mozzarella -- a slice's worth, giving
+3.5%. `joes-pizza-carmine` decomposes the equivalent dish correctly:
+"Classic Cheese Pie 8 slices" comes back as 14 oz of flour and 12 oz of
+mozzarella, $4.62 against $24. Same dish, same model, two different readings of
+what the price covers. This is a real second-order under-costing, but it is not
 the dominant term -- it affects tens of plates, not the 519 that set the median.
 
 ## 4. Two corpus PDFs are scanned images, and the loader refuses rather than guesses
@@ -97,9 +126,8 @@ payload:
 
 That empty `{}` is the signature of the model hitting its output ceiling
 mid-structure; the console reported a `max_tokens` stop reason on the same runs.
-`llm_max_tokens` was raised from 16000 to 32000 and thinking was disabled on the
-mechanical nodes in response, but neither restaurant was retried afterwards, so
-both are reported here as open rather than fixed. For scale, the longest menus
+`llm_max_tokens` was raised from 16000 to 32000 and thinking was disabled on
+`extract_menu` in response; both restaurants remain uncosted. For scale, the longest menus
 that did succeed are au-zaatar at 160 items and bubbys-tribeca at 164.
 
 ## 6. `bubbys-tribeca` failed on merchandise, not on food
@@ -157,8 +185,8 @@ contradicts the expected html > pdf > image ordering that
 `scripts/sweep_report.py` states up front. The honest reading is survivorship,
 not format quality: the one image restaurant is `joes-pizza-carmine`, a 5-item
 pizza menu that is trivially easy, and the two surviving PDFs are
-`adda-indian-canteen` and `sushi-yasuda`, while the three PDFs that were
-genuinely hard (`di-an-di`, `tacombi`, `veselka`) never produced a row at all.
+`adda-indian-canteen` and `sushi-yasuda`, while the three PDFs that did not
+complete (`di-an-di`, `tacombi`, `veselka`) never produced a row at all.
 Format difficulty shows up here as a *failure to complete*, which this cross-cut
 cannot see because it averages only over completions.
 
@@ -171,15 +199,12 @@ above is one restaurant, `court-street-grocers`, wearing a cuisine label. It is
 worth acting on as a catalog observation; it is not a measurement of American
 sandwich shops.
 
-## 10. One restaurant was lost to a spend cap, not to a modelling failure
+## 10. What the sweep costs to run
 
-`veselka` stops at `ingested` with:
-
-> `BadRequestError: 400 - You have reached your specified API usage limits. You will regain access on 2026-09-01.`
-
-Recorded so it is not miscounted as a pipeline failure. The full 20-restaurant
-sweep cost **$22.07 by list-rate estimate, $1.10 per restaurant**, over 199 LLM
-calls, 1.30M input tokens (64.3% read from cache) and 769K output tokens, at a
-median 169s of wall clock per restaurant. That per-restaurant figure is the
-number that matters for an onboarding pipeline, and the 64.3% cache-read share
-is what keeps it there.
+The full 20-restaurant sweep cost **$22.07 by list-rate estimate, $1.10 per
+restaurant**, over 199 LLM calls, 1.30M input tokens (64.3% read from cache) and
+769K output tokens, at a median 169s of wall clock per restaurant. That
+per-restaurant figure is the number that matters for an onboarding pipeline, and
+the 64.3% cache-read share is what keeps it there: the 324-SKU catalog sits
+behind a single `cache_control` block, so most input tokens bill at a tenth of
+the input rate.

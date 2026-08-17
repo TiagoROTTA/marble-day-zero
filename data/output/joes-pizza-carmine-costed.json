@@ -363,46 +363,54 @@
     "plate_costs": [
       {
         "item_name": "Classic Cheese Pie 8 slices",
-        "plate_cost": 0.5773,
+        "plate_cost": 4.6186,
+        "cost_per_serving": 0.5773,
+        "yield_qty": 8.0,
         "menu_price": 24.0,
-        "food_cost_pct": 0.0241,
+        "food_cost_pct": 0.1924,
         "costed_components": 8,
         "total_components": 8,
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.57,
+        "confidence": 0.755,
         "costable": true
       },
       {
         "item_name": "Fresh Mozzarella Pie 8 Slices",
-        "plate_cost": 0.5985,
+        "plate_cost": 4.7877,
+        "cost_per_serving": 0.5985,
+        "yield_qty": 8.0,
         "menu_price": 28.0,
-        "food_cost_pct": 0.0214,
+        "food_cost_pct": 0.171,
         "costed_components": 8,
         "total_components": 8,
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5509,
+        "confidence": 0.7422,
         "costable": true
       },
       {
         "item_name": "Sicilian Square Pie 8 Slices",
-        "plate_cost": 0.6639,
+        "plate_cost": 5.3113,
+        "cost_per_serving": 0.6639,
+        "yield_qty": 8.0,
         "menu_price": 28.0,
-        "food_cost_pct": 0.0237,
+        "food_cost_pct": 0.1897,
         "costed_components": 8,
         "total_components": 8,
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.486,
+        "confidence": 0.6971,
         "costable": true
       },
       {
         "item_name": "Sodas, Snapple, Stewarts",
         "plate_cost": 0.8,
+        "cost_per_serving": 0.8,
+        "yield_qty": 1.0,
         "menu_price": 2.5,
         "food_cost_pct": 0.32,
         "costed_components": 1,
@@ -412,12 +420,14 @@
         "low_confidence": [
           "Cola cans 12 oz (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.25,
+        "confidence": 0.5,
         "costable": true
       },
       {
         "item_name": "Imported Coke, Sprite, or Fanta",
         "plate_cost": 0.8,
+        "cost_per_serving": 0.8,
+        "yield_qty": 1.0,
         "menu_price": 3.5,
         "food_cost_pct": 0.2286,
         "costed_components": 1,
@@ -427,7 +437,7 @@
         "low_confidence": [
           "Cola cans 12 oz (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2025,
+        "confidence": 0.45,
         "costable": true
       }
     ],
@@ -436,48 +446,9 @@
     "purchase_order": {},
     "review_queue": [
       {
-        "kind": "plate_cost",
-        "ref": "Classic Cheese Pie 8 slices",
-        "confidence": 0.57,
-        "question": "Classic Cheese Pie 8 slices computes to 2% food cost — check the recipe or the price",
-        "payload": {
-          "plate_cost": 0.5773,
-          "menu_price": 24.0,
-          "food_cost_pct": 0.0241,
-          "coverage": 1.0,
-          "uncosted": []
-        }
-      },
-      {
-        "kind": "plate_cost",
-        "ref": "Fresh Mozzarella Pie 8 Slices",
-        "confidence": 0.5509,
-        "question": "Fresh Mozzarella Pie 8 Slices computes to 2% food cost — check the recipe or the price",
-        "payload": {
-          "plate_cost": 0.5985,
-          "menu_price": 28.0,
-          "food_cost_pct": 0.0214,
-          "coverage": 1.0,
-          "uncosted": []
-        }
-      },
-      {
-        "kind": "plate_cost",
-        "ref": "Sicilian Square Pie 8 Slices",
-        "confidence": 0.486,
-        "question": "Sicilian Square Pie 8 Slices computes to 2% food cost — check the recipe or the price",
-        "payload": {
-          "plate_cost": 0.6639,
-          "menu_price": 28.0,
-          "food_cost_pct": 0.0237,
-          "coverage": 1.0,
-          "uncosted": []
-        }
-      },
-      {
         "kind": "plate_quantity",
         "ref": "Sodas, Snapple, Stewarts",
-        "confidence": 0.25,
+        "confidence": 0.5,
         "question": "Sodas, Snapple, Stewarts is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.8,
@@ -490,7 +461,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Imported Coke, Sprite, or Fanta",
-        "confidence": 0.2025,
+        "confidence": 0.45,
         "question": "Imported Coke, Sprite, or Fanta is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.8,

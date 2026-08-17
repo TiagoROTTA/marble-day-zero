@@ -1039,6 +1039,8 @@
       {
         "item_name": "Carne Asada",
         "plate_cost": 1.9478,
+        "cost_per_serving": 1.9478,
+        "yield_qty": 1.0,
         "menu_price": 5.95,
         "food_cost_pct": 0.3274,
         "costed_components": 6,
@@ -1048,12 +1050,14 @@
           "Corn tortillas 6 inch (no conversion from each to lb)"
         ],
         "low_confidence": [],
-        "confidence": 0.39,
+        "confidence": 0.5782,
         "costable": true
       },
       {
         "item_name": "Pollo Asado",
         "plate_cost": 0.5103,
+        "cost_per_serving": 0.5103,
+        "yield_qty": 1.0,
         "menu_price": 5.65,
         "food_cost_pct": 0.0903,
         "costed_components": 6,
@@ -1063,12 +1067,14 @@
           "Corn tortillas 6 inch (no conversion from each to lb)"
         ],
         "low_confidence": [],
-        "confidence": 0.39,
+        "confidence": 0.5782,
         "costable": true
       },
       {
         "item_name": "Adobada",
         "plate_cost": 0.6809,
+        "cost_per_serving": 0.6809,
+        "yield_qty": 1.0,
         "menu_price": 5.65,
         "food_cost_pct": 0.1205,
         "costed_components": 8,
@@ -1078,12 +1084,14 @@
           "Corn tortillas 6 inch (no conversion from each to lb)"
         ],
         "low_confidence": [],
-        "confidence": 0.3726,
+        "confidence": 0.5755,
         "costable": true
       },
       {
         "item_name": "Nopal",
         "plate_cost": 0.279,
+        "cost_per_serving": 0.279,
+        "yield_qty": 1.0,
         "menu_price": 5.25,
         "food_cost_pct": 0.0531,
         "costed_components": 6,
@@ -1096,12 +1104,14 @@
         "low_confidence": [
           "Queso fresco (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2795,
+        "confidence": 0.4578,
         "costable": true
       },
       {
         "item_name": "Carne Asada",
         "plate_cost": 2.8193,
+        "cost_per_serving": 2.8193,
+        "yield_qty": 1.0,
         "menu_price": 5.95,
         "food_cost_pct": 0.4738,
         "costed_components": 6,
@@ -1112,12 +1122,14 @@
           "White onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4267,
+        "confidence": 0.6532,
         "costable": true
       },
       {
         "item_name": "Pollo Asado",
         "plate_cost": 1.0943,
+        "cost_per_serving": 1.0943,
+        "yield_qty": 1.0,
         "menu_price": 5.65,
         "food_cost_pct": 0.1937,
         "costed_components": 6,
@@ -1128,12 +1140,14 @@
           "White onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4267,
+        "confidence": 0.6532,
         "costable": true
       },
       {
         "item_name": "Adobada",
         "plate_cost": 1.2329,
+        "cost_per_serving": 1.2329,
+        "yield_qty": 1.0,
         "menu_price": 5.65,
         "food_cost_pct": 0.2182,
         "costed_components": 7,
@@ -1141,12 +1155,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.4179,
+        "confidence": 0.6464,
         "costable": true
       },
       {
         "item_name": "Nopal",
         "plate_cost": 0.7439,
+        "cost_per_serving": 0.7439,
+        "yield_qty": 1.0,
         "menu_price": 5.25,
         "food_cost_pct": 0.1417,
         "costed_components": 4,
@@ -1158,12 +1174,14 @@
         "low_confidence": [
           "Queso fresco (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3,
+        "confidence": 0.4899,
         "costable": true
       },
       {
         "item_name": "Especial",
         "plate_cost": 2.5321,
+        "cost_per_serving": 2.5321,
+        "yield_qty": 1.0,
         "menu_price": 9.0,
         "food_cost_pct": 0.2813,
         "costed_components": 8,
@@ -1179,12 +1197,14 @@
           "Sour cream (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Fresh cilantro (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1775,
+        "confidence": 0.4213,
         "costable": true
       },
       {
         "item_name": "Nopal Plate",
         "plate_cost": 0.7887,
+        "cost_per_serving": 0.7887,
+        "yield_qty": 1.0,
         "menu_price": 12.0,
         "food_cost_pct": 0.0657,
         "costed_components": 7,
@@ -1198,12 +1218,14 @@
           "White onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3156,
+        "confidence": 0.4954,
         "costable": true
       },
       {
         "item_name": "Chips y Salsa",
         "plate_cost": 0.513,
+        "cost_per_serving": 0.513,
+        "yield_qty": 1.0,
         "menu_price": 4.75,
         "food_cost_pct": 0.108,
         "costed_components": 7,
@@ -1220,12 +1242,14 @@
           "Fresh cilantro (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Persian lime (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2775,
+        "confidence": 0.4928,
         "costable": true
       },
       {
         "item_name": "Chips y Guacamole",
         "plate_cost": 2.3064,
+        "cost_per_serving": 2.3064,
+        "yield_qty": 1.0,
         "menu_price": 5.95,
         "food_cost_pct": 0.3876,
         "costed_components": 7,
@@ -1240,12 +1264,14 @@
           "Fresh cilantro (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Jalapeno pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2888,
+        "confidence": 0.5026,
         "costable": true
       },
       {
         "item_name": "Aguas Frescas",
         "plate_cost": 0.4619,
+        "cost_per_serving": 0.4619,
+        "yield_qty": 1.0,
         "menu_price": 4.75,
         "food_cost_pct": 0.0972,
         "costed_components": 3,
@@ -1257,12 +1283,14 @@
           "Ripe papaya (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
           "Fresh lime (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1015,
+        "confidence": 0.3186,
         "costable": true
       },
       {
         "item_name": "Mexican Sodas",
         "plate_cost": 0.8,
+        "cost_per_serving": 0.8,
+        "yield_qty": 1.0,
         "menu_price": 4.75,
         "food_cost_pct": 0.1684,
         "costed_components": 1,
@@ -1272,12 +1300,14 @@
         "low_confidence": [
           "Cola cans 12 oz (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.25,
+        "confidence": 0.5,
         "costable": true
       },
       {
         "item_name": "Bottled Sodas",
         "plate_cost": 0.8,
+        "cost_per_serving": 0.8,
+        "yield_qty": 1.0,
         "menu_price": 3.75,
         "food_cost_pct": 0.2133,
         "costed_components": 1,
@@ -1287,12 +1317,14 @@
         "low_confidence": [
           "Cola cans 12 oz (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.25,
+        "confidence": 0.5,
         "costable": true
       },
       {
         "item_name": "Water",
         "plate_cost": 1.1,
+        "cost_per_serving": 1.1,
+        "yield_qty": 1.0,
         "menu_price": 2.95,
         "food_cost_pct": 0.3729,
         "costed_components": 1,
@@ -1302,7 +1334,7 @@
         "low_confidence": [
           "Sparkling water bottles (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.25,
+        "confidence": 0.5,
         "costable": true
       }
     ],
@@ -1333,7 +1365,7 @@
       {
         "kind": "plate_cost",
         "ref": "Pollo Asado",
-        "confidence": 0.39,
+        "confidence": 0.5782,
         "question": "Pollo Asado computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.5103,
@@ -1348,7 +1380,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Nopal",
-        "confidence": 0.2795,
+        "confidence": 0.4578,
         "question": "Nopal is costed at $0.28 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.279,
@@ -1361,7 +1393,7 @@
       {
         "kind": "plate_cost",
         "ref": "Nopal",
-        "confidence": 0.2795,
+        "confidence": 0.4578,
         "question": "Nopal computes to 5% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.279,
@@ -1377,7 +1409,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Carne Asada",
-        "confidence": 0.4267,
+        "confidence": 0.6532,
         "question": "Carne Asada is costed at $2.82 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.8193,
@@ -1391,7 +1423,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Pollo Asado",
-        "confidence": 0.4267,
+        "confidence": 0.6532,
         "question": "Pollo Asado is costed at $1.09 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.0943,
@@ -1405,7 +1437,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Nopal",
-        "confidence": 0.3,
+        "confidence": 0.4899,
         "question": "Nopal is costed at $0.74 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.7439,
@@ -1418,7 +1450,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Especial",
-        "confidence": 0.1775,
+        "confidence": 0.4213,
         "question": "Especial is costed at $2.53 using 7 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.5321,
@@ -1437,7 +1469,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Nopal Plate",
-        "confidence": 0.3156,
+        "confidence": 0.4954,
         "question": "Nopal Plate is costed at $0.79 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.7887,
@@ -1451,7 +1483,7 @@
       {
         "kind": "plate_cost",
         "ref": "Nopal Plate",
-        "confidence": 0.3156,
+        "confidence": 0.4954,
         "question": "Nopal Plate computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.7887,
@@ -1467,7 +1499,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Chips y Salsa",
-        "confidence": 0.2775,
+        "confidence": 0.4928,
         "question": "Chips y Salsa is costed at $0.51 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.513,
@@ -1485,7 +1517,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Chips y Guacamole",
-        "confidence": 0.2888,
+        "confidence": 0.5026,
         "question": "Chips y Guacamole is costed at $2.31 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.3064,
@@ -1501,7 +1533,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Aguas Frescas",
-        "confidence": 0.1015,
+        "confidence": 0.3186,
         "question": "Aguas Frescas is costed at $0.46 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.4619,
@@ -1516,7 +1548,7 @@
       {
         "kind": "plate_cost",
         "ref": "Aguas Frescas",
-        "confidence": 0.1015,
+        "confidence": 0.3186,
         "question": "Aguas Frescas computes to 10% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.4619,
@@ -1529,7 +1561,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Mexican Sodas",
-        "confidence": 0.25,
+        "confidence": 0.5,
         "question": "Mexican Sodas is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.8,
@@ -1542,7 +1574,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Bottled Sodas",
-        "confidence": 0.25,
+        "confidence": 0.5,
         "question": "Bottled Sodas is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.8,
@@ -1555,7 +1587,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Water",
-        "confidence": 0.25,
+        "confidence": 0.5,
         "question": "Water is costed at $1.10 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.1,

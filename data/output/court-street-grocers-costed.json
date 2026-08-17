@@ -2392,6 +2392,8 @@
       {
         "item_name": "BREAKFAST SANDWICH",
         "plate_cost": 1.0475,
+        "cost_per_serving": 1.0475,
+        "yield_qty": 1.0,
         "menu_price": 9.95,
         "food_cost_pct": 0.1053,
         "costed_components": 5,
@@ -2401,12 +2403,14 @@
           "ciabatta roll (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.5454,
+        "confidence": 0.6742,
         "costable": true
       },
       {
         "item_name": "B+B",
         "plate_cost": 1.7475,
+        "cost_per_serving": 1.7475,
+        "yield_qty": 1.0,
         "menu_price": 11.95,
         "food_cost_pct": 0.1462,
         "costed_components": 6,
@@ -2416,12 +2420,14 @@
           "ciabatta roll (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.5646,
+        "confidence": 0.6957,
         "costable": true
       },
       {
         "item_name": "B+C",
         "plate_cost": 1.6271,
+        "cost_per_serving": 1.6271,
+        "yield_qty": 1.0,
         "menu_price": 11.95,
         "food_cost_pct": 0.1362,
         "costed_components": 5,
@@ -2432,12 +2438,14 @@
           "ciabatta roll (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.4071,
+        "confidence": 0.5393,
         "costable": true
       },
       {
         "item_name": "PORK ROLL",
         "plate_cost": 1.7271,
+        "cost_per_serving": 1.7271,
+        "yield_qty": 1.0,
         "menu_price": 11.95,
         "food_cost_pct": 0.1445,
         "costed_components": 5,
@@ -2449,12 +2457,14 @@
         "low_confidence": [
           "Vietnamese pork roll (cha lua) (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.46,
+        "confidence": 0.6191,
         "costable": true
       },
       {
         "item_name": "MR. VICTOR",
         "plate_cost": 1.66,
+        "cost_per_serving": 1.66,
+        "yield_qty": 1.0,
         "menu_price": 11.95,
         "food_cost_pct": 0.1389,
         "costed_components": 6,
@@ -2464,12 +2474,14 @@
           "ciabatta roll (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.52,
+        "confidence": 0.6676,
         "costable": true
       },
       {
         "item_name": "OLLIEFLOWER",
         "plate_cost": 1.1274,
+        "cost_per_serving": 1.1274,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.0705,
         "costed_components": 6,
@@ -2481,12 +2493,14 @@
           "seeded hero roll (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.3228,
+        "confidence": 0.4639,
         "costable": true
       },
       {
         "item_name": "OLLIE",
         "plate_cost": 0.5688,
+        "cost_per_serving": 0.5688,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.0325,
         "costed_components": 4,
@@ -2499,12 +2513,14 @@
           "seeded hero roll (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.2531,
+        "confidence": 0.3558,
         "costable": true
       },
       {
         "item_name": "UNCLE CHUCKY",
         "plate_cost": 0.9361,
+        "cost_per_serving": 0.9361,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.0585,
         "costed_components": 8,
@@ -2519,12 +2535,14 @@
           "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Red wine vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3073,
+        "confidence": 0.4727,
         "costable": true
       },
       {
         "item_name": "UNCLE GRANDPA",
         "plate_cost": 0.3775,
+        "cost_per_serving": 0.3775,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.0216,
         "costed_components": 6,
@@ -2540,12 +2558,14 @@
           "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Red wine vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2437,
+        "confidence": 0.3824,
         "costable": true
       },
       {
         "item_name": "FLIP FLOP",
         "plate_cost": 0.877,
+        "cost_per_serving": 0.877,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.0501,
         "costed_components": 7,
@@ -2561,12 +2581,14 @@
           "Red wine vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2895,
+        "confidence": 0.4293,
         "costable": true
       },
       {
         "item_name": "VEGLOAF CLASSIC",
         "plate_cost": 0.2799,
+        "cost_per_serving": 0.2799,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.0175,
         "costed_components": 3,
@@ -2579,12 +2601,14 @@
           "vegan comeback sauce (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.21,
+        "confidence": 0.3,
         "costable": true
       },
       {
         "item_name": "REUBEN BROCC",
         "plate_cost": 1.182,
+        "cost_per_serving": 1.182,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.0739,
         "costed_components": 3,
@@ -2596,12 +2620,14 @@
           "rye bread (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.2687,
+        "confidence": 0.3666,
         "costable": true
       },
       {
         "item_name": "REUBEN",
         "plate_cost": 0.6562,
+        "cost_per_serving": 0.6562,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.0375,
         "costed_components": 1,
@@ -2614,12 +2640,14 @@
           "rye bread (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.12,
+        "confidence": 0.1549,
         "costable": true
       },
       {
         "item_name": "VEGITALIAN",
         "plate_cost": 1.5145,
+        "cost_per_serving": 1.5145,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.0947,
         "costed_components": 7,
@@ -2631,12 +2659,14 @@
           "seeded hero roll (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.3395,
+        "confidence": 0.4875,
         "costable": true
       },
       {
         "item_name": "ITALIAN COMBO",
         "plate_cost": 1.2137,
+        "cost_per_serving": 1.2137,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.0694,
         "costed_components": 5,
@@ -2650,12 +2680,14 @@
           "seeded hero roll (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.252,
+        "confidence": 0.355,
         "costable": true
       },
       {
         "item_name": "AMERICAN COMBO",
         "plate_cost": 0.3469,
+        "cost_per_serving": 0.3469,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.0198,
         "costed_components": 1,
@@ -2670,12 +2702,14 @@
           "seeded hero roll (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.0804,
+        "confidence": 0.1071,
         "costable": true
       },
       {
         "item_name": "DROOPY",
         "plate_cost": 0.1406,
+        "cost_per_serving": 0.1406,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.008,
         "costed_components": 1,
@@ -2688,12 +2722,14 @@
           "stecca bread (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.1008,
+        "confidence": 0.142,
         "costable": true
       },
       {
         "item_name": "THE JAWN",
         "plate_cost": 1.1203,
+        "cost_per_serving": 1.1203,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.064,
         "costed_components": 6,
@@ -2706,12 +2742,14 @@
           "seeded hero roll (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.2856,
+        "confidence": 0.414,
         "costable": true
       },
       {
         "item_name": "VEG-DELITE",
         "plate_cost": 1.0695,
+        "cost_per_serving": 1.0695,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.0668,
         "costed_components": 3,
@@ -2724,12 +2762,14 @@
           "rye bread (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.2304,
+        "confidence": 0.3142,
         "costable": true
       },
       {
         "item_name": "DELIGHT",
         "plate_cost": 0.6562,
+        "cost_per_serving": 0.6562,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.0375,
         "costed_components": 1,
@@ -2743,12 +2783,14 @@
           "rye bread (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.1,
+        "confidence": 0.1291,
         "costable": true
       },
       {
         "item_name": "TUNABERRY",
         "plate_cost": 0.5002,
+        "cost_per_serving": 0.5002,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.0286,
         "costed_components": 5,
@@ -2765,12 +2807,14 @@
           "Granny Smith apple (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1963,
+        "confidence": 0.3303,
         "costable": true
       },
       {
         "item_name": "SALMON SANDWICH",
         "plate_cost": 0.324,
+        "cost_per_serving": 0.324,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.0185,
         "costed_components": 5,
@@ -2788,12 +2832,14 @@
           "Red onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "White distilled vinegar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1755,
+        "confidence": 0.2962,
         "costable": true
       },
       {
         "item_name": "CLEAN TURKEY",
         "plate_cost": 0.3573,
+        "cost_per_serving": 0.3573,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.0204,
         "costed_components": 5,
@@ -2809,12 +2855,14 @@
           "Red wine vinegar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2234,
+        "confidence": 0.3737,
         "costable": true
       },
       {
         "item_name": "HAM & CHEESE",
         "plate_cost": 0.5621,
+        "cost_per_serving": 0.5621,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.0321,
         "costed_components": 3,
@@ -2828,12 +2876,14 @@
         "low_confidence": [
           "Heavy-duty mayonnaise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2217,
+        "confidence": 0.3329,
         "costable": true
       },
       {
         "item_name": "YASHA",
         "plate_cost": 0.2118,
+        "cost_per_serving": 0.2118,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.0121,
         "costed_components": 4,
@@ -2849,12 +2899,14 @@
           "Red wine vinegar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Daikon radish (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.18,
+        "confidence": 0.3207,
         "costable": true
       },
       {
         "item_name": "CUBANO",
         "plate_cost": 1.1105,
+        "cost_per_serving": 1.1105,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.0635,
         "costed_components": 4,
@@ -2870,12 +2922,14 @@
           "Heavy-duty mayonnaise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2205,
+        "confidence": 0.332,
         "costable": true
       },
       {
         "item_name": "MACHO (WO)MAN",
         "plate_cost": 1.2584,
+        "cost_per_serving": 1.2584,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.0719,
         "costed_components": 8,
@@ -2893,12 +2947,14 @@
           "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.264,
+        "confidence": 0.4596,
         "costable": true
       },
       {
         "item_name": "ULTIMATE WARRIOR",
         "plate_cost": 1.6624,
+        "cost_per_serving": 1.6624,
+        "yield_qty": 1.0,
         "menu_price": 17.5,
         "food_cost_pct": 0.095,
         "costed_components": 5,
@@ -2913,12 +2969,14 @@
           "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2213,
+        "confidence": 0.3719,
         "costable": true
       },
       {
         "item_name": "CATSKILL ROAST PORK",
         "plate_cost": 0.7128,
+        "cost_per_serving": 0.7128,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.0445,
         "costed_components": 3,
@@ -2933,7 +2991,7 @@
           "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1757,
+        "confidence": 0.2964,
         "costable": true
       }
     ],
@@ -3354,7 +3412,7 @@
       {
         "kind": "plate_quantity",
         "ref": "PORK ROLL",
-        "confidence": 0.46,
+        "confidence": 0.6191,
         "question": "PORK ROLL is costed at $1.73 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.7271,
@@ -3367,7 +3425,7 @@
       {
         "kind": "plate_cost",
         "ref": "OLLIEFLOWER",
-        "confidence": 0.3228,
+        "confidence": 0.4639,
         "question": "OLLIEFLOWER computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.1274,
@@ -3384,7 +3442,7 @@
       {
         "kind": "plate_cost",
         "ref": "OLLIE",
-        "confidence": 0.2531,
+        "confidence": 0.3558,
         "question": "OLLIE computes to 3% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.5688,
@@ -3402,7 +3460,7 @@
       {
         "kind": "plate_quantity",
         "ref": "UNCLE CHUCKY",
-        "confidence": 0.3073,
+        "confidence": 0.4727,
         "question": "UNCLE CHUCKY is costed at $0.94 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.9361,
@@ -3416,7 +3474,7 @@
       {
         "kind": "plate_cost",
         "ref": "UNCLE CHUCKY",
-        "confidence": 0.3073,
+        "confidence": 0.4727,
         "question": "UNCLE CHUCKY computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.9361,
@@ -3433,7 +3491,7 @@
       {
         "kind": "plate_quantity",
         "ref": "UNCLE GRANDPA",
-        "confidence": 0.2437,
+        "confidence": 0.3824,
         "question": "UNCLE GRANDPA is costed at $0.38 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.3775,
@@ -3447,7 +3505,7 @@
       {
         "kind": "plate_cost",
         "ref": "UNCLE GRANDPA",
-        "confidence": 0.2437,
+        "confidence": 0.3824,
         "question": "UNCLE GRANDPA computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.3775,
@@ -3465,7 +3523,7 @@
       {
         "kind": "plate_quantity",
         "ref": "FLIP FLOP",
-        "confidence": 0.2895,
+        "confidence": 0.4293,
         "question": "FLIP FLOP is costed at $0.88 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.877,
@@ -3479,7 +3537,7 @@
       {
         "kind": "plate_cost",
         "ref": "FLIP FLOP",
-        "confidence": 0.2895,
+        "confidence": 0.4293,
         "question": "FLIP FLOP computes to 5% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.877,
@@ -3497,7 +3555,7 @@
       {
         "kind": "plate_cost",
         "ref": "VEGLOAF CLASSIC",
-        "confidence": 0.21,
+        "confidence": 0.3,
         "question": "VEGLOAF CLASSIC computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.2799,
@@ -3515,7 +3573,7 @@
       {
         "kind": "plate_cost",
         "ref": "REUBEN BROCC",
-        "confidence": 0.2687,
+        "confidence": 0.3666,
         "question": "REUBEN BROCC computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.182,
@@ -3532,7 +3590,7 @@
       {
         "kind": "plate_cost",
         "ref": "REUBEN",
-        "confidence": 0.12,
+        "confidence": 0.1549,
         "question": "REUBEN computes to 4% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.6562,
@@ -3550,7 +3608,7 @@
       {
         "kind": "plate_cost",
         "ref": "VEGITALIAN",
-        "confidence": 0.3395,
+        "confidence": 0.4875,
         "question": "VEGITALIAN computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.5145,
@@ -3567,7 +3625,7 @@
       {
         "kind": "plate_cost",
         "ref": "ITALIAN COMBO",
-        "confidence": 0.252,
+        "confidence": 0.355,
         "question": "ITALIAN COMBO computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.2137,
@@ -3586,7 +3644,7 @@
       {
         "kind": "plate_cost",
         "ref": "AMERICAN COMBO",
-        "confidence": 0.0804,
+        "confidence": 0.1071,
         "question": "AMERICAN COMBO computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.3469,
@@ -3606,7 +3664,7 @@
       {
         "kind": "plate_cost",
         "ref": "DROOPY",
-        "confidence": 0.1008,
+        "confidence": 0.142,
         "question": "DROOPY computes to 1% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.1406,
@@ -3624,7 +3682,7 @@
       {
         "kind": "plate_cost",
         "ref": "THE JAWN",
-        "confidence": 0.2856,
+        "confidence": 0.414,
         "question": "THE JAWN computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.1203,
@@ -3642,7 +3700,7 @@
       {
         "kind": "plate_cost",
         "ref": "VEG-DELITE",
-        "confidence": 0.2304,
+        "confidence": 0.3142,
         "question": "VEG-DELITE computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.0695,
@@ -3660,7 +3718,7 @@
       {
         "kind": "plate_cost",
         "ref": "DELIGHT",
-        "confidence": 0.1,
+        "confidence": 0.1291,
         "question": "DELIGHT computes to 4% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.6562,
@@ -3679,7 +3737,7 @@
       {
         "kind": "plate_quantity",
         "ref": "TUNABERRY",
-        "confidence": 0.1963,
+        "confidence": 0.3303,
         "question": "TUNABERRY is costed at $0.50 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.5002,
@@ -3694,7 +3752,7 @@
       {
         "kind": "plate_cost",
         "ref": "TUNABERRY",
-        "confidence": 0.1963,
+        "confidence": 0.3303,
         "question": "TUNABERRY computes to 3% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.5002,
@@ -3712,7 +3770,7 @@
       {
         "kind": "plate_quantity",
         "ref": "SALMON SANDWICH",
-        "confidence": 0.1755,
+        "confidence": 0.2962,
         "question": "SALMON SANDWICH is costed at $0.32 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.324,
@@ -3727,7 +3785,7 @@
       {
         "kind": "plate_cost",
         "ref": "SALMON SANDWICH",
-        "confidence": 0.1755,
+        "confidence": 0.2962,
         "question": "SALMON SANDWICH computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.324,
@@ -3746,7 +3804,7 @@
       {
         "kind": "plate_quantity",
         "ref": "CLEAN TURKEY",
-        "confidence": 0.2234,
+        "confidence": 0.3737,
         "question": "CLEAN TURKEY is costed at $0.36 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.3573,
@@ -3761,7 +3819,7 @@
       {
         "kind": "plate_cost",
         "ref": "CLEAN TURKEY",
-        "confidence": 0.2234,
+        "confidence": 0.3737,
         "question": "CLEAN TURKEY computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.3573,
@@ -3778,7 +3836,7 @@
       {
         "kind": "plate_quantity",
         "ref": "HAM & CHEESE",
-        "confidence": 0.2217,
+        "confidence": 0.3329,
         "question": "HAM & CHEESE is costed at $0.56 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.5621,
@@ -3791,7 +3849,7 @@
       {
         "kind": "plate_cost",
         "ref": "HAM & CHEESE",
-        "confidence": 0.2217,
+        "confidence": 0.3329,
         "question": "HAM & CHEESE computes to 3% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.5621,
@@ -3808,7 +3866,7 @@
       {
         "kind": "plate_quantity",
         "ref": "YASHA",
-        "confidence": 0.18,
+        "confidence": 0.3207,
         "question": "YASHA is costed at $0.21 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.2118,
@@ -3823,7 +3881,7 @@
       {
         "kind": "plate_cost",
         "ref": "YASHA",
-        "confidence": 0.18,
+        "confidence": 0.3207,
         "question": "YASHA computes to 1% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.2118,
@@ -3840,7 +3898,7 @@
       {
         "kind": "plate_quantity",
         "ref": "CUBANO",
-        "confidence": 0.2205,
+        "confidence": 0.332,
         "question": "CUBANO is costed at $1.11 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.1105,
@@ -3854,7 +3912,7 @@
       {
         "kind": "plate_cost",
         "ref": "CUBANO",
-        "confidence": 0.2205,
+        "confidence": 0.332,
         "question": "CUBANO computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.1105,
@@ -3872,7 +3930,7 @@
       {
         "kind": "plate_quantity",
         "ref": "MACHO (WO)MAN",
-        "confidence": 0.264,
+        "confidence": 0.4596,
         "question": "MACHO (WO)MAN is costed at $1.26 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.2584,
@@ -3890,7 +3948,7 @@
       {
         "kind": "plate_cost",
         "ref": "MACHO (WO)MAN",
-        "confidence": 0.264,
+        "confidence": 0.4596,
         "question": "MACHO (WO)MAN computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.2584,
@@ -3906,7 +3964,7 @@
       {
         "kind": "plate_quantity",
         "ref": "ULTIMATE WARRIOR",
-        "confidence": 0.2213,
+        "confidence": 0.3719,
         "question": "ULTIMATE WARRIOR is costed at $1.66 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.6624,
@@ -3920,7 +3978,7 @@
       {
         "kind": "plate_cost",
         "ref": "ULTIMATE WARRIOR",
-        "confidence": 0.2213,
+        "confidence": 0.3719,
         "question": "ULTIMATE WARRIOR computes to 10% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.6624,
@@ -3937,7 +3995,7 @@
       {
         "kind": "plate_quantity",
         "ref": "CATSKILL ROAST PORK",
-        "confidence": 0.1757,
+        "confidence": 0.2964,
         "question": "CATSKILL ROAST PORK is costed at $0.71 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.7128,
@@ -3951,7 +4009,7 @@
       {
         "kind": "plate_cost",
         "ref": "CATSKILL ROAST PORK",
-        "confidence": 0.1757,
+        "confidence": 0.2964,
         "question": "CATSKILL ROAST PORK computes to 4% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.7128,

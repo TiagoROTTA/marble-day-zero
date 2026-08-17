@@ -131,13 +131,37 @@ def test_consumption_converts_component_units_into_the_sku_uom():
     assert gaps == []
 
 
-def test_consumption_divides_by_recipe_yield():
-    """A recipe yielding 4 servings spreads its components over those 4."""
+def test_consumption_does_not_divide_by_recipe_yield():
+    """THE INVARIANT: one ORDER consumes the recipe as written, undivided.
+
+    `item_mix` shares are "the fraction of covers that order that item"
+    (src/nodes/forecast.py), so `share x covers` counts ORDERS of a menu item,
+    not diners. A recipe describes one SOLD UNIT — what one order buys — and
+    yield_qty only reports how many servings that unit feeds.
+
+    This assertion used to read `175.0 / 4`, because _consumption divided the
+    components by yield_qty. That under-ordered every multi-serving line by
+    exactly its yield: 1.75 oz of flour for a pie that takes 14. Same bug as the
+    one in cost_plates.py, fixed the same way so plate cost and order quantity
+    still describe the same thing.
+    """
     state = _state()
     state["recipes"][0]["yield_qty"] = 4
     consumption, _, _ = _consumption(state, _load_catalog())
 
-    assert consumption[ROMA] == pytest.approx(175.0 / 4)
+    assert consumption[ROMA] == pytest.approx(175.0)
+
+
+def test_consumption_is_unchanged_by_any_yield_value():
+    """The yield is now purely reporting: it must not move a purchase quantity."""
+    baseline, _, _ = _consumption(_state(), _load_catalog())
+
+    for yield_qty in (0, None, 1, 8, 0.5):
+        state = _state()
+        state["recipes"][0]["yield_qty"] = yield_qty
+        consumption, _, _ = _consumption(state, _load_catalog())
+
+        assert consumption[ROMA] == pytest.approx(baseline[ROMA])
 
 
 def test_unconvertible_component_becomes_a_visible_gap():
@@ -194,6 +218,9 @@ def test_skipping_everything_yields_an_empty_order_not_a_crash():
 
     assert result["purchase_order"]["vendor_lines"] == {}
     assert result["purchase_order"]["total_cost"] == 0.0
+    # No lines means no cover policy was applied, so the card is given nothing
+    # to print rather than a number describing an order that does not exist.
+    assert result["purchase_order"]["days_cover_label"] == ""
     assert result["stage"] == "po_drafted"
 
 
@@ -395,6 +422,32 @@ def test_par_level_arithmetic_and_days_cover_by_category():
     flour = levels[FLOUR]
     assert flour["days_cover"] == DAYS_COVER["dry_goods"] == 14
     assert flour["par_qty"] == pytest.approx(50.0 * 14 * 1.15)
+
+
+def test_days_cover_label_reports_the_range_the_order_actually_used():
+    """The Slack card gets a range, because one order carries several policies.
+
+    ROMA is produce (2 days) and FLOUR is dry_goods (14), so no single number
+    describes the order. The label is derived from the lines that survived pack
+    rounding, not from the whole policy table.
+    """
+    po = draft_po_node(_state())["purchase_order"]
+
+    assert po["days_cover_label"] == "2-14 days cover by category"
+
+
+def test_days_cover_label_is_singular_when_one_policy_covers_the_order():
+    state = _state()
+    state["recipes"] = [{
+        "item_name": "Margherita",
+        "yield_qty": 1,
+        "components": [
+            {"raw_name": "roma tomatoes", "qty": 6.0, "uom": "oz", "confidence": 0.9}
+        ],
+    }]
+    po = draft_po_node(state)["purchase_order"]
+
+    assert po["days_cover_label"] == "2 days cover"
 
 
 def test_every_catalog_category_has_a_days_cover_policy():

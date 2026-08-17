@@ -2221,6 +2221,8 @@
       {
         "item_name": "Focaccia",
         "plate_cost": 0.4917,
+        "cost_per_serving": 0.4917,
+        "yield_qty": 1.0,
         "menu_price": 6.0,
         "food_cost_pct": 0.082,
         "costed_components": 5,
@@ -2231,12 +2233,14 @@
           "Instant dry yeast (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Dried rosemary (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3135,
+        "confidence": 0.5599,
         "costable": true
       },
       {
         "item_name": "Vegan Garlic Knots",
         "plate_cost": 0.4171,
+        "cost_per_serving": 0.4171,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.0596,
         "costed_components": 5,
@@ -2246,12 +2250,14 @@
           "Flat-leaf parsley (no conversion from oz to bunch)"
         ],
         "low_confidence": [],
-        "confidence": 0.2708,
+        "confidence": 0.4751,
         "costable": true
       },
       {
         "item_name": "Vegan Caesar Salad (SM)",
         "plate_cost": 0.3007,
+        "cost_per_serving": 0.3007,
+        "yield_qty": 1.0,
         "menu_price": 15.0,
         "food_cost_pct": 0.02,
         "costed_components": 3,
@@ -2265,12 +2271,14 @@
           "Roasted nori sheets (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.144,
+        "confidence": 0.2939,
         "costable": true
       },
       {
         "item_name": "Vegan Caesar Salad (LG)",
         "plate_cost": 0.5196,
+        "cost_per_serving": 0.5196,
+        "yield_qty": 1.0,
         "menu_price": 22.0,
         "food_cost_pct": 0.0236,
         "costed_components": 3,
@@ -2284,12 +2292,14 @@
           "Roasted nori sheets (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.144,
+        "confidence": 0.2939,
         "costable": true
       },
       {
         "item_name": "Garden Salad (SM)",
         "plate_cost": 2.109,
+        "cost_per_serving": 2.109,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.1506,
         "costed_components": 8,
@@ -2299,12 +2309,14 @@
         "low_confidence": [
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3825,
+        "confidence": 0.6185,
         "costable": true
       },
       {
         "item_name": "Garden Salad (LG)",
         "plate_cost": 3.5704,
+        "cost_per_serving": 3.5704,
+        "yield_qty": 1.0,
         "menu_price": 21.0,
         "food_cost_pct": 0.17,
         "costed_components": 8,
@@ -2314,12 +2326,14 @@
         "low_confidence": [
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3825,
+        "confidence": 0.6185,
         "costable": true
       },
       {
         "item_name": "All Beef Meatballs",
         "plate_cost": 2.732,
+        "cost_per_serving": 2.732,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.1708,
         "costed_components": 8,
@@ -2332,12 +2346,14 @@
           "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3575,
+        "confidence": 0.5637,
         "costable": true
       },
       {
         "item_name": "Eggplant Parm App",
         "plate_cost": 2.1852,
+        "cost_per_serving": 2.1852,
+        "yield_qty": 1.0,
         "menu_price": 15.0,
         "food_cost_pct": 0.1457,
         "costed_components": 6,
@@ -2350,12 +2366,14 @@
         "low_confidence": [
           "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.285,
+        "confidence": 0.4623,
         "costable": true
       },
       {
         "item_name": "Chicken Parm App",
         "plate_cost": 2.8789,
+        "cost_per_serving": 2.8789,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1515,
         "costed_components": 6,
@@ -2368,12 +2386,14 @@
         "low_confidence": [
           "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.285,
+        "confidence": 0.4623,
         "costable": true
       },
       {
         "item_name": "Original (12\")",
         "plate_cost": 2.4743,
+        "cost_per_serving": 2.4743,
+        "yield_qty": 1.0,
         "menu_price": 25.0,
         "food_cost_pct": 0.099,
         "costed_components": 5,
@@ -2385,14 +2405,16 @@
         "low_confidence": [
           "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3629,
+        "confidence": 0.5499,
         "costable": true
       },
       {
         "item_name": "Original (20\")",
-        "plate_cost": 0.1428,
+        "plate_cost": 1.1422,
+        "cost_per_serving": 0.1428,
+        "yield_qty": 8.0,
         "menu_price": 33.0,
-        "food_cost_pct": 0.0043,
+        "food_cost_pct": 0.0346,
         "costed_components": 4,
         "total_components": 6,
         "coverage": 0.6667,
@@ -2404,12 +2426,14 @@
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2017,
+        "confidence": 0.3667,
         "costable": true
       },
       {
         "item_name": "Margherita (12\")",
         "plate_cost": 1.4584,
+        "cost_per_serving": 1.4584,
+        "yield_qty": 1.0,
         "menu_price": 27.0,
         "food_cost_pct": 0.054,
         "costed_components": 5,
@@ -2423,14 +2447,16 @@
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3321,
+        "confidence": 0.4871,
         "costable": true
       },
       {
         "item_name": "Margherita (20\")",
-        "plate_cost": 0.2138,
+        "plate_cost": 1.7106,
+        "cost_per_serving": 0.2138,
+        "yield_qty": 8.0,
         "menu_price": 35.0,
-        "food_cost_pct": 0.0061,
+        "food_cost_pct": 0.0489,
         "costed_components": 5,
         "total_components": 7,
         "coverage": 0.7143,
@@ -2443,12 +2469,14 @@
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2443,
+        "confidence": 0.4177,
         "costable": true
       },
       {
         "item_name": "Hotboi (12\")",
         "plate_cost": 1.6201,
+        "cost_per_serving": 1.6201,
+        "yield_qty": 1.0,
         "menu_price": 29.0,
         "food_cost_pct": 0.0559,
         "costed_components": 7,
@@ -2463,14 +2491,16 @@
           "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3033,
+        "confidence": 0.4857,
         "costable": true
       },
       {
         "item_name": "Hotboi (20\")",
-        "plate_cost": 0.2356,
+        "plate_cost": 1.8851,
+        "cost_per_serving": 0.2356,
+        "yield_qty": 8.0,
         "menu_price": 41.0,
-        "food_cost_pct": 0.0057,
+        "food_cost_pct": 0.046,
         "costed_components": 7,
         "total_components": 9,
         "coverage": 0.7778,
@@ -2485,12 +2515,14 @@
           "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2322,
+        "confidence": 0.425,
         "costable": true
       },
       {
         "item_name": "Vegan (12\")",
         "plate_cost": 0.3803,
+        "cost_per_serving": 0.3803,
+        "yield_qty": 1.0,
         "menu_price": 28.0,
         "food_cost_pct": 0.0136,
         "costed_components": 4,
@@ -2505,14 +2537,16 @@
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1971,
+        "confidence": 0.3356,
         "costable": true
       },
       {
         "item_name": "Vegan (20\")",
-        "plate_cost": 0.0566,
+        "plate_cost": 0.4528,
+        "cost_per_serving": 0.0566,
+        "yield_qty": 8.0,
         "menu_price": 36.0,
-        "food_cost_pct": 0.0016,
+        "food_cost_pct": 0.0126,
         "costed_components": 4,
         "total_components": 7,
         "coverage": 0.5714,
@@ -2526,12 +2560,14 @@
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1689,
+        "confidence": 0.3107,
         "costable": true
       },
       {
         "item_name": "Vodka Pesto (12\")",
         "plate_cost": 1.175,
+        "cost_per_serving": 1.175,
+        "yield_qty": 1.0,
         "menu_price": 28.0,
         "food_cost_pct": 0.042,
         "costed_components": 6,
@@ -2547,14 +2583,16 @@
           "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2057,
+        "confidence": 0.4199,
         "costable": true
       },
       {
         "item_name": "Vodka Pesto (20\")",
-        "plate_cost": 0.1729,
+        "plate_cost": 1.3833,
+        "cost_per_serving": 0.1729,
+        "yield_qty": 8.0,
         "menu_price": 36.0,
-        "food_cost_pct": 0.0048,
+        "food_cost_pct": 0.0384,
         "costed_components": 6,
         "total_components": 7,
         "coverage": 0.8571,
@@ -2569,12 +2607,14 @@
           "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1686,
+        "confidence": 0.3801,
         "costable": true
       },
       {
         "item_name": "White (12\")",
         "plate_cost": 1.7672,
+        "cost_per_serving": 1.7672,
+        "yield_qty": 1.0,
         "menu_price": 29.0,
         "food_cost_pct": 0.0609,
         "costed_components": 8,
@@ -2588,14 +2628,16 @@
           "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.32,
+        "confidence": 0.5333,
         "costable": true
       },
       {
         "item_name": "White (20\")",
-        "plate_cost": 0.6543,
+        "plate_cost": 5.2345,
+        "cost_per_serving": 0.6543,
+        "yield_qty": 8.0,
         "menu_price": 37.0,
-        "food_cost_pct": 0.0177,
+        "food_cost_pct": 0.1415,
         "costed_components": 9,
         "total_components": 9,
         "coverage": 1.0,
@@ -2606,14 +2648,16 @@
           "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3719,
+        "confidence": 0.6099,
         "costable": true
       },
       {
         "item_name": "Cheese",
-        "plate_cost": 0.1944,
+        "plate_cost": 1.1666,
+        "cost_per_serving": 0.1944,
+        "yield_qty": 6.0,
         "menu_price": 35.0,
-        "food_cost_pct": 0.0056,
+        "food_cost_pct": 0.0333,
         "costed_components": 5,
         "total_components": 6,
         "coverage": 0.8333,
@@ -2626,14 +2670,16 @@
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Dried oregano (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.265,
+        "confidence": 0.4699,
         "costable": true
       },
       {
         "item_name": "DJ Clark Kent",
-        "plate_cost": 0.3078,
+        "plate_cost": 1.8466,
+        "cost_per_serving": 0.3078,
+        "yield_qty": 6.0,
         "menu_price": 38.0,
-        "food_cost_pct": 0.0081,
+        "food_cost_pct": 0.0486,
         "costed_components": 6,
         "total_components": 7,
         "coverage": 0.8571,
@@ -2647,14 +2693,16 @@
           "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2475,
+        "confidence": 0.4606,
         "costable": true
       },
       {
         "item_name": "Hotboi",
-        "plate_cost": 0.2773,
+        "plate_cost": 1.6636,
+        "cost_per_serving": 0.2773,
+        "yield_qty": 6.0,
         "menu_price": 37.0,
-        "food_cost_pct": 0.0075,
+        "food_cost_pct": 0.045,
         "costed_components": 6,
         "total_components": 8,
         "coverage": 0.75,
@@ -2668,14 +2716,16 @@
           "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2437,
+        "confidence": 0.4276,
         "costable": true
       },
       {
         "item_name": "Lemon Pepper Chicken",
-        "plate_cost": 0.4122,
+        "plate_cost": 2.473,
+        "cost_per_serving": 0.4122,
+        "yield_qty": 6.0,
         "menu_price": 38.0,
-        "food_cost_pct": 0.0108,
+        "food_cost_pct": 0.0651,
         "costed_components": 8,
         "total_components": 8,
         "coverage": 1.0,
@@ -2689,12 +2739,14 @@
           "Ground black pepper (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2888,
+        "confidence": 0.5374,
         "costable": true
       },
       {
         "item_name": "Cheese",
         "plate_cost": 1.8522,
+        "cost_per_serving": 1.8522,
+        "yield_qty": 1.0,
         "menu_price": 35.0,
         "food_cost_pct": 0.0529,
         "costed_components": 5,
@@ -2708,12 +2760,14 @@
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2979,
+        "confidence": 0.4983,
         "costable": true
       },
       {
         "item_name": "Vegan Cheese",
         "plate_cost": 0.6622,
+        "cost_per_serving": 0.6622,
+        "yield_qty": 1.0,
         "menu_price": 23.0,
         "food_cost_pct": 0.0288,
         "costed_components": 6,
@@ -2729,12 +2783,14 @@
           "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2554,
+        "confidence": 0.4678,
         "costable": true
       },
       {
         "item_name": "Beef Meatball",
         "plate_cost": 2.8613,
+        "cost_per_serving": 2.8613,
+        "yield_qty": 1.0,
         "menu_price": 24.0,
         "food_cost_pct": 0.1192,
         "costed_components": 7,
@@ -2750,12 +2806,14 @@
           "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2775,
+        "confidence": 0.4928,
         "costable": true
       },
       {
         "item_name": "Mike's Hot Honey Dip Cup 1oz",
         "plate_cost": 0.0085,
+        "cost_per_serving": 0.0085,
+        "yield_qty": 1.0,
         "menu_price": 2.0,
         "food_cost_pct": 0.0043,
         "costed_components": 1,
@@ -2767,12 +2825,14 @@
         "low_confidence": [
           "Crushed red pepper flakes (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2125,
+        "confidence": 0.326,
         "costable": true
       },
       {
         "item_name": "Organic Dinapoli Tomato Sauce 2oz",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 2.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -2788,6 +2848,8 @@
       {
         "item_name": "Vegan Caesar Dressing 2oz",
         "plate_cost": 0.4662,
+        "cost_per_serving": 0.4662,
+        "yield_qty": 1.0,
         "menu_price": 3.0,
         "food_cost_pct": 0.1554,
         "costed_components": 7,
@@ -2802,12 +2864,14 @@
           "kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "ground black pepper (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2514,
+        "confidence": 0.5014,
         "costable": true
       },
       {
         "item_name": "Guava Calzone",
         "plate_cost": 1.2609,
+        "cost_per_serving": 1.2609,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.0901,
         "costed_components": 7,
@@ -2822,12 +2886,14 @@
           "instant dry yeast (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3544,
+        "confidence": 0.5568,
         "costable": true
       },
       {
         "item_name": "Scarr's Seasonal Soft-Serve",
         "plate_cost": 0.5681,
+        "cost_per_serving": 0.5681,
+        "yield_qty": 1.0,
         "menu_price": 9.0,
         "food_cost_pct": 0.0631,
         "costed_components": 2,
@@ -2838,7 +2904,7 @@
           "canned coconut milk (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
           "granulated white sugar (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.0975,
+        "confidence": 0.3122,
         "costable": true
       }
     ],
@@ -2899,7 +2965,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Focaccia",
-        "confidence": 0.3135,
+        "confidence": 0.5599,
         "question": "Focaccia is costed at $0.49 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.4917,
@@ -2913,7 +2979,7 @@
       {
         "kind": "plate_cost",
         "ref": "Focaccia",
-        "confidence": 0.3135,
+        "confidence": 0.5599,
         "question": "Focaccia computes to 8% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.4917,
@@ -2926,7 +2992,7 @@
       {
         "kind": "plate_cost",
         "ref": "Vegan Garlic Knots",
-        "confidence": 0.2708,
+        "confidence": 0.4751,
         "question": "Vegan Garlic Knots computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.4171,
@@ -2941,7 +3007,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Vegan Caesar Salad (SM)",
-        "confidence": 0.144,
+        "confidence": 0.2939,
         "question": "Vegan Caesar Salad (SM) is costed at $0.30 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.3007,
@@ -2955,7 +3021,7 @@
       {
         "kind": "plate_cost",
         "ref": "Vegan Caesar Salad (SM)",
-        "confidence": 0.144,
+        "confidence": 0.2939,
         "question": "Vegan Caesar Salad (SM) computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.3007,
@@ -2971,7 +3037,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Vegan Caesar Salad (LG)",
-        "confidence": 0.144,
+        "confidence": 0.2939,
         "question": "Vegan Caesar Salad (LG) is costed at $0.52 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.5196,
@@ -2985,7 +3051,7 @@
       {
         "kind": "plate_cost",
         "ref": "Vegan Caesar Salad (LG)",
-        "confidence": 0.144,
+        "confidence": 0.2939,
         "question": "Vegan Caesar Salad (LG) computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.5196,
@@ -3001,7 +3067,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Garden Salad (SM)",
-        "confidence": 0.3825,
+        "confidence": 0.6185,
         "question": "Garden Salad (SM) is costed at $2.11 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.109,
@@ -3014,7 +3080,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Garden Salad (LG)",
-        "confidence": 0.3825,
+        "confidence": 0.6185,
         "question": "Garden Salad (LG) is costed at $3.57 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.5704,
@@ -3027,7 +3093,7 @@
       {
         "kind": "plate_quantity",
         "ref": "All Beef Meatballs",
-        "confidence": 0.3575,
+        "confidence": 0.5637,
         "question": "All Beef Meatballs is costed at $2.73 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.732,
@@ -3041,7 +3107,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Eggplant Parm App",
-        "confidence": 0.285,
+        "confidence": 0.4623,
         "question": "Eggplant Parm App is costed at $2.19 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.1852,
@@ -3054,7 +3120,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Chicken Parm App",
-        "confidence": 0.285,
+        "confidence": 0.4623,
         "question": "Chicken Parm App is costed at $2.88 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.8789,
@@ -3067,7 +3133,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Original (12\")",
-        "confidence": 0.3629,
+        "confidence": 0.5499,
         "question": "Original (12\") is costed at $2.47 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.4743,
@@ -3080,7 +3146,7 @@
       {
         "kind": "plate_cost",
         "ref": "Original (12\")",
-        "confidence": 0.3629,
+        "confidence": 0.5499,
         "question": "Original (12\") computes to 10% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 2.4743,
@@ -3095,10 +3161,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Original (20\")",
-        "confidence": 0.2017,
-        "question": "Original (20\") is costed at $0.14 using 2 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.3667,
+        "question": "Original (20\") is costed at $1.14 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 0.1428,
+          "plate_cost": 1.1422,
           "menu_price": 33.0,
           "low_confidence": [
             "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
@@ -3109,12 +3175,12 @@
       {
         "kind": "plate_cost",
         "ref": "Original (20\")",
-        "confidence": 0.2017,
-        "question": "Original (20\") computes to 0% food cost — check the recipe or the price",
+        "confidence": 0.3667,
+        "question": "Original (20\") computes to 3% food cost — check the recipe or the price",
         "payload": {
-          "plate_cost": 0.1428,
+          "plate_cost": 1.1422,
           "menu_price": 33.0,
-          "food_cost_pct": 0.0043,
+          "food_cost_pct": 0.0346,
           "coverage": 0.6667,
           "uncosted": [
             "Canned San Marzano whole tomatoes (no conversion from oz to each)",
@@ -3125,7 +3191,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Margherita (12\")",
-        "confidence": 0.3321,
+        "confidence": 0.4871,
         "question": "Margherita (12\") is costed at $1.46 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4584,
@@ -3139,7 +3205,7 @@
       {
         "kind": "plate_cost",
         "ref": "Margherita (12\")",
-        "confidence": 0.3321,
+        "confidence": 0.4871,
         "question": "Margherita (12\") computes to 5% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.4584,
@@ -3155,10 +3221,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Margherita (20\")",
-        "confidence": 0.2443,
-        "question": "Margherita (20\") is costed at $0.21 using 3 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.4177,
+        "question": "Margherita (20\") is costed at $1.71 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 0.2138,
+          "plate_cost": 1.7106,
           "menu_price": 35.0,
           "low_confidence": [
             "Fresh basil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
@@ -3170,12 +3236,12 @@
       {
         "kind": "plate_cost",
         "ref": "Margherita (20\")",
-        "confidence": 0.2443,
-        "question": "Margherita (20\") computes to 1% food cost — check the recipe or the price",
+        "confidence": 0.4177,
+        "question": "Margherita (20\") computes to 5% food cost — check the recipe or the price",
         "payload": {
-          "plate_cost": 0.2138,
+          "plate_cost": 1.7106,
           "menu_price": 35.0,
-          "food_cost_pct": 0.0061,
+          "food_cost_pct": 0.0489,
           "coverage": 0.7143,
           "uncosted": [
             "Canned San Marzano whole tomatoes (no conversion from oz to each)",
@@ -3186,7 +3252,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Hotboi (12\")",
-        "confidence": 0.3033,
+        "confidence": 0.4857,
         "question": "Hotboi (12\") is costed at $1.62 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.6201,
@@ -3201,7 +3267,7 @@
       {
         "kind": "plate_cost",
         "ref": "Hotboi (12\")",
-        "confidence": 0.3033,
+        "confidence": 0.4857,
         "question": "Hotboi (12\") computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.6201,
@@ -3217,10 +3283,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Hotboi (20\")",
-        "confidence": 0.2322,
-        "question": "Hotboi (20\") is costed at $0.24 using 5 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.425,
+        "question": "Hotboi (20\") is costed at $1.89 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 0.2356,
+          "plate_cost": 1.8851,
           "menu_price": 41.0,
           "low_confidence": [
             "Low-moisture whole milk mozzarella loaf (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
@@ -3234,12 +3300,12 @@
       {
         "kind": "plate_cost",
         "ref": "Hotboi (20\")",
-        "confidence": 0.2322,
-        "question": "Hotboi (20\") computes to 1% food cost — check the recipe or the price",
+        "confidence": 0.425,
+        "question": "Hotboi (20\") computes to 5% food cost — check the recipe or the price",
         "payload": {
-          "plate_cost": 0.2356,
+          "plate_cost": 1.8851,
           "menu_price": 41.0,
-          "food_cost_pct": 0.0057,
+          "food_cost_pct": 0.046,
           "coverage": 0.7778,
           "uncosted": [
             "Canned San Marzano whole tomatoes (no conversion from oz to each)",
@@ -3250,7 +3316,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Vegan (12\")",
-        "confidence": 0.1971,
+        "confidence": 0.3356,
         "question": "Vegan (12\") is costed at $0.38 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.3803,
@@ -3264,7 +3330,7 @@
       {
         "kind": "plate_cost",
         "ref": "Vegan (12\")",
-        "confidence": 0.1971,
+        "confidence": 0.3356,
         "question": "Vegan (12\") computes to 1% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.3803,
@@ -3281,10 +3347,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Vegan (20\")",
-        "confidence": 0.1689,
-        "question": "Vegan (20\") is costed at $0.06 using 3 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.3107,
+        "question": "Vegan (20\") is costed at $0.45 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 0.0566,
+          "plate_cost": 0.4528,
           "menu_price": 36.0,
           "low_confidence": [
             "Fresh basil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
@@ -3296,12 +3362,12 @@
       {
         "kind": "plate_cost",
         "ref": "Vegan (20\")",
-        "confidence": 0.1689,
-        "question": "Vegan (20\") computes to 0% food cost — check the recipe or the price",
+        "confidence": 0.3107,
+        "question": "Vegan (20\") computes to 1% food cost — check the recipe or the price",
         "payload": {
-          "plate_cost": 0.0566,
+          "plate_cost": 0.4528,
           "menu_price": 36.0,
-          "food_cost_pct": 0.0016,
+          "food_cost_pct": 0.0126,
           "coverage": 0.5714,
           "uncosted": [
             "Canned San Marzano whole tomatoes (no conversion from oz to each)",
@@ -3313,7 +3379,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Vodka Pesto (12\")",
-        "confidence": 0.2057,
+        "confidence": 0.4199,
         "question": "Vodka Pesto (12\") is costed at $1.18 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.175,
@@ -3330,7 +3396,7 @@
       {
         "kind": "plate_cost",
         "ref": "Vodka Pesto (12\")",
-        "confidence": 0.2057,
+        "confidence": 0.4199,
         "question": "Vodka Pesto (12\") computes to 4% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.175,
@@ -3345,10 +3411,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Vodka Pesto (20\")",
-        "confidence": 0.1686,
-        "question": "Vodka Pesto (20\") is costed at $0.17 using 6 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.3801,
+        "question": "Vodka Pesto (20\") is costed at $1.38 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 0.1729,
+          "plate_cost": 1.3833,
           "menu_price": 36.0,
           "low_confidence": [
             "Tipo 00 pizza flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
@@ -3363,12 +3429,12 @@
       {
         "kind": "plate_cost",
         "ref": "Vodka Pesto (20\")",
-        "confidence": 0.1686,
-        "question": "Vodka Pesto (20\") computes to 0% food cost — check the recipe or the price",
+        "confidence": 0.3801,
+        "question": "Vodka Pesto (20\") computes to 4% food cost — check the recipe or the price",
         "payload": {
-          "plate_cost": 0.1729,
+          "plate_cost": 1.3833,
           "menu_price": 36.0,
-          "food_cost_pct": 0.0048,
+          "food_cost_pct": 0.0384,
           "coverage": 0.8571,
           "uncosted": [
             "vegan basil pesto (no catalog SKU matched)"
@@ -3378,7 +3444,7 @@
       {
         "kind": "plate_quantity",
         "ref": "White (12\")",
-        "confidence": 0.32,
+        "confidence": 0.5333,
         "question": "White (12\") is costed at $1.77 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.7672,
@@ -3393,7 +3459,7 @@
       {
         "kind": "plate_cost",
         "ref": "White (12\")",
-        "confidence": 0.32,
+        "confidence": 0.5333,
         "question": "White (12\") computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.7672,
@@ -3408,10 +3474,10 @@
       {
         "kind": "plate_quantity",
         "ref": "White (20\")",
-        "confidence": 0.3719,
-        "question": "White (20\") is costed at $0.65 using 4 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.6099,
+        "question": "White (20\") is costed at $5.23 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 0.6543,
+          "plate_cost": 5.2345,
           "menu_price": 37.0,
           "low_confidence": [
             "Low-moisture whole milk mozzarella loaf (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
@@ -3422,25 +3488,12 @@
         }
       },
       {
-        "kind": "plate_cost",
-        "ref": "White (20\")",
-        "confidence": 0.3719,
-        "question": "White (20\") computes to 2% food cost — check the recipe or the price",
-        "payload": {
-          "plate_cost": 0.6543,
-          "menu_price": 37.0,
-          "food_cost_pct": 0.0177,
-          "coverage": 1.0,
-          "uncosted": []
-        }
-      },
-      {
         "kind": "plate_quantity",
         "ref": "Cheese",
-        "confidence": 0.265,
-        "question": "Cheese is costed at $0.19 using 4 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.4699,
+        "question": "Cheese is costed at $1.17 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 0.1944,
+          "plate_cost": 1.1666,
           "menu_price": 35.0,
           "low_confidence": [
             "Rice flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
@@ -3453,12 +3506,12 @@
       {
         "kind": "plate_cost",
         "ref": "Cheese",
-        "confidence": 0.265,
-        "question": "Cheese computes to 1% food cost — check the recipe or the price",
+        "confidence": 0.4699,
+        "question": "Cheese computes to 3% food cost — check the recipe or the price",
         "payload": {
-          "plate_cost": 0.1944,
+          "plate_cost": 1.1666,
           "menu_price": 35.0,
-          "food_cost_pct": 0.0056,
+          "food_cost_pct": 0.0333,
           "coverage": 0.8333,
           "uncosted": [
             "Canned San Marzano whole tomatoes (no conversion from oz to each)"
@@ -3468,10 +3521,10 @@
       {
         "kind": "plate_quantity",
         "ref": "DJ Clark Kent",
-        "confidence": 0.2475,
-        "question": "DJ Clark Kent is costed at $0.31 using 5 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.4606,
+        "question": "DJ Clark Kent is costed at $1.85 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 0.3078,
+          "plate_cost": 1.8466,
           "menu_price": 38.0,
           "low_confidence": [
             "Rice flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
@@ -3485,12 +3538,12 @@
       {
         "kind": "plate_cost",
         "ref": "DJ Clark Kent",
-        "confidence": 0.2475,
-        "question": "DJ Clark Kent computes to 1% food cost — check the recipe or the price",
+        "confidence": 0.4606,
+        "question": "DJ Clark Kent computes to 5% food cost — check the recipe or the price",
         "payload": {
-          "plate_cost": 0.3078,
+          "plate_cost": 1.8466,
           "menu_price": 38.0,
-          "food_cost_pct": 0.0081,
+          "food_cost_pct": 0.0486,
           "coverage": 0.8571,
           "uncosted": [
             "Canned San Marzano whole tomatoes (no conversion from oz to each)"
@@ -3500,10 +3553,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Hotboi",
-        "confidence": 0.2437,
-        "question": "Hotboi is costed at $0.28 using 4 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.4276,
+        "question": "Hotboi is costed at $1.66 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 0.2773,
+          "plate_cost": 1.6636,
           "menu_price": 37.0,
           "low_confidence": [
             "Rice flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
@@ -3516,12 +3569,12 @@
       {
         "kind": "plate_cost",
         "ref": "Hotboi",
-        "confidence": 0.2437,
-        "question": "Hotboi computes to 1% food cost — check the recipe or the price",
+        "confidence": 0.4276,
+        "question": "Hotboi computes to 4% food cost — check the recipe or the price",
         "payload": {
-          "plate_cost": 0.2773,
+          "plate_cost": 1.6636,
           "menu_price": 37.0,
-          "food_cost_pct": 0.0075,
+          "food_cost_pct": 0.045,
           "coverage": 0.75,
           "uncosted": [
             "Canned San Marzano whole tomatoes (no conversion from oz to each)",
@@ -3532,10 +3585,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Lemon Pepper Chicken",
-        "confidence": 0.2888,
-        "question": "Lemon Pepper Chicken is costed at $0.41 using 7 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.5374,
+        "question": "Lemon Pepper Chicken is costed at $2.47 using 7 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 0.4122,
+          "plate_cost": 2.473,
           "menu_price": 38.0,
           "low_confidence": [
             "Rice flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
@@ -3551,12 +3604,12 @@
       {
         "kind": "plate_cost",
         "ref": "Lemon Pepper Chicken",
-        "confidence": 0.2888,
-        "question": "Lemon Pepper Chicken computes to 1% food cost — check the recipe or the price",
+        "confidence": 0.5374,
+        "question": "Lemon Pepper Chicken computes to 7% food cost — check the recipe or the price",
         "payload": {
-          "plate_cost": 0.4122,
+          "plate_cost": 2.473,
           "menu_price": 38.0,
-          "food_cost_pct": 0.0108,
+          "food_cost_pct": 0.0651,
           "coverage": 1.0,
           "uncosted": []
         }
@@ -3564,7 +3617,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Cheese",
-        "confidence": 0.2979,
+        "confidence": 0.4983,
         "question": "Cheese is costed at $1.85 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.8522,
@@ -3579,7 +3632,7 @@
       {
         "kind": "plate_cost",
         "ref": "Cheese",
-        "confidence": 0.2979,
+        "confidence": 0.4983,
         "question": "Cheese computes to 5% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.8522,
@@ -3594,7 +3647,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Vegan Cheese",
-        "confidence": 0.2554,
+        "confidence": 0.4678,
         "question": "Vegan Cheese is costed at $0.66 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.6622,
@@ -3611,7 +3664,7 @@
       {
         "kind": "plate_cost",
         "ref": "Vegan Cheese",
-        "confidence": 0.2554,
+        "confidence": 0.4678,
         "question": "Vegan Cheese computes to 3% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.6622,
@@ -3626,7 +3679,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Beef Meatball",
-        "confidence": 0.2775,
+        "confidence": 0.4928,
         "question": "Beef Meatball is costed at $2.86 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.8613,
@@ -3643,7 +3696,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Mike's Hot Honey Dip Cup 1oz",
-        "confidence": 0.2125,
+        "confidence": 0.326,
         "question": "Mike's Hot Honey Dip Cup 1oz is costed at $0.01 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.0085,
@@ -3656,7 +3709,7 @@
       {
         "kind": "plate_cost",
         "ref": "Mike's Hot Honey Dip Cup 1oz",
-        "confidence": 0.2125,
+        "confidence": 0.326,
         "question": "Mike's Hot Honey Dip Cup 1oz computes to 0% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.0085,
@@ -3671,7 +3724,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Vegan Caesar Dressing 2oz",
-        "confidence": 0.2514,
+        "confidence": 0.5014,
         "question": "Vegan Caesar Dressing 2oz is costed at $0.47 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.4662,
@@ -3689,7 +3742,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Guava Calzone",
-        "confidence": 0.3544,
+        "confidence": 0.5568,
         "question": "Guava Calzone is costed at $1.26 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.2609,
@@ -3705,7 +3758,7 @@
       {
         "kind": "plate_cost",
         "ref": "Guava Calzone",
-        "confidence": 0.3544,
+        "confidence": 0.5568,
         "question": "Guava Calzone computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.2609,
@@ -3720,7 +3773,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Scarr's Seasonal Soft-Serve",
-        "confidence": 0.0975,
+        "confidence": 0.3122,
         "question": "Scarr's Seasonal Soft-Serve is costed at $0.57 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.5681,
@@ -3734,7 +3787,7 @@
       {
         "kind": "plate_cost",
         "ref": "Scarr's Seasonal Soft-Serve",
-        "confidence": 0.0975,
+        "confidence": 0.3122,
         "question": "Scarr's Seasonal Soft-Serve computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.5681,

@@ -1765,6 +1765,8 @@
       {
         "item_name": "Fried Olives",
         "plate_cost": 2.3248,
+        "cost_per_serving": 2.3248,
+        "yield_qty": 1.0,
         "menu_price": 15.0,
         "food_cost_pct": 0.155,
         "costed_components": 9,
@@ -1774,12 +1776,14 @@
         "low_confidence": [
           "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3194,
+        "confidence": 0.5652,
         "costable": true
       },
       {
         "item_name": "Hummus",
         "plate_cost": 1.4497,
+        "cost_per_serving": 1.4497,
+        "yield_qty": 1.0,
         "menu_price": 17.0,
         "food_cost_pct": 0.0853,
         "costed_components": 9,
@@ -1791,12 +1795,14 @@
         "low_confidence": [
           "Fresh cilantro (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3383,
+        "confidence": 0.5517,
         "costable": true
       },
       {
         "item_name": "Whipped Feta",
         "plate_cost": 1.9393,
+        "cost_per_serving": 1.9393,
+        "yield_qty": 1.0,
         "menu_price": 18.0,
         "food_cost_pct": 0.1077,
         "costed_components": 7,
@@ -1808,12 +1814,14 @@
           "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Raw shelled peanuts (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3,
+        "confidence": 0.5477,
         "costable": true
       },
       {
         "item_name": "Chopped Salad",
         "plate_cost": 2.0444,
+        "cost_per_serving": 2.0444,
+        "yield_qty": 1.0,
         "menu_price": 20.0,
         "food_cost_pct": 0.1022,
         "costed_components": 9,
@@ -1825,12 +1833,14 @@
           "Flat-leaf parsley (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "White sesame seeds (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2725,
+        "confidence": 0.522,
         "costable": true
       },
       {
         "item_name": "Hamachi Crudo",
         "plate_cost": 4.8266,
+        "cost_per_serving": 4.8266,
+        "yield_qty": 1.0,
         "menu_price": 25.0,
         "food_cost_pct": 0.1931,
         "costed_components": 5,
@@ -1840,12 +1850,14 @@
         "low_confidence": [
           "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.252,
+        "confidence": 0.502,
         "costable": true
       },
       {
         "item_name": "Cauliflower",
         "plate_cost": 1.1043,
+        "cost_per_serving": 1.1043,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.0581,
         "costed_components": 10,
@@ -1862,12 +1874,14 @@
           "Raw shelled peanuts (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Granulated white sugar (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.227,
+        "confidence": 0.4543,
         "costable": true
       },
       {
         "item_name": "Eggplant",
         "plate_cost": 1.4841,
+        "cost_per_serving": 1.4841,
+        "yield_qty": 1.0,
         "menu_price": 21.0,
         "food_cost_pct": 0.0707,
         "costed_components": 8,
@@ -1880,12 +1894,14 @@
           "Shichimi togarashi (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2616,
+        "confidence": 0.5114,
         "costable": true
       },
       {
         "item_name": "Yemenite Soup Dumplings",
         "plate_cost": 1.1581,
+        "cost_per_serving": 1.1581,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.061,
         "costed_components": 9,
@@ -1901,12 +1917,14 @@
           "Fresh cilantro (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1847,
+        "confidence": 0.4298,
         "costable": true
       },
       {
         "item_name": "Wagyu Kebab",
         "plate_cost": 1.8665,
+        "cost_per_serving": 1.8665,
+        "yield_qty": 1.0,
         "menu_price": 26.0,
         "food_cost_pct": 0.0718,
         "costed_components": 8,
@@ -1920,12 +1938,14 @@
           "Red wine vinegar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.225,
+        "confidence": 0.4743,
         "costable": true
       },
       {
         "item_name": "Calamari",
         "plate_cost": 2.3755,
+        "cost_per_serving": 2.3755,
+        "yield_qty": 1.0,
         "menu_price": 29.0,
         "food_cost_pct": 0.0819,
         "costed_components": 8,
@@ -1942,12 +1962,14 @@
           "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1593,
+        "confidence": 0.3569,
         "costable": true
       },
       {
         "item_name": "Pappardelle",
         "plate_cost": 3.5943,
+        "cost_per_serving": 3.5943,
+        "yield_qty": 1.0,
         "menu_price": 34.0,
         "food_cost_pct": 0.1057,
         "costed_components": 11,
@@ -1961,12 +1983,14 @@
           "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Grana Padano (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3025,
+        "confidence": 0.55,
         "costable": true
       },
       {
         "item_name": "Branzino",
         "plate_cost": 6.5443,
+        "cost_per_serving": 6.5443,
+        "yield_qty": 1.0,
         "menu_price": 42.0,
         "food_cost_pct": 0.1558,
         "costed_components": 11,
@@ -1982,12 +2006,14 @@
           "White sesame seeds (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Ataulfo mango (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2636,
+        "confidence": 0.5135,
         "costable": true
       },
       {
         "item_name": "Brick Chicken",
         "plate_cost": 3.2365,
+        "cost_per_serving": 3.2365,
+        "yield_qty": 1.0,
         "menu_price": 37.0,
         "food_cost_pct": 0.0875,
         "costed_components": 11,
@@ -2004,12 +2030,14 @@
           "Shallot (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.29,
+        "confidence": 0.5385,
         "costable": true
       },
       {
         "item_name": "Skirt Steak",
         "plate_cost": 6.9011,
+        "cost_per_serving": 6.9011,
+        "yield_qty": 1.0,
         "menu_price": 38.0,
         "food_cost_pct": 0.1816,
         "costed_components": 13,
@@ -2031,12 +2059,14 @@
           "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Extra virgin olive oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2429,
+        "confidence": 0.4749,
         "costable": true
       },
       {
         "item_name": "Short Rib",
         "plate_cost": 5.7064,
+        "cost_per_serving": 5.7064,
+        "yield_qty": 1.0,
         "menu_price": 47.0,
         "food_cost_pct": 0.1214,
         "costed_components": 11,
@@ -2056,14 +2086,16 @@
           "Extra virgin olive oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2086,
+        "confidence": 0.4568,
         "costable": true
       },
       {
         "item_name": "Tahdig Rice (for 2)",
-        "plate_cost": 2.1227,
+        "plate_cost": 4.2455,
+        "cost_per_serving": 2.1227,
+        "yield_qty": 2.0,
         "menu_price": 16.0,
-        "food_cost_pct": 0.1327,
+        "food_cost_pct": 0.2653,
         "costed_components": 6,
         "total_components": 6,
         "coverage": 1.0,
@@ -2072,12 +2104,14 @@
           "Canola oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Dried chickpeas (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.34,
+        "confidence": 0.5831,
         "costable": true
       },
       {
         "item_name": "Potatoes Sabzi",
         "plate_cost": 1.2219,
+        "cost_per_serving": 1.2219,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.0873,
         "costed_components": 8,
@@ -2091,7 +2125,7 @@
           "Heavy whipping cream 36% (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3025,
+        "confidence": 0.55,
         "costable": true
       }
     ],
@@ -2132,7 +2166,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Fried Olives",
-        "confidence": 0.3194,
+        "confidence": 0.5652,
         "question": "Fried Olives is costed at $2.32 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.3248,
@@ -2145,7 +2179,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Hummus",
-        "confidence": 0.3383,
+        "confidence": 0.5517,
         "question": "Hummus is costed at $1.45 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4497,
@@ -2158,7 +2192,7 @@
       {
         "kind": "plate_cost",
         "ref": "Hummus",
-        "confidence": 0.3383,
+        "confidence": 0.5517,
         "question": "Hummus computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.4497,
@@ -2173,7 +2207,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Whipped Feta",
-        "confidence": 0.3,
+        "confidence": 0.5477,
         "question": "Whipped Feta is costed at $1.94 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.9393,
@@ -2188,7 +2222,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Chopped Salad",
-        "confidence": 0.2725,
+        "confidence": 0.522,
         "question": "Chopped Salad is costed at $2.04 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.0444,
@@ -2203,7 +2237,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Hamachi Crudo",
-        "confidence": 0.252,
+        "confidence": 0.502,
         "question": "Hamachi Crudo is costed at $4.83 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.8266,
@@ -2216,7 +2250,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Cauliflower",
-        "confidence": 0.227,
+        "confidence": 0.4543,
         "question": "Cauliflower is costed at $1.10 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.1043,
@@ -2234,7 +2268,7 @@
       {
         "kind": "plate_cost",
         "ref": "Cauliflower",
-        "confidence": 0.227,
+        "confidence": 0.4543,
         "question": "Cauliflower computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.1043,
@@ -2249,7 +2283,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Eggplant",
-        "confidence": 0.2616,
+        "confidence": 0.5114,
         "question": "Eggplant is costed at $1.48 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4841,
@@ -2265,7 +2299,7 @@
       {
         "kind": "plate_cost",
         "ref": "Eggplant",
-        "confidence": 0.2616,
+        "confidence": 0.5114,
         "question": "Eggplant computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.4841,
@@ -2278,7 +2312,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Yemenite Soup Dumplings",
-        "confidence": 0.1847,
+        "confidence": 0.4298,
         "question": "Yemenite Soup Dumplings is costed at $1.16 using 7 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.1581,
@@ -2297,7 +2331,7 @@
       {
         "kind": "plate_cost",
         "ref": "Yemenite Soup Dumplings",
-        "confidence": 0.1847,
+        "confidence": 0.4298,
         "question": "Yemenite Soup Dumplings computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.1581,
@@ -2310,7 +2344,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Wagyu Kebab",
-        "confidence": 0.225,
+        "confidence": 0.4743,
         "question": "Wagyu Kebab is costed at $1.87 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.8665,
@@ -2327,7 +2361,7 @@
       {
         "kind": "plate_cost",
         "ref": "Wagyu Kebab",
-        "confidence": 0.225,
+        "confidence": 0.4743,
         "question": "Wagyu Kebab computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.8665,
@@ -2340,7 +2374,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Calamari",
-        "confidence": 0.1593,
+        "confidence": 0.3569,
         "question": "Calamari is costed at $2.38 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.3755,
@@ -2357,7 +2391,7 @@
       {
         "kind": "plate_cost",
         "ref": "Calamari",
-        "confidence": 0.1593,
+        "confidence": 0.3569,
         "question": "Calamari computes to 8% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 2.3755,
@@ -2373,7 +2407,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Pappardelle",
-        "confidence": 0.3025,
+        "confidence": 0.55,
         "question": "Pappardelle is costed at $3.59 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.5943,
@@ -2390,7 +2424,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Branzino",
-        "confidence": 0.2636,
+        "confidence": 0.5135,
         "question": "Branzino is costed at $6.54 using 7 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 6.5443,
@@ -2409,7 +2443,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Brick Chicken",
-        "confidence": 0.29,
+        "confidence": 0.5385,
         "question": "Brick Chicken is costed at $3.24 using 8 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.2365,
@@ -2429,7 +2463,7 @@
       {
         "kind": "plate_cost",
         "ref": "Brick Chicken",
-        "confidence": 0.29,
+        "confidence": 0.5385,
         "question": "Brick Chicken computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 3.2365,
@@ -2442,7 +2476,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Skirt Steak",
-        "confidence": 0.2429,
+        "confidence": 0.4749,
         "question": "Skirt Steak is costed at $6.90 using 11 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 6.9011,
@@ -2465,7 +2499,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Short Rib",
-        "confidence": 0.2086,
+        "confidence": 0.4568,
         "question": "Short Rib is costed at $5.71 using 11 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 5.7064,
@@ -2488,10 +2522,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Tahdig Rice (for 2)",
-        "confidence": 0.34,
-        "question": "Tahdig Rice (for 2) is costed at $2.12 using 2 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.5831,
+        "question": "Tahdig Rice (for 2) is costed at $4.25 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 2.1227,
+          "plate_cost": 4.2455,
           "menu_price": 16.0,
           "low_confidence": [
             "Canola oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
@@ -2502,7 +2536,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Potatoes Sabzi",
-        "confidence": 0.3025,
+        "confidence": 0.55,
         "question": "Potatoes Sabzi is costed at $1.22 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.2219,
@@ -2519,7 +2553,7 @@
       {
         "kind": "plate_cost",
         "ref": "Potatoes Sabzi",
-        "confidence": 0.3025,
+        "confidence": 0.55,
         "question": "Potatoes Sabzi computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.2219,

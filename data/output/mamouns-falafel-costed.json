@@ -3403,6 +3403,8 @@
       {
         "item_name": "Falafel",
         "plate_cost": 1.5161,
+        "cost_per_serving": 1.5161,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 14,
@@ -3410,12 +3412,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5673,
+        "confidence": 0.7532,
         "costable": true
       },
       {
         "item_name": "Shawarma",
         "plate_cost": 3.9496,
+        "cost_per_serving": 3.9496,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 15,
@@ -3423,12 +3427,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5149,
+        "confidence": 0.7176,
         "costable": true
       },
       {
         "item_name": "Chicken Kebob",
         "plate_cost": 2.1127,
+        "cost_per_serving": 2.1127,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 13,
@@ -3436,12 +3442,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5495,
+        "confidence": 0.7413,
         "costable": true
       },
       {
         "item_name": "Classic",
         "plate_cost": 1.6636,
+        "cost_per_serving": 1.6636,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 15,
@@ -3449,12 +3457,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5575,
+        "confidence": 0.7467,
         "costable": true
       },
       {
         "item_name": "West 4th",
         "plate_cost": 4.0641,
+        "cost_per_serving": 4.0641,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 16,
@@ -3462,12 +3472,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5352,
+        "confidence": 0.7316,
         "costable": true
       },
       {
         "item_name": "Manhattan",
         "plate_cost": 2.2931,
+        "cost_per_serving": 2.2931,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 19,
@@ -3479,12 +3491,14 @@
         "low_confidence": [
           "Slicing cucumber (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4726,
+        "confidence": 0.6701,
         "costable": true
       },
       {
         "item_name": "West Village",
         "plate_cost": 1.9568,
+        "cost_per_serving": 1.9568,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 16,
@@ -3492,12 +3506,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.522,
+        "confidence": 0.7225,
         "costable": true
       },
       {
         "item_name": "Macdougal",
         "plate_cost": 3.3365,
+        "cost_per_serving": 3.3365,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 17,
@@ -3505,12 +3521,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5095,
+        "confidence": 0.7138,
         "costable": true
       },
       {
         "item_name": "Sullivan",
         "plate_cost": 2.5402,
+        "cost_per_serving": 2.5402,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 17,
@@ -3518,12 +3536,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5346,
+        "confidence": 0.7312,
         "costable": true
       },
       {
         "item_name": "East Village",
         "plate_cost": 2.0907,
+        "cost_per_serving": 2.0907,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 18,
@@ -3531,12 +3551,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5374,
+        "confidence": 0.733,
         "costable": true
       },
       {
         "item_name": "Bleecker",
         "plate_cost": 1.9002,
+        "cost_per_serving": 1.9002,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 15,
@@ -3544,12 +3566,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.4992,
+        "confidence": 0.7065,
         "costable": true
       },
       {
         "item_name": "Falafel",
         "plate_cost": 1.6575,
+        "cost_per_serving": 1.6575,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 14,
@@ -3560,12 +3584,14 @@
           "Fresh cilantro (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.46,
+        "confidence": 0.6782,
         "costable": true
       },
       {
         "item_name": "Combo",
         "plate_cost": 2.7847,
+        "cost_per_serving": 2.7847,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 14,
@@ -3576,12 +3602,14 @@
           "Pitted kalamata olives (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Beefsteak tomato (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3438,
+        "confidence": 0.5863,
         "costable": true
       },
       {
         "item_name": "Shawarma",
         "plate_cost": 4.2485,
+        "cost_per_serving": 4.2485,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 15,
@@ -3592,12 +3620,14 @@
           "White distilled vinegar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Iceberg lettuce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4656,
+        "confidence": 0.6823,
         "costable": true
       },
       {
         "item_name": "Hummus Bowl*",
         "plate_cost": 2.5925,
+        "cost_per_serving": 2.5925,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 15,
@@ -3607,12 +3637,14 @@
         "low_confidence": [
           "Daikon radish (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.52,
+        "confidence": 0.7211,
         "costable": true
       },
       {
         "item_name": "Chicken Kebob",
         "plate_cost": 2.4195,
+        "cost_per_serving": 2.4195,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 13,
@@ -3622,12 +3654,14 @@
         "low_confidence": [
           "Plain whole-milk yogurt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.519,
+        "confidence": 0.7204,
         "costable": true
       },
       {
         "item_name": "Falafel",
         "plate_cost": 0.8853,
+        "cost_per_serving": 0.8853,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 10,
@@ -3637,12 +3671,14 @@
         "low_confidence": [
           "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4644,
+        "confidence": 0.6815,
         "costable": true
       },
       {
         "item_name": "Seasoned Fries*",
         "plate_cost": 0.6261,
+        "cost_per_serving": 0.6261,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 10,
@@ -3653,12 +3689,14 @@
           "Fresh lemon juice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Canola oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4445,
+        "confidence": 0.6667,
         "costable": true
       },
       {
         "item_name": "Lentil Soup",
         "plate_cost": 0.8042,
+        "cost_per_serving": 0.8042,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 11,
@@ -3670,12 +3708,14 @@
         "low_confidence": [
           "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4719,
+        "confidence": 0.6577,
         "costable": true
       },
       {
         "item_name": "Mamoun's Salad*",
         "plate_cost": 1.5983,
+        "cost_per_serving": 1.5983,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 12,
@@ -3683,12 +3723,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.58,
+        "confidence": 0.7616,
         "costable": true
       },
       {
         "item_name": "Hummus",
         "plate_cost": 0.9713,
+        "cost_per_serving": 0.9713,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -3696,12 +3738,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.688,
+        "confidence": 0.8295,
         "costable": true
       },
       {
         "item_name": "Tabbouleh",
         "plate_cost": 1.2819,
+        "cost_per_serving": 1.2819,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 10,
@@ -3709,12 +3753,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.58,
+        "confidence": 0.7616,
         "costable": true
       },
       {
         "item_name": "Pita Chips*",
         "plate_cost": 0.513,
+        "cost_per_serving": 0.513,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 4,
@@ -3722,12 +3768,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.4987,
+        "confidence": 0.7062,
         "costable": true
       },
       {
         "item_name": "Pickled Veggies*",
         "plate_cost": 0.8198,
+        "cost_per_serving": 0.8198,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -3737,12 +3785,14 @@
         "low_confidence": [
           "Daikon radish (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3465,
+        "confidence": 0.5886,
         "costable": true
       },
       {
         "item_name": "Bag of Pita Bread*",
         "plate_cost": 0.7034,
+        "cost_per_serving": 0.7034,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -3750,12 +3800,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.54,
+        "confidence": 0.7348,
         "costable": true
       },
       {
         "item_name": "Baba Ganouj",
         "plate_cost": 1.3917,
+        "cost_per_serving": 1.3917,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 8,
@@ -3763,12 +3815,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.6747,
+        "confidence": 0.8214,
         "costable": true
       },
       {
         "item_name": "Seasoned Rice*",
         "plate_cost": 0.2988,
+        "cost_per_serving": 0.2988,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -3779,12 +3833,14 @@
           "Ground turmeric (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3853,
+        "confidence": 0.6207,
         "costable": true
       },
       {
         "item_name": "Grape Leaves",
         "plate_cost": 0.4359,
+        "cost_per_serving": 0.4359,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -3794,12 +3850,14 @@
           "Jarred grape leaves in brine (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.423,
+        "confidence": 0.6084,
         "costable": true
       },
       {
         "item_name": "Pita Bread*",
         "plate_cost": 0.1274,
+        "cost_per_serving": 0.1274,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -3807,12 +3865,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.525,
+        "confidence": 0.7246,
         "costable": true
       },
       {
         "item_name": "Baklava*",
         "plate_cost": 0.3649,
+        "cost_per_serving": 0.3649,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -3825,12 +3885,14 @@
         "low_confidence": [
           "Ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3566,
+        "confidence": 0.5047,
         "costable": true
       },
       {
         "item_name": "Hot",
         "plate_cost": 0.2908,
+        "cost_per_serving": 0.2908,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 7,
@@ -3846,12 +3908,14 @@
           "Kosher salt (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "White distilled vinegar (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2475,
+        "confidence": 0.4975,
         "costable": true
       },
       {
         "item_name": "Tahineh",
         "plate_cost": 0.4291,
+        "cost_per_serving": 0.4291,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -3861,12 +3925,14 @@
         "low_confidence": [
           "Flat-leaf parsley (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.6068,
+        "confidence": 0.779,
         "costable": true
       },
       {
         "item_name": "Garlic",
         "plate_cost": 0.2567,
+        "cost_per_serving": 0.2567,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -3876,12 +3942,14 @@
         "low_confidence": [
           "Liquid egg whites (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.469,
+        "confidence": 0.6848,
         "costable": true
       },
       {
         "item_name": "Mint Lemonade",
         "plate_cost": 1.0619,
+        "cost_per_serving": 1.0619,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 4,
@@ -3889,12 +3957,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5914,
+        "confidence": 0.769,
         "costable": true
       },
       {
         "item_name": "Mamoun's Iced Tea",
         "plate_cost": 0.2237,
+        "cost_per_serving": 0.2237,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 3,
@@ -3904,12 +3974,14 @@
         "low_confidence": [
           "Fresh lemon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.52,
+        "confidence": 0.7211,
         "costable": true
       },
       {
         "item_name": "Mango",
         "plate_cost": 0.8706,
+        "cost_per_serving": 0.8706,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 3,
@@ -3920,12 +3992,14 @@
           "Granulated white sugar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Fresh lemon juice (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3467,
+        "confidence": 0.5888,
         "costable": true
       },
       {
         "item_name": "Tamarind*",
         "plate_cost": 0.5478,
+        "cost_per_serving": 0.5478,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 3,
@@ -3935,12 +4009,14 @@
         "low_confidence": [
           "Fresh lemon juice (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.363,
+        "confidence": 0.6025,
         "costable": true
       },
       {
         "item_name": "Soda*",
         "plate_cost": 0.8,
+        "cost_per_serving": 0.8,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -3950,12 +4026,14 @@
         "low_confidence": [
           "Cola cans 12 oz (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.33,
+        "confidence": 0.5745,
         "costable": true
       },
       {
         "item_name": "Bottled Water",
         "plate_cost": 1.1,
+        "cost_per_serving": 1.1,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 1,
@@ -3965,7 +4043,7 @@
         "low_confidence": [
           "Sparkling water bottles (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.315,
+        "confidence": 0.5612,
         "costable": true
       }
     ],
@@ -3976,7 +4054,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Manhattan",
-        "confidence": 0.4726,
+        "confidence": 0.6701,
         "question": "Manhattan is costed at $2.29 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.2931,
@@ -3989,7 +4067,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Falafel",
-        "confidence": 0.46,
+        "confidence": 0.6782,
         "question": "Falafel is costed at $1.66 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.6575,
@@ -4003,7 +4081,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Combo",
-        "confidence": 0.3438,
+        "confidence": 0.5863,
         "question": "Combo is costed at $2.78 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.7847,
@@ -4017,7 +4095,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Shawarma",
-        "confidence": 0.4656,
+        "confidence": 0.6823,
         "question": "Shawarma is costed at $4.25 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.2485,
@@ -4031,7 +4109,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Hummus Bowl*",
-        "confidence": 0.52,
+        "confidence": 0.7211,
         "question": "Hummus Bowl* is costed at $2.59 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.5925,
@@ -4044,7 +4122,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Chicken Kebob",
-        "confidence": 0.519,
+        "confidence": 0.7204,
         "question": "Chicken Kebob is costed at $2.42 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.4195,
@@ -4057,7 +4135,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Falafel",
-        "confidence": 0.4644,
+        "confidence": 0.6815,
         "question": "Falafel is costed at $0.89 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.8853,
@@ -4070,7 +4148,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Seasoned Fries*",
-        "confidence": 0.4445,
+        "confidence": 0.6667,
         "question": "Seasoned Fries* is costed at $0.63 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.6261,
@@ -4084,7 +4162,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Lentil Soup",
-        "confidence": 0.4719,
+        "confidence": 0.6577,
         "question": "Lentil Soup is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.8042,
@@ -4097,7 +4175,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Pickled Veggies*",
-        "confidence": 0.3465,
+        "confidence": 0.5886,
         "question": "Pickled Veggies* is costed at $0.82 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.8198,
@@ -4110,7 +4188,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Seasoned Rice*",
-        "confidence": 0.3853,
+        "confidence": 0.6207,
         "question": "Seasoned Rice* is costed at $0.30 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.2988,
@@ -4124,7 +4202,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Baklava*",
-        "confidence": 0.3566,
+        "confidence": 0.5047,
         "question": "Baklava* is costed at $0.36 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.3649,
@@ -4137,7 +4215,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Hot",
-        "confidence": 0.2475,
+        "confidence": 0.4975,
         "question": "Hot is costed at $0.29 using 7 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.2908,
@@ -4156,7 +4234,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Tahineh",
-        "confidence": 0.6068,
+        "confidence": 0.779,
         "question": "Tahineh is costed at $0.43 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.4291,
@@ -4169,7 +4247,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Garlic",
-        "confidence": 0.469,
+        "confidence": 0.6848,
         "question": "Garlic is costed at $0.26 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.2567,
@@ -4182,7 +4260,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Mamoun's Iced Tea",
-        "confidence": 0.52,
+        "confidence": 0.7211,
         "question": "Mamoun's Iced Tea is costed at $0.22 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.2237,
@@ -4195,7 +4273,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Mango",
-        "confidence": 0.3467,
+        "confidence": 0.5888,
         "question": "Mango is costed at $0.87 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.8706,
@@ -4209,7 +4287,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Tamarind*",
-        "confidence": 0.363,
+        "confidence": 0.6025,
         "question": "Tamarind* is costed at $0.55 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.5478,
@@ -4222,7 +4300,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Soda*",
-        "confidence": 0.33,
+        "confidence": 0.5745,
         "question": "Soda* is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.8,
@@ -4235,7 +4313,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Bottled Water",
-        "confidence": 0.315,
+        "confidence": 0.5612,
         "question": "Bottled Water is costed at $1.10 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.1,

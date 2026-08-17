@@ -1,4 +1,13 @@
-"""Plate costing: turn recipes + SKU matches + catalog prices into a cost per serving.
+"""Plate costing: turn recipes + SKU matches + catalog prices into a cost per menu line.
+
+The invariant the whole node is built around: **`plate_cost` and `menu_price`
+must describe the same sold unit.** `food_cost_pct` is one divided by the other,
+so any mismatch between the two makes it a meaningless number that still looks
+like a percentage. The decomposer is asked for the recipe of one SOLD UNIT — what
+`menu_price` buys — and `yield_qty` merely reports how many servings that unit
+contains, so `plate_cost` is the cost of the whole line, undivided.
+`cost_per_serving` carries the divided figure alongside it for the shareable
+platters where a per-head number is the interesting one.
 
 **This node makes no LLM call at all.** It is pure arithmetic over what the three
 previous nodes produced, and that is the whole point: the food-cost validation in
@@ -12,10 +21,13 @@ Two rules keep the arithmetic honest rather than merely plausible:
   1. `_convert()` returns `None` when no conversion exists. Never 1.0, never an
      exception. An unconvertible unit has to become a visible gap in `uncosted`,
      because a silently wrong multiplier is a plate cost that looks fine and is not.
-  2. `confidence` is the PRODUCT of the recipe's own confidence, the mean
-     confidence of the SKU matches actually used, and coverage — not their average.
-     A plate costed from half its ingredients therefore cannot report high
-     confidence no matter how sure the model was about the half it saw.
+  2. `confidence` treats measurement and opinion differently. The recipe's own
+     confidence and the mean confidence of the SKU matches actually used are two
+     model self-assessments, so they are combined as a geometric mean. Coverage
+     is not an opinion — it is a measured fact about how much of the plate could
+     be priced at all — so it MULTIPLIES that result rather than being averaged
+     into it: a plate costed from half its ingredients reports at most half the
+     confidence, whatever the model believed about the half it saw.
   3. A component whose own `confidence` is below `CONF_REVIEW_FLOOR` is not
      costed at all — same treatment as an unconvertible unit. `src/nodes/draft_po.py`
      withholds those same components from the purchase order, so pricing them
@@ -38,6 +50,7 @@ caught; retry_count++ ; the error is fed back through `last_error`. There is no
 network call here, but the circuit breaker should still catch a bad catalog.
 """
 import json
+import math
 from pathlib import Path
 
 from langchain_core.messages import HumanMessage
@@ -232,10 +245,43 @@ def cost_plates_node(state: AgentState) -> dict:
             # resurrect the fake zero.
             costable = costed_components > 0
 
+            # THE INVARIANT: `plate_cost` and `menu_price` must describe the SAME
+            # SOLD UNIT. `food_cost_pct` divides one by the other, so the moment
+            # they describe different quantities the ratio is meaningless.
+            #
+            # `total` is the cost of the whole menu line, because that is what the
+            # decomposer was asked for. Its SYSTEM_PROMPT: "If a dish is genuinely
+            # sold as a shareable platter, still describe one sold unit and say so
+            # via yield_qty / yield_uom." `yield_qty` therefore REPORTS how many
+            # servings the sold unit contains; it does not scale the components.
+            # The cached data agrees: au-zaatar's "Fattoush Salad (Large)"
+            # (yield_qty 2) lists exactly twice the romaine of the Small
+            # (yield_qty 1), and kanoyama's "Sushi <For 3>" lists 18 oz of rice
+            # against "Sushi <For 2>"'s 12 oz. Per-serving quantities would have
+            # been identical across each pair.
+            #
+            # So dividing by yield_qty here was a straight off-by-the-yield bug:
+            # it compared one slice against the price of the whole pie. Joe's
+            # "Classic Cheese Pie 8 slices" costs $4.62 of ingredients against a
+            # $24.00 menu price — 19.3% food cost — and used to report $0.58
+            # against $24.00, 2.4%, which put a fake near-zero on the food-cost
+            # distribution chart.
+            #
+            # 844 of the 879 cached recipes carry yield_qty 1.0, where this
+            # changes precisely nothing.
+            plate_cost = round(total, 4) if costable else None
+
+            # The per-serving figure is kept rather than lost — it is the useful
+            # number for a shareable platter, it just is not the one `menu_price`
+            # can be divided into. `yield_qty` rides along in the entry so the two
+            # can never be mistaken for each other by a later reader.
+            #
             # yield_qty of 0 or None would be a division by zero on data we do not
             # control; a recipe with no stated yield is one serving by definition.
             yield_qty = float(recipe.get("yield_qty") or 0.0) or 1.0
-            plate_cost = round(total / yield_qty, 4) if costable else None
+            cost_per_serving = (
+                round(total / yield_qty, 4) if costable else None
+            )
 
             total_components = len(components)
             coverage = costed_components / total_components if total_components else 0.0
@@ -255,14 +301,35 @@ def cost_plates_node(state: AgentState) -> dict:
             )
 
             mean_match_conf = sum(match_confs) / len(match_confs) if match_confs else 0.0
-            # Product, not average: half a plate cannot be highly confident.
+            # Two model self-assessments, combined as a geometric mean; coverage
+            # then multiplies the result outright.
+            #
+            # Coverage is deliberately NOT inside the mean. It is not an opinion
+            # the way the other two are -- it is a measured fact about how much
+            # of the plate was priced at all, so it scales the answer rather than
+            # being averaged with it: a plate costed from half its ingredients
+            # reports at most half the confidence, whatever the model believed
+            # about the half it saw.
+            #
+            # The two opinions are averaged rather than multiplied because a
+            # product of three numbers below 1.0 collapses onto a scale that has
+            # nothing to do with the 0.85 / 0.60 bands in src/state.py, which are
+            # phrased for a single judgement. Measured on joes-pizza-carmine, the
+            # raw triple product put every plate under CONF_REVIEW_FLOOR, so the
+            # whole restaurant was recorded as gaps and the review card was never
+            # sent -- the human gate silently had nothing to ask about, which is
+            # the one failure mode this pipeline cannot afford.
             confidence = round(
-                float(recipe.get("confidence") or 0.0) * mean_match_conf * coverage, 4
+                math.sqrt(float(recipe.get("confidence") or 0.0) * mean_match_conf)
+                * coverage,
+                4,
             )
 
             entry = {
                 "item_name": item_name,
                 "plate_cost": plate_cost,
+                "cost_per_serving": cost_per_serving,
+                "yield_qty": yield_qty,
                 "menu_price": menu_price,
                 "food_cost_pct": food_cost_pct,
                 "costed_components": costed_components,

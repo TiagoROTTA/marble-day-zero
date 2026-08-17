@@ -5,6 +5,7 @@ exactly why every number below is asserted against arithmetic done by hand in th
 comments rather than against a recorded fixture.
 """
 import json
+import math
 
 from src.nodes import cost_plates as cost_module
 from src.nodes.cost_plates import (
@@ -152,10 +153,18 @@ def test_two_ingredient_plate_costs_correctly(monkeypatch, tmp_path):
     assert update["review_queue"] == []
 
 
-def test_yield_qty_divides_the_batch_cost(monkeypatch, tmp_path):
+def test_yield_qty_does_not_divide_the_plate_cost(monkeypatch, tmp_path):
+    """THE INVARIANT: plate_cost and menu_price describe the same sold unit.
+
+    This assertion used to read `plate_cost == 3.20` — 25.60 / 8 — because the
+    node divided by yield_qty. That was the bug: the recipe describes one SOLD
+    UNIT (what menu_price buys) and yield_qty only REPORTS how many servings that
+    unit feeds, so dividing left a one-serving numerator over a whole-unit
+    denominator. The per-serving figure is still available, on cost_per_serving.
+    """
     _use_fixture_catalog(monkeypatch, tmp_path)
 
-    # 1 gal olive oil at 25.60 across 8 servings -> 3.20 per serving.
+    # 1 gal olive oil at 25.60 is the whole sold unit; it happens to feed 8.
     state = _state(
         recipes=[_recipe("Aglio e Olio", [_component("olive oil", 1.0, "gal")], yield_qty=8.0)],
         sku_matches=[_match("olive oil", "OIL-OLIVE-XV")],
@@ -164,7 +173,115 @@ def test_yield_qty_divides_the_batch_cost(monkeypatch, tmp_path):
 
     plate = cost_plates_node(state)["plate_costs"][0]
 
-    assert plate["plate_cost"] == 3.20
+    assert plate["plate_cost"] == 25.60
+    assert plate["cost_per_serving"] == 3.20
+    assert plate["yield_qty"] == 8.0
+
+
+def test_yield_qty_of_one_leaves_the_two_figures_equal(monkeypatch, tmp_path):
+    """The safety property: 844 of the 879 cached recipes are yield_qty 1.0."""
+    _use_fixture_catalog(monkeypatch, tmp_path)
+
+    state = _state(
+        recipes=[_recipe("Aglio e Olio", [_component("olive oil", 1.0, "gal")])],
+        sku_matches=[_match("olive oil", "OIL-OLIVE-XV")],
+        menu_items=[{"name": "Aglio e Olio", "price": 64.00}],
+    )
+
+    plate = cost_plates_node(state)["plate_costs"][0]
+
+    assert plate["plate_cost"] == 25.60
+    assert plate["cost_per_serving"] == 25.60
+    assert plate["food_cost_pct"] == 0.4
+
+
+def test_missing_yield_defaults_to_one_serving(monkeypatch, tmp_path):
+    """yield_qty 0 or None must not divide by zero on cost_per_serving."""
+    _use_fixture_catalog(monkeypatch, tmp_path)
+
+    for bad_yield in (0.0, None):
+        recipe = _recipe("Aglio e Olio", [_component("olive oil", 1.0, "gal")])
+        recipe["yield_qty"] = bad_yield
+        state = _state(
+            recipes=[recipe],
+            sku_matches=[_match("olive oil", "OIL-OLIVE-XV")],
+            menu_items=[{"name": "Aglio e Olio", "price": 64.00}],
+        )
+
+        plate = cost_plates_node(state)["plate_costs"][0]
+
+        assert plate["yield_qty"] == 1.0
+        assert plate["cost_per_serving"] == 25.60
+
+
+def test_uncostable_plate_has_no_per_serving_figure_either(monkeypatch, tmp_path):
+    """None, not 0.0 — the same rule plate_cost follows, for the same reason."""
+    _use_fixture_catalog(monkeypatch, tmp_path)
+
+    state = _state(
+        recipes=[_recipe("Mystery", [_component("unobtainium", 1.0, "gal")], yield_qty=4.0)],
+        sku_matches=[],
+        menu_items=[{"name": "Mystery", "price": 12.00}],
+    )
+
+    plate = cost_plates_node(state)["plate_costs"][0]
+
+    assert plate["costable"] is False
+    assert plate["plate_cost"] is None
+    assert plate["cost_per_serving"] is None
+
+
+def test_joes_pizza_whole_pie_regression(monkeypatch, tmp_path):
+    """The real shape that exposed the bug: a whole pie priced as a whole pie.
+
+    joes-pizza-carmine's "Classic Cheese Pie 8 slices" carries yield_qty 8 and
+    WHOLE-PIE components (14 oz flour, 12 oz mozzarella), against a $24.00 menu
+    price that buys the whole pie. Dividing the cost by 8 reported 2.4% food
+    cost and put a fake near-zero on the food-cost distribution chart; the honest
+    ratio is ~19%.
+    """
+    _use_fixture_catalog(monkeypatch, tmp_path)
+
+    # Whole-pie quantities, priced off the fixture catalog to land on the real
+    # run's totals:
+    #   12 oz mozzarella  = 0.75 lb   x 3.20  = 2.40
+    #    8 fl_oz olive oil = 0.0625 gal x 25.60 = 1.60
+    #    8 oz roma tomato  = 0.5 lb    x 1.30  = 0.65
+    #                                    total = 4.65   (the real run: 4.62)
+    state = _state(
+        recipes=[
+            _recipe(
+                "Classic Cheese Pie 8 slices",
+                [
+                    _component("mozzarella", 12.0, "oz"),
+                    _component("olive oil", 8.0, "fl_oz"),
+                    _component("roma tomatoes", 8.0, "oz"),
+                ],
+                yield_qty=8.0,
+            )
+        ],
+        sku_matches=[
+            _match("mozzarella", "DAIRY-MOZZ"),
+            _match("olive oil", "OIL-OLIVE-XV"),
+            _match("roma tomatoes", "PROD-TOMATO-ROMA"),
+        ],
+        menu_items=[{"name": "Classic Cheese Pie 8 slices", "price": 24.00}],
+    )
+
+    plate = cost_plates_node(state)["plate_costs"][0]
+
+    assert plate["plate_cost"] == 4.65
+    # 4.65 / 24.00 = 19.4% — an ordinary pizzeria food cost, inside the band.
+    assert plate["food_cost_pct"] == 0.1938
+    assert SANE_BAND_LOW <= plate["food_cost_pct"] <= SANE_BAND_HIGH
+
+    # The old divide-by-yield behaviour, reproduced explicitly so the regression
+    # is unmistakable: it reported 4.65 / 8 = $0.58 against the $24.00 whole-pie
+    # price, i.e. 2.4% food cost. That number is now on cost_per_serving, where
+    # it is true, instead of on food_cost_pct, where it was a fake near-zero.
+    assert plate["cost_per_serving"] == 0.5813
+    assert plate["food_cost_pct"] != 0.0242
+    assert round(plate["cost_per_serving"] / 24.00, 4) == 0.0242
 
 
 def test_cross_unit_conversion_into_the_sku_uom(monkeypatch, tmp_path):
@@ -412,12 +529,12 @@ def test_below_floor_component_drags_confidence_down_but_not_the_cost(
 
     # Each component contributes match_conf * quantity_conf to the mean, so
     # identity and quantity both have to be sound for a line to read as certain.
-    # confident: mean (1.0*0.95, 1.0*0.95) = 0.95 -> 0.9 * 0.95 * 1.0
+    # confident: mean (1.0*0.95, 1.0*0.95) = 0.95 -> sqrt(0.9 * 0.95) * 1.0
     assert confident["coverage"] == 1.0
-    assert confident["confidence"] == round(0.9 * 0.95 * 1.0, 4)
-    # guessed: mean (1.0*0.95, 1.0*0.40) = 0.675 -> 0.9 * 0.675 * 1.0
+    assert confident["confidence"] == round(math.sqrt(0.9 * 0.95) * 1.0, 4)
+    # guessed: mean (1.0*0.95, 1.0*0.40) = 0.675 -> sqrt(0.9 * 0.675) * 1.0
     assert guessed["coverage"] == 1.0
-    assert guessed["confidence"] == round(0.9 * 0.675 * 1.0, 4)
+    assert guessed["confidence"] == round(math.sqrt(0.9 * 0.675) * 1.0, 4)
 
     # The uncertainty now lands where it belongs: the plate says it is less sure,
     # rather than quietly costing less. Coverage and cost are unchanged, because
@@ -468,8 +585,8 @@ def test_confidence_a_hair_under_the_floor_is_costed_but_flagged(monkeypatch, tm
     assert plate["costable"] is True
     assert plate["costed_components"] == 1
     assert plate["coverage"] == 1.0
-    # recipe 1.0 * (match 1.0 * quantity 0.59) * coverage 1.0
-    assert plate["confidence"] == round(conf, 4)
+    # sqrt(recipe 1.0 * mean(match 1.0 * quantity 0.59)) * coverage 1.0
+    assert plate["confidence"] == round(math.sqrt(1.0 * conf) * 1.0, 4)
     assert plate["uncosted"] == []
     assert len(plate["low_confidence"]) == 1
     # Crossing the floor still reaches a human — it just no longer alters the money.
@@ -545,7 +662,7 @@ def test_quantity_confidence_multiplies_match_confidence_in_the_mean(
     plate = cost_plates_node(state)["plate_costs"][0]
 
     # mean of (0.5 * 0.9) and (1.0 * 0.40) = (0.45 + 0.40) / 2 = 0.425
-    assert plate["confidence"] == round(1.0 * 0.425 * 1.0, 4)
+    assert plate["confidence"] == round(math.sqrt(1.0 * 0.425) * 1.0, 4)
     # A weakly-matched but confidently-measured line and a well-matched but
     # hedged line both pull the mean down; neither is silently discarded.
     assert plate["costed_components"] == 2
@@ -751,10 +868,10 @@ def test_partial_coverage_drags_confidence_below_the_component_mean(monkeypatch,
     assert plate["confidence"] < component_mean
 
 
-def test_confidence_multiplies_all_three_factors(monkeypatch, tmp_path):
+def test_confidence_is_a_geometric_mean_of_the_two_opinions(monkeypatch, tmp_path):
     _use_fixture_catalog(monkeypatch, tmp_path)
 
-    # recipe 0.8 * mean match (0.9 + 0.7)/2 = 0.8 * coverage 1.0 -> 0.64
+    # sqrt(recipe 0.8 * mean match (0.9 + 0.7)/2 = 0.8) * coverage 1.0 -> 0.8
     state = _state(
         recipes=[_recipe("Pasta", [
             _component("mozzarella", 4.0, "oz"),
@@ -769,7 +886,46 @@ def test_confidence_multiplies_all_three_factors(monkeypatch, tmp_path):
 
     plate = cost_plates_node(state)["plate_costs"][0]
 
-    assert plate["confidence"] == round(0.8 * 0.8 * 1.0, 4) == 0.64
+    assert plate["confidence"] == round(math.sqrt(0.8 * 0.8) * 1.0, 4) == 0.8
+    # The raw triple product would have said 0.64, which is below the 0.60 review
+    # floor's neighbourhood for no reason a reviewer could defend: two 0.8-ish
+    # opinions about a fully-covered plate are not evidence of a shaky plate.
+    assert plate["confidence"] > round(0.8 * 0.8 * 1.0, 4)
+
+
+def test_coverage_scales_confidence_linearly(monkeypatch, tmp_path):
+    """Coverage multiplies outright, so half a plate reports at most half.
+
+    This is the property the geometric mean must NOT dilute: coverage is a
+    measured fact, not a model opinion, and averaging it in would let a
+    confident model talk its way past a plate it only half priced.
+    """
+    _use_fixture_catalog(monkeypatch, tmp_path)
+
+    def build(second_component):
+        return _state(
+            recipes=[_recipe("Pasta", [
+                _component("mozzarella", 4.0, "oz"),
+                second_component,
+            ], confidence=0.9)],
+            sku_matches=[
+                _match("mozzarella", "DAIRY-MOZZ", confidence=0.9),
+                _match("roma tomatoes", "PROD-TOMATO-ROMA", confidence=0.9),
+            ],
+            menu_items=[{"name": "Pasta", "price": 10.00}],
+        )
+
+    full = cost_plates_node(
+        build(_component("roma tomatoes", 4.0, "oz"))
+    )["plate_costs"][0]
+    # "tsp" has no conversion, so this component cannot be costed: coverage 0.5.
+    half = cost_plates_node(
+        build(_component("roma tomatoes", 4.0, "tsp"))
+    )["plate_costs"][0]
+
+    assert full["coverage"] == 1.0
+    assert half["coverage"] == 0.5
+    assert half["confidence"] == round(full["confidence"] * 0.5, 4)
 
 
 # --- the sane band --------------------------------------------------------

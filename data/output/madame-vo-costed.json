@@ -3781,6 +3781,8 @@
       {
         "item_name": "CHA GIO",
         "plate_cost": 2.4718,
+        "cost_per_serving": 2.4718,
+        "yield_qty": 1.0,
         "menu_price": 15.0,
         "food_cost_pct": 0.1648,
         "costed_components": 12,
@@ -3796,12 +3798,14 @@
           "Fresh lime juice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Peeled garlic cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4067,
+        "confidence": 0.6127,
         "costable": true
       },
       {
         "item_name": "NEM NUONG CUON",
         "plate_cost": 0.7484,
+        "cost_per_serving": 0.7484,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": 0.0576,
         "costed_components": 7,
@@ -3817,12 +3821,14 @@
           "Canola oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Peeled garlic cloves (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3006,
+        "confidence": 0.5129,
         "costable": true
       },
       {
         "item_name": "GOI CUON *GF",
         "plate_cost": 1.5867,
+        "cost_per_serving": 1.5867,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": 0.1221,
         "costed_components": 7,
@@ -3838,12 +3844,14 @@
           "Creamy peanut butter (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Hoisin sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3544,
+        "confidence": 0.5568,
         "costable": true
       },
       {
         "item_name": "MADAME WINGS *GF",
         "plate_cost": 2.1582,
+        "cost_per_serving": 2.1582,
+        "yield_qty": 1.0,
         "menu_price": 18.0,
         "food_cost_pct": 0.1199,
         "costed_components": 7,
@@ -3857,12 +3865,14 @@
           "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Ground black pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3343,
+        "confidence": 0.5782,
         "costable": true
       },
       {
         "item_name": "BANH XEO",
         "plate_cost": 2.1201,
+        "cost_per_serving": 2.1201,
+        "yield_qty": 1.0,
         "menu_price": 17.0,
         "food_cost_pct": 0.1247,
         "costed_components": 12,
@@ -3878,12 +3888,14 @@
           "Romaine lettuce (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
           "Fresh mint (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3575,
+        "confidence": 0.5979,
         "costable": true
       },
       {
         "item_name": "BANH KHOT",
         "plate_cost": 1.7911,
+        "cost_per_serving": 1.7911,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.1119,
         "costed_components": 8,
@@ -3898,12 +3910,14 @@
           "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Vietnamese fish sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3225,
+        "confidence": 0.5679,
         "costable": true
       },
       {
         "item_name": "BANH BOT CHIEN",
         "plate_cost": 1.3371,
+        "cost_per_serving": 1.3371,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.0704,
         "costed_components": 9,
@@ -3920,12 +3934,14 @@
           "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Vietnamese fish sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2842,
+        "confidence": 0.5331,
         "costable": true
       },
       {
         "item_name": "GOI BUOI*GF",
         "plate_cost": 1.9964,
+        "cost_per_serving": 1.9964,
+        "yield_qty": 1.0,
         "menu_price": 18.0,
         "food_cost_pct": 0.1109,
         "costed_components": 11,
@@ -3946,12 +3962,14 @@
           "Fresh lime juice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Granulated white sugar (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2875,
+        "confidence": 0.5134,
         "costable": true
       },
       {
         "item_name": "GOI NGO BO",
         "plate_cost": 2.7189,
+        "cost_per_serving": 2.7189,
+        "yield_qty": 1.0,
         "menu_price": 24.0,
         "food_cost_pct": 0.1133,
         "costed_components": 8,
@@ -3969,12 +3987,14 @@
           "Vietnamese fish sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Granulated white sugar (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2567,
+        "confidence": 0.4776,
         "costable": true
       },
       {
         "item_name": "MUC RANG MUOI",
         "plate_cost": 3.9144,
+        "cost_per_serving": 3.9144,
+        "yield_qty": 1.0,
         "menu_price": 22.0,
         "food_cost_pct": 0.1779,
         "costed_components": 8,
@@ -3989,12 +4009,14 @@
           "Heavy-duty mayonnaise (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Fresh lime juice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3262,
+        "confidence": 0.5712,
         "costable": true
       },
       {
         "item_name": "CUA LOT RANG MUOI",
         "plate_cost": 1.4665,
+        "cost_per_serving": 1.4665,
+        "yield_qty": 1.0,
         "menu_price": 28.0,
         "food_cost_pct": 0.0524,
         "costed_components": 8,
@@ -4008,12 +4030,14 @@
           "fresh lime juice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3394,
+        "confidence": 0.5493,
         "costable": true
       },
       {
         "item_name": "TOM RANG MUOI",
         "plate_cost": 4.8806,
+        "cost_per_serving": 4.8806,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.305,
         "costed_components": 9,
@@ -4025,12 +4049,14 @@
           "fresh lime juice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3864,
+        "confidence": 0.6216,
         "costable": true
       },
       {
         "item_name": "MADAME PLATTER",
         "plate_cost": 6.1284,
+        "cost_per_serving": 6.1284,
+        "yield_qty": 1.0,
         "menu_price": 68.0,
         "food_cost_pct": 0.0901,
         "costed_components": 13,
@@ -4054,12 +4080,14 @@
           "all-purpose flour (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "clear fry oil (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2268,
+        "confidence": 0.4589,
         "costable": true
       },
       {
         "item_name": "THE MADAME PHO *GF",
         "plate_cost": 3.667,
+        "cost_per_serving": 3.667,
+        "yield_qty": 1.0,
         "menu_price": 20.0,
         "food_cost_pct": 0.1833,
         "costed_components": 14,
@@ -4072,12 +4100,14 @@
           "whole cloves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4446,
+        "confidence": 0.6668,
         "costable": true
       },
       {
         "item_name": "PHO CHAY *V",
         "plate_cost": 2.0556,
+        "cost_per_serving": 2.0556,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1082,
         "costed_components": 11,
@@ -4089,12 +4119,14 @@
           "ground cinnamon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.42,
+        "confidence": 0.6481,
         "costable": true
       },
       {
         "item_name": "BUN BO HUE *GF",
         "plate_cost": 3.2275,
+        "cost_per_serving": 3.2275,
+        "yield_qty": 1.0,
         "menu_price": 22.0,
         "food_cost_pct": 0.1467,
         "costed_components": 10,
@@ -4111,12 +4143,14 @@
           "scallion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "kosher salt (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3368,
+        "confidence": 0.5534,
         "costable": true
       },
       {
         "item_name": "TET NOODLES",
         "plate_cost": 6.9603,
+        "cost_per_serving": 6.9603,
+        "yield_qty": 1.0,
         "menu_price": 30.0,
         "food_cost_pct": 0.232,
         "costed_components": 7,
@@ -4126,12 +4160,14 @@
         "low_confidence": [
           "scallion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4039,
+        "confidence": 0.6356,
         "costable": true
       },
       {
         "item_name": "GARLIC NOODLES",
         "plate_cost": 2.9077,
+        "cost_per_serving": 2.9077,
+        "yield_qty": 1.0,
         "menu_price": 20.0,
         "food_cost_pct": 0.1454,
         "costed_components": 7,
@@ -4143,12 +4179,14 @@
           "scallion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.39,
+        "confidence": 0.6245,
         "costable": true
       },
       {
         "item_name": "HU TIEU CHAY",
         "plate_cost": 1.6947,
+        "cost_per_serving": 1.6947,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.0892,
         "costed_components": 7,
@@ -4158,12 +4196,14 @@
         "low_confidence": [
           "soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3946,
+        "confidence": 0.6282,
         "costable": true
       },
       {
         "item_name": "VERMICELLI BOWL *V",
         "plate_cost": 2.2306,
+        "cost_per_serving": 2.2306,
+        "yield_qty": 1.0,
         "menu_price": 20.0,
         "food_cost_pct": 0.1115,
         "costed_components": 9,
@@ -4178,12 +4218,14 @@
           "romaine lettuce (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
           "clear fry oil (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2933,
+        "confidence": 0.5416,
         "costable": true
       },
       {
         "item_name": "Oxtail Fried Rice",
         "plate_cost": 3.7688,
+        "cost_per_serving": 3.7688,
+        "yield_qty": 1.0,
         "menu_price": 34.0,
         "food_cost_pct": 0.1108,
         "costed_components": 11,
@@ -4193,12 +4235,14 @@
           "Fresh cilantro (no conversion from oz to bunch)"
         ],
         "low_confidence": [],
-        "confidence": 0.4781,
+        "confidence": 0.662,
         "costable": true
       },
       {
         "item_name": "COM SUON NUONG *GF",
         "plate_cost": 2.7299,
+        "cost_per_serving": 2.7299,
+        "yield_qty": 1.0,
         "menu_price": 24.0,
         "food_cost_pct": 0.1137,
         "costed_components": 10,
@@ -4211,12 +4255,14 @@
           "Fish sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Ground black pepper (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4725,
+        "confidence": 0.6874,
         "costable": true
       },
       {
         "item_name": "BO LUC LAC",
         "plate_cost": 6.2685,
+        "cost_per_serving": 6.2685,
+        "yield_qty": 1.0,
         "menu_price": 35.0,
         "food_cost_pct": 0.1791,
         "costed_components": 9,
@@ -4226,12 +4272,14 @@
         "low_confidence": [
           "Oyster sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4958,
+        "confidence": 0.7042,
         "costable": true
       },
       {
         "item_name": "CA TIM XAO XA OT *V",
         "plate_cost": 0.903,
+        "cost_per_serving": 0.903,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.0475,
         "costed_components": 6,
@@ -4244,12 +4292,14 @@
           "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.39,
+        "confidence": 0.5782,
         "costable": true
       },
       {
         "item_name": "GA XAO XA OT",
         "plate_cost": 1.2704,
+        "cost_per_serving": 1.2704,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.0669,
         "costed_components": 7,
@@ -4262,12 +4312,14 @@
           "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3937,
+        "confidence": 0.587,
         "costable": true
       },
       {
         "item_name": "MAMA LY'S FRIED RICE *GF",
         "plate_cost": 3.372,
+        "cost_per_serving": 3.372,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1775,
         "costed_components": 8,
@@ -4277,12 +4329,14 @@
         "low_confidence": [
           "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.49,
+        "confidence": 0.7,
         "costable": true
       },
       {
         "item_name": "STRING BEANS IN GARLIC SAUCE",
         "plate_cost": 0.8656,
+        "cost_per_serving": 0.8656,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.0541,
         "costed_components": 6,
@@ -4293,12 +4347,14 @@
           "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Granulated white sugar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4875,
+        "confidence": 0.6982,
         "costable": true
       },
       {
         "item_name": "FRIED EGG",
         "plate_cost": 0.3227,
+        "cost_per_serving": 0.3227,
+        "yield_qty": 1.0,
         "menu_price": 5.0,
         "food_cost_pct": 0.0645,
         "costed_components": 3,
@@ -4306,12 +4362,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.6233,
+        "confidence": 0.7895,
         "costable": true
       },
       {
         "item_name": "JASMINE RICE",
         "plate_cost": 0.3562,
+        "cost_per_serving": 0.3562,
+        "yield_qty": 1.0,
         "menu_price": 4.0,
         "food_cost_pct": 0.0891,
         "costed_components": 1,
@@ -4319,12 +4377,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.81,
+        "confidence": 0.9,
         "costable": true
       },
       {
         "item_name": "LYCHEE ICE TEA",
         "plate_cost": 0.1637,
+        "cost_per_serving": 0.1637,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.0234,
         "costed_components": 2,
@@ -4334,12 +4394,14 @@
           "Canned lychee in syrup (no conversion from oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.315,
+        "confidence": 0.4583,
         "costable": true
       },
       {
         "item_name": "LIMEADE",
         "plate_cost": 0.9806,
+        "cost_per_serving": 0.9806,
+        "yield_qty": 1.0,
         "menu_price": 6.0,
         "food_cost_pct": 0.1634,
         "costed_components": 3,
@@ -4347,12 +4409,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.6375,
+        "confidence": 0.7984,
         "costable": true
       },
       {
         "item_name": "SALTED LIMEADE",
         "plate_cost": 1.083,
+        "cost_per_serving": 1.083,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.1547,
         "costed_components": 5,
@@ -4360,12 +4424,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.56,
+        "confidence": 0.7483,
         "costable": true
       },
       {
         "item_name": "VIETNAMESE ICED COFFEE",
         "plate_cost": 0.4113,
+        "cost_per_serving": 0.4113,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.0588,
         "costed_components": 1,
@@ -4375,12 +4441,14 @@
           "Sweetened condensed milk (no conversion from fl_oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.3612,
+        "confidence": 0.425,
         "costable": true
       },
       {
         "item_name": "PANDAN SPARKLING WATER",
         "plate_cost": 1.3969,
+        "cost_per_serving": 1.3969,
+        "yield_qty": 1.0,
         "menu_price": 6.0,
         "food_cost_pct": 0.2328,
         "costed_components": 2,
@@ -4388,12 +4456,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.66,
+        "confidence": 0.8124,
         "costable": true
       },
       {
         "item_name": "FRESH COCONUT",
         "plate_cost": 2.5,
+        "cost_per_serving": 2.5,
+        "yield_qty": 1.0,
         "menu_price": 10.0,
         "food_cost_pct": 0.25,
         "costed_components": 1,
@@ -4401,12 +4471,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.68,
+        "confidence": 0.8246,
         "costable": true
       },
       {
         "item_name": "SODA",
         "plate_cost": 0.8,
+        "cost_per_serving": 0.8,
+        "yield_qty": 1.0,
         "menu_price": 4.0,
         "food_cost_pct": 0.2,
         "costed_components": 1,
@@ -4416,12 +4488,14 @@
         "low_confidence": [
           "Cola cans 12 oz (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.25,
+        "confidence": 0.5,
         "costable": true
       },
       {
         "item_name": "HOT TEA",
         "plate_cost": 0.0688,
+        "cost_per_serving": 0.0688,
+        "yield_qty": 1.0,
         "menu_price": 6.0,
         "food_cost_pct": 0.0115,
         "costed_components": 1,
@@ -4431,12 +4505,14 @@
         "low_confidence": [
           "Jasmine loose leaf tea (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.16,
+        "confidence": 0.4,
         "costable": true
       },
       {
         "item_name": "FIRST KISS",
         "plate_cost": 0.3741,
+        "cost_per_serving": 0.3741,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.0234,
         "costed_components": 4,
@@ -4447,12 +4523,14 @@
           "Italicus bergamot liqueur 750ml (no conversion from fl_oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.35,
+        "confidence": 0.483,
         "costable": true
       },
       {
         "item_name": "MADAME SOUR",
         "plate_cost": 0.8938,
+        "cost_per_serving": 0.8938,
+        "yield_qty": 1.0,
         "menu_price": 17.0,
         "food_cost_pct": 0.0526,
         "costed_components": 4,
@@ -4462,12 +4540,14 @@
           "Well gin 1.75L (no conversion from fl_oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.4275,
+        "confidence": 0.5848,
         "costable": true
       },
       {
         "item_name": "MISS SAIGON",
         "plate_cost": 0.1766,
+        "cost_per_serving": 0.1766,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.011,
         "costed_components": 2,
@@ -4479,12 +4559,14 @@
           "Peach blossom liqueur 750ml (no conversion from fl_oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.21,
+        "confidence": 0.2898,
         "costable": true
       },
       {
         "item_name": "LE SECRET D'AMOUR",
         "plate_cost": 0.5183,
+        "cost_per_serving": 0.5183,
+        "yield_qty": 1.0,
         "menu_price": 17.0,
         "food_cost_pct": 0.0305,
         "costed_components": 3,
@@ -4498,12 +4580,14 @@
         "low_confidence": [
           "Persian lime (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.215,
+        "confidence": 0.3279,
         "costable": true
       },
       {
         "item_name": "MEKONG DREAM",
         "plate_cost": 0.632,
+        "cost_per_serving": 0.632,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.0395,
         "costed_components": 3,
@@ -4514,12 +4598,14 @@
           "Fernet Branca 1L (no conversion from fl_oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.3055,
+        "confidence": 0.4281,
         "costable": true
       },
       {
         "item_name": "VIETNAMESE COFFEE MARTINI",
         "plate_cost": 0.1175,
+        "cost_per_serving": 0.1175,
+        "yield_qty": 1.0,
         "menu_price": 17.0,
         "food_cost_pct": 0.0069,
         "costed_components": 1,
@@ -4531,12 +4617,14 @@
           "Sweetened condensed milk (no conversion from fl_oz to each)"
         ],
         "low_confidence": [],
-        "confidence": 0.0894,
+        "confidence": 0.1495,
         "costable": true
       },
       {
         "item_name": "Saigon Export",
         "plate_cost": 1.4,
+        "cost_per_serving": 1.4,
+        "yield_qty": 1.0,
         "menu_price": 8.0,
         "food_cost_pct": 0.175,
         "costed_components": 1,
@@ -4544,12 +4632,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.33,
+        "confidence": 0.5745,
         "costable": true
       },
       {
         "item_name": "SAPPORO Reserve",
         "plate_cost": 1.4,
+        "cost_per_serving": 1.4,
+        "yield_qty": 1.0,
         "menu_price": 8.0,
         "food_cost_pct": 0.175,
         "costed_components": 1,
@@ -4557,12 +4647,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.33,
+        "confidence": 0.5745,
         "costable": true
       },
       {
         "item_name": "PROSECCO",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4578,6 +4670,8 @@
       {
         "item_name": "GRUNER VELTLINER",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4593,6 +4687,8 @@
       {
         "item_name": "SAUVIGNON BLANC",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4608,6 +4704,8 @@
       {
         "item_name": "Jalapeño Sauvignon Blanc",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 12.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4624,6 +4722,8 @@
       {
         "item_name": "ROSE",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4639,6 +4739,8 @@
       {
         "item_name": "MONTEPULCIANO",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4654,6 +4756,8 @@
       {
         "item_name": "PINOT NOIR",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4669,6 +4773,8 @@
       {
         "item_name": "PROSECCO",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4684,6 +4790,8 @@
       {
         "item_name": "GRUNER VELTLINER",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4699,6 +4807,8 @@
       {
         "item_name": "SAUVIGNON BLANC",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4714,6 +4824,8 @@
       {
         "item_name": "Jalapeño Sauvignon Blanc",
         "plate_cost": 0.0563,
+        "cost_per_serving": 0.0563,
+        "yield_qty": 1.0,
         "menu_price": 12.0,
         "food_cost_pct": 0.0047,
         "costed_components": 1,
@@ -4725,12 +4837,14 @@
         "low_confidence": [
           "Jalapeno pepper (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.08,
+        "confidence": 0.2,
         "costable": true
       },
       {
         "item_name": "ROSE",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4746,6 +4860,8 @@
       {
         "item_name": "MONTEPULCIANO",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 13.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4761,6 +4877,8 @@
       {
         "item_name": "PINOT NOIR",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4776,6 +4894,8 @@
       {
         "item_name": "CABERNET SAUVIGNON",
         "plate_cost": null,
+        "cost_per_serving": null,
+        "yield_qty": 1.0,
         "menu_price": 95.0,
         "food_cost_pct": null,
         "costed_components": 0,
@@ -4806,7 +4926,7 @@
       {
         "kind": "plate_quantity",
         "ref": "CHA GIO",
-        "confidence": 0.4067,
+        "confidence": 0.6127,
         "question": "CHA GIO is costed at $2.47 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.4718,
@@ -4823,7 +4943,7 @@
       {
         "kind": "plate_quantity",
         "ref": "NEM NUONG CUON",
-        "confidence": 0.3006,
+        "confidence": 0.5129,
         "question": "NEM NUONG CUON is costed at $0.75 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.7484,
@@ -4840,7 +4960,7 @@
       {
         "kind": "plate_cost",
         "ref": "NEM NUONG CUON",
-        "confidence": 0.3006,
+        "confidence": 0.5129,
         "question": "NEM NUONG CUON computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.7484,
@@ -4855,7 +4975,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GOI CUON *GF",
-        "confidence": 0.3544,
+        "confidence": 0.5568,
         "question": "GOI CUON *GF is costed at $1.59 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.5867,
@@ -4872,7 +4992,7 @@
       {
         "kind": "plate_quantity",
         "ref": "MADAME WINGS *GF",
-        "confidence": 0.3343,
+        "confidence": 0.5782,
         "question": "MADAME WINGS *GF is costed at $2.16 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.1582,
@@ -4889,7 +5009,7 @@
       {
         "kind": "plate_quantity",
         "ref": "BANH XEO",
-        "confidence": 0.3575,
+        "confidence": 0.5979,
         "question": "BANH XEO is costed at $2.12 using 7 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.1201,
@@ -4908,7 +5028,7 @@
       {
         "kind": "plate_quantity",
         "ref": "BANH KHOT",
-        "confidence": 0.3225,
+        "confidence": 0.5679,
         "question": "BANH KHOT is costed at $1.79 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.7911,
@@ -4926,7 +5046,7 @@
       {
         "kind": "plate_quantity",
         "ref": "BANH BOT CHIEN",
-        "confidence": 0.2842,
+        "confidence": 0.5331,
         "question": "BANH BOT CHIEN is costed at $1.34 using 8 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.3371,
@@ -4946,7 +5066,7 @@
       {
         "kind": "plate_cost",
         "ref": "BANH BOT CHIEN",
-        "confidence": 0.2842,
+        "confidence": 0.5331,
         "question": "BANH BOT CHIEN computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.3371,
@@ -4959,7 +5079,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GOI BUOI*GF",
-        "confidence": 0.2875,
+        "confidence": 0.5134,
         "question": "GOI BUOI*GF is costed at $2.00 using 10 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.9964,
@@ -4981,7 +5101,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GOI NGO BO",
-        "confidence": 0.2567,
+        "confidence": 0.4776,
         "question": "GOI NGO BO is costed at $2.72 using 7 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.7189,
@@ -5000,7 +5120,7 @@
       {
         "kind": "plate_quantity",
         "ref": "MUC RANG MUOI",
-        "confidence": 0.3262,
+        "confidence": 0.5712,
         "question": "MUC RANG MUOI is costed at $3.91 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.9144,
@@ -5018,7 +5138,7 @@
       {
         "kind": "plate_quantity",
         "ref": "CUA LOT RANG MUOI",
-        "confidence": 0.3394,
+        "confidence": 0.5493,
         "question": "CUA LOT RANG MUOI is costed at $1.47 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.4665,
@@ -5033,7 +5153,7 @@
       {
         "kind": "plate_cost",
         "ref": "CUA LOT RANG MUOI",
-        "confidence": 0.3394,
+        "confidence": 0.5493,
         "question": "CUA LOT RANG MUOI computes to 5% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.4665,
@@ -5048,7 +5168,7 @@
       {
         "kind": "plate_quantity",
         "ref": "TOM RANG MUOI",
-        "confidence": 0.3864,
+        "confidence": 0.6216,
         "question": "TOM RANG MUOI is costed at $4.88 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.8806,
@@ -5063,7 +5183,7 @@
       {
         "kind": "plate_quantity",
         "ref": "MADAME PLATTER",
-        "confidence": 0.2268,
+        "confidence": 0.4589,
         "question": "MADAME PLATTER is costed at $6.13 using 13 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 6.1284,
@@ -5088,7 +5208,7 @@
       {
         "kind": "plate_cost",
         "ref": "MADAME PLATTER",
-        "confidence": 0.2268,
+        "confidence": 0.4589,
         "question": "MADAME PLATTER computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 6.1284,
@@ -5103,7 +5223,7 @@
       {
         "kind": "plate_quantity",
         "ref": "THE MADAME PHO *GF",
-        "confidence": 0.4446,
+        "confidence": 0.6668,
         "question": "THE MADAME PHO *GF is costed at $3.67 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.667,
@@ -5119,7 +5239,7 @@
       {
         "kind": "plate_quantity",
         "ref": "PHO CHAY *V",
-        "confidence": 0.42,
+        "confidence": 0.6481,
         "question": "PHO CHAY *V is costed at $2.06 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.0556,
@@ -5134,7 +5254,7 @@
       {
         "kind": "plate_quantity",
         "ref": "BUN BO HUE *GF",
-        "confidence": 0.3368,
+        "confidence": 0.5534,
         "question": "BUN BO HUE *GF is costed at $3.23 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.2275,
@@ -5152,7 +5272,7 @@
       {
         "kind": "plate_quantity",
         "ref": "TET NOODLES",
-        "confidence": 0.4039,
+        "confidence": 0.6356,
         "question": "TET NOODLES is costed at $6.96 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 6.9603,
@@ -5165,7 +5285,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GARLIC NOODLES",
-        "confidence": 0.39,
+        "confidence": 0.6245,
         "question": "GARLIC NOODLES is costed at $2.91 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.9077,
@@ -5180,7 +5300,7 @@
       {
         "kind": "plate_quantity",
         "ref": "HU TIEU CHAY",
-        "confidence": 0.3946,
+        "confidence": 0.6282,
         "question": "HU TIEU CHAY is costed at $1.69 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.6947,
@@ -5193,7 +5313,7 @@
       {
         "kind": "plate_cost",
         "ref": "HU TIEU CHAY",
-        "confidence": 0.3946,
+        "confidence": 0.6282,
         "question": "HU TIEU CHAY computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.6947,
@@ -5206,7 +5326,7 @@
       {
         "kind": "plate_quantity",
         "ref": "VERMICELLI BOWL *V",
-        "confidence": 0.2933,
+        "confidence": 0.5416,
         "question": "VERMICELLI BOWL *V is costed at $2.23 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.2306,
@@ -5224,7 +5344,7 @@
       {
         "kind": "plate_quantity",
         "ref": "COM SUON NUONG *GF",
-        "confidence": 0.4725,
+        "confidence": 0.6874,
         "question": "COM SUON NUONG *GF is costed at $2.73 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.7299,
@@ -5240,7 +5360,7 @@
       {
         "kind": "plate_quantity",
         "ref": "BO LUC LAC",
-        "confidence": 0.4958,
+        "confidence": 0.7042,
         "question": "BO LUC LAC is costed at $6.27 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 6.2685,
@@ -5253,7 +5373,7 @@
       {
         "kind": "plate_quantity",
         "ref": "CA TIM XAO XA OT *V",
-        "confidence": 0.39,
+        "confidence": 0.5782,
         "question": "CA TIM XAO XA OT *V is costed at $0.90 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.903,
@@ -5267,7 +5387,7 @@
       {
         "kind": "plate_cost",
         "ref": "CA TIM XAO XA OT *V",
-        "confidence": 0.39,
+        "confidence": 0.5782,
         "question": "CA TIM XAO XA OT *V computes to 5% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.903,
@@ -5282,7 +5402,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GA XAO XA OT",
-        "confidence": 0.3937,
+        "confidence": 0.587,
         "question": "GA XAO XA OT is costed at $1.27 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.2704,
@@ -5296,7 +5416,7 @@
       {
         "kind": "plate_cost",
         "ref": "GA XAO XA OT",
-        "confidence": 0.3937,
+        "confidence": 0.587,
         "question": "GA XAO XA OT computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.2704,
@@ -5311,7 +5431,7 @@
       {
         "kind": "plate_quantity",
         "ref": "MAMA LY'S FRIED RICE *GF",
-        "confidence": 0.49,
+        "confidence": 0.7,
         "question": "MAMA LY'S FRIED RICE *GF is costed at $3.37 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.372,
@@ -5324,7 +5444,7 @@
       {
         "kind": "plate_quantity",
         "ref": "STRING BEANS IN GARLIC SAUCE",
-        "confidence": 0.4875,
+        "confidence": 0.6982,
         "question": "STRING BEANS IN GARLIC SAUCE is costed at $0.87 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.8656,
@@ -5338,7 +5458,7 @@
       {
         "kind": "plate_cost",
         "ref": "STRING BEANS IN GARLIC SAUCE",
-        "confidence": 0.4875,
+        "confidence": 0.6982,
         "question": "STRING BEANS IN GARLIC SAUCE computes to 5% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.8656,
@@ -5351,7 +5471,7 @@
       {
         "kind": "plate_cost",
         "ref": "FRIED EGG",
-        "confidence": 0.6233,
+        "confidence": 0.7895,
         "question": "FRIED EGG computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.3227,
@@ -5364,7 +5484,7 @@
       {
         "kind": "plate_cost",
         "ref": "JASMINE RICE",
-        "confidence": 0.81,
+        "confidence": 0.9,
         "question": "JASMINE RICE computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.3562,
@@ -5377,7 +5497,7 @@
       {
         "kind": "plate_cost",
         "ref": "LYCHEE ICE TEA",
-        "confidence": 0.315,
+        "confidence": 0.4583,
         "question": "LYCHEE ICE TEA computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.1637,
@@ -5392,7 +5512,7 @@
       {
         "kind": "plate_cost",
         "ref": "VIETNAMESE ICED COFFEE",
-        "confidence": 0.3612,
+        "confidence": 0.425,
         "question": "VIETNAMESE ICED COFFEE computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.4113,
@@ -5407,7 +5527,7 @@
       {
         "kind": "plate_quantity",
         "ref": "SODA",
-        "confidence": 0.25,
+        "confidence": 0.5,
         "question": "SODA is costed at $0.80 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.8,
@@ -5420,7 +5540,7 @@
       {
         "kind": "plate_quantity",
         "ref": "HOT TEA",
-        "confidence": 0.16,
+        "confidence": 0.4,
         "question": "HOT TEA is costed at $0.07 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.0688,
@@ -5433,7 +5553,7 @@
       {
         "kind": "plate_cost",
         "ref": "HOT TEA",
-        "confidence": 0.16,
+        "confidence": 0.4,
         "question": "HOT TEA computes to 1% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.0688,
@@ -5446,7 +5566,7 @@
       {
         "kind": "plate_cost",
         "ref": "FIRST KISS",
-        "confidence": 0.35,
+        "confidence": 0.483,
         "question": "FIRST KISS computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.3741,
@@ -5462,7 +5582,7 @@
       {
         "kind": "plate_cost",
         "ref": "MADAME SOUR",
-        "confidence": 0.4275,
+        "confidence": 0.5848,
         "question": "MADAME SOUR computes to 5% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.8938,
@@ -5477,7 +5597,7 @@
       {
         "kind": "plate_cost",
         "ref": "MISS SAIGON",
-        "confidence": 0.21,
+        "confidence": 0.2898,
         "question": "MISS SAIGON computes to 1% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.1766,
@@ -5494,7 +5614,7 @@
       {
         "kind": "plate_quantity",
         "ref": "LE SECRET D'AMOUR",
-        "confidence": 0.215,
+        "confidence": 0.3279,
         "question": "LE SECRET D'AMOUR is costed at $0.52 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.5183,
@@ -5507,7 +5627,7 @@
       {
         "kind": "plate_cost",
         "ref": "LE SECRET D'AMOUR",
-        "confidence": 0.215,
+        "confidence": 0.3279,
         "question": "LE SECRET D'AMOUR computes to 3% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.5183,
@@ -5524,7 +5644,7 @@
       {
         "kind": "plate_cost",
         "ref": "MEKONG DREAM",
-        "confidence": 0.3055,
+        "confidence": 0.4281,
         "question": "MEKONG DREAM computes to 4% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.632,
@@ -5540,7 +5660,7 @@
       {
         "kind": "plate_cost",
         "ref": "VIETNAMESE COFFEE MARTINI",
-        "confidence": 0.0894,
+        "confidence": 0.1495,
         "question": "VIETNAMESE COFFEE MARTINI computes to 1% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.1175,
@@ -5557,7 +5677,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Jalapeño Sauvignon Blanc",
-        "confidence": 0.08,
+        "confidence": 0.2,
         "question": "Jalapeño Sauvignon Blanc is costed at $0.06 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.0563,
@@ -5570,7 +5690,7 @@
       {
         "kind": "plate_cost",
         "ref": "Jalapeño Sauvignon Blanc",
-        "confidence": 0.08,
+        "confidence": 0.2,
         "question": "Jalapeño Sauvignon Blanc computes to 0% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.0563,

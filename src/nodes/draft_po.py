@@ -5,8 +5,8 @@ recipes to the catalog, and it has to stay deterministic because the number it
 produces — a dollar total a restaurant is being asked to approve — must be
 defensible line by line. Every line can be traced back:
 
-    item mix share x covers_per_week      -> servings per week
-    servings x per-serving qty (converted) -> weekly consumption in the SKU's uom
+    item mix share x covers_per_week      -> orders of that menu item per week
+    orders x the recipe's qty (converted)  -> weekly consumption in the SKU's uom
     weekly / 7 x days_cover x (1 + safety) -> par level
     ceil(par / pack_qty)                   -> packs
     packs x price_per_pack                 -> line cost
@@ -153,10 +153,18 @@ def _consumption(
             gaps.append(f"{item_name} (no decomposed recipe; not ordered for)")
             continue
 
-        # A recipe with no stated yield is one serving by definition — the same
-        # rule cost_plates.py applies, so plate cost and order quantity agree.
-        yield_qty = float(recipe.get("yield_qty") or 0.0) or 1.0
-
+        # `servings` above counts ORDERS of this menu item, not diners:
+        # `src/nodes/forecast.py` defines share as "the fraction of covers that
+        # order that item". And a recipe describes one SOLD UNIT — the thing an
+        # order buys — because that is what the decomposer was asked for ("still
+        # describe one sold unit and say so via yield_qty / yield_uom").
+        #
+        # So one order consumes the recipe's components as written, undivided.
+        # This used to divide them by yield_qty, which under-ordered every
+        # multi-serving line by exactly its yield: an order of Joe's "Classic
+        # Cheese Pie 8 slices" would buy 1.75 oz of flour for a pie that takes
+        # 14. The same off-by-the-yield bug lived in cost_plates.py, and the two
+        # are fixed together so plate cost and order quantity still agree.
         for component in recipe.get("components") or []:
             raw = component.get("raw_name", "")
             match = matches.get(raw)
@@ -172,9 +180,9 @@ def _consumption(
                 gaps.append(f"{raw} in {item_name} (sku_id '{sku_id}' is not in the catalog)")
                 continue
 
-            per_serving = float(component.get("qty") or 0.0) / yield_qty
+            per_order = float(component.get("qty") or 0.0)
             converted = _convert(
-                per_serving, component.get("uom", ""), sku.get("uom", ""), sku
+                per_order, component.get("uom", ""), sku.get("uom", ""), sku
             )
             if converted is None:
                 gaps.append(
@@ -381,6 +389,21 @@ def draft_po_node(state: AgentState) -> dict:
 
         total_cost = round(sum(line["line_cost"] for line in lines), 2)
 
+        # The cover policy is per category, so there is no single number to
+        # report. State the range actually used by the lines on THIS order: a
+        # card claiming "7 days cover" over an order that mixes 2-day produce
+        # with 30-day spices states something the arithmetic never did.
+        cover_by_sku = {level["sku_id"]: level["days_cover"] for level in par_levels}
+        covers_used = sorted({cover_by_sku[line["sku_id"]] for line in lines})
+        if not covers_used:
+            days_cover_label = ""
+        elif len(covers_used) == 1:
+            days_cover_label = f"{covers_used[0]} days cover"
+        else:
+            days_cover_label = (
+                f"{covers_used[0]}-{covers_used[-1]} days cover by category"
+            )
+
         forecast = state.get("demand_forecast") or {}
         covers_per_week = float(forecast.get("covers_per_week") or 0.0)
 
@@ -422,6 +445,7 @@ def draft_po_node(state: AgentState) -> dict:
             "vendor_lines": vendor_lines,
             "total_cost": total_cost,
             "covers_per_week": covers_per_week,
+            "days_cover_label": days_cover_label,
             "assumptions": assumptions,
             "excluded_skus": excluded_skus,
             "excluded_cost_total": excluded_cost_total,

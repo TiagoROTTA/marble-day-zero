@@ -3034,6 +3034,8 @@
       {
         "item_name": "MAKAI MATTAR TIKKI",
         "plate_cost": 1.2587,
+        "cost_per_serving": 1.2587,
+        "yield_qty": 1.0,
         "menu_price": 18.0,
         "food_cost_pct": 0.0699,
         "costed_components": 16,
@@ -3047,12 +3049,14 @@
           "Cornstarch (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Fresh lemon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3324,
+        "confidence": 0.5436,
         "costable": true
       },
       {
         "item_name": "JACKFRUIT LUKHMI",
         "plate_cost": 0.8072,
+        "cost_per_serving": 0.8072,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.0505,
         "costed_components": 14,
@@ -3065,12 +3069,14 @@
         "low_confidence": [
           "Large shell eggs (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.33,
+        "confidence": 0.5374,
         "costable": true
       },
       {
         "item_name": "PRAWN RECHEADO",
         "plate_cost": 6.3101,
+        "cost_per_serving": 6.3101,
+        "yield_qty": 1.0,
         "menu_price": 31.0,
         "food_cost_pct": 0.2036,
         "costed_components": 19,
@@ -3086,12 +3092,14 @@
           "Shrimp shells for stock (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Canned crushed tomatoes (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.374,
+        "confidence": 0.6116,
         "costable": true
       },
       {
         "item_name": "BHATTI DA MURGH",
         "plate_cost": 2.3302,
+        "cost_per_serving": 2.3302,
+        "yield_qty": 1.0,
         "menu_price": 25.0,
         "food_cost_pct": 0.0932,
         "costed_components": 15,
@@ -3101,12 +3109,14 @@
         "low_confidence": [
           "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4944,
+        "confidence": 0.7031,
         "costable": true
       },
       {
         "item_name": "ROTI AUR BOTI",
         "plate_cost": 1.114,
+        "cost_per_serving": 1.114,
+        "yield_qty": 1.0,
         "menu_price": 25.0,
         "food_cost_pct": 0.0446,
         "costed_components": 15,
@@ -3121,12 +3131,14 @@
           "Whole milk (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Fresh lime juice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3766,
+        "confidence": 0.5764,
         "costable": true
       },
       {
         "item_name": "LAMB PARCHA",
         "plate_cost": 5.8017,
+        "cost_per_serving": 5.8017,
+        "yield_qty": 1.0,
         "menu_price": 28.0,
         "food_cost_pct": 0.2072,
         "costed_components": 15,
@@ -3138,12 +3150,14 @@
         "low_confidence": [
           "Red onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3204,
+        "confidence": 0.548,
         "costable": true
       },
       {
         "item_name": "PANEER KHURCHAN",
         "plate_cost": 4.4206,
+        "cost_per_serving": 4.4206,
+        "yield_qty": 1.0,
         "menu_price": 39.0,
         "food_cost_pct": 0.1133,
         "costed_components": 17,
@@ -3155,12 +3169,14 @@
         "low_confidence": [
           "All-purpose flour (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4307,
+        "confidence": 0.6378,
         "costable": true
       },
       {
         "item_name": "MALVANI MACCHI",
         "plate_cost": 6.847,
+        "cost_per_serving": 6.847,
+        "yield_qty": 1.0,
         "menu_price": 42.0,
         "food_cost_pct": 0.163,
         "costed_components": 14,
@@ -3174,12 +3190,14 @@
           "Atlantic cod fillet (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Dried guajillo chiles (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3059,
+        "confidence": 0.5174,
         "costable": true
       },
       {
         "item_name": "CHICKEN MAPPAS",
         "plate_cost": 3.0155,
+        "cost_per_serving": 3.0155,
+        "yield_qty": 1.0,
         "menu_price": 42.0,
         "food_cost_pct": 0.0718,
         "costed_components": 14,
@@ -3192,12 +3210,14 @@
         "low_confidence": [
           "Whole chicken (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3939,
+        "confidence": 0.5871,
         "costable": true
       },
       {
         "item_name": "MIRCHI KA MAAS",
         "plate_cost": 7.3033,
+        "cost_per_serving": 7.3033,
+        "yield_qty": 1.0,
         "menu_price": 46.0,
         "food_cost_pct": 0.1588,
         "costed_components": 17,
@@ -3209,12 +3229,14 @@
         "low_confidence": [
           "Basmati rice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4344,
+        "confidence": 0.6406,
         "costable": true
       },
       {
         "item_name": "AWADHI LAMB SHANK KORMA",
         "plate_cost": 10.4391,
+        "cost_per_serving": 10.4391,
+        "yield_qty": 1.0,
         "menu_price": 48.0,
         "food_cost_pct": 0.2175,
         "costed_components": 15,
@@ -3227,12 +3249,14 @@
           "Lamb shoulder (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Raw shelled peanuts (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4635,
+        "confidence": 0.6592,
         "costable": true
       },
       {
         "item_name": "NAGALAND PORK FRY",
         "plate_cost": 3.543,
+        "cost_per_serving": 3.543,
+        "yield_qty": 1.0,
         "menu_price": 46.0,
         "food_cost_pct": 0.077,
         "costed_components": 13,
@@ -3243,12 +3267,14 @@
           "Long grain white rice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Sesame tahini (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.39,
+        "confidence": 0.6245,
         "costable": true
       },
       {
         "item_name": "AGED BASMATI RICE",
         "plate_cost": 0.6562,
+        "cost_per_serving": 0.6562,
+        "yield_qty": 1.0,
         "menu_price": 5.0,
         "food_cost_pct": 0.1312,
         "costed_components": 5,
@@ -3259,12 +3285,14 @@
           "Whole bay leaves (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Green cardamom pods (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.5658,
+        "confidence": 0.7522,
         "costable": true
       },
       {
         "item_name": "DAL ADDA",
         "plate_cost": 1.0753,
+        "cost_per_serving": 1.0753,
+        "yield_qty": 1.0,
         "menu_price": 9.0,
         "food_cost_pct": 0.1195,
         "costed_components": 12,
@@ -3274,12 +3302,14 @@
         "low_confidence": [
           "Heavy whipping cream 36% (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3735,
+        "confidence": 0.6112,
         "costable": true
       },
       {
         "item_name": "PARATHA",
         "plate_cost": 0.5494,
+        "cost_per_serving": 0.5494,
+        "yield_qty": 1.0,
         "menu_price": 5.0,
         "food_cost_pct": 0.1099,
         "costed_components": 4,
@@ -3287,12 +3317,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.585,
+        "confidence": 0.7649,
         "costable": true
       },
       {
         "item_name": "BHATTI KUMBH",
         "plate_cost": 2.9461,
+        "cost_per_serving": 2.9461,
+        "yield_qty": 1.0,
         "menu_price": 25.0,
         "food_cost_pct": 0.1178,
         "costed_components": 12,
@@ -3303,12 +3335,14 @@
           "Shiitake mushroom (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4254,
+        "confidence": 0.6522,
         "costable": true
       },
       {
         "item_name": "ANANAS PANEER TIKKA",
         "plate_cost": 3.2394,
+        "cost_per_serving": 3.2394,
+        "yield_qty": 1.0,
         "menu_price": 23.0,
         "food_cost_pct": 0.1408,
         "costed_components": 14,
@@ -3318,12 +3352,14 @@
         "low_confidence": [
           "Chickpea flour (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4911,
+        "confidence": 0.7008,
         "costable": true
       },
       {
         "item_name": "DHANIWAL MALAI GOBHI",
         "plate_cost": 2.7166,
+        "cost_per_serving": 2.7166,
+        "yield_qty": 1.0,
         "menu_price": 23.0,
         "food_cost_pct": 0.1181,
         "costed_components": 12,
@@ -3334,12 +3370,14 @@
           "Sharp cheddar (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Grana Padano (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4477,
+        "confidence": 0.6691,
         "costable": true
       },
       {
         "item_name": "CURRY LEAF CRAB",
         "plate_cost": 8.2758,
+        "cost_per_serving": 8.2758,
+        "yield_qty": 1.0,
         "menu_price": 41.0,
         "food_cost_pct": 0.2018,
         "costed_components": 11,
@@ -3351,12 +3389,14 @@
         "low_confidence": [
           "Canned coconut milk (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3806,
+        "confidence": 0.5907,
         "costable": true
       },
       {
         "item_name": "BHEJA MASALA",
         "plate_cost": 2.2223,
+        "cost_per_serving": 2.2223,
+        "yield_qty": 1.0,
         "menu_price": 27.0,
         "food_cost_pct": 0.0823,
         "costed_components": 14,
@@ -3370,12 +3410,14 @@
           "Lamb shoulder (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Burger buns 4 inch (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2832,
+        "confidence": 0.5141,
         "costable": true
       },
       {
         "item_name": "WAGYU BIHARI KEBAB",
         "plate_cost": 6.6918,
+        "cost_per_serving": 6.6918,
+        "yield_qty": 1.0,
         "menu_price": 42.0,
         "food_cost_pct": 0.1593,
         "costed_components": 13,
@@ -3388,12 +3430,14 @@
           "Red onion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "Chickpea flour (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.405,
+        "confidence": 0.6132,
         "costable": true
       },
       {
         "item_name": "SABZ DHUNGAR BIRYANI",
         "plate_cost": 4.5919,
+        "cost_per_serving": 4.5919,
+        "yield_qty": 1.0,
         "menu_price": 39.0,
         "food_cost_pct": 0.1177,
         "costed_components": 20,
@@ -3401,12 +3445,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.4556,
+        "confidence": 0.675,
         "costable": true
       },
       {
         "item_name": "GOAT BIRYANI",
         "plate_cost": 3.6033,
+        "cost_per_serving": 3.6033,
+        "yield_qty": 1.0,
         "menu_price": 46.0,
         "food_cost_pct": 0.0783,
         "costed_components": 19,
@@ -3418,7 +3464,7 @@
         "low_confidence": [
           "Whole milk (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4014,
+        "confidence": 0.6175,
         "costable": true
       }
     ],
@@ -3429,7 +3475,7 @@
       {
         "kind": "plate_quantity",
         "ref": "MAKAI MATTAR TIKKI",
-        "confidence": 0.3324,
+        "confidence": 0.5436,
         "question": "MAKAI MATTAR TIKKI is costed at $1.26 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.2587,
@@ -3443,7 +3489,7 @@
       {
         "kind": "plate_cost",
         "ref": "MAKAI MATTAR TIKKI",
-        "confidence": 0.3324,
+        "confidence": 0.5436,
         "question": "MAKAI MATTAR TIKKI computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.2587,
@@ -3459,7 +3505,7 @@
       {
         "kind": "plate_quantity",
         "ref": "JACKFRUIT LUKHMI",
-        "confidence": 0.33,
+        "confidence": 0.5374,
         "question": "JACKFRUIT LUKHMI is costed at $0.81 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.8072,
@@ -3472,7 +3518,7 @@
       {
         "kind": "plate_cost",
         "ref": "JACKFRUIT LUKHMI",
-        "confidence": 0.33,
+        "confidence": 0.5374,
         "question": "JACKFRUIT LUKHMI computes to 5% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.8072,
@@ -3488,7 +3534,7 @@
       {
         "kind": "plate_quantity",
         "ref": "PRAWN RECHEADO",
-        "confidence": 0.374,
+        "confidence": 0.6116,
         "question": "PRAWN RECHEADO is costed at $6.31 using 7 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 6.3101,
@@ -3507,7 +3553,7 @@
       {
         "kind": "plate_quantity",
         "ref": "BHATTI DA MURGH",
-        "confidence": 0.4944,
+        "confidence": 0.7031,
         "question": "BHATTI DA MURGH is costed at $2.33 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.3302,
@@ -3520,7 +3566,7 @@
       {
         "kind": "plate_cost",
         "ref": "BHATTI DA MURGH",
-        "confidence": 0.4944,
+        "confidence": 0.7031,
         "question": "BHATTI DA MURGH computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 2.3302,
@@ -3533,7 +3579,7 @@
       {
         "kind": "plate_quantity",
         "ref": "ROTI AUR BOTI",
-        "confidence": 0.3766,
+        "confidence": 0.5764,
         "question": "ROTI AUR BOTI is costed at $1.11 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.114,
@@ -3548,7 +3594,7 @@
       {
         "kind": "plate_cost",
         "ref": "ROTI AUR BOTI",
-        "confidence": 0.3766,
+        "confidence": 0.5764,
         "question": "ROTI AUR BOTI computes to 4% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.114,
@@ -3564,7 +3610,7 @@
       {
         "kind": "plate_quantity",
         "ref": "LAMB PARCHA",
-        "confidence": 0.3204,
+        "confidence": 0.548,
         "question": "LAMB PARCHA is costed at $5.80 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 5.8017,
@@ -3577,7 +3623,7 @@
       {
         "kind": "plate_quantity",
         "ref": "PANEER KHURCHAN",
-        "confidence": 0.4307,
+        "confidence": 0.6378,
         "question": "PANEER KHURCHAN is costed at $4.42 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.4206,
@@ -3590,7 +3636,7 @@
       {
         "kind": "plate_quantity",
         "ref": "MALVANI MACCHI",
-        "confidence": 0.3059,
+        "confidence": 0.5174,
         "question": "MALVANI MACCHI is costed at $6.85 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 6.847,
@@ -3604,7 +3650,7 @@
       {
         "kind": "plate_quantity",
         "ref": "CHICKEN MAPPAS",
-        "confidence": 0.3939,
+        "confidence": 0.5871,
         "question": "CHICKEN MAPPAS is costed at $3.02 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.0155,
@@ -3617,7 +3663,7 @@
       {
         "kind": "plate_cost",
         "ref": "CHICKEN MAPPAS",
-        "confidence": 0.3939,
+        "confidence": 0.5871,
         "question": "CHICKEN MAPPAS computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 3.0155,
@@ -3633,7 +3679,7 @@
       {
         "kind": "plate_quantity",
         "ref": "MIRCHI KA MAAS",
-        "confidence": 0.4344,
+        "confidence": 0.6406,
         "question": "MIRCHI KA MAAS is costed at $7.30 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 7.3033,
@@ -3646,7 +3692,7 @@
       {
         "kind": "plate_quantity",
         "ref": "AWADHI LAMB SHANK KORMA",
-        "confidence": 0.4635,
+        "confidence": 0.6592,
         "question": "AWADHI LAMB SHANK KORMA is costed at $10.44 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 10.4391,
@@ -3660,7 +3706,7 @@
       {
         "kind": "plate_quantity",
         "ref": "NAGALAND PORK FRY",
-        "confidence": 0.39,
+        "confidence": 0.6245,
         "question": "NAGALAND PORK FRY is costed at $3.54 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.543,
@@ -3674,7 +3720,7 @@
       {
         "kind": "plate_cost",
         "ref": "NAGALAND PORK FRY",
-        "confidence": 0.39,
+        "confidence": 0.6245,
         "question": "NAGALAND PORK FRY computes to 8% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 3.543,
@@ -3687,7 +3733,7 @@
       {
         "kind": "plate_quantity",
         "ref": "AGED BASMATI RICE",
-        "confidence": 0.5658,
+        "confidence": 0.7522,
         "question": "AGED BASMATI RICE is costed at $0.66 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.6562,
@@ -3701,7 +3747,7 @@
       {
         "kind": "plate_quantity",
         "ref": "DAL ADDA",
-        "confidence": 0.3735,
+        "confidence": 0.6112,
         "question": "DAL ADDA is costed at $1.08 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.0753,
@@ -3714,7 +3760,7 @@
       {
         "kind": "plate_quantity",
         "ref": "BHATTI KUMBH",
-        "confidence": 0.4254,
+        "confidence": 0.6522,
         "question": "BHATTI KUMBH is costed at $2.95 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.9461,
@@ -3728,7 +3774,7 @@
       {
         "kind": "plate_quantity",
         "ref": "ANANAS PANEER TIKKA",
-        "confidence": 0.4911,
+        "confidence": 0.7008,
         "question": "ANANAS PANEER TIKKA is costed at $3.24 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.2394,
@@ -3741,7 +3787,7 @@
       {
         "kind": "plate_quantity",
         "ref": "DHANIWAL MALAI GOBHI",
-        "confidence": 0.4477,
+        "confidence": 0.6691,
         "question": "DHANIWAL MALAI GOBHI is costed at $2.72 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.7166,
@@ -3755,7 +3801,7 @@
       {
         "kind": "plate_quantity",
         "ref": "CURRY LEAF CRAB",
-        "confidence": 0.3806,
+        "confidence": 0.5907,
         "question": "CURRY LEAF CRAB is costed at $8.28 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 8.2758,
@@ -3768,7 +3814,7 @@
       {
         "kind": "plate_quantity",
         "ref": "BHEJA MASALA",
-        "confidence": 0.2832,
+        "confidence": 0.5141,
         "question": "BHEJA MASALA is costed at $2.22 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.2223,
@@ -3783,7 +3829,7 @@
       {
         "kind": "plate_cost",
         "ref": "BHEJA MASALA",
-        "confidence": 0.2832,
+        "confidence": 0.5141,
         "question": "BHEJA MASALA computes to 8% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 2.2223,
@@ -3798,7 +3844,7 @@
       {
         "kind": "plate_quantity",
         "ref": "WAGYU BIHARI KEBAB",
-        "confidence": 0.405,
+        "confidence": 0.6132,
         "question": "WAGYU BIHARI KEBAB is costed at $6.69 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 6.6918,
@@ -3812,7 +3858,7 @@
       {
         "kind": "plate_quantity",
         "ref": "GOAT BIRYANI",
-        "confidence": 0.4014,
+        "confidence": 0.6175,
         "question": "GOAT BIRYANI is costed at $3.60 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.6033,
@@ -3825,7 +3871,7 @@
       {
         "kind": "plate_cost",
         "ref": "GOAT BIRYANI",
-        "confidence": 0.4014,
+        "confidence": 0.6175,
         "question": "GOAT BIRYANI computes to 8% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 3.6033,

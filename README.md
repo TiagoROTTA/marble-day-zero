@@ -38,11 +38,14 @@ digraph. The diagram above is the logical flow; the generated one is the wiring
 that makes the flow resumable from any node.
 
 **The interesting part is the confidence plumbing, not the pipeline.** Every
-node emits a `confidence` in `[0, 1]`. Plate-cost confidence is the *product* of
-recipe confidence, mean SKU-match confidence, and ingredient coverage — not
-their average — so a plate costed from half its ingredients cannot report high
-confidence no matter how sure the model was about the half it saw. Anything
-below the bar goes to a human instead of being guessed at.
+node emits a `confidence` in `[0, 1]`. Plate-cost confidence is the geometric
+mean of recipe confidence and mean SKU-match confidence — two model
+self-assessments — *multiplied* by ingredient coverage, which is a measurement
+rather than an opinion and so scales the result instead of being averaged into
+it. Coverage therefore caps the answer outright: a plate costed from half its
+ingredients reports at most half the confidence, no matter how sure the model
+was about the half it saw. Anything below the bar goes to a human instead of
+being guessed at.
 
 ## Run it
 
@@ -59,7 +62,7 @@ uv run python -m scripts.run_dayzero joes-pizza-carmine --dry-run --no-slack
 # What does the checkpoint hold for a paused run?
 uv run python -m scripts.run_dayzero madame-vo --resume-status
 
-uv run pytest                    # 346 tests
+uv run pytest                    # 356 tests
 ```
 
 The run narrates itself — one line per completed stage carrying that stage's
@@ -104,7 +107,7 @@ footnote.
 
 The food-cost chart exercises **the costing chain** — extraction, decomposition,
 canonicalization and unit maths — and its headline result is a **miss**: median
-implied food cost 7.8% over 519 plates, against an industry band of 28–33%.
+implied food cost 8.2% over 519 plates, against an industry band of 28–33%.
 That gap is the finding, not a failing grade. The band is *actual* food cost
 (purchases over revenue, weighted by what sells, including waste and staff
 meals); the chart plots an unweighted median of *theoretical* plate cost over
@@ -125,8 +128,9 @@ check a forecast against, and any claim otherwise would be fabricated.
   gap — but it is the single largest source of lost coverage.
 - **Two corpus PDFs are scanned images with no text layer.** The loader detects
   this and says exactly what to do rather than silently extracting nothing.
-- **Four corpus restaurants publish no prices**, so they cannot contribute a
-  food-cost ratio at all.
+- **Two corpus restaurants publish no prices at all** (`mamouns-falafel`,
+  `rubirosa`), so they cannot contribute a food-cost ratio however cleanly they
+  cost. Three more publish some unpriced lines, which drop out individually.
 - Not multi-tenant, no auth, no rate limiting, no observability beyond stdout.
 
 ## Layout

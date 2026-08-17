@@ -36,10 +36,12 @@ dish into ingredient lines, matches each line to a priced SKU in a 324-SKU
 catalog, costs every plate, builds a cold-start demand prior from seats and
 public signals, and drafts an opening purchase order. The interesting part is
 not the pipeline, it is the confidence plumbing: every node emits a confidence,
-and plate-cost confidence is the *product* of recipe confidence, mean SKU-match
-confidence and ingredient coverage rather than their average, so a plate costed
-from half its ingredients cannot report high confidence however sure the model
-was about the half it saw. Anything under the bar pauses the graph with
+and plate-cost confidence is the geometric mean of recipe confidence and mean
+SKU-match confidence — two model self-assessments — *multiplied* by ingredient
+coverage, which is a measurement rather than an opinion and so scales the answer
+instead of being averaged into it. A plate costed from half its ingredients
+reports at most half the confidence, however sure the model was about the half
+it saw. Anything under the bar pauses the graph with
 `interrupt()` and goes to a human in Slack; a button click hits a FastAPI
 webhook and resumes the run from a SQLite checkpoint in a different process.
 Canonicalization runs three passes, alias then normalized then the model, so
@@ -51,7 +53,7 @@ calls, 64.3% of input tokens read from cache, and about $1.10 per restaurant.
 **The food-cost validation came back red, and the benchmark is what is wrong.**
 I built a harness to check implied food cost (plate cost over menu price)
 against the industry's 28-33% band, fixing the band before seeing any numbers.
-It came back at a median of **7.8%** over 519 plates from 12 restaurants. None
+It came back at a median of **8.2%** over 519 plates from 12 restaurants. None
 of the obvious causes held: portions are realistic, chicken breast at $3.15/lb
 and ribeye at $12.95/lb are real wholesale numbers, and coverage is 0.81-1.00
 nearly everywhere. Then I costed a plate by hand. Au Za'atar's "Vermicelli Rice"
@@ -63,11 +65,15 @@ I was computing an unweighted median of *theoretical* plate cost across every
 menu line, $12 fries included. The two are not comparable, and no amount of
 tuning upstream would have made them comparable.
 
-**There is a real under-costing hiding underneath it.** 844 of 879 recipes carry
-`yield_qty: 1.0`. Au Za'atar's "Mixed Grill Taweel" is a $318 platter that
-decomposes to 1.80 kg of meat costing $18.95, a single serving's quantities
-against an eight-person price. Real, but second-order: it moves tens of plates,
-not the 519 that set the median.
+**There is a real under-costing hiding underneath it.** Au Za'atar's "Mixed
+Grill Taweel" is a $318 platter that decomposes to 1.80 kg of meat costing
+$18.95 — a single serving's quantities against an eight-person price. The
+mechanism is what the decomposer writes, not the `yield_qty` field: plate cost
+is the cost of the whole sold unit and yield never enters it, and 844 of 879
+recipes carry `yield_qty: 1.0` anyway. `scarrs-pizza` does the same thing to a
+whole $33 pie, decomposing it to a slice's worth of flour and mozzarella, while
+`joes-pizza-carmine` gets the identical dish right. Real, but second-order: it
+moves tens of plates, not the 519 that set the median.
 
 **The catalog gap is a cuisine gap.** `court-street-grocers` could not match 42
 of 89 ingredients (47.2%): `seeded hero roll`, `corned beef`, `hoagie spread`,
@@ -93,17 +99,17 @@ red result on the chart and explained it, because a harness that returns a
 number and correctly diagnoses its own methodology is worth more than one that
 returns a clean 31%.
 
-Next: fix `yield_qty` in the decomposer, add per-SKU densities for the four
-conversion offenders, and route non-food menu lines around the decomposer.
+Next: make the decomposer emit whole-sold-unit quantities for large platters and
+whole pies, add per-SKU densities for the four conversion offenders, and route
+non-food menu lines around the decomposer.
 `bubbys-tribeca` extracted 164 items and decomposed 125 of them before dying on
 an apron and a cookbook.
 
-Six of twenty restaurants did not complete and I am out of budget to retry them.
-`di-an-di` and `tacombi` are scanned PDFs with no text layer; the loader detects
-that and names the fix instead of extracting nothing. `fonda-park-slope` and
-`junoon` blew the output token ceiling mid-structure; I raised the limit and
-disabled thinking on the mechanical nodes but never re-ran them. `veselka` hit
-my own spend cap.
+Six of twenty restaurants did not complete. `di-an-di` and `tacombi` are scanned
+PDFs with no text layer; the loader detects that and names the fix instead of
+extracting nothing. `fonda-park-slope` and `junoon` blew the output token ceiling
+mid-structure; I raised the limit to 32000 and disabled thinking on
+`extract_menu`, and both are still uncosted. `veselka` stopped at `ingested`.
 
 The honest limits: SKU prices are hand-curated plausible NYC wholesale, not a
 live feed. `seats` is estimated for all twenty; popular-times is observed for

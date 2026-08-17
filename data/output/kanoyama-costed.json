@@ -4611,6 +4611,8 @@
       {
         "item_name": "Hamachi Carpaccio",
         "plate_cost": 4.7997,
+        "cost_per_serving": 4.7997,
+        "yield_qty": 1.0,
         "menu_price": 23.0,
         "food_cost_pct": 0.2087,
         "costed_components": 6,
@@ -4622,12 +4624,14 @@
           "Jalapeno pepper (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4313,
+        "confidence": 0.6567,
         "costable": true
       },
       {
         "item_name": "Ankimo App",
         "plate_cost": 0.3419,
+        "cost_per_serving": 0.3419,
+        "yield_qty": 1.0,
         "menu_price": 17.0,
         "food_cost_pct": 0.0201,
         "costed_components": 3,
@@ -4641,12 +4645,14 @@
           "Scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Daikon radish (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.14,
+        "confidence": 0.324,
         "costable": true
       },
       {
         "item_name": "Hotate Sashimi App",
         "plate_cost": 4.9356,
+        "cost_per_serving": 4.9356,
+        "yield_qty": 1.0,
         "menu_price": 20.0,
         "food_cost_pct": 0.2468,
         "costed_components": 4,
@@ -4657,12 +4663,14 @@
           "Scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Daikon radish (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.385,
+        "confidence": 0.6205,
         "costable": true
       },
       {
         "item_name": "Edamame",
         "plate_cost": 0.0056,
+        "cost_per_serving": 0.0056,
+        "yield_qty": 1.0,
         "menu_price": 6.0,
         "food_cost_pct": 0.0009,
         "costed_components": 1,
@@ -4672,12 +4680,14 @@
           "edamame in pod, frozen (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.2625,
+        "confidence": 0.3623,
         "costable": true
       },
       {
         "item_name": "Gyoza",
         "plate_cost": 0.8849,
+        "cost_per_serving": 0.8849,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.0632,
         "costed_components": 7,
@@ -4687,12 +4697,14 @@
           "gyoza wrappers (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.3806,
+        "confidence": 0.5771,
         "costable": true
       },
       {
         "item_name": "Gyoza (10pcs)",
         "plate_cost": 1.4462,
+        "cost_per_serving": 1.4462,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.0761,
         "costed_components": 7,
@@ -4702,12 +4714,14 @@
           "gyoza wrappers (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.3806,
+        "confidence": 0.5771,
         "costable": true
       },
       {
         "item_name": "Shrimp Tempura",
         "plate_cost": 2.1831,
+        "cost_per_serving": 2.1831,
+        "yield_qty": 1.0,
         "menu_price": 22.0,
         "food_cost_pct": 0.0992,
         "costed_components": 6,
@@ -4719,12 +4733,14 @@
           "Green bean (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Large shell eggs (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3683,
+        "confidence": 0.6069,
         "costable": true
       },
       {
         "item_name": "Baby Octopus",
         "plate_cost": 0.2408,
+        "cost_per_serving": 0.2408,
+        "yield_qty": 1.0,
         "menu_price": 18.0,
         "food_cost_pct": 0.0134,
         "costed_components": 4,
@@ -4740,12 +4756,14 @@
           "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1833,
+        "confidence": 0.3496,
         "costable": true
       },
       {
         "item_name": "Kanpachi Kama",
         "plate_cost": 0.1755,
+        "cost_per_serving": 0.1755,
+        "yield_qty": 1.0,
         "menu_price": 28.0,
         "food_cost_pct": 0.0063,
         "costed_components": 4,
@@ -4759,12 +4777,14 @@
           "Fresh lemon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Daikon radish (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.24,
+        "confidence": 0.4382,
         "costable": true
       },
       {
         "item_name": "Sushi <Regular>",
         "plate_cost": 6.8887,
+        "cost_per_serving": 6.8887,
+        "yield_qty": 1.0,
         "menu_price": 29.0,
         "food_cost_pct": 0.2375,
         "costed_components": 9,
@@ -4783,12 +4803,14 @@
           "Wasabi powder (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Soy sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.23,
+        "confidence": 0.455,
         "costable": true
       },
       {
         "item_name": "Sushi <Deluxe>",
         "plate_cost": 6.7607,
+        "cost_per_serving": 6.7607,
+        "yield_qty": 1.0,
         "menu_price": 39.0,
         "food_cost_pct": 0.1734,
         "costed_components": 13,
@@ -4810,12 +4832,14 @@
           "wasabi (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Salted preserved lime (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2163,
+        "confidence": 0.433,
         "costable": true
       },
       {
         "item_name": "Sushi <Special>",
         "plate_cost": 8.9517,
+        "cost_per_serving": 8.9517,
+        "yield_qty": 1.0,
         "menu_price": 55.0,
         "food_cost_pct": 0.1628,
         "costed_components": 10,
@@ -4837,14 +4861,16 @@
           "wasabi (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1367,
+        "confidence": 0.3375,
         "costable": true
       },
       {
         "item_name": "Sushi <For 2>",
-        "plate_cost": 8.205,
+        "plate_cost": 16.41,
+        "cost_per_serving": 8.205,
+        "yield_qty": 2.0,
         "menu_price": 85.0,
-        "food_cost_pct": 0.0965,
+        "food_cost_pct": 0.1931,
         "costed_components": 11,
         "total_components": 13,
         "coverage": 0.8462,
@@ -4865,14 +4891,16 @@
           "wasabi (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.14,
+        "confidence": 0.3442,
         "costable": true
       },
       {
         "item_name": "Sushi <For 3>",
-        "plate_cost": 7.9003,
+        "plate_cost": 23.7008,
+        "cost_per_serving": 7.9003,
+        "yield_qty": 3.0,
         "menu_price": 125.0,
-        "food_cost_pct": 0.0632,
+        "food_cost_pct": 0.1896,
         "costed_components": 11,
         "total_components": 13,
         "coverage": 0.8462,
@@ -4893,12 +4921,14 @@
           "wasabi (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.14,
+        "confidence": 0.3442,
         "costable": true
       },
       {
         "item_name": "Sashimi <Regular>",
         "plate_cost": 6.5839,
+        "cost_per_serving": 6.5839,
+        "yield_qty": 1.0,
         "menu_price": 29.0,
         "food_cost_pct": 0.227,
         "costed_components": 8,
@@ -4913,12 +4943,14 @@
           "Dry-pack sea scallops U-10 (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
           "wasabi (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2219,
+        "confidence": 0.471,
         "costable": true
       },
       {
         "item_name": "Sashimi <Deluxe>",
         "plate_cost": 10.2881,
+        "cost_per_serving": 10.2881,
+        "yield_qty": 1.0,
         "menu_price": 35.0,
         "food_cost_pct": 0.2939,
         "costed_components": 9,
@@ -4934,12 +4966,14 @@
           "Pasteurized lump crab meat (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
           "wasabi (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2139,
+        "confidence": 0.4625,
         "costable": true
       },
       {
         "item_name": "Sashimi <Special>",
         "plate_cost": 9.9839,
+        "cost_per_serving": 9.9839,
+        "yield_qty": 1.0,
         "menu_price": 59.0,
         "food_cost_pct": 0.1692,
         "costed_components": 11,
@@ -4959,14 +4993,16 @@
           "Shrimp 16/20 peeled and deveined (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
           "wasabi (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1433,
+        "confidence": 0.3625,
         "costable": true
       },
       {
         "item_name": "Sashimi <For 2>",
-        "plate_cost": 8.2373,
+        "plate_cost": 16.4747,
+        "cost_per_serving": 8.2373,
+        "yield_qty": 2.0,
         "menu_price": 98.0,
-        "food_cost_pct": 0.0841,
+        "food_cost_pct": 0.1681,
         "costed_components": 11,
         "total_components": 11,
         "coverage": 1.0,
@@ -4982,14 +5018,16 @@
           "Shrimp 16/20 peeled and deveined (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
           "wasabi (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1564,
+        "confidence": 0.3954,
         "costable": true
       },
       {
         "item_name": "Sashimi <For 3>",
-        "plate_cost": 6.8793,
+        "plate_cost": 20.6378,
+        "cost_per_serving": 6.8793,
+        "yield_qty": 3.0,
         "menu_price": 150.0,
-        "food_cost_pct": 0.0459,
+        "food_cost_pct": 0.1376,
         "costed_components": 11,
         "total_components": 12,
         "coverage": 0.9167,
@@ -5007,12 +5045,14 @@
           "Shrimp 16/20 peeled and deveined (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
           "wasabi (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1433,
+        "confidence": 0.3625,
         "costable": true
       },
       {
         "item_name": "Sushi & Sashimi",
         "plate_cost": 7.6767,
+        "cost_per_serving": 7.6767,
+        "yield_qty": 1.0,
         "menu_price": 42.0,
         "food_cost_pct": 0.1828,
         "costed_components": 12,
@@ -5035,14 +5075,16 @@
           "Daikon radish (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "wasabi (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1768,
+        "confidence": 0.3893,
         "costable": true
       },
       {
         "item_name": "Sushi & Sashimi <For 2>",
-        "plate_cost": 4.6297,
+        "plate_cost": 9.2594,
+        "cost_per_serving": 4.6297,
+        "yield_qty": 2.0,
         "menu_price": 115.0,
-        "food_cost_pct": 0.0403,
+        "food_cost_pct": 0.0805,
         "costed_components": 10,
         "total_components": 12,
         "coverage": 0.8333,
@@ -5056,14 +5098,16 @@
           "Persian lime (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Daikon radish (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1648,
+        "confidence": 0.3706,
         "costable": true
       },
       {
         "item_name": "Sushi & Sashimi <For 3>",
-        "plate_cost": 3.5018,
+        "plate_cost": 10.5055,
+        "cost_per_serving": 3.5018,
+        "yield_qty": 3.0,
         "menu_price": 175.0,
-        "food_cost_pct": 0.02,
+        "food_cost_pct": 0.06,
         "costed_components": 9,
         "total_components": 11,
         "coverage": 0.8182,
@@ -5079,12 +5123,14 @@
           "Persian lime (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Daikon radish (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.135,
+        "confidence": 0.3323,
         "costable": true
       },
       {
         "item_name": "3 \"Roll\" Combo",
         "plate_cost": 5.9719,
+        "cost_per_serving": 5.9719,
+        "yield_qty": 1.0,
         "menu_price": 28.0,
         "food_cost_pct": 0.2133,
         "costed_components": 6,
@@ -5096,12 +5142,14 @@
         "low_confidence": [
           "Wasabi powder (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2829,
+        "confidence": 0.4924,
         "costable": true
       },
       {
         "item_name": "3 \"Hand Roll\" Combo",
         "plate_cost": 5.6937,
+        "cost_per_serving": 5.6937,
+        "yield_qty": 1.0,
         "menu_price": 30.0,
         "food_cost_pct": 0.1898,
         "costed_components": 6,
@@ -5111,12 +5159,14 @@
           "Roasted nori sheets (no conversion from each to lb)"
         ],
         "low_confidence": [],
-        "confidence": 0.2829,
+        "confidence": 0.4924,
         "costable": true
       },
       {
         "item_name": "T. Y. S.",
         "plate_cost": 4.6578,
+        "cost_per_serving": 4.6578,
+        "yield_qty": 1.0,
         "menu_price": 29.0,
         "food_cost_pct": 0.1606,
         "costed_components": 7,
@@ -5129,12 +5179,14 @@
           "Ahi tuna loin (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
           "Wasabi powder (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.25,
+        "confidence": 0.4677,
         "costable": true
       },
       {
         "item_name": "Chirashi",
         "plate_cost": 6.8337,
+        "cost_per_serving": 6.8337,
+        "yield_qty": 1.0,
         "menu_price": 35.0,
         "food_cost_pct": 0.1952,
         "costed_components": 7,
@@ -5150,12 +5202,14 @@
           "Scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1975,
+        "confidence": 0.3919,
         "costable": true
       },
       {
         "item_name": "Bara Chirashi",
         "plate_cost": 6.8337,
+        "cost_per_serving": 6.8337,
+        "yield_qty": 1.0,
         "menu_price": 34.0,
         "food_cost_pct": 0.201,
         "costed_components": 7,
@@ -5172,12 +5226,14 @@
           "Scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2138,
+        "confidence": 0.4325,
         "costable": true
       },
       {
         "item_name": "Salmon Don",
         "plate_cost": 4.3447,
+        "cost_per_serving": 4.3447,
+        "yield_qty": 1.0,
         "menu_price": 32.0,
         "food_cost_pct": 0.1358,
         "costed_components": 4,
@@ -5190,12 +5246,14 @@
           "Scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.288,
+        "confidence": 0.48,
         "costable": true
       },
       {
         "item_name": "Hamachi Don",
         "plate_cost": 8.4228,
+        "cost_per_serving": 8.4228,
+        "yield_qty": 1.0,
         "menu_price": 32.0,
         "food_cost_pct": 0.2632,
         "costed_components": 4,
@@ -5208,12 +5266,14 @@
           "Scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.282,
+        "confidence": 0.475,
         "costable": true
       },
       {
         "item_name": "Salmon Avocado",
         "plate_cost": 5.3167,
+        "cost_per_serving": 5.3167,
+        "yield_qty": 1.0,
         "menu_price": 35.0,
         "food_cost_pct": 0.1519,
         "costed_components": 5,
@@ -5224,12 +5284,14 @@
           "Unsalted butter (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Scallion (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.29,
+        "confidence": 0.5385,
         "costable": true
       },
       {
         "item_name": "Salmon Teriyaki",
         "plate_cost": 5.6896,
+        "cost_per_serving": 5.6896,
+        "yield_qty": 1.0,
         "menu_price": 32.0,
         "food_cost_pct": 0.1778,
         "costed_components": 8,
@@ -5237,12 +5299,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5844,
+        "confidence": 0.7644,
         "costable": true
       },
       {
         "item_name": "Chicken Teriyaki",
         "plate_cost": 1.659,
+        "cost_per_serving": 1.659,
+        "yield_qty": 1.0,
         "menu_price": 29.0,
         "food_cost_pct": 0.0572,
         "costed_components": 7,
@@ -5250,12 +5314,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.595,
+        "confidence": 0.7714,
         "costable": true
       },
       {
         "item_name": "Tempura Special",
         "plate_cost": 1.2595,
+        "cost_per_serving": 1.2595,
+        "yield_qty": 1.0,
         "menu_price": 32.0,
         "food_cost_pct": 0.0394,
         "costed_components": 9,
@@ -5272,12 +5338,14 @@
           "Clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Instant dashi powder (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.336,
+        "confidence": 0.5499,
         "costable": true
       },
       {
         "item_name": "Aburi Toro",
         "plate_cost": 3.7605,
+        "cost_per_serving": 3.7605,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 4,
@@ -5290,12 +5358,14 @@
           "Soy sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Scallion (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.225,
+        "confidence": 0.4743,
         "costable": true
       },
       {
         "item_name": "Boston",
         "plate_cost": 3.7305,
+        "cost_per_serving": 3.7305,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 3,
@@ -5307,12 +5377,14 @@
           "Sushi rice (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)",
           "Soy sauce (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.195,
+        "confidence": 0.4416,
         "costable": true
       },
       {
         "item_name": "Uni from Japan",
         "plate_cost": 0.1172,
+        "cost_per_serving": 0.1172,
+        "yield_qty": 1.0,
         "menu_price": 25.0,
         "food_cost_pct": 0.0047,
         "costed_components": 1,
@@ -5325,12 +5397,14 @@
         "low_confidence": [
           "Sushi rice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1,
+        "confidence": 0.1826,
         "costable": true
       },
       {
         "item_name": "Anago",
         "plate_cost": 0.2398,
+        "cost_per_serving": 0.2398,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.0171,
         "costed_components": 3,
@@ -5344,12 +5418,14 @@
           "Soy sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Mirin sweet cooking wine (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2063,
+        "confidence": 0.3933,
         "costable": true
       },
       {
         "item_name": "Hotate",
         "plate_cost": 0.1172,
+        "cost_per_serving": 0.1172,
+        "yield_qty": 1.0,
         "menu_price": 10.0,
         "food_cost_pct": 0.0117,
         "costed_components": 1,
@@ -5362,12 +5438,14 @@
         "low_confidence": [
           "Sushi rice (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1,
+        "confidence": 0.1826,
         "costable": true
       },
       {
         "item_name": "King Salmon",
         "plate_cost": 2.2094,
+        "cost_per_serving": 2.2094,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -5378,12 +5456,14 @@
           "Atlantic salmon fillet (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "Sushi rice (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2612,
+        "confidence": 0.5111,
         "costable": true
       },
       {
         "item_name": "Madai",
         "plate_cost": 0.1562,
+        "cost_per_serving": 0.1562,
+        "yield_qty": 1.0,
         "menu_price": 9.0,
         "food_cost_pct": 0.0174,
         "costed_components": 1,
@@ -5395,12 +5475,14 @@
         "low_confidence": [
           "Sushi rice (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1238,
+        "confidence": 0.2487,
         "costable": true
       },
       {
         "item_name": "Ikura",
         "plate_cost": 0.1742,
+        "cost_per_serving": 0.1742,
+        "yield_qty": 1.0,
         "menu_price": 10.0,
         "food_cost_pct": 0.0174,
         "costed_components": 2,
@@ -5411,12 +5493,14 @@
           "roasted nori sheets (no conversion from each to lb)"
         ],
         "low_confidence": [],
-        "confidence": 0.2112,
+        "confidence": 0.325,
         "costable": true
       },
       {
         "item_name": "Kanpachi",
         "plate_cost": 3.1255,
+        "cost_per_serving": 3.1255,
+        "yield_qty": 1.0,
         "menu_price": 9.0,
         "food_cost_pct": 0.3473,
         "costed_components": 4,
@@ -5428,12 +5512,14 @@
           "fresh lemon (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2888,
+        "confidence": 0.5374,
         "costable": true
       },
       {
         "item_name": "Hamachi",
         "plate_cost": 3.0905,
+        "cost_per_serving": 3.0905,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.4415,
         "costed_components": 3,
@@ -5443,12 +5529,14 @@
         "low_confidence": [
           "scallion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.455,
+        "confidence": 0.6745,
         "costable": true
       },
       {
         "item_name": "Salmon",
         "plate_cost": 1.3992,
+        "cost_per_serving": 1.3992,
+        "yield_qty": 1.0,
         "menu_price": 7.0,
         "food_cost_pct": 0.1999,
         "costed_components": 2,
@@ -5456,12 +5544,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.4388,
+        "confidence": 0.6624,
         "costable": true
       },
       {
         "item_name": "Tuna",
         "plate_cost": 2.393,
+        "cost_per_serving": 2.393,
+        "yield_qty": 1.0,
         "menu_price": 8.0,
         "food_cost_pct": 0.2991,
         "costed_components": 2,
@@ -5469,12 +5559,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.4388,
+        "confidence": 0.6624,
         "costable": true
       },
       {
         "item_name": "Striped Bass",
         "plate_cost": 0.0305,
+        "cost_per_serving": 0.0305,
+        "yield_qty": 1.0,
         "menu_price": 6.0,
         "food_cost_pct": 0.0051,
         "costed_components": 1,
@@ -5486,12 +5578,14 @@
         "low_confidence": [
           "soy sauce (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1,
+        "confidence": 0.2236,
         "costable": true
       },
       {
         "item_name": "Uni",
         "plate_cost": 0.3094,
+        "cost_per_serving": 0.3094,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 2,
@@ -5502,12 +5596,14 @@
           "roasted nori sheets (no conversion from each to lb)"
         ],
         "low_confidence": [],
-        "confidence": 0.165,
+        "confidence": 0.2872,
         "costable": true
       },
       {
         "item_name": "Spicy Scallop",
         "plate_cost": 5.1049,
+        "cost_per_serving": 5.1049,
+        "yield_qty": 1.0,
         "menu_price": 14.0,
         "food_cost_pct": 0.3646,
         "costed_components": 5,
@@ -5518,12 +5614,14 @@
           "tobiko flying fish roe (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.2614,
+        "confidence": 0.4321,
         "costable": true
       },
       {
         "item_name": "Spicy Tuna",
         "plate_cost": 4.0399,
+        "cost_per_serving": 4.0399,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -5535,12 +5633,14 @@
         "low_confidence": [
           "scallion (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3792,
+        "confidence": 0.5621,
         "costable": true
       },
       {
         "item_name": "Yellow tail",
         "plate_cost": 4.9025,
+        "cost_per_serving": 4.9025,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 3,
@@ -5550,12 +5650,14 @@
           "roasted nori sheets (no conversion from each to lb)"
         ],
         "low_confidence": [],
-        "confidence": 0.35,
+        "confidence": 0.5123,
         "costable": true
       },
       {
         "item_name": "Eel Avocado",
         "plate_cost": 1.0195,
+        "cost_per_serving": 1.0195,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 4,
@@ -5568,12 +5670,14 @@
         "low_confidence": [
           "White sesame seeds (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3312,
+        "confidence": 0.4699,
         "costable": true
       },
       {
         "item_name": "Salmon Skin",
         "plate_cost": 1.7782,
+        "cost_per_serving": 1.7782,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -5586,12 +5690,14 @@
           "Atlantic salmon fillet (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "White sesame seeds (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3558,
+        "confidence": 0.5445,
         "costable": true
       },
       {
         "item_name": "California",
         "plate_cost": 3.2204,
+        "cost_per_serving": 3.2204,
+        "yield_qty": 1.0,
         "menu_price": 8.0,
         "food_cost_pct": 0.4026,
         "costed_components": 6,
@@ -5603,12 +5709,14 @@
         "low_confidence": [
           "Heavy-duty mayonnaise (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.5221,
+        "confidence": 0.669,
         "costable": true
       },
       {
         "item_name": "Futomaki",
-        "plate_cost": 1.3239,
+        "plate_cost": 0.662,
+        "cost_per_serving": 1.3239,
+        "yield_qty": 0.5,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 3,
@@ -5625,12 +5733,14 @@
         "low_confidence": [
           "Shiitake mushroom (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1131,
+        "confidence": 0.1941,
         "costable": true
       },
       {
         "item_name": "Dragon",
         "plate_cost": 1.1156,
+        "cost_per_serving": 1.1156,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.0587,
         "costed_components": 3,
@@ -5642,12 +5752,14 @@
           "Tobiko flying fish roe (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.2875,
+        "confidence": 0.3791,
         "costable": true
       },
       {
         "item_name": "Rainbow",
         "plate_cost": 4.7062,
+        "cost_per_serving": 4.7062,
+        "yield_qty": 1.0,
         "menu_price": 18.0,
         "food_cost_pct": 0.2615,
         "costed_components": 6,
@@ -5660,12 +5772,14 @@
         "low_confidence": [
           "Tilapia fillet (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.375,
+        "confidence": 0.5303,
         "costable": true
       },
       {
         "item_name": "Spider",
         "plate_cost": 1.16,
+        "cost_per_serving": 1.16,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.0725,
         "costed_components": 5,
@@ -5677,12 +5791,14 @@
           "Tobiko flying fish roe (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.3234,
+        "confidence": 0.4496,
         "costable": true
       },
       {
         "item_name": "Shrimp Tempura",
         "plate_cost": 2.664,
+        "cost_per_serving": 2.664,
+        "yield_qty": 1.0,
         "menu_price": 22.0,
         "food_cost_pct": 0.1211,
         "costed_components": 7,
@@ -5694,12 +5810,14 @@
         "low_confidence": [
           "Clear fry oil (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4406,
+        "confidence": 0.6209,
         "costable": true
       },
       {
         "item_name": "Chocolate Molten Lava w/ Vanilla Ice Cream",
         "plate_cost": 1.321,
+        "cost_per_serving": 1.321,
+        "yield_qty": 1.0,
         "menu_price": 17.0,
         "food_cost_pct": 0.0777,
         "costed_components": 4,
@@ -5710,12 +5828,14 @@
           "Vanilla ice cream (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.35,
+        "confidence": 0.483,
         "costable": true
       },
       {
         "item_name": "Vanilla Panna cotta w/ strawberry sauce",
         "plate_cost": 1.2005,
+        "cost_per_serving": 1.2005,
+        "yield_qty": 1.0,
         "menu_price": 8.0,
         "food_cost_pct": 0.1501,
         "costed_components": 4,
@@ -5725,12 +5845,14 @@
           "Gelatin sheets (no catalog SKU matched)"
         ],
         "low_confidence": [],
-        "confidence": 0.42,
+        "confidence": 0.5797,
         "costable": true
       },
       {
         "item_name": "Eel Avocado",
         "plate_cost": 0.9413,
+        "cost_per_serving": 0.9413,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 4,
@@ -5743,12 +5865,14 @@
         "low_confidence": [
           "white sesame seeds (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2917,
+        "confidence": 0.441,
         "costable": true
       },
       {
         "item_name": "Salmon Skin",
         "plate_cost": 1.022,
+        "cost_per_serving": 1.022,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -5763,12 +5887,14 @@
           "scallion (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "white sesame seeds (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3033,
+        "confidence": 0.5028,
         "costable": true
       },
       {
         "item_name": "California",
         "plate_cost": 2.3511,
+        "cost_per_serving": 2.3511,
+        "yield_qty": 1.0,
         "menu_price": 8.0,
         "food_cost_pct": 0.2939,
         "costed_components": 6,
@@ -5780,12 +5906,14 @@
         "low_confidence": [
           "white sesame seeds (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.4071,
+        "confidence": 0.5907,
         "costable": true
       },
       {
         "item_name": "Futomaki",
         "plate_cost": 0.6041,
+        "cost_per_serving": 0.6041,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 5,
@@ -5801,12 +5929,14 @@
           "slicing cucumber (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "spring mix greens (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.1964,
+        "confidence": 0.3746,
         "costable": true
       },
       {
         "item_name": "Dragon",
         "plate_cost": 2.1334,
+        "cost_per_serving": 2.1334,
+        "yield_qty": 1.0,
         "menu_price": 19.0,
         "food_cost_pct": 0.1123,
         "costed_components": 4,
@@ -5820,12 +5950,14 @@
           "shrimp 16/20 peeled and deveined (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "slicing cucumber (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.23,
+        "confidence": 0.3916,
         "costable": true
       },
       {
         "item_name": "Rainbow",
         "plate_cost": 3.3827,
+        "cost_per_serving": 3.3827,
+        "yield_qty": 1.0,
         "menu_price": 18.0,
         "food_cost_pct": 0.1879,
         "costed_components": 7,
@@ -5841,12 +5973,14 @@
           "yellowtail hamachi loin (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "shrimp 16/20 peeled and deveined (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2888,
+        "confidence": 0.5026,
         "costable": true
       },
       {
         "item_name": "Spider",
         "plate_cost": 1.7668,
+        "cost_per_serving": 1.7668,
+        "yield_qty": 1.0,
         "menu_price": 16.0,
         "food_cost_pct": 0.1104,
         "costed_components": 7,
@@ -5862,12 +5996,14 @@
           "slicing cucumber (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "spring mix greens (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2738,
+        "confidence": 0.4894,
         "costable": true
       },
       {
         "item_name": "Shrimp Tempura",
         "plate_cost": 1.5002,
+        "cost_per_serving": 1.5002,
+        "yield_qty": 1.0,
         "menu_price": 22.0,
         "food_cost_pct": 0.0682,
         "costed_components": 5,
@@ -5881,12 +6017,14 @@
           "clear fry oil (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "slicing cucumber (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3033,
+        "confidence": 0.5028,
         "costable": true
       },
       {
         "item_name": "Chocolate Molten Lava w/ Vanilla Ice Cream",
         "plate_cost": 1.2051,
+        "cost_per_serving": 1.2051,
+        "yield_qty": 1.0,
         "menu_price": 17.0,
         "food_cost_pct": 0.0709,
         "costed_components": 5,
@@ -5898,12 +6036,14 @@
         "low_confidence": [
           "whole milk (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.3967,
+        "confidence": 0.5749,
         "costable": true
       },
       {
         "item_name": "Vanilla Panna cotta w/ strawberry sauce",
         "plate_cost": 1.2005,
+        "cost_per_serving": 1.2005,
+        "yield_qty": 1.0,
         "menu_price": 8.0,
         "food_cost_pct": 0.1501,
         "costed_components": 4,
@@ -5911,12 +6051,14 @@
         "coverage": 1.0,
         "uncosted": [],
         "low_confidence": [],
-        "confidence": 0.5531,
+        "confidence": 0.7437,
         "costable": true
       },
       {
         "item_name": "Mochi Ice Cream",
         "plate_cost": 0.1015,
+        "cost_per_serving": 0.1015,
+        "yield_qty": 1.0,
         "menu_price": null,
         "food_cost_pct": null,
         "costed_components": 4,
@@ -5929,12 +6071,14 @@
           "cornstarch (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
           "whole milk (quantity confidence 0.40 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.2188,
+        "confidence": 0.4677,
         "costable": true
       },
       {
         "item_name": "Ice Cream",
         "plate_cost": 0.4442,
+        "cost_per_serving": 0.4442,
+        "yield_qty": 1.0,
         "menu_price": 5.0,
         "food_cost_pct": 0.0888,
         "costed_components": 3,
@@ -5946,7 +6090,7 @@
           "heavy whipping cream 36% (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
           "granulated white sugar (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
         ],
-        "confidence": 0.33,
+        "confidence": 0.5745,
         "costable": true
       }
     ],
@@ -6177,7 +6321,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Hamachi Carpaccio",
-        "confidence": 0.4313,
+        "confidence": 0.6567,
         "question": "Hamachi Carpaccio is costed at $4.80 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.7997,
@@ -6192,7 +6336,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Ankimo App",
-        "confidence": 0.14,
+        "confidence": 0.324,
         "question": "Ankimo App is costed at $0.34 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.3419,
@@ -6207,7 +6351,7 @@
       {
         "kind": "plate_cost",
         "ref": "Ankimo App",
-        "confidence": 0.14,
+        "confidence": 0.324,
         "question": "Ankimo App computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.3419,
@@ -6222,7 +6366,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Hotate Sashimi App",
-        "confidence": 0.385,
+        "confidence": 0.6205,
         "question": "Hotate Sashimi App is costed at $4.94 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.9356,
@@ -6236,7 +6380,7 @@
       {
         "kind": "plate_cost",
         "ref": "Edamame",
-        "confidence": 0.2625,
+        "confidence": 0.3623,
         "question": "Edamame computes to 0% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.0056,
@@ -6251,7 +6395,7 @@
       {
         "kind": "plate_cost",
         "ref": "Gyoza",
-        "confidence": 0.3806,
+        "confidence": 0.5771,
         "question": "Gyoza computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.8849,
@@ -6266,7 +6410,7 @@
       {
         "kind": "plate_cost",
         "ref": "Gyoza (10pcs)",
-        "confidence": 0.3806,
+        "confidence": 0.5771,
         "question": "Gyoza (10pcs) computes to 8% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.4462,
@@ -6281,7 +6425,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Shrimp Tempura",
-        "confidence": 0.3683,
+        "confidence": 0.6069,
         "question": "Shrimp Tempura is costed at $2.18 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.1831,
@@ -6296,7 +6440,7 @@
       {
         "kind": "plate_cost",
         "ref": "Shrimp Tempura",
-        "confidence": 0.3683,
+        "confidence": 0.6069,
         "question": "Shrimp Tempura computes to 10% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 2.1831,
@@ -6309,7 +6453,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Baby Octopus",
-        "confidence": 0.1833,
+        "confidence": 0.3496,
         "question": "Baby Octopus is costed at $0.24 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.2408,
@@ -6325,7 +6469,7 @@
       {
         "kind": "plate_cost",
         "ref": "Baby Octopus",
-        "confidence": 0.1833,
+        "confidence": 0.3496,
         "question": "Baby Octopus computes to 1% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.2408,
@@ -6341,7 +6485,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Kanpachi Kama",
-        "confidence": 0.24,
+        "confidence": 0.4382,
         "question": "Kanpachi Kama is costed at $0.18 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.1755,
@@ -6356,7 +6500,7 @@
       {
         "kind": "plate_cost",
         "ref": "Kanpachi Kama",
-        "confidence": 0.24,
+        "confidence": 0.4382,
         "question": "Kanpachi Kama computes to 1% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.1755,
@@ -6371,7 +6515,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Sushi <Regular>",
-        "confidence": 0.23,
+        "confidence": 0.455,
         "question": "Sushi <Regular> is costed at $6.89 using 8 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 6.8887,
@@ -6391,7 +6535,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Sushi <Deluxe>",
-        "confidence": 0.2163,
+        "confidence": 0.433,
         "question": "Sushi <Deluxe> is costed at $6.76 using 10 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 6.7607,
@@ -6413,7 +6557,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Sushi <Special>",
-        "confidence": 0.1367,
+        "confidence": 0.3375,
         "question": "Sushi <Special> is costed at $8.95 using 10 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 8.9517,
@@ -6435,10 +6579,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Sushi <For 2>",
-        "confidence": 0.14,
-        "question": "Sushi <For 2> is costed at $8.21 using 11 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.3442,
+        "question": "Sushi <For 2> is costed at $16.41 using 11 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 8.205,
+          "plate_cost": 16.41,
           "menu_price": 85.0,
           "low_confidence": [
             "Sushi rice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
@@ -6452,32 +6596,16 @@
             "Slicing cucumber (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
             "wasabi (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
             "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
-          ]
-        }
-      },
-      {
-        "kind": "plate_cost",
-        "ref": "Sushi <For 2>",
-        "confidence": 0.14,
-        "question": "Sushi <For 2> computes to 10% food cost — check the recipe or the price",
-        "payload": {
-          "plate_cost": 8.205,
-          "menu_price": 85.0,
-          "food_cost_pct": 0.0965,
-          "coverage": 0.8462,
-          "uncosted": [
-            "Roasted nori sheets (no conversion from each to lb)",
-            "canned tobiko (no catalog SKU matched)"
           ]
         }
       },
       {
         "kind": "plate_quantity",
         "ref": "Sushi <For 3>",
-        "confidence": 0.14,
-        "question": "Sushi <For 3> is costed at $7.90 using 11 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.3442,
+        "question": "Sushi <For 3> is costed at $23.70 using 11 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 7.9003,
+          "plate_cost": 23.7008,
           "menu_price": 125.0,
           "low_confidence": [
             "Sushi rice (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
@@ -6491,29 +6619,13 @@
             "Slicing cucumber (quantity confidence 0.45 below the 0.60 review floor -- costed anyway)",
             "wasabi (quantity confidence 0.50 below the 0.60 review floor -- costed anyway)",
             "Soy sauce (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
-          ]
-        }
-      },
-      {
-        "kind": "plate_cost",
-        "ref": "Sushi <For 3>",
-        "confidence": 0.14,
-        "question": "Sushi <For 3> computes to 6% food cost — check the recipe or the price",
-        "payload": {
-          "plate_cost": 7.9003,
-          "menu_price": 125.0,
-          "food_cost_pct": 0.0632,
-          "coverage": 0.8462,
-          "uncosted": [
-            "Roasted nori sheets (no conversion from each to lb)",
-            "canned tobiko (no catalog SKU matched)"
           ]
         }
       },
       {
         "kind": "plate_quantity",
         "ref": "Sashimi <Regular>",
-        "confidence": 0.2219,
+        "confidence": 0.471,
         "question": "Sashimi <Regular> is costed at $6.58 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 6.5839,
@@ -6531,7 +6643,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Sashimi <Deluxe>",
-        "confidence": 0.2139,
+        "confidence": 0.4625,
         "question": "Sashimi <Deluxe> is costed at $10.29 using 7 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 10.2881,
@@ -6550,7 +6662,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Sashimi <Special>",
-        "confidence": 0.1433,
+        "confidence": 0.3625,
         "question": "Sashimi <Special> is costed at $9.98 using 9 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 9.9839,
@@ -6571,10 +6683,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Sashimi <For 2>",
-        "confidence": 0.1564,
-        "question": "Sashimi <For 2> is costed at $8.24 using 9 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.3954,
+        "question": "Sashimi <For 2> is costed at $16.47 using 9 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 8.2373,
+          "plate_cost": 16.4747,
           "menu_price": 98.0,
           "low_confidence": [
             "Ahi tuna loin (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
@@ -6587,28 +6699,15 @@
             "Shrimp 16/20 peeled and deveined (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
             "wasabi (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
           ]
-        }
-      },
-      {
-        "kind": "plate_cost",
-        "ref": "Sashimi <For 2>",
-        "confidence": 0.1564,
-        "question": "Sashimi <For 2> computes to 8% food cost — check the recipe or the price",
-        "payload": {
-          "plate_cost": 8.2373,
-          "menu_price": 98.0,
-          "food_cost_pct": 0.0841,
-          "coverage": 1.0,
-          "uncosted": []
         }
       },
       {
         "kind": "plate_quantity",
         "ref": "Sashimi <For 3>",
-        "confidence": 0.1433,
-        "question": "Sashimi <For 3> is costed at $6.88 using 9 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.3625,
+        "question": "Sashimi <For 3> is costed at $20.64 using 9 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 6.8793,
+          "plate_cost": 20.6378,
           "menu_price": 150.0,
           "low_confidence": [
             "Ahi tuna loin (quantity confidence 0.35 below the 0.60 review floor -- costed anyway)",
@@ -6620,28 +6719,13 @@
             "Cleaned calamari tubes and tentacles (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
             "Shrimp 16/20 peeled and deveined (quantity confidence 0.30 below the 0.60 review floor -- costed anyway)",
             "wasabi (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
-          ]
-        }
-      },
-      {
-        "kind": "plate_cost",
-        "ref": "Sashimi <For 3>",
-        "confidence": 0.1433,
-        "question": "Sashimi <For 3> computes to 5% food cost — check the recipe or the price",
-        "payload": {
-          "plate_cost": 6.8793,
-          "menu_price": 150.0,
-          "food_cost_pct": 0.0459,
-          "coverage": 0.9167,
-          "uncosted": [
-            "Sea urchin roe (uni) tray (no conversion from oz to each)"
           ]
         }
       },
       {
         "kind": "plate_quantity",
         "ref": "Sushi & Sashimi",
-        "confidence": 0.1768,
+        "confidence": 0.3893,
         "question": "Sushi & Sashimi is costed at $7.68 using 11 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 7.6767,
@@ -6664,10 +6748,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Sushi & Sashimi <For 2>",
-        "confidence": 0.1648,
-        "question": "Sushi & Sashimi <For 2> is costed at $4.63 using 4 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.3706,
+        "question": "Sushi & Sashimi <For 2> is costed at $9.26 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 4.6297,
+          "plate_cost": 9.2594,
           "menu_price": 115.0,
           "low_confidence": [
             "Ahi tuna loin (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
@@ -6680,12 +6764,12 @@
       {
         "kind": "plate_cost",
         "ref": "Sushi & Sashimi <For 2>",
-        "confidence": 0.1648,
-        "question": "Sushi & Sashimi <For 2> computes to 4% food cost — check the recipe or the price",
+        "confidence": 0.3706,
+        "question": "Sushi & Sashimi <For 2> computes to 8% food cost — check the recipe or the price",
         "payload": {
-          "plate_cost": 4.6297,
+          "plate_cost": 9.2594,
           "menu_price": 115.0,
-          "food_cost_pct": 0.0403,
+          "food_cost_pct": 0.0805,
           "coverage": 0.8333,
           "uncosted": [
             "Sea urchin roe (uni) tray (no conversion from oz to each)",
@@ -6696,10 +6780,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Sushi & Sashimi <For 3>",
-        "confidence": 0.135,
-        "question": "Sushi & Sashimi <For 3> is costed at $3.50 using 6 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.3323,
+        "question": "Sushi & Sashimi <For 3> is costed at $10.51 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 3.5018,
+          "plate_cost": 10.5055,
           "menu_price": 175.0,
           "low_confidence": [
             "Ahi tuna loin (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)",
@@ -6714,12 +6798,12 @@
       {
         "kind": "plate_cost",
         "ref": "Sushi & Sashimi <For 3>",
-        "confidence": 0.135,
-        "question": "Sushi & Sashimi <For 3> computes to 2% food cost — check the recipe or the price",
+        "confidence": 0.3323,
+        "question": "Sushi & Sashimi <For 3> computes to 6% food cost — check the recipe or the price",
         "payload": {
-          "plate_cost": 3.5018,
+          "plate_cost": 10.5055,
           "menu_price": 175.0,
-          "food_cost_pct": 0.02,
+          "food_cost_pct": 0.06,
           "coverage": 0.8182,
           "uncosted": [
             "Sea urchin roe (uni) tray (no conversion from oz to each)",
@@ -6730,7 +6814,7 @@
       {
         "kind": "plate_quantity",
         "ref": "3 \"Roll\" Combo",
-        "confidence": 0.2829,
+        "confidence": 0.4924,
         "question": "3 \"Roll\" Combo is costed at $5.97 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 5.9719,
@@ -6743,7 +6827,7 @@
       {
         "kind": "plate_quantity",
         "ref": "T. Y. S.",
-        "confidence": 0.25,
+        "confidence": 0.4677,
         "question": "T. Y. S. is costed at $4.66 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.6578,
@@ -6757,7 +6841,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Chirashi",
-        "confidence": 0.1975,
+        "confidence": 0.3919,
         "question": "Chirashi is costed at $6.83 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 6.8337,
@@ -6773,7 +6857,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Bara Chirashi",
-        "confidence": 0.2138,
+        "confidence": 0.4325,
         "question": "Bara Chirashi is costed at $6.83 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 6.8337,
@@ -6791,7 +6875,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Salmon Don",
-        "confidence": 0.288,
+        "confidence": 0.48,
         "question": "Salmon Don is costed at $4.34 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.3447,
@@ -6805,7 +6889,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Hamachi Don",
-        "confidence": 0.282,
+        "confidence": 0.475,
         "question": "Hamachi Don is costed at $8.42 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 8.4228,
@@ -6819,7 +6903,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Salmon Avocado",
-        "confidence": 0.29,
+        "confidence": 0.5385,
         "question": "Salmon Avocado is costed at $5.32 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 5.3167,
@@ -6833,7 +6917,7 @@
       {
         "kind": "plate_cost",
         "ref": "Chicken Teriyaki",
-        "confidence": 0.595,
+        "confidence": 0.7714,
         "question": "Chicken Teriyaki computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.659,
@@ -6846,7 +6930,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Tempura Special",
-        "confidence": 0.336,
+        "confidence": 0.5499,
         "question": "Tempura Special is costed at $1.26 using 6 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.2595,
@@ -6864,7 +6948,7 @@
       {
         "kind": "plate_cost",
         "ref": "Tempura Special",
-        "confidence": 0.336,
+        "confidence": 0.5499,
         "question": "Tempura Special computes to 4% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.2595,
@@ -6879,7 +6963,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Aburi Toro",
-        "confidence": 0.225,
+        "confidence": 0.4743,
         "question": "Aburi Toro is costed at $3.76 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.7605,
@@ -6895,7 +6979,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Boston",
-        "confidence": 0.195,
+        "confidence": 0.4416,
         "question": "Boston is costed at $3.73 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.7305,
@@ -6910,7 +6994,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Uni from Japan",
-        "confidence": 0.1,
+        "confidence": 0.1826,
         "question": "Uni from Japan is costed at $0.12 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.1172,
@@ -6923,7 +7007,7 @@
       {
         "kind": "plate_cost",
         "ref": "Uni from Japan",
-        "confidence": 0.1,
+        "confidence": 0.1826,
         "question": "Uni from Japan computes to 0% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.1172,
@@ -6939,7 +7023,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Anago",
-        "confidence": 0.2063,
+        "confidence": 0.3933,
         "question": "Anago is costed at $0.24 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.2398,
@@ -6954,7 +7038,7 @@
       {
         "kind": "plate_cost",
         "ref": "Anago",
-        "confidence": 0.2063,
+        "confidence": 0.3933,
         "question": "Anago computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.2398,
@@ -6969,7 +7053,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Hotate",
-        "confidence": 0.1,
+        "confidence": 0.1826,
         "question": "Hotate is costed at $0.12 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.1172,
@@ -6982,7 +7066,7 @@
       {
         "kind": "plate_cost",
         "ref": "Hotate",
-        "confidence": 0.1,
+        "confidence": 0.1826,
         "question": "Hotate computes to 1% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.1172,
@@ -6998,7 +7082,7 @@
       {
         "kind": "plate_quantity",
         "ref": "King Salmon",
-        "confidence": 0.2612,
+        "confidence": 0.5111,
         "question": "King Salmon is costed at $2.21 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.2094,
@@ -7012,7 +7096,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Madai",
-        "confidence": 0.1238,
+        "confidence": 0.2487,
         "question": "Madai is costed at $0.16 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.1562,
@@ -7025,7 +7109,7 @@
       {
         "kind": "plate_cost",
         "ref": "Madai",
-        "confidence": 0.1238,
+        "confidence": 0.2487,
         "question": "Madai computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.1562,
@@ -7040,7 +7124,7 @@
       {
         "kind": "plate_cost",
         "ref": "Ikura",
-        "confidence": 0.2112,
+        "confidence": 0.325,
         "question": "Ikura computes to 2% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.1742,
@@ -7056,7 +7140,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Kanpachi",
-        "confidence": 0.2888,
+        "confidence": 0.5374,
         "question": "Kanpachi is costed at $3.13 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.1255,
@@ -7071,7 +7155,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Hamachi",
-        "confidence": 0.455,
+        "confidence": 0.6745,
         "question": "Hamachi is costed at $3.09 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.0905,
@@ -7084,7 +7168,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Striped Bass",
-        "confidence": 0.1,
+        "confidence": 0.2236,
         "question": "Striped Bass is costed at $0.03 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.0305,
@@ -7097,7 +7181,7 @@
       {
         "kind": "plate_cost",
         "ref": "Striped Bass",
-        "confidence": 0.1,
+        "confidence": 0.2236,
         "question": "Striped Bass computes to 1% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.0305,
@@ -7112,7 +7196,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Spicy Tuna",
-        "confidence": 0.3792,
+        "confidence": 0.5621,
         "question": "Spicy Tuna is costed at $4.04 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.0399,
@@ -7125,7 +7209,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Eel Avocado",
-        "confidence": 0.3312,
+        "confidence": 0.4699,
         "question": "Eel Avocado is costed at $1.02 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.0195,
@@ -7138,7 +7222,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Salmon Skin",
-        "confidence": 0.3558,
+        "confidence": 0.5445,
         "question": "Salmon Skin is costed at $1.78 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.7782,
@@ -7152,7 +7236,7 @@
       {
         "kind": "plate_quantity",
         "ref": "California",
-        "confidence": 0.5221,
+        "confidence": 0.669,
         "question": "California is costed at $3.22 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.2204,
@@ -7165,10 +7249,10 @@
       {
         "kind": "plate_quantity",
         "ref": "Futomaki",
-        "confidence": 0.1131,
-        "question": "Futomaki is costed at $1.32 using 1 low-confidence quantity/quantities - check the recipe",
+        "confidence": 0.1941,
+        "question": "Futomaki is costed at $0.66 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
-          "plate_cost": 1.3239,
+          "plate_cost": 0.662,
           "menu_price": null,
           "low_confidence": [
             "Shiitake mushroom (quantity confidence 0.55 below the 0.60 review floor -- costed anyway)"
@@ -7178,7 +7262,7 @@
       {
         "kind": "plate_cost",
         "ref": "Dragon",
-        "confidence": 0.2875,
+        "confidence": 0.3791,
         "question": "Dragon computes to 6% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.1156,
@@ -7195,7 +7279,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Rainbow",
-        "confidence": 0.375,
+        "confidence": 0.5303,
         "question": "Rainbow is costed at $4.71 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 4.7062,
@@ -7208,7 +7292,7 @@
       {
         "kind": "plate_cost",
         "ref": "Spider",
-        "confidence": 0.3234,
+        "confidence": 0.4496,
         "question": "Spider computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.16,
@@ -7225,7 +7309,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Shrimp Tempura",
-        "confidence": 0.4406,
+        "confidence": 0.6209,
         "question": "Shrimp Tempura is costed at $2.66 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.664,
@@ -7238,7 +7322,7 @@
       {
         "kind": "plate_cost",
         "ref": "Chocolate Molten Lava w/ Vanilla Ice Cream",
-        "confidence": 0.35,
+        "confidence": 0.483,
         "question": "Chocolate Molten Lava w/ Vanilla Ice Cream computes to 8% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.321,
@@ -7254,7 +7338,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Eel Avocado",
-        "confidence": 0.2917,
+        "confidence": 0.441,
         "question": "Eel Avocado is costed at $0.94 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.9413,
@@ -7267,7 +7351,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Salmon Skin",
-        "confidence": 0.3033,
+        "confidence": 0.5028,
         "question": "Salmon Skin is costed at $1.02 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.022,
@@ -7283,7 +7367,7 @@
       {
         "kind": "plate_quantity",
         "ref": "California",
-        "confidence": 0.4071,
+        "confidence": 0.5907,
         "question": "California is costed at $2.35 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.3511,
@@ -7296,7 +7380,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Futomaki",
-        "confidence": 0.1964,
+        "confidence": 0.3746,
         "question": "Futomaki is costed at $0.60 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.6041,
@@ -7312,7 +7396,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Dragon",
-        "confidence": 0.23,
+        "confidence": 0.3916,
         "question": "Dragon is costed at $2.13 using 2 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 2.1334,
@@ -7326,7 +7410,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Rainbow",
-        "confidence": 0.2888,
+        "confidence": 0.5026,
         "question": "Rainbow is costed at $3.38 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 3.3827,
@@ -7343,7 +7427,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Spider",
-        "confidence": 0.2738,
+        "confidence": 0.4894,
         "question": "Spider is costed at $1.77 using 5 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.7668,
@@ -7360,7 +7444,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Shrimp Tempura",
-        "confidence": 0.3033,
+        "confidence": 0.5028,
         "question": "Shrimp Tempura is costed at $1.50 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.5002,
@@ -7375,7 +7459,7 @@
       {
         "kind": "plate_cost",
         "ref": "Shrimp Tempura",
-        "confidence": 0.3033,
+        "confidence": 0.5028,
         "question": "Shrimp Tempura computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.5002,
@@ -7390,7 +7474,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Chocolate Molten Lava w/ Vanilla Ice Cream",
-        "confidence": 0.3967,
+        "confidence": 0.5749,
         "question": "Chocolate Molten Lava w/ Vanilla Ice Cream is costed at $1.21 using 1 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 1.2051,
@@ -7403,7 +7487,7 @@
       {
         "kind": "plate_cost",
         "ref": "Chocolate Molten Lava w/ Vanilla Ice Cream",
-        "confidence": 0.3967,
+        "confidence": 0.5749,
         "question": "Chocolate Molten Lava w/ Vanilla Ice Cream computes to 7% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 1.2051,
@@ -7418,7 +7502,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Mochi Ice Cream",
-        "confidence": 0.2188,
+        "confidence": 0.4677,
         "question": "Mochi Ice Cream is costed at $0.10 using 4 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.1015,
@@ -7434,7 +7518,7 @@
       {
         "kind": "plate_quantity",
         "ref": "Ice Cream",
-        "confidence": 0.33,
+        "confidence": 0.5745,
         "question": "Ice Cream is costed at $0.44 using 3 low-confidence quantity/quantities - check the recipe",
         "payload": {
           "plate_cost": 0.4442,
@@ -7449,7 +7533,7 @@
       {
         "kind": "plate_cost",
         "ref": "Ice Cream",
-        "confidence": 0.33,
+        "confidence": 0.5745,
         "question": "Ice Cream computes to 9% food cost — check the recipe or the price",
         "payload": {
           "plate_cost": 0.4442,
