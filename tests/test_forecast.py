@@ -281,3 +281,123 @@ def test_missing_restaurant_guard_skips_the_llm(monkeypatch):
     assert update["retry_count"] == 1
     assert update["last_error"] == "forecast needs both restaurant and menu_items"
     assert update["demand_forecast"] == {}
+
+
+# --------------------------------------------------------------------------
+# Item-name resolution. Joe's Pizza drafted a $0.00 purchase order because the
+# model returned "Classic Cheese Pie" for a menu line printed "Classic Cheese
+# Pie 8 slices", and draft_po's exact recipe lookup missed all three pies.
+# --------------------------------------------------------------------------
+
+JOES_MENU = [
+    {"name": "Classic Cheese Pie 8 slices", "section": "Pies", "price": 27.0},
+    {"name": "Fresh Mozzarella Pie 8 Slices", "section": "Pies", "price": 32.0},
+    {"name": "Sicilian Square Pie 8 Slices", "section": "Pies", "price": 33.0},
+    {"name": "Sodas, Snapple, Stewarts", "section": "Drinks", "price": 3.0},
+]
+
+
+def _forecast_with(shares, menu_items=None, **overrides):
+    """Run the node against a stubbed mix and return the demand_forecast."""
+    mix = ItemMix(
+        shares=[ItemShare(item_name=n, share=s, reasoning="stub") for n, s in shares],
+        assumptions=["Assumed something worth saying."],
+        confidence=0.7,
+    )
+    state = _state(**overrides)
+    if menu_items is not None:
+        state["menu_items"] = [dict(i) for i in menu_items]
+    return mix, state
+
+
+def test_shortened_item_name_resolves_back_onto_the_printed_menu_name(monkeypatch):
+    mix, state = _forecast_with(
+        [("Classic Cheese Pie", 1.0), ("Sodas, Snapple, Stewarts", 0.5)],
+        menu_items=JOES_MENU,
+    )
+    monkeypatch.setattr(forecast_module, "_build_llm", lambda: FakeSucceedingLLM(mix))
+
+    forecast = forecast_node(state)["demand_forecast"]
+
+    # The key draft_po will look the recipe up by, not the model's paraphrase.
+    assert "Classic Cheese Pie 8 slices" in forecast["item_mix"]
+    assert "Classic Cheese Pie" not in forecast["item_mix"]
+    assert "Sodas, Snapple, Stewarts" in forecast["item_mix"]
+
+
+def test_exact_menu_name_is_passed_through_untouched(monkeypatch):
+    mix, state = _forecast_with(
+        [("Fresh Mozzarella Pie 8 Slices", 1.0)], menu_items=JOES_MENU
+    )
+    monkeypatch.setattr(forecast_module, "_build_llm", lambda: FakeSucceedingLLM(mix))
+
+    forecast = forecast_node(state)["demand_forecast"]
+
+    assert list(forecast["item_mix"]) == ["Fresh Mozzarella Pie 8 Slices"]
+
+
+def test_casing_and_whitespace_differences_still_resolve(monkeypatch):
+    mix, state = _forecast_with(
+        [("  fresh mozzarella pie 8 slices.  ", 1.0)], menu_items=JOES_MENU
+    )
+    monkeypatch.setattr(forecast_module, "_build_llm", lambda: FakeSucceedingLLM(mix))
+
+    forecast = forecast_node(state)["demand_forecast"]
+
+    assert list(forecast["item_mix"]) == ["Fresh Mozzarella Pie 8 Slices"]
+
+
+def test_ambiguous_name_refuses_to_join_and_is_reported(monkeypatch):
+    # "Pie" is contained in three menu lines. Two candidates is already ambiguity,
+    # and this project refuses rather than guesses.
+    mix, state = _forecast_with([("Pie", 1.0)], menu_items=JOES_MENU)
+    monkeypatch.setattr(forecast_module, "_build_llm", lambda: FakeSucceedingLLM(mix))
+
+    forecast = forecast_node(state)["demand_forecast"]
+
+    assert list(forecast["item_mix"]) == ["Pie"]
+    assert any("Pie" in a and "matched no menu item" in a for a in forecast["assumptions"])
+
+
+def test_unmatchable_name_keeps_the_models_wording_and_is_reported(monkeypatch):
+    mix, state = _forecast_with(
+        [("Classic Cheese Pie", 1.0), ("Garlic Knots", 0.4)], menu_items=JOES_MENU
+    )
+    monkeypatch.setattr(forecast_module, "_build_llm", lambda: FakeSucceedingLLM(mix))
+
+    forecast = forecast_node(state)["demand_forecast"]
+
+    assert "Garlic Knots" in forecast["item_mix"]
+    assert any("Garlic Knots" in a for a in forecast["assumptions"])
+
+
+def test_two_model_names_landing_on_one_menu_item_have_their_shares_summed(monkeypatch):
+    mix, state = _forecast_with(
+        [("Classic Cheese Pie", 0.6), ("Classic Cheese Pie 8 slices", 0.4)],
+        menu_items=JOES_MENU,
+    )
+    monkeypatch.setattr(forecast_module, "_build_llm", lambda: FakeSucceedingLLM(mix))
+
+    forecast = forecast_node(state)["demand_forecast"]
+
+    # One key, and the whole target items-per-cover on it: nothing was lost to
+    # the merge, which a dict overwrite would have done silently.
+    assert list(forecast["item_mix"]) == ["Classic Cheese Pie 8 slices"]
+    assert sum(forecast["item_mix"].values()) == pytest.approx(ITEMS_PER_COVER["counter"])
+
+
+def test_resolution_does_not_disturb_the_assumptions_when_everything_joins(monkeypatch):
+    mix, state = _forecast_with(
+        [("Classic Cheese Pie", 1.0)], menu_items=JOES_MENU
+    )
+    monkeypatch.setattr(forecast_module, "_build_llm", lambda: FakeSucceedingLLM(mix))
+
+    forecast = forecast_node(state)["demand_forecast"]
+
+    assert forecast["assumptions"] == ["Assumed something worth saying."]
+
+
+def test_item_name_field_tells_the_model_to_copy_the_name_exactly():
+    # Defence in depth for the same bug: a prompt can drift, the join above cannot.
+    description = ItemShare.model_fields["item_name"].description or ""
+    assert "exactly" in description.lower()

@@ -164,6 +164,32 @@ def test_consumption_is_unchanged_by_any_yield_value():
         assert consumption[ROMA] == pytest.approx(baseline[ROMA])
 
 
+def test_a_menu_item_with_no_recipe_blames_the_decomposer():
+    """The dish is on the menu and nobody wrote it down: that is a missing recipe."""
+    state = _state(recipes=[])
+    _, gaps, _ = _consumption(state, _load_catalog())
+
+    assert gaps == ["Margherita (no decomposed recipe; not ordered for)"]
+
+
+def test_a_forecast_name_that_is_not_a_menu_item_says_so_instead():
+    """Joe's Pizza: the mix said "Classic Cheese Pie", the menu prints "... 8 slices".
+
+    The old wording accused the decomposer of not producing a recipe that in fact
+    existed, which sends the next reader to the wrong node entirely.
+    """
+    state = _state(
+        demand_forecast={
+            "covers_per_week": 700.0,
+            "item_mix": {"Margherit": 1.0},
+            "assumptions": [],
+        }
+    )
+    _, gaps, _ = _consumption(state, _load_catalog())
+
+    assert gaps == ["Margherit (not a menu item name; matched no recipe; not ordered for)"]
+
+
 def test_unconvertible_component_becomes_a_visible_gap():
     """No conversion exists from `bunch` to `lb`: the quantity is dropped loudly."""
     state = _state()

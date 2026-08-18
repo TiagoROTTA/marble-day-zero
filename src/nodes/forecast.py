@@ -30,6 +30,7 @@ Failure handling: any exception is caught; retry_count++ ; the error is fed back
 through `last_error`.
 """
 import math
+import string
 
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_anthropic import ChatAnthropic
@@ -163,7 +164,11 @@ def _covers_per_day(restaurant: dict) -> list[float]:
 
 
 class ItemShare(BaseModel):
-    item_name: str
+    item_name: str = Field(
+        description="Copy the menu item name exactly as printed above, character for "
+                    "character. Do not shorten it, do not tidy it, do not drop a suffix "
+                    "such as '8 slices'."
+    )
     share: float = Field(ge=0.0, le=1.0, description="Fraction of total covers ordering this item")
     reasoning: str = Field(description="One clause: why this share")
 
@@ -231,6 +236,65 @@ def _menu_block(menu_items: list[dict]) -> str:
     return "\n".join(lines)
 
 
+def _normalise(name: str) -> str:
+    """Casefold, collapse internal whitespace, strip surrounding punctuation."""
+    collapsed = " ".join(str(name).split()).casefold()
+    return collapsed.strip(string.punctuation + string.whitespace)
+
+
+def _resolve_item_names(
+    raw: dict[str, float], menu_items: list[dict]
+) -> tuple[dict[str, float], list[str]]:
+    """Join the model's item names back onto the printed menu names.
+
+    The prompt tells the model to reproduce the menu name character for
+    character, and the model paraphrases anyway: Joe's Pizza came back with
+    "Classic Cheese Pie" for a menu line printed "Classic Cheese Pie 8 slices".
+    `src/nodes/draft_po.py` then looks the recipe up by exact name, missed all
+    three pies, and drafted a $0.00 purchase order. Reconciling here rather than
+    there keeps the two nodes independent and fixes every future consumer of
+    `item_mix` at once — `_projected_weekly_revenue` joins on the same names.
+
+    The rule is deliberately dumb and deterministic: exact normalised match, else
+    a containment match (which subsumes prefixes) but ONLY when exactly one menu
+    item is a candidate. Two candidates is ambiguity, and this project refuses
+    rather than guesses — an unresolved name keeps whatever the model called it
+    and is returned in `unresolved` so it can be said out loud.
+
+    Returns `(item_mix, unresolved)`. Two model names landing on one menu item
+    have their shares summed: a share is an independent per-item fraction of
+    covers, so the same dish counted twice is one dish ordered that often.
+    """
+    printed: dict[str, str] = {}
+    for item in menu_items:
+        printed.setdefault(_normalise(item.get("name", "")), item.get("name", ""))
+    printed.pop("", None)
+
+    resolved: dict[str, float] = {}
+    unresolved: list[str] = []
+
+    for name, share in raw.items():
+        key = _normalise(name)
+        target = printed.get(key)
+
+        if target is None and key:
+            candidates = [
+                menu_name
+                for menu_key, menu_name in printed.items()
+                if key in menu_key or menu_key in key
+            ]
+            if len(candidates) == 1:
+                target = candidates[0]
+
+        if target is None:
+            unresolved.append(name)
+            target = name
+
+        resolved[target] = resolved.get(target, 0.0) + share
+
+    return resolved, unresolved
+
+
 def forecast_node(state: AgentState) -> dict:
     """Deterministic covers + LLM item mix -> state['demand_forecast']."""
     restaurant = state.get("restaurant") or {}
@@ -283,6 +347,13 @@ def forecast_node(state: AgentState) -> dict:
             raise ValueError("assumptions list came back empty and it is required")
 
         raw = {s.item_name: max(float(s.share), 0.0) for s in result.shares}
+
+        # Join the model's names back onto the printed menu names BEFORE any of
+        # this leaves the node. Downstream joins on `item_mix` keys are exact
+        # dict lookups, and they are right to be: the reconciliation belongs to
+        # whoever produced the names.
+        raw, unresolved = _resolve_item_names(raw, menu_items)
+
         total = sum(raw.values())
         if total <= 0.0:
             raise ValueError("every item share came back zero: no mix to normalise")
@@ -294,12 +365,23 @@ def forecast_node(state: AgentState) -> dict:
         scale = target_items_per_cover / total
         item_mix = {name: share * scale for name, share in raw.items()}
 
+        assumptions = list(result.assumptions)
+        if unresolved:
+            # Said out loud on the same card as the order these shares justify.
+            # An item name nobody can join is demand nothing gets bought for, and
+            # the whole point of this fix is that such a hole stops being silent.
+            assumptions.append(
+                f"{len(unresolved)} forecast item name(s) matched no menu item "
+                f"unambiguously and will not join to a recipe: "
+                + "; ".join(unresolved[:10])
+            )
+
         return {
             "demand_forecast": {
                 "covers_per_day": [round(c, 1) for c in covers],
                 "covers_per_week": round(sum(covers), 1),
                 "item_mix": item_mix,
-                "assumptions": list(result.assumptions),
+                "assumptions": assumptions,
                 "confidence": result.confidence,
                 "method": "cold_start_prior",
             },

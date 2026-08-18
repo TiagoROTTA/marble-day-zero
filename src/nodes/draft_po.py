@@ -139,6 +139,11 @@ def _consumption(
     for r in state.get("recipes") or []:
         recipes.setdefault(r.get("item_name", ""), r)
 
+    # Only used to word the gap below. A name that is not on the menu at all did
+    # not lose its recipe — it never named a dish, and blaming the decomposer for
+    # it sends the next reader to the wrong node.
+    menu_names = {i.get("name", "") for i in state.get("menu_items") or []}
+
     consumption: dict[str, float] = {}
     gaps: list[str] = []
     withheld: dict[str, dict] = {}
@@ -150,7 +155,12 @@ def _consumption(
 
         recipe = recipes.get(item_name)
         if recipe is None:
-            gaps.append(f"{item_name} (no decomposed recipe; not ordered for)")
+            why = (
+                "no decomposed recipe"
+                if item_name in menu_names
+                else "not a menu item name; matched no recipe"
+            )
+            gaps.append(f"{item_name} ({why}; not ordered for)")
             continue
 
         # `servings` above counts ORDERS of this menu item, not diners:
