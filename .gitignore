@@ -40,3 +40,10 @@ Thumbs.db
 dist/
 build/
 *.egg-info/
+
+# Build plans: kept locally, deliberately not published.
+plans/
+
+# Local agent instructions, deliberately not published.
+CLAUDE.md
+exec_feature.md

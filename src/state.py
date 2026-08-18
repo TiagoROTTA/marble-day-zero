@@ -43,7 +43,7 @@ class AgentState(TypedDict, total=False):
     demand_forecast: dict[str, Any]     # {covers_per_day:[7 floats], item_mix:{name: share}, assumptions:[str]}
     par_levels: list[dict[str, Any]]    # {sku_id, par_qty, uom, days_cover, rationale}
     purchase_order: dict[str, Any]      # {vendor_lines:[...], total_cost, generated_at_stage}
-    review_queue: list[dict[str, Any]]  # {kind, ref, confidence, question, payload}
+    review_queue: list[dict[str, Any]]  # {kind, ref, confidence, question, detail, payload}
     # Refs (sku_id or raw_name) the reviewer chose to skip rather than approve,
     # written by `review_wait_node`; `draft_po._consumption` withholds those SKUs
     # from the order. It MUST be declared here: LangGraph silently discards any

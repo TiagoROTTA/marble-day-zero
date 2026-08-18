@@ -19,7 +19,7 @@ def _items(n: int) -> list[dict]:
             "kind": "sku_match" if i % 2 == 0 else "plate_cost",
             "ref": f"ingredient-{i}",
             "confidence": 0.60 + (i % 25) * 0.01,
-            "question": f"Which SKU is 'ingredient-{i}'?",
+            "question": f"*ingredient-{i}* → Catalog entry {i}  `SKU-{i}`",
         }
         for i in range(n)
     ]
@@ -138,7 +138,7 @@ def test_forty_item_queue_stays_under_fifty_blocks():
 
 def test_forty_item_queue_states_the_full_count_in_the_header():
     blocks = review_queue_blocks("t1", "Big Menu", _items(40), 0)
-    assert "40 items need a human eye" in blocks[0]["text"]["text"]
+    assert "40 items to confirm" in blocks[0]["text"]["text"]
 
 
 def test_large_purchase_order_stays_under_fifty_blocks():
@@ -231,7 +231,7 @@ def test_four_thousand_character_section_is_truncated():
         }
     ]
     blocks = review_queue_blocks("t1", "R", long_items, 0)
-    section = blocks[1]["text"]["text"]
+    section = blocks[2]["text"]["text"]
     assert len(section) == _MAX_SECTION_CHARS
     assert section.endswith("…")
     _assert_block_kit_valid(blocks)
@@ -250,7 +250,7 @@ def test_long_vendor_section_is_truncated():
 
 def test_short_text_is_not_truncated():
     blocks = review_queue_blocks("t1", "R", _items(1), 0)
-    assert not blocks[1]["text"]["text"].endswith("…")
+    assert not blocks[2]["text"]["text"].endswith("…")
 
 
 # --- dropped-count context block ------------------------------------------
@@ -291,9 +291,12 @@ def test_review_queue_shape():
     items = _items(3)
     blocks = review_queue_blocks("t1", "Joe's Pizza", items, 4)
     assert blocks[0]["type"] == "section"
-    assert blocks[0]["text"]["text"] == "*Joe's Pizza* — 3 items need a human eye"
+    assert blocks[0]["text"]["text"] == "*Joe's Pizza* — 3 items to confirm"
+    # The ask, spelled out: the buttons confirm a stated conclusion.
+    assert blocks[1]["type"] == "context"
+    assert "Confirm" in blocks[1]["elements"][0]["text"]
     # section + context per item
-    assert [b["type"] for b in blocks[1:7]] == [
+    assert [b["type"] for b in blocks[2:8]] == [
         "section",
         "context",
         "section",
@@ -301,11 +304,11 @@ def test_review_queue_shape():
         "section",
         "context",
     ]
-    assert blocks[1]["text"]["text"] == items[0]["question"]
-    assert "confidence" in blocks[2]["elements"][0]["text"]
-    assert "sku_match" in blocks[2]["elements"][0]["text"]
-    assert blocks[7]["type"] == "divider"
-    assert blocks[8]["type"] == "actions"
+    assert blocks[2]["text"]["text"] == items[0]["question"]
+    assert "confidence" in blocks[3]["elements"][0]["text"]
+    assert "sku_match" in blocks[3]["elements"][0]["text"]
+    assert blocks[8]["type"] == "divider"
+    assert blocks[9]["type"] == "actions"
     _assert_block_kit_valid(blocks)
 
 
@@ -313,7 +316,7 @@ def test_queue_of_one_reads_as_singular():
     # The floor routinely leaves exactly one item, so this is the headline a
     # reviewer sees most often.
     blocks = review_queue_blocks("t1", "Madame Vo", _items(1), 54)
-    assert blocks[0]["text"]["text"] == "*Madame Vo* — 1 item needs a human eye"
+    assert blocks[0]["text"]["text"] == "*Madame Vo* — 1 item to confirm"
 
 
 def test_confidence_rendered_as_a_percentage():
@@ -321,12 +324,12 @@ def test_confidence_rendered_as_a_percentage():
         {"kind": "sku_match", "ref": "guanciale", "confidence": 0.71, "question": "?"}
     ]
     blocks = review_queue_blocks("t1", "R", items, 0)
-    assert blocks[2]["elements"][0]["text"].startswith("71% confidence")
+    assert blocks[3]["elements"][0]["text"].startswith("71% confidence")
 
 
 def test_empty_queue_still_produces_a_usable_card():
     blocks = review_queue_blocks("t1", "R", [], 0)
-    assert blocks[0]["text"]["text"] == "*R* — 0 items need a human eye"
+    assert blocks[0]["text"]["text"] == "*R* — 0 items to confirm"
     assert len(_buttons(blocks)) == 3
     _assert_block_kit_valid(blocks)
 
@@ -400,3 +403,23 @@ def test_approval_blocks_unchanged():
         ["t1", "approve"],
         ["t1", "reject"],
     ]
+
+
+def test_detail_is_rendered_under_the_proposal():
+    items = [
+        {
+            "kind": "sku_match",
+            "ref": "white onion",
+            "confidence": 0.6,
+            "question": "*white onion* → Onion, yellow jumbo  `PROD-ONION-YEL`",
+            "detail": "closest catalog onion, but the catalog carries no white onion",
+        }
+    ]
+    blocks = review_queue_blocks("t1", "R", items, 0)
+    assert blocks[2]["text"]["text"] == items[0]["question"]
+    assert items[0]["detail"] in blocks[3]["elements"][0]["text"]
+
+
+def test_missing_detail_leaves_the_subline_alone():
+    blocks = review_queue_blocks("t1", "R", _items(1), 0)
+    assert blocks[3]["elements"][0]["text"].endswith("`sku_match`")

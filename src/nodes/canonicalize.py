@@ -195,6 +195,11 @@ def canonicalize_node(state: AgentState) -> dict:
 
         exact_index, normalized_index = _build_alias_index(catalog)
         valid_ids = {sku["sku_id"] for sku in catalog}
+        # A reviewer confirms a product, not an id, so the review card needs the
+        # display name of whatever this node landed on.
+        display_by_id = {
+            sku["sku_id"]: (sku.get("display_name") or sku["sku_id"]) for sku in catalog
+        }
 
         # Raw names grouped in first-seen order: a 60-item menu repeats the same
         # mozzarella many times and it only needs resolving once, and spellings
@@ -294,11 +299,21 @@ def canonicalize_node(state: AgentState) -> dict:
                 # One question per group: a human is not asked to adjudicate
                 # "roasted peanuts" and "Roasted peanuts" separately.
                 if sku_id is None or confidence < CONF_AUTO_ACCEPT:
+                    # State the match, do not ask an open question. "Which SKU is
+                    # 'White onion'?" under an Approve/Reject pair is unanswerable:
+                    # there is nothing named to approve. The reviewer is being
+                    # asked to confirm or refuse one specific proposal, so the
+                    # entry carries that proposal and the reason behind it.
                     new_items.append({
                         "kind": "sku_match",
                         "ref": raw,
                         "confidence": confidence,
-                        "question": f"Which SKU is '{raw}'?",
+                        "question": (
+                            f"*{raw}* → {display_by_id.get(sku_id, sku_id)}  `{sku_id}`"
+                            if sku_id
+                            else f"*{raw}* → nothing in the catalog matches it"
+                        ),
+                        "detail": reasoning,
                         "payload": {"suggested": sku_id, "reasoning": reasoning},
                     })
 

@@ -76,8 +76,16 @@ def review_queue_blocks(
 ) -> list[dict]:
     """Build the low-confidence review card.
 
-    `items` are review-queue entries: {"kind", "ref", "confidence", "question"}.
+    `items` are review-queue entries:
+    {"kind", "ref", "confidence", "question", "detail"}, where `question` states
+    what the pipeline concluded and the optional `detail` says why.
     `dropped` is the number of entries the gate left out of the queue.
+
+    Each entry states the conclusion the pipeline reached, not an open question:
+    "*White onion* → Onion, yellow jumbo" with the reasoning underneath, so the
+    two buttons have something to act on. An open question ("Which SKU is
+    'White onion'?") above Approve/Reject asks the reviewer to answer with a
+    button that cannot carry an answer.
 
     Batch approval (one decision over a visible list) rather than per-item
     buttons: Block Kit caps a message at 50 blocks and 25 elements per actions
@@ -86,17 +94,27 @@ def review_queue_blocks(
     what src/server/app.py's value.split("|", 1) parsing expects.
     """
     # A queue of one is the common case once the floor has done its work, and
-    # "1 items need" is the first thing a reviewer reads on the card.
-    count = f"{len(items)} item needs" if len(items) == 1 else f"{len(items)} items need"
+    # "1 items" is the first thing a reviewer reads on the card.
+    count = "1 item" if len(items) == 1 else f"{len(items)} items"
 
     blocks: list[dict] = [
         {
             "type": "section",
             "text": {
                 "type": "mrkdwn",
-                "text": _truncate(f"*{restaurant_name}* — {count} a human eye"),
+                "text": _truncate(f"*{restaurant_name}* — {count} to confirm"),
             },
-        }
+        },
+        {
+            "type": "context",
+            "elements": [
+                {
+                    "type": "mrkdwn",
+                    "text": "Here is what we think each one is. Confirm if that "
+                            "is right, reject if it is not.",
+                }
+            ],
+        },
     ]
 
     for item in items[:_MAX_QUEUE_ITEMS]:
@@ -113,15 +131,17 @@ def review_queue_blocks(
                 "text": {"type": "mrkdwn", "text": _truncate(question)},
             }
         )
+        # `detail` is the node's one-clause reason for the proposal above it.
+        # Without it "60% confidence" is a number with nothing behind it, and a
+        # reviewer cannot confirm what they cannot see the basis for.
+        subline = f"{pct} confidence · `{kind}`"
+        detail = str(item.get("detail", "") or "").strip()
+        if detail:
+            subline = f"{subline} · {detail}"
         blocks.append(
             {
                 "type": "context",
-                "elements": [
-                    {
-                        "type": "mrkdwn",
-                        "text": _truncate(f"{pct} confidence · `{kind}`"),
-                    }
-                ],
+                "elements": [{"type": "mrkdwn", "text": _truncate(subline)}],
             }
         )
 
@@ -149,7 +169,7 @@ def review_queue_blocks(
                 {
                     "type": "button",
                     "action_id": "approve",
-                    "text": {"type": "plain_text", "text": "Approve all"},
+                    "text": {"type": "plain_text", "text": "Confirm all"},
                     "style": "primary",
                     "value": f"{thread_id}|approve",
                 },

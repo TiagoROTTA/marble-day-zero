@@ -148,7 +148,6 @@ check a forecast against, and any claim otherwise would be fabricated.
 | `src/slack/` | Block builders, signature verification, client. Knows nothing about LLMs. |
 | `scripts/` | CLI entrypoints and the analysis harness |
 | `data/restaurants/` | The committed corpus, one directory per restaurant |
-| `plans/marble/` | Step-by-step build plan — one file per step, referenced by number from several source docstrings |
 
 Two rules hold throughout: **the router is pure**, and **the circuit breaker is
 absolute** (`retry_count >= MAX_RETRIES` forces a route to the human gate,

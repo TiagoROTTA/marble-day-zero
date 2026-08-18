@@ -235,7 +235,8 @@ def test_none_match_reaches_the_review_queue(catalog_path, monkeypatch):
         "kind": "sku_match",
         "ref": "nuoc mam",
         "confidence": 0.0,
-        "question": "Which SKU is 'nuoc mam'?",
+        "question": "*nuoc mam* → nothing in the catalog matches it",
+        "detail": "catalog carries no fish sauce",
         "payload": {"suggested": None, "reasoning": "catalog carries no fish sauce"},
     }
 
@@ -253,7 +254,14 @@ def test_low_confidence_llm_match_reaches_the_review_queue(catalog_path, monkeyp
     update = canon.canonicalize_node(state)
 
     assert update["sku_matches"][0]["sku_id"] == "DAIR-MOZZ-FRESHBALL"
-    assert update["review_queue"][0]["confidence"] == 0.7
+    item = update["review_queue"][0]
+    assert item["confidence"] == 0.7
+    # A reviewer with two buttons can only confirm or refuse a named proposal,
+    # so the entry has to name the SKU it landed on and say why.
+    assert item["question"] == (
+        "*buffalo mozzarella di bufala* → Fresh mozzarella ball  `DAIR-MOZZ-FRESHBALL`"
+    )
+    assert item["detail"] == "closest dairy SKU, but not the same product"
 
 
 def test_confident_llm_match_skips_the_review_queue(catalog_path, monkeypatch):
