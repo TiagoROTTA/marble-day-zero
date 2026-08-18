@@ -16,16 +16,16 @@ __pycache__/
 
 # Runtime data
 # The -shm and -wal sidecars are SQLite's write-ahead log, rewritten on every
-# run: they were tracked by mistake and carry no information the checkpoint
-# database itself does not.
+# run: they carry no information the checkpoint database itself does not.
 data/*.sqlite
 data/*.sqlite-journal
 data/*.sqlite-shm
 data/*.sqlite-wal
 data/*.db
 
-# Personal documents that live in the working directory but are not the project
-/CV_*.pdf
+# Loose documents that sit in the working directory but are not the project.
+# The corpus PDFs live under data/restaurants/ and are unaffected.
+/*.pdf
 
 # IDE
 .vscode/

@@ -4,12 +4,6 @@
 to disk. Nothing in the demo pipeline fetches the network: every downstream step
 (005 loader, 017 food-cost harness, 018 sweep) reads only from this directory.
 
-None of these restaurants is a Marble customer. Marble's published logo wall
-(A&W, The Original Pancake House, The Kati Roll Company, Sophie's Cuban, Kokomo NYC,
-Holy Shred, Dead Letter No. 9, JJ's Sports Bar, Spare Birdie, Good Folks GTX) was
-deliberately excluded so the demo reads as "here is a restaurant you could sell to
-tomorrow", not "here is one you already have".
-
 ## Layout
 
 ```
@@ -70,7 +64,7 @@ The real data was not cosmetic — Los Tacos No. 1 peaks **midweek**, not at the
 
 The corpus is not a set of easy wins. Parsing quality is meant to vary, because the
 degradation is the interesting finding (Steps 017/018) and the honest failure modes are
-what Step 020's recording shows.
+worth showing rather than hiding.
 
 | Format | Count | Notes |
 |---|---|---|
@@ -115,6 +109,6 @@ american-sandwich 1 · japanese-sushi 2 · middle-eastern 3 · ukrainian-diner 1
 
 ## Re-fetching
 
-Don't, during a recording. If a snapshot ever needs refreshing, fetch once, verify the
+Prefer not to. If a snapshot ever needs refreshing, fetch once, verify the
 artifact actually contains menu text (a JS shell that renders client-side is a failed
 snapshot, not a snapshot), and bump `snapshot_date`.

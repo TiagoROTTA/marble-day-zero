@@ -14,6 +14,9 @@ for a human in Slack wherever the system is not confident enough to proceed.
 It is a demo, not a product. The limits are stated in full below, and they are
 not buried.
 
+**[`TEARDOWN.md`](TEARDOWN.md) is the two-page version of this repo** — what I
+built, what the validation harness found, and what I got wrong. Start there.
+
 ## What it does, end to end
 
 ```mermaid

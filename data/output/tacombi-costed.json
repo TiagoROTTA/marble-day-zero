@@ -16,7 +16,7 @@
     "input": "tacombi",
     "extracted_data": {},
     "retry_count": 3,
-    "last_error": "ValueError: C:\\Programmation\\YC\\Marble\\data\\restaurants\\tacombi\\source.pdf yielded 0 chars of text: it is a scanned image with no text layer. Re-snapshot tacombi as .jpg and set menu_format=\"image\".",
+    "last_error": "ValueError: data\\restaurants\\tacombi\\source.pdf yielded 0 chars of text: it is a scanned image with no text layer. Re-snapshot tacombi as .jpg and set menu_format=\"image\".",
     "human_decision": "",
     "needs_human": false,
     "restaurant": {
@@ -46,7 +46,7 @@
         "seats",
         "review_count"
       ],
-      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\tacombi\\source.pdf"
+      "snapshot_path": "data\\restaurants\\tacombi\\source.pdf"
     },
     "menu_items": [],
     "recipes": [],

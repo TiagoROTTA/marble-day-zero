@@ -16,7 +16,7 @@
     "input": "di-an-di",
     "extracted_data": {},
     "retry_count": 3,
-    "last_error": "ValueError: C:\\Programmation\\YC\\Marble\\data\\restaurants\\di-an-di\\source.pdf yielded 0 chars of text: it is a scanned image with no text layer. Re-snapshot di-an-di as .jpg and set menu_format=\"image\".",
+    "last_error": "ValueError: data\\restaurants\\di-an-di\\source.pdf yielded 0 chars of text: it is a scanned image with no text layer. Re-snapshot di-an-di as .jpg and set menu_format=\"image\".",
     "human_decision": "",
     "needs_human": false,
     "restaurant": {
@@ -49,7 +49,7 @@
         "review_count"
       ],
       "observed_source": "Google Maps listing, read 2026-08-08",
-      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\di-an-di\\source.pdf"
+      "snapshot_path": "data\\restaurants\\di-an-di\\source.pdf"
     },
     "menu_items": [],
     "recipes": [],

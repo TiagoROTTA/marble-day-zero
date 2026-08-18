@@ -49,7 +49,7 @@
         "review_count"
       ],
       "observed_source": "Google Maps listing, read 2026-08-08",
-      "snapshot_path": "C:\\Programmation\\YC\\Marble\\data\\restaurants\\los-tacos-no1-chelsea\\source.html"
+      "snapshot_path": "data\\restaurants\\los-tacos-no1-chelsea\\source.html"
     },
     "menu_items": [
       {

@@ -10,8 +10,9 @@ over six weeks.
 THE ACTUALS ON THIS CHART ARE SYNTHETIC. There is no POS feed in this build,
 and presenting invented sales as measured ones would be the single most
 dishonest thing this repo could do, so the actuals are generated from
-`random.Random(42)` and labelled as synthetic on the chart itself — not only here, because charts get screenshotted and passed
-around without their narration. What is being demonstrated is the *mechanism*,
+`random.Random(42)` and labelled as synthetic on the chart itself — not only
+here, because a chart gets read on its own, detached from the text around it.
+What is being demonstrated is the *mechanism*,
 which is deterministic arithmetic and does not depend on the numbers being real.
 
 Run:  uv run python -m scripts.plot_convergence
